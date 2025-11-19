@@ -1,0 +1,254 @@
+CRO = {
+	color = rgb { 104 94 247 }
+
+	culture_definition = croatian
+	religion_definition = catholic
+}
+
+ACH = {
+	color = map_achaian
+	color2 = rgb { 157 87 123 } #new color
+
+	culture_definition = french
+	religion_definition = catholic
+}
+
+ATH = {
+	color = rgb { 113  112  96 }
+
+	culture_definition = catalan
+	religion_definition = catholic
+}
+
+CEP = {
+	color = rgb { 113  112  96 }
+
+	culture_definition = french
+	religion_definition = catholic
+}
+
+
+
+LAT = {
+	color = rgb { 255 212 42 }
+
+	culture_definition = french
+	religion_definition = catholic
+
+	is_historic = yes
+}
+
+
+
+NAX = {
+	color = rgb { 24  50  123 }
+
+	culture_definition = venetian
+	religion_definition = catholic
+}
+
+
+
+EPI = {
+	color = rgb { 230  228  214 }
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+
+BYZ = {
+	color = rgb { 149 45 102 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+
+	description_category = military
+	difficulty = 4
+
+	unit_color0 = hsv360 { 350 77 53 }
+	unit_color1 = yellow
+	unit_color2 = map_BYZ	
+
+	
+}
+
+THE = {
+	color = rgb { 61 8 81 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+
+	is_historic = yes
+}
+
+THS = {
+	color = map_THS
+	color2 = rgb { 40 240 60 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
+	
+
+SER = {
+	color = rgb { 166  72  57 }
+
+	culture_definition = serbian
+	religion_definition = orthodox
+
+	description_category = military
+	difficulty = 2
+
+}
+
+ALB = {
+	color = rgb { 181  0  20 }
+
+	culture_definition = albanian
+	religion_definition = catholic 
+
+}
+
+THP = {
+	color = rgb { 83 184 221 }
+	color2 = rgb { 83 184 221 }
+
+	culture_definition = albanian
+	religion_definition = catholic 
+
+}
+
+MZK = {
+	color = rgb { 250 1 1 }
+	color2 = rgb { 250 1 1 }
+
+	culture_definition = albanian
+	religion_definition = catholic 
+
+}
+
+ANT = {
+	color = rgb { 8 86 149 }
+	color2 = rgb { 8 86 149 }
+
+	culture_definition = albanian
+	religion_definition = catholic 
+
+}
+
+MTR = {
+	color = rgb { 75 110 50 }
+	color2 = rgb { 75 110 50 }
+
+	culture_definition = albanian
+	religion_definition = catholic 
+
+}
+
+BOS = {
+	color = rgb { 240  167  130 }
+
+	culture_definition = bosnian
+	religion_definition = bosnian_church
+}
+
+RAG = {
+	color = rgb { 160  82  128 }
+
+	culture_definition = dalmatian
+	religion_definition = catholic
+}
+
+BUL = {
+	color = rgb { 116  107  140 }
+
+	culture_definition = bulgarian
+	religion_definition = orthodox
+}
+
+VID = {
+	color = map_VID
+	color2 = rgb { 183 149 205 }
+
+	culture_definition = bulgarian
+	religion_definition = orthodox
+}
+
+CLI = {	
+	color = rgb { 159 174 96 }
+	
+	culture_definition = slovene
+	religion_definition = catholic
+}
+
+NEO = {
+	color = rgb { 63 72 204 }
+	
+	culture_definition = catalan
+	religion_definition = catholic
+}
+
+BOD = {
+	color = rgb { 72 204 63 }
+	
+	culture_definition = venetian
+	religion_definition = catholic
+}
+
+ARG = {
+	color = hsv360 { 239 70 61 }
+	
+	culture_definition = french
+	religion_definition = catholic
+}
+
+KNI = {
+	color = rgb { 106  127  183 }
+	
+	culture_definition = french
+	religion_definition = catholic
+
+	description_category = military
+	difficulty = 5
+}
+
+CRT = {
+	color = rgb { 138  110  130 }
+	
+	culture_definition = venetian
+	religion_definition = catholic
+}
+
+NEG = {
+	color = rgb { 95 105 100 }
+	
+	culture_definition = venetian
+	religion_definition = catholic
+}
+
+SAO = {
+	color = rgb { 255 201 14 }
+	
+	culture_definition = catalan
+	religion_definition = catholic
+}
+
+CAR = {
+	color = rgb { 74 181 171 }
+	
+	culture_definition = slovene
+	religion_definition = catholic
+}
+
+TRO = {
+	color = rgb { 95 125 95 }
+	
+	culture_definition = bosnian
+	religion_definition = orthodox
+}
+
+GOR = {
+	color = map_GOR
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+}

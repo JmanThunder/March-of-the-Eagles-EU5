@@ -1,0 +1,11 @@
+﻿#multiplies with prosperity in location (0 to 1)
+prosperity = {
+	game_data = {
+		category = location
+	}
+	local_monthly_development = 0.01
+	local_migration_attraction = 0.25
+	local_life_expectancy = 25
+	local_population_growth = 0.005
+	local_monthly_prosperity = -0.01
+}

@@ -1,0 +1,124 @@
+CAT = {
+	color = rgb { 213  132  76 }
+
+	culture_definition = catalan
+	religion_definition = catholic
+
+	
+}
+
+ANR = {
+	color = map_ANR
+	color2 = rgb { 16 41 202 }
+	
+	culture_definition = catalan
+	religion_definition = catholic
+}
+
+ARA = {
+	color = rgb { 166  68  72 }
+	
+	unit_color0 = yellow
+	unit_color1 = red
+	unit_color2 = yellow
+
+	culture_definition = catalan
+	religion_definition = catholic
+
+	description_category = administrative
+	difficulty = 1
+
+	
+}
+
+VAL = {
+	color = rgb { 132  97  138 }
+
+	culture_definition = catalan
+	religion_definition = catholic
+
+	
+}
+
+MLL = {
+	color = map_MLL
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = catalan
+	religion_definition = catholic
+
+	
+}
+
+
+CAS = {
+	color = rgb { 193  171  8 }
+
+	culture_definition = castilian
+	religion_definition = catholic
+	
+	unit_color0 = rgb { 201 163 9 }
+	unit_color1 = rgb { 188 28 13 }
+	unit_color2 = rgb { 200 200 210 }
+
+	description_category = military
+	difficulty = 2
+
+	
+}
+
+POR = {
+	color = rgb { 40 110 140 }
+
+	culture_definition = portuguese
+	religion_definition = catholic
+	
+	unit_color0 = rgb { 44 66 96 }
+	unit_color1 = rgb { 214 22 30 }
+	unit_color2 = rgb { 220 220 220 }
+
+	description_category = administrative
+	difficulty = 2
+
+	
+}
+
+LON = {
+	color = rgb { 99  14  87 }
+
+	culture_definition = leonese
+	religion_definition = catholic
+	
+	unit_color0 = purple
+	unit_color1 = white
+	unit_color2 = red
+
+	
+}
+
+GLC = {
+	color = rgb { 240  167  130 }
+
+	culture_definition = galician
+	religion_definition = catholic
+
+	
+}
+
+GRA = {
+	color = rgb { 210 220 175 }
+
+	culture_definition = andalusi
+	religion_definition = sunni
+
+	
+}
+
+NAV = {
+	color = rgb { 252  233  58 }
+
+	culture_definition = basque
+	religion_definition = catholic
+
+	
+}
