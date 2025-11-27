@@ -1,0 +1,155 @@
+current_age = age_1_traditions
+
+# own_control_core
+# own_control_integrated
+# own_control_conquered
+# own_control_colony
+# own_core
+# own_conquered
+# own_integrated
+# own_colony
+# control_core
+# control
+# our_cores_conquered_by_others
+
+countries = {
+    countries = {
+
+        FRA = {
+            own_control_core = {
+               paris corbeil mantes monfort_lamaury montmorency
+               nemours brie_comte_robert melun
+               beauvais chaumont_vexin clermont_en_beauvaisis crepy senlis
+               soissons braine coucy laon noyon roucy  
+
+                caen bayeux domfront falaise pont_douilly vire 
+				fecamp arques aumale longueville tancarville 
+				coutances cherbourg avranches jersey mortain st_sauveur 
+				evreux alencon argentan bernay harcourt laigle 
+				rouen gisors lisieux louviers pont_audemer 
+
+                amiens breteuil corbie 
+				arras bapaume cambrai lens 
+				saint_omer bethune hesdin saint_pol 
+				abbeville calais boulogne_sur_mer montreuil 
+				guise hirson marle ribemont 
+				saint_quentin nesle peronne 
+                angers bauge beaupreau chateau_gontier le_lude loudun passavant saumur 
+				mayenne laval sainte_suzanne villaines 
+				le_mans beaumont_au_maine chateau_du_loir sable st_calais 
+				mortagne alluyes belleme senonches 
+
+                quimper carhaix chateaulin le_faou quimperle 
+				nantes blain chateaubriant guerande machecoul 
+				ploermel josselin monfort_sur_meu rohan 
+				rennes dol fougeres saint_malo vitre 
+				saint_brieuc brest chatelaudren st_pol_de_leon treguier 
+                vannes hennebont redon 
+
+                auxerre aignay arnay avallon chatillon_sur_seine semur_en_auxois 
+				autun charolles macon montcenis semur_en_brionnais 
+				dijon auxonne beaune chalon_sur_saone louhans 
+				nevers cercy chateau_chinon donzy montreuillon st_pierre_de_moutier 
+
+                chaumont choiseul grancey la_mothe_en_bassigny langres vaucouleurs 
+				meaux broyes chateau_thierry nogent_sur_seine provins 
+				troyes brienne villemaur 
+				vitry_en_pertois joinville bar_sur_aube rosnay 
+				reims chalons_champagne epernay menehould vertus 
+				rethel chateau_porcien grandpre mouzon 
+				sens bar_sur_seine joigny saint_florentin tonnerre 
+
+                vesoul baume gray luxeuil montbeliard montbozon 
+				salins_les_bains orgelet poligny pontarlier saint_claude 
+				besancon dole ornans 
+
+                auch lectoure lisle_jourdain mirande nogaro 
+				pau oloron orthez tarbes north_western_pyrenees 
+				muret aspet saint_lizier saint_gaudens north_eastern_pyrenees1 
+				dax aire labrit mimizan mont_de_marsan tartas tosse lagoon_of_sanguinet 
+				bayonne mauleon saint_jean_pied_de_port 
+
+                agen marmande montflanquin 
+				bazas belin condom nerac sauveterre_de_guyenne 
+				bordeaux benauges castelnau_de_medoc la_teste_de_buch lesparre_medoc libourne hourtin_carcans_lake 
+				perigueux bergerac limeuil riberac sarlat 
+				cahors figeac gourdon montauban 
+				rodez entraigues millau peyrusse st_affrique villefranche 
+
+				castres albi lautrec 
+				foix pamiers mirepoix 
+				chateauneuf_de_randon florac mende peyre massif_central 
+				narbonne agde beziers lodeve saint_pons lagoon_of_bages_sigean 
+				nimes french_ales melgueil montpellier st_ambroix uzes 
+				carcassonne fenouillet limoux north_eastern_pyrenees2
+				toulouse castelnaudary lavaur verdun_sur_garonne villemur 
+				viviers chalancon le_puy montlaur privas tournon vivarais_mountains 
+
+                strasbourg haguenau zabern lichtenberg benfeld 
+				colmar belfort ensisheim ferrette murbach mulhouse 
+
+                bar_le_duc clermont_en_argonne ligny saint_mihiel 
+				metz morhange saint_avold vic_sur_seille wallerfangen 
+				nancy luneville salm toul 
+				sarreguemines bitche saarwerden sarrebourg 
+				verdun longwy etain fresnes 
+				epinal arches darney mirecourt neufchateau_des_vosges saint_die 
+
+                chateauroux boussac issoudun lignieres 
+				blois chateaudun romorantin st_aignan vendome 
+				chartres auneau dreux etampes 
+				bourges gien sancerre sancoins vierzon 
+				orleans beaugency montargis sully vitry_aux_loges 
+				tours amboise chatillon_sur_indre chinon loches 
+
+                aix_en_provence arles marseille tarascon lagoon_of_berre lagoon_of_vaccares 
+				avignon apt forcalquier orange 
+				digne barcelonnette castellane sisteron 
+				draguignan barjols brignoles frejus toulon 
+				nice grasse puget_theniers maritime_alps1 
+
+                angouleme cognac chabanais 
+				thouars beauvoir fontenay la_roche_sur_yon mauleon_poitou montaigu parthenay talmont 
+				poitiers aulnay chatellerault lusignan montmorillon niort 
+				saintes montendre la_rochelle oleron royan st_jean_dangely rochefort jonzac 
+
+                bourg_en_bresse belley gex bage thoire 
+				beaujeu perreux trevoux villars 
+				lyon feurs montbrison riverie roanne saint_etienne 
+
+                grenoble briancon gap la_mure pragelato cottian_alps1 dauphine_alps1 dauphine_alps2 
+				chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches graian_alps1 pennine_alps1 
+				valence condorcet die mevouillon vercors_massif 
+				vienne romans saint_marceilin la_tour_du_pin 
+
+				clermont allegre brioude riom thiers vic_le_comte vodable 
+				bourbon huriel jaligny molins montlucon st_gerand vichy 
+				chambon herment montaigut tour_auvergne dore_mountains 
+				aurillac mauriac saint_flour 
+
+                limoges aixe nontron segur st_leonard thiviers 
+				gueret aubusson bellac bourganeuf brosse charroux rochechouart 
+				turenne tulle ussel ventadour 
+
+                aix_en_provence arles marseille tarascon lagoon_of_berre lagoon_of_vaccares 
+				avignon apt forcalquier orange 
+				digne barcelonnette castellane sisteron 
+				draguignan barjols brignoles frejus toulon 
+				nice grasse puget_theniers maritime_alps1 
+
+                bastia aleria calvi corte 
+                ajaccio bonifacio sartene vico corsican_mountains 
+
+                thionville
+
+                montmedy bouillon
+
+                dunkirk cassel
+                lille douai
+                valenciennes
+
+                perpignan prades
+            }
+        }
+    }
+}
