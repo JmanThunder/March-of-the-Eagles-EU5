@@ -131,8 +131,10 @@
 	}
 
 	location_modifier = {
-		local_pop_conversion_speed = 0.02
+		local_pop_conversion_speed = 0.004
 	}
+
+	
 
 	progress = {
 		scope:target_province = {
