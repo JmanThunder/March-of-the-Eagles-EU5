@@ -14226,7 +14226,8 @@ countries = {
 		government = {
 			heir_selection = salic_law
 
-			ruler = fra_philip_vi_valois
+			ruler = bou_louis_i_bourbon
+			#ruler = fra_philip_vi_valois
 
 			ruler_term = { character = fra_pepin_the_short start_date = 751.10.9 end_date = 768.9.24 regnal_number = 1 }
 			ruler_term = { character = fra_charlemagne start_date = 768.9.24 end_date = 814.1.28 regnal_number = 1 }
