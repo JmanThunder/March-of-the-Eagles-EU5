@@ -920,82 +920,6 @@ countries = {
 		capital = fischhausen
 	}
 
-	#CTV = { # Order of Calatrava
-	#	type = building
-	#
-	#	capital = calatrava
-	#	include = "catholic_military_order_no_coast"
-	#	include = "expl_mediterranean"
-	#
-	#	government = {
-	#		ruler = ctv_juan_nunez_prado
-	#
-	#		ruler_term = { character = ctv_ruy_perez_ponce_leon start_date = 1284.1.1 end_date = 1295.1.1 regnal_number = 0 }
-	#		ruler_term = { character = ctv_juan_nunez_prado start_date = 1322.1.1 regnal_number = 0 }
-	#	}
-	#	country_rank = rank_county
-	#}
-
-	#STO = { # Order of Santiago
-	#	type = building
-	#
-	#	capital = ucles
-	#	include = "catholic_military_order_no_coast"
-	#	include = "expl_mediterranean"
-	#
-	#	government = {
-	#		ruler = sto_vasco_rodriguez_cornado
-	#
-	#		ruler_term = { character = sto_vasco_rodriguez_cornado start_date = 1327.1.1 regnal_number = 0 }
-	#	}
-	#	country_rank = rank_county
-	#}
-
-	#ACT = { # Order of Alcantara
-	#	type = building
-	#
-	#	capital = alcantara
-	#	include = "catholic_military_order_no_coast"
-	#	include = "expl_mediterranean"
-	#
-	#	government = {
-	#		ruler = act_gonzalo_martinez_oviedo
-	#
-	#		ruler_term = { character = act_gonzalo_martinez_oviedo start_date = 1337.3.31 regnal_number = 0 }
-	#	}
-	#	country_rank = rank_county
-	#}
-
-	#OPX = { # Order of Christ
-	#	type = building
-	#
-	#	capital = tomar
-	#	include = "catholic_military_order_no_coast"
-	#	include = "expl_mediterranean"
-	#
-	#	government = {
-	#		ruler = opx_estevao_goncalves_leitao
-	#
-	#		ruler_term = { character = opx_martim_goncalves_leitao start_date = 1327.1.1 end_date = 1335.1.1 regnal_number = 0 }
-	#		ruler_term = { character = opx_estevao_goncalves_leitao start_date = 1335.1.1 regnal_number = 0 }
-	#	}
-	#	country_rank = rank_county
-	#}
-
-	#MTS = { # Order of Montesa
-	#	type = building
-	#
-	#	capital = jativa
-	#	include = "catholic_military_order_no_coast"
-	#	include = "expl_mediterranean"
-	#
-	#	government = {
-	#		ruler = mts_pere_tous
-	#
-	#		ruler_term = { character = mts_pere_tous start_date = 1327.1.1 regnal_number = 0 }
-	#	}
-	#	country_rank = rank_county
-	#}
 
 	RIG = { #Riga
 		own_control_core = {
@@ -14208,6 +14132,55 @@ countries = {
 				verdun longwy etain fresnes 
 				epinal arches darney mirecourt neufchateau_des_vosges saint_die 
 
+				caen bayeux domfront falaise pont_douilly vire 
+				fecamp arques aumale longueville tancarville 
+				coutances cherbourg avranches jersey mortain st_sauveur 
+				evreux alencon argentan bernay harcourt laigle 
+				rouen gisors lisieux louviers pont_audemer 
+
+				chateauroux boussac issoudun lignieres 
+				blois chateaudun romorantin st_aignan vendome 
+				chartres auneau dreux etampes 
+				bourges gien sancerre sancoins vierzon 
+				orleans beaugency montargis sully vitry_aux_loges 
+				tours amboise chatillon_sur_indre chinon loches 
+
+				angouleme cognac chabanais 
+				thouars beauvoir fontenay la_roche_sur_yon mauleon_poitou montaigu parthenay talmont 
+				poitiers aulnay chatellerault lusignan montmorillon niort 
+				saintes montendre la_rochelle oleron royan st_jean_dangely rochefort jonzac 
+				
+				bourg_en_bresse belley gex bage thoire 
+				beaujeu perreux trevoux villars 
+				lyon feurs montbrison riverie roanne saint_etienne 
+
+				amiens breteuil corbie 
+				arras bapaume cambrai lens 
+				saint_omer bethune hesdin saint_pol 
+				abbeville calais boulogne_sur_mer montreuil 
+				guise hirson marle ribemont 
+				saint_quentin nesle peronne 
+			
+				grenoble briancon gap la_mure pragelato cottian_alps1 dauphine_alps1 dauphine_alps2 
+				chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches graian_alps1 pennine_alps1 
+				valence condorcet die mevouillon vercors_massif 
+				vienne romans saint_marceilin la_tour_du_pin 
+
+				aix_en_provence arles marseille tarascon lagoon_of_berre lagoon_of_vaccares 
+				avignon apt forcalquier orange 
+				digne barcelonnette castellane sisteron 
+				draguignan barjols brignoles frejus toulon 
+				nice grasse puget_theniers maritime_alps1 
+
+				strasbourg haguenau zabern lichtenberg benfeld 
+				colmar belfort ensisheim ferrette murbach mulhouse 
+
+				cassel dunkirk
+
+				thionville montmedy
+
+				lille valenciennes maubeuge douai
+
 		}
 		own_control_integrated = {
 
@@ -14353,109 +14326,78 @@ countries = {
 	}
 
 
+
+HOL = { #Dutch Republic
+		own_control_core = {
+
+			the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
+
+			arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen
+
+			utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
+
+			bergen_zoom breda hertogenbosch helmond cuijk
+
+			leeuwarden sloten harlingen stavoren groningen appingedam wedde
+			wolvega
+
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		capital = groningen
+		government = {
+			type = republic
+			heir_selection = oligarchic_elective
+			ruler = random
+			parliament = {
+				parliament_type = council
+			}
+
+
+			laws = {
+				censorship = limited_censorship
+				republican_foundation_law = republicanism_policy
+				education_masses_law = basic_religious_education
+				administrative_system = local_courts_administration
+				cultural_traditions_law = civil_society
+				marriage_law = monogamous_marriage
+				heir_religion_law = heir_same_religion
+				legal_code_law = civil_law_policy
+				maritime_law = protect_trade_routes
+				piracy_law = anti_piracy_policy
+				distribution_of_power_law = dop_favor_the_commoners
+			}
+
+			centralization_vs_decentralization = 100
+			traditionalist_vs_innovative = -70
+			spiritualist_vs_humanist = 30
+			aristocracy_vs_plutocracy = 100
+			serfdom_vs_free_subjects = 100
+			mercantilism_vs_free_trade = 100
+			belligerent_vs_conciliatory = 50
+			quality_vs_quantity = 100
+			offensive_vs_defensive = 100
+			land_vs_naval = 30
+			capital_economy_vs_traditional_economy = 100
+			individualism_vs_communalism = 100
+			outward_vs_inward = 50
+		}
+
+		tolerated_cultures = {
+			frisian
+		}
+
+		country_rank = rank_county
+	}
+
 	#-------------------- HRE -------------------
-
-	#Dauphine
-	DAU = {
-		own_control_core = {
-			grenoble gap briancon pragelato
-			romans la_mure saint_marceilin 
-			mevouillon villars 
-			la_tour_du_pin 
-			faucigny sallanches #Barony of 	Faucigny
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = dau_humbert_ii_de_la_tour
-
-			ruler_term = { character = dau_guigues_i_albon start_date = 1034.1.1 end_date = 1075.1.1 regnal_number = 1 }
-			ruler_term = { character = dau_guigues_ii_albon start_date = 1075.1.1 end_date = 1079.1.1 regnal_number = 2 }
-			ruler_term = { character = dau_guigues_iii_albon start_date = 1079.1.1 end_date = 1132.1.1 regnal_number = 3 }
-			ruler_term = { character = dau_guigues_iv_albon start_date = 1132.1.1 end_date = 1142.1.1 regnal_number = 4 }
-			ruler_term = { character = dau_guigues_v_albon start_date = 1142.1.1 end_date = 1162.7.9 regnal_number = 5 }
-			ruler_term = { character = dau_beatrix_albon start_date = 1162.7.29 end_date = 1183.9.1  regnal_number = 1 }
-			ruler_term = {
-				character = dau_beatrix_albon start_date = 1183.9.1  end_date = 1192.8.25 regnal_number = 1
-				character = bur_hugues_iii_burgundian start_date = 1183.9.1 end_date = 1192.8.25 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = dau_beatrix_albon start_date = 1192.8.25 end_date = 1203.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = dau_beatrix_albon start_date = 1203.1.1 end_date = 1228.12.16 regnal_number = 1
-				character = dau_andre_dauphin_bourgogne start_date = 1203.1.1 end_date = 1228.12.16 regnal_number = 6 regnal_name = name_wigo
-			}
-			ruler_term = { character = dau_andre_dauphin_bourgogne start_date = 1228.12.16 end_date = 1237.3.14 regnal_number = 6 regnal_name = name_wigo }
-			ruler_term = { character = dau_guigues_vii_viennois start_date = 1237.3.14 end_date = 1269.1.1 regnal_number = 7 }
-			ruler_term = { character = dau_jean_i_viennois start_date = 1269.1.1 end_date = 1282.9.24 regnal_number = 1 }
-
-			ruler_term = { character = dau_humbert_i_de_la_tour start_date = 1282.9.24 end_date = 1307.4.16 regnal_number = 1 }
-			ruler_term = { character = dau_jean_ii_de_la_tour start_date = 1307.4.16 end_date = 1319.3.5 regnal_number = 2 }
-			ruler_term = { character = dau_guigues_viii_de_la_tour start_date = 1319.3.5 end_date = 1333.7.28 regnal_number = 8 }
-			ruler_term = { character = dau_humbert_ii_de_la_tour start_date = 1333.7.28 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_wigo = 8
-				name_beatrix = 1
-				name_hugh = 1
-				name_john = 2
-				name_humbert = 2
-			}
-		}
-
-		tolerated_cultures = {
-			vivaro_alpine
-			auvergnat
-		}
-
-		country_rank = rank_county
-		capital = grenoble
-	}
-
-	#Orange
-	ORA = {
-		own_control_core = {
-			orange
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = ora_raymond_ii_orange
-
-			ruler_term = { character = ora_bertrand_i_orange start_date = 1173.5.10 end_date = 1180.10.31 regnal_number = 1 }
-			ruler_term = { character = ora_guillaume_i_orange start_date = 1180.10.31 end_date = 1218.1.1 regnal_number = 1 }
-			ruler_term = { character = ora_guillaume_ii_orange start_date = 1218.1.1 end_date = 1239.11.1 regnal_number = 2 }
-			ruler_term = { character = ora_raymond_i_orange start_date = 1239.11.1 end_date = 1282.1.1 regnal_number = 1 }
-			ruler_term = { character = ora_bertrand_ii_orange start_date = 1282.1.1 end_date = 1314.7.21 regnal_number = 2 }
-			ruler_term = { character = ora_raymond_ii_orange start_date = 1314.7.21 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_bertrand = 2
-				name_william = 2
-				name_raymond = 2
-			}
-		}
-
-		tolerated_cultures = {
-			auvergnat
-		}
-
-		country_rank = rank_county
-		capital = orange
-	}
 
 
 	#Luxembourg
 	LUX = {
 		own_control_core = {
-			luxembourg arlon bastogne bitburg la_roche orchimont neufchateau_luxembourg st_vith thionville vianden
+			luxembourg arlon bastogne bitburg la_roche orchimont neufchateau_luxembourg st_vith vianden
 		}
 
 		starting_technology_level = 3
@@ -14501,8 +14443,7 @@ countries = {
 	#Hainaut
 	HAI = {
 		own_control_core = {
-			valenciennes #France
-			ath chimay enghien maubeuge mons
+			ath chimay enghien mons
 		}
 
 		starting_technology_level = 3
@@ -14551,11 +14492,9 @@ countries = {
 	#Flanders
 	FLA = {
 		own_control_core = {
-			cassel dunkirk oudenaarde ypres veurne
+			oudenaarde ypres veurne
 			ostend bruges hulst ghent sint_niklaas aalst kortriik
-		}
-		our_cores_conquered_by_others = {
-			lille douai tournai
+			tournai
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -14563,7 +14502,7 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = fla_louis_i_dampierre
+			ruler = hab_albrecht_ii_habsburg
 
 			ruler_term = { character = fla_thierry_alsace start_date = 1128.7.28 end_date = 1168.1.17 regnal_number = 1 }
 			ruler_term = { character = fla_philippe_i_alsace start_date = 1168.1.17 end_date = 1191.6.1 regnal_number = 1 }
@@ -14600,51 +14539,6 @@ countries = {
 		court_language = french_language
 	}
 
-	#Holland - Union under Hainaut
-	HOL = {
-		own_control_core = {
-			the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		include = "german_principality"
-		government = {
-			ruler = hai_guillaume_de_hainault
-
-			ruler_term = { character = hai_jean_ii_de_hainault start_date = 1299.11.10 end_date = 1304.8.22 regnal_number = 2 }
-			ruler_term = { character = hai_guillaume_de_hainault start_date = 1304.8.22 regnal_number = 3 }
-
-			regnal_numbers = {
-				name_gerulf = 1
-				name_theodoric = 7
-				name_arnulf = 1
-				name_florence = 5
-				name_ada = 1
-				name_william = 3
-				name_john = 2
-			}
-
-			aristocracy_vs_plutocracy = 20
-			serfdom_vs_free_subjects = 20
-			mercantilism_vs_free_trade = 30
-			land_vs_naval = 20
-			capital_economy_vs_traditional_economy = -10
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-			reforms = {
-				feudal_nobility
-			}
-		}
-		country_rank = rank_county
-		capital = the_hague
-
-		accepted_cultures = {
-			frisian
-		}
-	}
 
 	#Zeeland - Union under Holland
 	ZEE = {
@@ -14701,7 +14595,6 @@ countries = {
 	BRB = {
 		own_control_core = {
 			brussels nivelles leuven mechelen antwerp turnhout eindhoven
-			bergen_zoom breda hertogenbosch helmond
 		}
 
 		starting_technology_level = 3
@@ -14817,7 +14710,7 @@ countries = {
 			kyburg #County of Kyburg
 			bonndorf villingen waldshut #Landgraviate of Breisgau
 			krumbach gunzburg wertingen #Margraviate of Burgau
-			ensisheim #Lordship of Upper Alsace
+			#Lordship of Upper Alsace
 			waldsee saulgau #Lordship of Waldsee
 		}
 
@@ -31332,9 +31225,22 @@ countries = {
 		country_rank = rank_county
 	}
 
-	ZUR = {	#Zurich
+	SWI = {	#Swiss
 		own_control_core = {
-			zurich
+				
+				bern burgdorf_emmental saanen thun frutigen interlaken
+
+				brig sion martigny monthey bernese_alps stein_glacier lepontine_alps1
+
+				aarau baden_im_aargau lucerne wolhusen lake_lucerne
+
+				schwyz glarus altdorf sarnen
+
+				tarasp zuoz disentis davos chur ilanz mesocco silvretta_alps glarner_alps lepontine_alps2 rhaetian_alps1 rhaetian_alps4
+
+				zurich werdenberg st_gallen frauenfeld toggenburg kyburg lake_zurich
+
+
 		}
 
 		starting_technology_level = 3
@@ -31351,22 +31257,6 @@ countries = {
 		capital = zurich
 	}
 
-	SYZ = {	#Schwyz
-		own_control_core = {
-			schwyz
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = schwyz
-	}
 
 	GLR = {	#Glarus
 		our_cores_conquered_by_others = {
@@ -32539,85 +32429,8 @@ countries = {
 		capital = chur
 	}
 
-	SFC = {  # Strasbourg Free City (South Germany)
-		own_control_core = {
-			strasbourg
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_german_republic_no_coast"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = strasbourg
-	}
 
-	LIC = {  # Lichtenberg (South Germany)
-		own_control_core = {
-			lichtenberg
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = lic_johann_ii_von_lichtenberg
 
-			ruler_term = { character = lic_ludwig_i_von_lichtenberg start_date = 1206.1.1 end_date = 1252.1.1 regnal_number = 1 }
-			ruler_term = { character = lic_heinrich_ii_von_lichtenberg start_date = 1252.1.1 end_date = 1269.1.1 regnal_number = 2 }
-			ruler_term = { character = lic_ludwig_ii_von_lichtenberg start_date = 1269.1.1 end_date = 1271.1.1 regnal_number = 2 }
-			ruler_term = { character = lic_johann_i_von_lichtenberg start_date = 1271.1.1 end_date = 1315.8.22 regnal_number = 1 }
-			ruler_term = { character = lic_johann_ii_von_lichtenberg start_date = 1315.8.22 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_louis = 2
-				name_henry = 2
-				name_john = 2
-			}
-		}
-		country_rank = rank_county
-		capital = lichtenberg
-	}
-
-	CFC = {  # Colmar (South Germany)
-		own_control_core = {
-			colmar
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_german_republic_no_coast"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = colmar
-	}
-
-	MUR = {  # Murbach (South Germany)
-		own_control_core = {
-			murbach
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_german_bishopric_no_coast"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = murbach
-	}
-
-	HAG = {  # Haguenau (South Germany)
-		own_control_core = {
-			haguenau
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_german_republic_no_coast"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = haguenau
-	}
 
 	MUL = {  # Mulhouse (South Germany)
 		own_control_core = {
@@ -32749,20 +32562,6 @@ countries = {
 		}
 		country_rank = rank_county
 		capital = jever
-	}
-
-	SAW = {  # Saarwerden (South Germany)
-		own_control_core = {
-			saarwerden
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = saarwerden
 	}
 
 	SAB = {  # Sausenberg (South Germany)
@@ -33493,7 +33292,7 @@ countries = {
 
 	ALS = { #Strasbourg
 		own_control_core = {
-			zabern oberkirch benfeld
+			oberkirch 
 		}
 
 		starting_technology_level = 3
@@ -33576,97 +33375,7 @@ countries = {
 		capital = strasbourg
 	}
 
-	FRT = { #Ferrette
-		own_control_core = {
-			belfort ferrette
-		}
 
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler_term = { character = frt_johanna_pfirt start_date = 1324.3.11 regnal_number = 1 }
-
-			ruler = frt_johanna_pfirt
-		}
-
-		tolerated_cultures = {
-			high_alemannic
-		}
-
-		country_rank = rank_county
-		capital = ferrette
-	}
-
-	BSC = { #Besancon (Free City)
-		own_control_core = {
-			besancon
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-
-			laws = {
-				mining_law = burghers_mining_law
-			}
-		}
-		country_rank = rank_county
-		capital = besancon
-	}
-
-	TUL = { #Toul
-		own_control_core = {
-			toul
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-
-			laws = {
-				mining_law = burghers_mining_law
-			}
-		}
-
-		tolerated_cultures = {
-			ashkenazi
-		}
-
-		country_rank = rank_county
-		capital = toul
-	}
-
-	VDU = { #Verdun
-		own_control_core = {
-			verdun fresnes
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		country_rank = rank_county
-		capital = verdun
-	}
 
 	MTB = { #Montbeliard (Appanage)
 		own_control_core = {
@@ -33709,146 +33418,7 @@ countries = {
 		dynasty = ivree_dynasty
 	}
 
-	MTZ = { #Metz
-		own_control_core = {
-			metz epinal sarrebourg vic_sur_seille
-			saint_avold
-		}
 
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		capital = metz
-		government = {
-			ruler = mtz_aymar_adhemar_de_la_garde
-
-			reforms = {
-				prince_bishopric_reform
-			}
-			laws = {
-				mining_law = nobles_mining_law
-			}
-
-			#Secular Counts
-			ruler_term = { character = mtz_gerard_bouzonville start_date = 1033.1.1 end_date = 1045.1.1 regnal_number = 4 }
-			ruler_term = { character = lor_adalbert_alsace start_date = 1045.1.1 end_date = 1048.11.11 regnal_number = 3 }
-			ruler_term = { character = lor_gerard_alsace start_date = 1048.11.11 end_date = 1070.4.14 regnal_number = 5 }
-
-			ruler_term = { character = dau_henri_dauphin start_date = 1319.5.4 end_date = 1325.8.25 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_clement = 1
-				#Céleste = 1
-				name_felix = 2
-				#Patient = 1
-				name_victor = 2
-				name_simeon = 1
-				#Sambace = 1
-				#Ruffus = 1
-				name_adelphus = 1
-				#Firminus = 1
-				name_roman = 1
-				name_peter = 2
-				name_arnold = 1
-				name_arnulf = 1
-				name_robert = 1
-				name_stephen = 1
-				name_frederick = 1
-				name_theodoric = 4
-				name_bertrand = 1
-				name_conrad = 1
-				name_james = 1
-				name_philip = 1
-				name_william = 1
-				name_laurence = 1
-				name_john = 2
-				name_burchard = 1
-				name_gerard = 1
-				name_reginald = 1
-				name_henry = 1
-				name_louis = 1
-				name_aimar = 1
-			}
-		}
-
-		tolerated_cultures = {
-			rhine_franconian
-		}
-
-		country_rank = rank_county
-	}
-
-	SLM = { #Salm
-		own_control_core = {
-			salm
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			regnal_numbers = {
-				name_henry = 6
-			}
-			ruler = slm_henri_vi_salm
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		country_rank = rank_county
-		capital = salm
-		dynasty = salm_dynasty
-	}
-
-	MOU = { #Mouzon
-		own_control_core = {
-			mouzon
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_abbey"
-		include = "expl_northern_europe"
-		country_rank = rank_county
-		capital = mouzon
-		government = {
-			ruler = mou_lambert_yvois
-
-			ruler_term = { character = mou_lambert_yvois start_date = 1332.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				#Lieutald = 1
-				name_boson = 1
-				name_john = 2
-				name_ralph = 2
-				#Bernier = 1
-				name_wido = 2
-				#Gibuin = 1
-				name_herbert = 1
-				name_reginald = 2
-				#Harderic = 1
-				name_richard = 1
-				#Joran = 1
-				name_james = 2
-				name_henry = 1
-				#Seybert = 1
-				name_andrew = 1
-				name_hugh = 1
-				name_gerard = 1
-				name_frederick = 2
-				name_milon = 1
-				name_theobald = 1
-				name_bertrand = 1
-				name_peter = 1
-				name_lambert = 1
-			}
-		}
-	}
 
 	PLN = { #Plauen
 		own_control_core = {
@@ -35341,7 +34911,7 @@ countries = {
 
 	GEL = {	#Guelders / Geldern / former EU4 Gelre
 		own_control_core = {
-			geldern arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
+			geldern venlo roermond
 		}
 
 		starting_technology_level = 3
@@ -35370,37 +34940,6 @@ countries = {
 		tolerated_cultures = {
 			westphalian
 		}
-	}
-
-	ZUT = {	#Zutphen
-		own_control_core = {
-			zutphen doetinchem
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = gel_reinoud_ii_van_gelre
-			ruler_term = {	character = gel_reinoud_i_van_gelre start_date = 1271.1.10 end_date = 1326.1.1 regnal_number = 1	}
-			ruler_term = {	character = gel_reinoud_ii_van_gelre start_date = 1326.1.1 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_reginald = 2
-			}
-		}
-
-		tolerated_cultures = {
-			westphalian
-		}
-
-		capital = zutphen
-		dynasty = wassenberg_dynasty
-
-		country_rank = rank_county
 	}
 
 	GMK = {	#(Grafschaft) Mark
@@ -36202,39 +35741,6 @@ countries = {
 		dynasty = oldenburg_dynasty
 	}
 
-	CHN = {	#Chiny - union under Loon
-		own_control_core = {
-			montmedy
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		capital = montmedy
-		dynasty = heinsberg_dynasty
-		government = {
-			ruler = loo_dietrich_iv_von_heinsberg
-
-			ruler_term = {	character = loo_dietrich_iv_von_heinsberg start_date = 1336.1.1 regnal_number = 1	}
-
-			aristocracy_vs_plutocracy = -20
-			capital_economy_vs_traditional_economy = -10
-			land_vs_naval = -20
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		tolerated_cultures = {
-			champenais
-		}
-
-		country_rank = rank_county
-	}
-
 	LIM = { #Limbourg - PU under Brabant
 		own_control_core = {
 			limbourg
@@ -36428,114 +35934,10 @@ countries = {
 		dynasty = horne_dynasty
 	}
 
-	CJK = { #Cuijk
-		own_control_core = {
-			cuijk
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-
-			ruler = cjk_otto_van_cuijk
-			ruler_term = {	character = cjk_jan_i_van_cuijk start_date = 1285.1.1 end_date = 1320.1.1 regnal_number = 1	}
-			ruler_term = {	character = cjk_otto_van_cuijk start_date = 1320.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_otto = 1
-				name_john = 1
-			}
-
-			aristocracy_vs_plutocracy = -20
-			capital_economy_vs_traditional_economy = -10
-			land_vs_naval = -20
-		}
-		country_rank = rank_county
-		capital = cuijk
-		dynasty = cuijk_dynasty
-	}
-
-	UTR = {	#Utrecht
-		own_control_core = {
-			utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
-		}
-
-		our_cores_conquered_by_others = {
-			wolvega
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric"
-		include = "expl_northern_europe"
-		government = {
-			ruler = utr_jan_van_diest
-
-			ruler_term = { character = utr_guy_de_hainault start_date = 1301.7.4 end_date = 1317.5.29 regnal_number = 1 }
-
-			ruler_term = { character = utr_jan_van_diest start_date = 1322.7.20 regnal_number = 3 }
-
-			regnal_numbers = {
-				#Willibrord = 1
-				name_boniface = 1
-				name_gregory = 1
-				name_alberic = 2
-				#Theodard = 1
-				#Hamacar = 1
-				#Ricfried = 1
-				name_frederick = 2
-				#Liudger = 1
-				#Hunger = 1
-				#Adelbold = 2
-				#Egilbert = 1
-				#Radboud = 1
-				name_balderick = 1
-				#Folcmar = 1
-				name_baldwin = 2
-				#Ansfried = 1
-				#Bernold = 1
-				name_william = 2
-				name_conrad = 1
-				name_burchard = 1
-				#Godebald = 1
-				name_andrew = 1
-				name_herbert = 1
-				name_herman = 1
-				name_godfrey = 1
-				name_arnold = 1
-				name_theodoric = 2
-				name_otto = 3
-				#Wilbrand = 1
-				name_godwin = 1
-				name_henry = 1
-				name_john = 3
-				name_wido = 1
-				name_james = 1
-			}
-
-			reforms = {
-				prince_bishopric_reform
-			}
-
-			spiritualist_vs_humanist = -70
-			traditionalist_vs_innovative = -20
-			aristocracy_vs_plutocracy = 20
-		}
-
-		tolerated_cultures = {
-			frisian
-			westphalian
-		}
-
-		capital = utrecht
-	}
 
 	FRI = { #Frisia
 		own_control_core = {
-			leeuwarden sloten harlingen stavoren groningen appingedam wedde
-			leer emden aurich wolvega
+			leer emden aurich
 		}
 
 		starting_technology_level = 3
@@ -36593,87 +35995,6 @@ countries = {
 		country_rank = rank_county
 	}
 
-	CAM = { #Cambrésis
-		own_control_core = {
-			cambrai
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		capital = cambrai
-		government = {
-			ruler = cam_guillaume_ii_dauxonne
-
-			ruler_term = { character = cam_guillaume_i_avesnes start_date = 1286.1.1 end_date = 1296.1.1 regnal_number = 1 }
-			ruler_term = { character = auv_gui_auvergne start_date = 1324.1.1 end_date = 1336.1.1 regnal_number = 1 }
-			ruler_term = { character = cam_guillaume_ii_dauxonne start_date = 1336.1.1 regnal_number = 2 }
-
-			regnal_numbers = {
-				#Vaast = 1
-				name_dominic = 1
-				#Vedulphe = 1
-				#Gery = 1
-				name_berthold = 1
-				#Ablebert = 1
-				name_albert = 1
-				#Vindicien = 1
-				#Hildebert = 1
-				#Hunald = 1
-				#Hadulf = 1
-				#Treuvard = 1
-				name_godfrey = 2
-				name_alberic = 1
-				#Hildoard = 1
-				#Halitgaire = 1
-				name_theodoric = 1
-				#Gontbert = 1
-				name_theobald = 1
-				#Hilduin = 1
-				name_john = 3
-				#Rothade = 1
-				#Dodilon = 1
-				name_stephen = 1
-				name_fulbert = 1
-				name_berengar = 1
-				name_enguerrand = 2
-				#Ansbert = 1
-				#Tetdon/Theodotus = 1
-				#Rothard = 1
-				#Erluin = 1
-				name_gerard = 2
-				#Liebert = 1
-				name_manasses = 1
-				name_walter = 1
-				name_otto = 1
-				name_burchard = 1
-				#Lietard = 1
-				name_nicholas = 3
-				name_peter = 3
-				name_robert = 1
-				#Alard = 1
-				name_ogier = 1
-				name_hugh = 1
-				name_wido = 3
-				name_william = 2
-				name_philip = 1
-			}
-
-			reforms = {
-				prince_bishopric_reform
-			}
-
-			spiritualist_vs_humanist = -70
-			aristocracy_vs_plutocracy = -20
-			land_vs_naval = -20
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-		country_rank = rank_county
-	}
 
 	STV = { #Princely Abbey of Stavelot-Malmedy
 		own_control_core = {
@@ -55307,33 +54628,7 @@ countries = {
 
 	}
 
-#	SKH = { #Sakher
-#		own_control_core = {
-#
-#		}
-#
-#		our_cores_conquered_by_others = {
-#
-#		}
-#
-#		include = "expl_middle_east"
-#
-#		starting_technology_level = 0
-#		government = {
-#			type = tribe
-#			heir_selection = tribal_oldest_male
-#
-#			laws = {
-#				sharia_law = hanbali_policy
-#			}
-#
-#		}
-#
-#		religious_school = hanbali_school
-#		government = { mysticism_vs_jurisprudence = 40 }
 
-#
-#	}
 
 
 	HUT = { #Hutaym
@@ -55424,31 +54719,7 @@ countries = {
 
 	}
 
-#	JUH = { #Juhaynah
-#		own_control_core = {
-#			an_nakhil
-#		}
-#
-#		our_cores_conquered_by_others = {
-#
-#		}
-#
-#		include = "expl_middle_east"
-#
-#		starting_technology_level = 0
-#		government = {
-#			type = tribe
-#			heir_selection = tribal_oldest_male
-#
-#			laws = {
-#				sharia_law = hanbali_policy
-#			}
-#		}
-#
-#		religious_school = hanbali_school
-#
-#		capital = an_nakhil
-#	}
+
 
 	UTB = { #Utaybah
 		own_control_core = {
@@ -57102,9 +56373,9 @@ countries = {
 		}
 	}
 
-#############################
-# Chaco
-#############################
+	#############################
+	# Chaco
+	#############################
 
 
 	#Moxo - MOX
@@ -57127,9 +56398,9 @@ countries = {
 		}
 	}
 
-#############################
-# La Plata
-#############################
+	#############################
+	# La Plata
+	#############################
 
 	#Mapuche - MPC
 	MPC = {
@@ -57172,9 +56443,9 @@ countries = {
 		}
 	}
 
-#############################
-# South Africa
-#############################
+	#############################
+	# South Africa
+	#############################
 
 	XHO = { # Xhosa
 		type = pop

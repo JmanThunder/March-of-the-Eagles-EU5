@@ -156,6 +156,8 @@ diplomacy_manager = {
     #-------France-------
 	#Auld Alliance
 	#scripted_oneway = { first = FRA second = SCO type = guarantee }
+
+    dependency = { first = FRA second = MUL subject_type = fiefdom start_date = 1327.1.1 }
 	
     #Appanages
     dependency = { first = FRA second = BUR subject_type = appanage }
@@ -191,7 +193,7 @@ diplomacy_manager = {
     dependency = { first = FRA second = MON subject_type = vassal }
     dependency = { first = FRA second = AUM subject_type = vassal }
     dependency = { first = FRA second = ROU subject_type = vassal }
-    dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 1328
+    #dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 1328
     dependency = { first = FRA second = NEV subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = RET subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = NRB subject_type = vassal }
@@ -307,27 +309,38 @@ diplomacy_manager = {
     dependency = { first = LIT second = VBK subject_type = vassal }
     scripted_mutual = { first = LIT second = POL type = alliance }
 
+    #-------Habsburgs-------
+    dependency = { first = HAB second = BOH subject_type = fiefdom start_date = 1526.8.29 } #Bohemia
+    dependency = { first = HAB second = HUN subject_type = fiefdom start_date = 1526.8.29 } #Hungary 
+    dependency = { first = HAB second = CRO subject_type = fiefdom start_date = 1526.8.29 }
+    dependency = { first = HAB second = FLA subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = HAB second = NAM subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = HAB second = HAI subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = HAB second = LUX subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = HAB second = BRB subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = LIE second = LOO subject_type = fiefdom start_date = 1327.1.1 }
+
     #-------Bohemia-------
-    dependency = { first = BOH second = WRC subject_type = fiefdom start_date = 1327.1.1 }
-    dependency = { first = BOH second = MVA subject_type = vassal start_date = 1333.1.1 } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
-    dependency = { first = BOH second = BRZ subject_type = vassal start_date = 1329.1.1 }
-    dependency = { first = BOH second = BYM subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = GLO subject_type = vassal start_date = 1331.1.1 }
-    dependency = { first = BOH second = LGC subject_type = vassal start_date = 1329.5.9 }
-    dependency = { first = BOH second = NMD subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = NMS subject_type = vassal start_date = 1323.1.1 }
-    dependency = { first = BOH second = OEL subject_type = vassal start_date = 1329.1.1 }
-    dependency = { first = BOH second = OPL subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = OPV subject_type = vassal start_date = 1318.1.1 }
-    dependency = { first = BOH second = OSW subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = PDK subject_type = vassal start_date = 1318.1.1 }
-    dependency = { first = BOH second = RCB subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = SCI subject_type = vassal start_date = 1329.1.1 }
-    dependency = { first = BOH second = SIZ subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = STZ subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = TES subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = BOH second = ZAG subject_type = vassal start_date = 1329.1.1 }
-    dependency = { first = BOH second = ZIE subject_type = vassal start_date = 1336.8.29 }
+    dependency = { first = HAB second = WRC subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = HAB second = MVA subject_type = vassal start_date = 1333.1.1 } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
+    dependency = { first = HAB second = BRZ subject_type = vassal start_date = 1329.1.1 }
+    dependency = { first = HAB second = BYM subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = GLO subject_type = vassal start_date = 1331.1.1 }
+    dependency = { first = HAB second = LGC subject_type = vassal start_date = 1329.5.9 }
+    dependency = { first = HAB second = NMD subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = NMS subject_type = vassal start_date = 1323.1.1 }
+    dependency = { first = HAB second = OEL subject_type = vassal start_date = 1329.1.1 }
+    dependency = { first = HAB second = OPL subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = OPV subject_type = vassal start_date = 1318.1.1 }
+    dependency = { first = HAB second = OSW subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = PDK subject_type = vassal start_date = 1318.1.1 }
+    dependency = { first = HAB second = RCB subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = SCI subject_type = vassal start_date = 1329.1.1 }
+    dependency = { first = HAB second = SIZ subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = STZ subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = TES subject_type = vassal start_date = 1327.1.1 }
+    dependency = { first = HAB second = ZAG subject_type = vassal start_date = 1329.1.1 }
+    dependency = { first = HAB second = ZIE subject_type = vassal start_date = 1336.8.29 }
     dependency = { first = WRC second = NYS subject_type = vassal start_date = 1290.1.1 }
     scripted_mutual = { first = BOH second = LBV type = alliance }
 
