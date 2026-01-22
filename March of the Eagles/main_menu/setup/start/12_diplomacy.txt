@@ -283,8 +283,11 @@ diplomacy_manager = {
     dependency = { first = KMM second = NWG subject_type = fiefdom }
     dependency = { first = BRA second = SOR subject_type = fiefdom }
     dependency = { first = BRA second = ANS subject_type = fiefdom }
+    dependency = { first = PAL second = BRG subject_type = fiefdom }
+    dependency = { first = PAL second = JUL subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
     scripted_oneway = { first = FLA second = HOL type = trade_access }
+    
 
     #------Byzantium--------
     dependency = { first = BYZ second = EPI subject_type = vassal }
