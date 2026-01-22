@@ -72,12 +72,42 @@ HAN = { #Hanover
 	difficulty = 3
 }
 
-SHL = { #SHL
+SHL = { #Holstein
 	color = map_SHL
 
 	culture_definition = holsatian
 	religion_definition = lutheran
 
+
+	difficulty = 3
+}
+
+MOL = { #Moldovia
+	color = map_MOL
+
+	culture_definition = moldovan
+	religion_definition = orthodox
+
+
+	difficulty = 3
+}
+
+SPA = { #S(pain)
+	color = map_SPA
+
+	culture_definition = moldovan
+	religion_definition = catholic
+
+
+	difficulty = 3
+}
+
+GLD = {
+	color = map_galicia_lodomeria
+
+
+	culture_definition = lesser_polish
+	religion_definition = catholic
 
 	difficulty = 3
 }
