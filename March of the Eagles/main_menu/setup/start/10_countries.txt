@@ -30705,7 +30705,7 @@ NED = { #Dutch Republic
 	BAM = {	#Bamberg
 		own_control_core = {
 			bamberg wolfsberg villach kronach
-			forchheim lichtenfels pegnitz
+			forchheim lichtenfels pegnitz schesslitz
 		}
 
 		starting_technology_level = 3
@@ -31477,7 +31477,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 
 	KTZ = {  # Katzenelnbogen (North Germany)
 		own_control_core = {
-			katzenelnbogen darmstadt
+			katzenelnbogen darmstadt alsfeld giessen
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31966,19 +31966,6 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		capital = mullheim
 	}
 
-	THD = {  # Truhendingen (South Germany)
-		own_control_core = {
-			schesslitz
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital =  schesslitz
-	}
 
 	WIE = {  # Wied (North Germany)
 		own_control_core = {
@@ -33339,8 +33326,7 @@ HSF = {	#Hersfeld
 
 	HES = {	#Hesse
 		own_control_core = {
-			kassel rotenburg eschwege frankenberg marburg alsfeld
-			giessen melsungen
+			kassel rotenburg eschwege frankenberg marburg melsungen
 		}
 
 		starting_technology_level = 3
