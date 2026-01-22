@@ -1,0 +1,83 @@
+﻿NED = { #Netherlands
+	color = rgb { 255 105 0 }
+
+	culture_definition = low_franconian
+	religion_definition = calvinist
+
+	description_category = economic
+	difficulty = 3
+}
+
+PRU = { #PRU
+	color = rgb { 76 76 79 }
+	color = map_PRU 
+	
+	culture_definition = prussian
+	religion_definition = lutheran
+
+	description_category = military
+	difficulty = 3
+}
+
+GBR = { #Great Britian
+	color = map_GBR 
+	
+	culture_definition = english
+	religion_definition = anglican
+
+	description_category = economic
+	difficulty = 3
+}
+
+PLC = {
+	color = rgb { 195 40 55 }
+	color2 = rgb { 197 92 106 }
+
+	unit_color0 = rgb {	214 42 30 }
+	unit_color1 = rgb {	252 248 245 }
+	unit_color2 = rgb {	52 137 213 }
+
+	culture_definition = lesser_polish
+	religion_definition = catholic
+
+	description_category = military
+	difficulty = 3
+}
+
+BAV = { #Bavaria
+	color = map_BAV
+
+	culture_definition = danube_bavarian
+	religion_definition = catholic
+
+	difficulty = 3
+}
+
+SAX = { #Saxony
+	color = map_SAX
+
+	culture_definition = saxon
+	religion_definition = catholic
+
+	difficulty = 3
+}
+
+HAN = { #Hanover
+	color = map_HAN
+
+	culture_definition = lower_saxon
+	religion_definition = lutheran
+
+
+	difficulty = 3
+}
+
+SHL = { #SHL
+	color = map_SHL
+
+	culture_definition = holsatian
+	religion_definition = lutheran
+
+
+	difficulty = 3
+}
