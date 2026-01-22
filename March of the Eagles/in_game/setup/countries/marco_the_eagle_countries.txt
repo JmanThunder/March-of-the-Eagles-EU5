@@ -1,0 +1,19 @@
+﻿NED = { #Netherlands
+	color = rgb { 255 105 0 }
+
+	culture_definition = low_franconian
+	religion_definition = calvinist
+
+	description_category = economic
+	difficulty = 3
+}
+
+PRU = { #PRU
+	color = rgb { 76 76 79 }
+
+	culture_definition = prussian
+	religion_definition = lutheran
+
+	description_category = military
+	difficulty = 3
+}
