@@ -701,26 +701,9 @@ countries = {
 
 	TEU = { #Teutonic Order
 		own_control_core = {
-			 balga   ostroda  dzierzgon elblag morag
-		}
-		own_control_integrated = {
-			ragnit tilsit mergentheim gumbinnen barten wegorzewo
-			gerdauen insterburg wehlau
-			labiau memel windenburg
-			elk nibork ryn_poland szczytno 
-			malbork
-			konigsberg brandenburg_prussia
+			mergentheim
 		}
 		
-		own_control_conquered = {
-			#Chełmno Land
-			brodnica grudziadz torun
-			#Pomerelia
-			gniew koscierzyna mirochowo puck tczew
-			tuchola bialobork czluchow nowe swiecie
-
-			bytow lebork
-		}
 		
 
 		include = "catholic_military_order"
@@ -758,17 +741,11 @@ countries = {
 			}
 		}
 
-		tolerated_cultures = {
-			kashubian #pruthenian
-		}
-
+		
 		country_rank = rank_duchy
 		capital = malbork
 
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
-		}
+		
 	}
 
 	LIV = { #Livonian Order
@@ -819,102 +796,7 @@ countries = {
 		capital = parnu
 	}
 
-	ERM = { #Ermland / Warmia
-		own_control_core = {
-			lidzbark olsztyn frombork
-		}
-
-		include = "catholic_bishopric"
-		include = "expl_northern_europe"
-		include = "eastern_european_catholic"
-
-		government = {
-			type = theocracy
-
-			ruler = erm_hermann_of_prague
-			ruler_term = {	character = erm_hermann_of_prague start_date = 1337.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_herman = 1
-			}
-		}
-		tolerated_cultures = { pruthenian }
-		capital = lidzbark
-	}
-
-	CHL = { #Kulm / Chełmno
-		own_control_core = {
-			lubawa chelmno
-		}
-
-		include = "catholic_bishopric_no_coast"
-		include = "expl_northern_europe"
-		include = "eastern_european_catholic"
-
-		government = {
-			type = theocracy
-
-			ruler = klm_otto
-			ruler_term = {	character = klm_otto start_date = 1323.12.23 regnal_number = 1	}
-			regnal_numbers = {
-				name_otto = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greater_polish
-		}
-
-		country_rank = rank_county
-		capital = lubawa
-	}
-
-	PMS = { #Pomesania
-		own_control_core = {
-			kwidzyn
-		}
-
-		include = "catholic_bishopric_no_coast"
-		include = "expl_northern_europe"
-		include = "eastern_european_catholic"
-
-		government = {
-			type = theocracy
-
-			ruler = pms_bertold_von_riesenburg
-			ruler_term = {	character = pms_bertold_von_riesenburg start_date = 1332.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_berthold = 1
-			}
-		}
-		country_rank = rank_county
-		capital = kwidzyn
-	}
-
-	SMD = { #Samland / Samia
-		own_control_core = {
-			fischhausen
-		}
-
-		include = "catholic_bishopric"
-		include = "expl_northern_europe"
-		include = "eastern_european_catholic"
-
-		government = {
-			type = theocracy
-
-			ruler = sms_johann_clare
-			ruler_term = {	character = sms_johann_clare start_date = 1320.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_john = 1
-			}
-		}
-		tolerated_cultures = { pruthenian }
-		country_rank = rank_county
-		capital = fischhausen
-	}
-
-
-	RIG = { #Riga
+RIG = { #Riga
 		own_control_core = {
 			riga
 		}
@@ -1137,12 +1019,26 @@ countries = {
 			bielefeld
 			leer emden aurich
 			tecklenburg lingen
-		}
-
-		own_control_integrated = {
+			hamm altena bochum
+			kleve wesel 
+			balga ostroda dzierzgon elblag morag ragnit tilsit gumbinnen barten wegorzewo gerdauen insterburg wehlau
+			labiau memel windenburg
+			elk nibork ryn_poland szczytno 
+			malbork
+			konigsberg brandenburg_prussia
+			#Chełmno Land
+			brodnica grudziadz torun
+			#Pomerelia
+			gniew koscierzyna mirochowo puck tczew
+			tuchola bialobork czluchow nowe swiecie
+			bytow lebork
 			torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
+			lidzbark olsztyn frombork fischhausen kwidzyn
+			lubawa chelmno
+
 		}
 
+		
 		include = "expl_western_europe"
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
@@ -34060,39 +33956,7 @@ HSF = {	#Hersfeld
 		}
 	}
 
-	GMK = {	#(Grafschaft) Mark
-		own_control_core = {
-			hamm altena bochum
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = gmk_adolf_ii_von_der_mark
-			ruler_term = {	character = gmk_engelbert_ii_von_der_mark start_date = 1308.7.4 end_date = 1328.7.18 regnal_number = 1	}
-			ruler_term = {	character = gmk_adolf_ii_von_der_mark start_date = 1328.7.18 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_adolf = 2
-				name_engelbert = 2
-			}
-		}
-
-		tolerated_cultures = {
-			angrian
-			ripuarian_franconian
-		}
-
-		country_rank = rank_county
-		capital = hamm
-		dynasty = mark_dynasty
-	}
-
-	WTG = {	#Wittgenstein
+WTG = {	#Wittgenstein
 		own_control_core = {
 			berleburg
 		}
@@ -34191,36 +34055,7 @@ HSF = {	#Hersfeld
 		dynasty = mors_dynasty
 	}
 
-	KLE = {	#Cleves
-		own_control_core = {
-			kleve wesel
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = kle_dietrich_vii_von_kleve
-			ruler_term = {	character = kle_dietrich_vi_von_kleve start_date = 1275.1.10 end_date = 1305.1.1 regnal_number = 6	}
-			ruler_term = {	character = kle_otto_von_kleve start_date = 1305.1.10 end_date = 1310.1.1 regnal_number = 1	}
-			ruler_term = {	character = kle_dietrich_vii_von_kleve start_date = 1310.1.1 regnal_number = 7	}
-
-			regnal_numbers = {
-				name_otto = 1
-				name_theodoric = 6
-			}
-		}
-		tolerated_cultures = {
-		}
-		country_rank = rank_county
-		capital = kleve
-		dynasty = kleve_dynasty
-	}
-
-	ANB = {	#Arnsberg
+ANB = {	#Arnsberg
 		own_control_core = {
 			arnsberg meschede
 		}
