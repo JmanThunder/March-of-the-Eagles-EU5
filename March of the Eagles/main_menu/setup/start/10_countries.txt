@@ -30681,75 +30681,16 @@ HOL = { #Dutch Republic
 		capital = klagenfurt
 	}
 
-	LBV = {
-		own_control_core = {
-			landshut scharding ried braunau traunstein griesbach kelheim eggenfelden
-			landau straubing bavaria_regen cham burghausen
-			erding rosenheim mallersdorf rottenburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		country_rank = rank_duchy
-		government = {
-			ruler = lbv_heinrich_xiv_wittelsbach
-
-			ruler_term = { character = lbv_heinrich_xiii_wittelsbach start_date = 1253.11.29 end_date = 1290.2.3 regnal_number = 13 }
-			ruler_term = {
-				character = lbv_otto_iii_wittelsbach start_date = 1290.2.3 end_date = 1296.5.13 regnal_number = 3
-				character = lbv_ludwig_iii_wittelsbach start_date = 1290.2.3 end_date = 1296.5.13 regnal_number = 3 # As Co-Ruler
-				character = lbv_stephan_wittelsbach start_date = 1290.2.3 end_date = 1296.5.13 regnal_number = 1 # As Co-Ruler
-			}
-			ruler_term = {
-				character = lbv_otto_iii_wittelsbach start_date = 1296.5.13 end_date = 1310.12.10 regnal_number = 3
-				character = lbv_stephan_wittelsbach start_date = 1296.5.13 end_date = 1310.12.10 regnal_number = 1 # As Co-Ruler
-			}
-			ruler_term = {
-				character = lbv_otto_iii_wittelsbach start_date = 1310.12.10 end_date = 1312.9.9 regnal_number = 3
-				character = lbv_heinrich_xiv_wittelsbach start_date = 1310.12.10 end_date = 1312.9.9 regnal_number = 14 # As Co-Ruler
-				character = lbv_otto_iv_wittelsbach start_date = 1310.12.10 end_date = 1312.9.9 regnal_number = 4 # As Co-Ruler
-			}
-			ruler_term = {
-				character = lbv_heinrich_xiv_wittelsbach start_date = 1312.9.9 end_date = 1333.6.18 regnal_number = 14
-				character = lbv_otto_iv_wittelsbach start_date = 1312.9.9 end_date = 1333.6.18 regnal_number = 4 # As Co-Ruler
-				character = lbv_heinrich_xv_wittelsbach start_date = 1312.9.9 end_date = 1333.6.18 regnal_number = 15 # As Co-Ruler
-			}
-			ruler_term = {
-				character = lbv_heinrich_xiv_wittelsbach start_date = 1333.6.18 end_date = 1334.12.14 regnal_number = 14
-				character = lbv_otto_iv_wittelsbach start_date = 1333.6.18 end_date = 1334.12.14 regnal_number = 4 # As Co-Ruler
-			}
-			ruler_term = { character = lbv_heinrich_xiv_wittelsbach start_date = 1334.12.14 regnal_number = 14 }
-			regnal_numbers = {
-				name_stephen = 1
-				name_henry = 14
-				name_otto = 4
-				name_louis = 4
-				name_rudolf = 1
-				name_leopold = 1
-				name_welf = 2
-				name_conrad = 2
-				name_berthold = 1
-				name_everard = 1
-				name_arnulf = 1
-				name_leopold = 1
-			}
-		}
-
-		tolerated_cultures = {
-			upper_palatine
-		}
-
-		capital = landshut
-		dynasty = wittelsbach_dynasty
-	}
 
 	UBV = {	#Upper Bavaria
 		own_control_core = {
 			munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
 			pfaffenhofen friedberg ingolstadt neuburg_an_der_donau kitzbuhel kufstein burglengenfeld
+			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+			
+			landshut scharding ried braunau traunstein griesbach kelheim eggenfelden
+			landau straubing bavaria_regen cham burghausen
+			erding rosenheim mallersdorf rottenburg
 		}
 
 		starting_technology_level = 3
@@ -31664,7 +31605,7 @@ HOL = { #Dutch Republic
 	PAL = {	#The Palatinate
 		own_control_core = {
 			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
-			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+			
 		}
 
 		starting_technology_level = 3
