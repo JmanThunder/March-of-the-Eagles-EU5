@@ -1,4 +1,5 @@
-﻿DIT = {
+﻿
+DIT = {
 	color = map_dithmarschen
 	color2 = rgb { 16 41 202 }
 
