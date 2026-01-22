@@ -1132,8 +1132,11 @@ countries = {
 			pszczyna #Duchy of Pszczyna
 			prudnik
 			klodzko hlucin glubczyce
-			eisleben
+			eisleben minden 
 			halberstadt quedlinburg
+			bielefeld
+			leer emden aurich
+			tecklenburg lingen
 		}
 
 		own_control_integrated = {
@@ -1262,6 +1265,26 @@ countries = {
 		country_rank = rank_county
 		capital = berlin
 		dynasty = wittelsbach_dynasty
+	}
+	RVA = { #Ravensburg
+		own_control_core = {
+			ravensburg
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_german_republic_no_coast"
+		include = "expl_northern_europe"
+		government = {
+			ruler = random
+		}
+
+		tolerated_cultures = {
+			swabian
+		}
+
+		country_rank = rank_county
+		capital = ravensburg
 	}
 
 	ALL = {	#Saxony-Allstedt
@@ -1465,46 +1488,10 @@ countries = {
 	}
 
 	
-	HPL = { #Holstein-Plön
-		own_control_core = {
-			kiel heiligenhafen plon
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = shl_johann_iii_holstein_kiel
-
-			ruler_term = {	character = shl_gerhard_ii_holstein_kiel start_date = 1290.1.1 end_date = 1312.10.28 regnal_number = 2	}
-			ruler_term = {
-				character = shl_gerhard_iv_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 4 #Yes, there is no Gerhard III, it skips from II to IV
-				character = shl_johann_iii_holstein_kiel start_date = 1312.10.28 end_date = 1314.6.7 regnal_number = 3
-			}
-			ruler_term = { character = shl_johann_iii_holstein_kiel start_date = 1314.6.7 regnal_number = 3 }
-
-			regnal_numbers = {
-				name_gerard = 4
-				name_john = 3
-				name_adolf = 6
-			}
-		}
-
-		tolerated_cultures = {
-			polabian
-		}
-
-		country_rank = rank_county
-		capital = plon
-		dynasty = schauenburg_dynasty
-	}
 
 	HTR = { #Holstein-Rendsburg
 		own_control_core = {
-			stormarn segeberg rendsburg steinburg
+			stormarn segeberg rendsburg steinburg heide pinneberg kiel heiligenhafen plon
 		}
 
 		starting_technology_level = 3
@@ -1714,64 +1701,6 @@ countries = {
 		capital = olomouc
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
-	}
-
-	DIT = {	#Dithmarschen
-		own_control_core = {
-			heide
-		}
-
-		capital = heide
-
-		include = "expl_northern_europe"
-		starting_technology_level = 2
-
-
-		government = {
-			ruler = random
-
-			type = republic
-			heir_selection = oligarchic_elective
-
-			centralization_vs_decentralization = 100
-			traditionalist_vs_innovative = -70
-			spiritualist_vs_humanist = -50
-			aristocracy_vs_plutocracy = 80
-			serfdom_vs_free_subjects = 100
-			mercantilism_vs_free_trade = 0
-			belligerent_vs_conciliatory = -20
-			quality_vs_quantity = 100
-			offensive_vs_defensive = 100
-			land_vs_naval = 0
-			capital_economy_vs_traditional_economy = 100
-			individualism_vs_communalism = 100
-			outward_vs_inward = 50
-
-			parliament = {
-				parliament_type = estate_parliament
-			}
-
-			laws = {
-				censorship = limited_censorship
-				republican_foundation_law = republicanism_policy
-				education_masses_law = basic_religious_education
-				administrative_system = autonomous_councils
-				cultural_traditions_law = civil_society
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-				legal_code_law = civil_law_policy
-				maritime_law = protect_trade_routes
-				piracy_law = anti_piracy_policy
-				distribution_of_power_law = dop_traditional_distribution_of_power
-				immigration_law = open_borders_law
-			}
-		}
-
-		tolerated_cultures = {
-			frisian
-		}
-
-		country_rank = rank_county
 	}
 
 	#Novgorod
@@ -31443,22 +31372,6 @@ BBD = {  # Bishopric of Brandenburg
 		capital = brandenburg
 	}
 
-	HSP = {  # Holstein Pinneberg
-		own_control_core = {
-			pinneberg
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy"
-		include = "german_principality"
-		government = {
-			ruler = scb_adolf_vii_schauenburg
-			ruler_term = {	character = scb_adolf_vii_schauenburg start_date = 1307.1.1 }
-		}		country_rank = rank_county
-		capital = pinneberg
-	}
-
 	MSO = {  # Mesocco
 		own_control_core = {
 			mesocco
@@ -32108,20 +32021,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		capital = disentis
 	}
 
-	EVS = {  # Everstein (North Germany)
-		own_control_core = {
-			holzminden
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = holzminden
-	}
-
+	
 	FUR = {  # Fürstenberg (South Germany)
 		own_control_core = {
 			furstenberg
@@ -32760,27 +32660,6 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		capital = waldburg
 	}
 
-	RVA = { #Ravensburg
-		own_control_core = {
-			ravensburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			swabian
-		}
-
-		country_rank = rank_county
-		capital = ravensburg
-	}
-
 	BIB = { #Biberach
 		own_control_core = {
 			biberach
@@ -33322,42 +33201,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 	
 	
 
-	LAU = {	#Saxe-Lauenburg
-		own_control_core = {
-			lauenburg
-		}
-
-		starting_technology_level = 3
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = lau_albrecht_iv_lauenburg
-			ruler_term = {	character = lau_johann_i_lauenburg start_date = 1260.10.7 end_date = 1285.7.30 regnal_number = 1	}
-			ruler_term = {	character = lau_johann_ii_lauenburg start_date = 1285.7.30 end_date = 1322.1.1 regnal_number = 2	}
-			ruler_term = {	character = lau_albrecht_iv_lauenburg start_date = 1322.8.1 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_john = 2
-				name_albert = 4
-				name_eric = 1
-			}
-		}
-
-		tolerated_cultures = {
-			polabian
-			western_pomeranian
-		}
-
-		country_rank = rank_duchy
-		capital = lauenburg
-		dynasty = askanier_dynasty
-	}
-
-	HAM = {	#Hamburg
+HAM = {	#Hamburg
 		own_control_core = {
 			hamburg
 		}
@@ -34454,56 +34298,7 @@ HSF = {	#Hersfeld
 		capital = hoxter
 	}
 
-	RVB = {	#Ravensberg
-		own_control_core = {
-			bielefeld
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = rvb_bernhard_ravensberg
-
-			ruler_term = {	character = rvb_otto_iii_ravensberg start_date = 1264.3.23 end_date = 1305.1.1 regnal_number = 3	}
-			ruler_term = {	character = rvb_otto_iv_ravensberg start_date = 1305.3.23 end_date = 1328.1.1 regnal_number = 4	}
-			ruler_term = {	character = rvb_bernhard_ravensberg start_date = 1328.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_otto = 4
-			}
-		}
-		country_rank = rank_county
-		capital = bielefeld
-		dynasty = ravensberg_dynasty
-	}
-
-	MDN = {	#Minden
-		own_control_core = {
-			minden
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = mdn_ludwig_von_braunschweig_luneburg
-
-			ruler_term = { character = mdn_ludwig_von_braunschweig_luneburg start_date = 1324.5.14 regnal_number = 1 }
-			
-			reforms = {
-				prince_bishopric_reform
-			}
-		}
-		country_rank = rank_county
-		capital = minden
-	}
-
-	OSN = {	#Osnabrück
+OSN = {	#Osnabrück
 		own_control_core = {
 			osnabruck bersenbruck
 		}
@@ -34522,30 +34317,6 @@ HSF = {	#Hersfeld
 		}
 		country_rank = rank_county
 		capital = osnabruck
-	}
-
-	TCK = {	#Tecklenburg
-		own_control_core = {
-			tecklenburg lingen
-			cloppenburg friesoythe
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = tck_nikolaus_i_tecklenburg
-			ruler_term = {	character = tck_nikolaus_i_tecklenburg start_date = 1328.1.1 regnal_number = 1	}
-		}
-		tolerated_cultures = {
-			lower_saxon
-		}
-		country_rank = rank_county
-		capital = tecklenburg
-		dynasty = schwerin_dynasty
 	}
 
 	BNT = {	#Bentheim
@@ -34586,7 +34357,7 @@ HSF = {	#Hersfeld
 
 	MUN = {	#Münster
 		own_control_core = {
-			munster ahaus warendorf horstmar meppen vechta aschendorf rheine dulmen
+			munster ahaus warendorf horstmar meppen vechta aschendorf rheine dulmen cloppenburg friesoythe
 		}
 
 		starting_technology_level = 3
@@ -34614,12 +34385,14 @@ HSF = {	#Hersfeld
 
 	LUN = {	#Lüneburg
 		own_control_core = {
-			luneburg celle winsen harburg ebstorf isenhagen winsen_aller fallingbostel
+			luneburg celle winsen harburg ebstorf isenhagen winsen_aller fallingbostel lauenburg
 			dannenberg #County of Danneberg
 			luchow #County of Lüchow
 			uelzen #Amt of Bodenteich
 			stade neuhaus gestenthorpe osterholz achim bremervorde zeven #Duchy of Bremen
-			verden soltau
+			verden soltau hoya diepholz nienburg
+			hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
+			gottingen #Duchy of Göttingen
 
 		}
 
@@ -34631,7 +34404,7 @@ HSF = {	#Hersfeld
 		country_rank = rank_duchy
 		government = {
 
-			ruler = lun_otto_iii_luneburg
+			ruler = eng_edward_iii
 
 			ruler_term = { character = sax_heinrich_the_proud start_date = 1126.1.1 end_date = 1139.10.20 regnal_number = 0 }
 			ruler_term = { character = lun_heinrich_the_lion start_date = 1139.10.20 end_date = 1195.8.6 regnal_number = 0 }
@@ -34668,8 +34441,7 @@ HSF = {	#Hersfeld
 	BRU = {	#Brunswick (Lüneburg)
 		own_control_core = {
 			brunswick gifhorn helmstedt meinersen wolfenbuttel gandersheim #Duchy of Braunschweig-Wolfenbüttel
-			hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
-			gottingen #Duchy of Göttingen
+						holzminden
 
 		}
 
@@ -34832,106 +34604,6 @@ HSF = {	#Hersfeld
 		dynasty = schauenburg_dynasty
 	}
 
-	HOY = {	#Hoya
-		own_control_core = {
-			hoya
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = hoy_gerhard_iii_hoya
-
-			ruler_term = { character = hoy_heinrich_i_hoya start_date = 1202.1.1 end_date = 1235.11.25 regnal_number = 1 }
-			ruler_term = { character = hoy_heinrich_ii_hoya start_date = 1235.11.25 end_date = 1290.1.25 regnal_number = 2 }
-			ruler_term = { character = hoy_gerhard_ii_hoya start_date = 1290.1.25 end_date = 1311.1.1 regnal_number = 2 }
-			ruler_term = { character = hoy_otto_ii_hoya start_date = 1311.1.1 end_date = 1324.4.23 regnal_number = 2 }
-			ruler_term = {
-				character = hoy_gerhard_iii_hoya start_date = 1324.4.23 regnal_number = 3
-				#character = nie_johann_ii_hoya start_date = 1324.4.23 regnal_number = 2 # As Co-Ruler # Ruled with his brother until 1345
-			}
-
-			regnal_numbers = {
-				name_henry = 3
-				name_gerard = 3
-				name_otto = 2
-				name_john = 2
-				name_albert = 1
-			}
-		}
-		country_rank = rank_county
-		capital = hoya
-		dynasty = hoya_dynasty
-	}
-
-	NIE = {	#Nienburg
-		own_control_core = {
-			nienburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = nie_johann_ii_hoya
-
-			ruler_term = {
-				character = nie_johann_ii_hoya start_date = 1324.4.23 regnal_number = 2
-				#character = hoy_gerhard_iii_hoya start_date = 1324.4.23 regnal_number = 3 # As Co-Ruler # Ruled with his brother until 1345
-			}
-
-			regnal_numbers = {
-				name_henry = 3
-				name_gerard = 3
-				name_otto = 2
-				name_john = 2
-				name_albert = 1
-			}
-		}
-		country_rank = rank_county
-		capital = nienburg
-		dynasty = hoya_dynasty
-	}
-
-	DPH = {	#Diepholz
-		own_control_core = {
-			diepholz
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = dph_rudolf_iv_diepholz
-			ruler_term = {	character = dph_konrad_vi_diepholz start_date = 1285.1.1 end_date = 1300.1.1 regnal_number = 6	}
-			ruler_term = {	character = dph_rudolf_iv_diepholz start_date = 1300.1.1 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_conrad = 6
-				name_rudolf = 4
-				name_john = 2
-				Gottschalk = 1
-			}
-		}
-
-		tolerated_cultures = {
-			westphalian
-		}
-
-		country_rank = rank_county
-		capital = diepholz
-		dynasty = diepholz_dynasty
-	}
 
 RTB = {	#Ritzebüttel
 		own_control_core = {
@@ -35188,66 +34860,6 @@ RTB = {	#Ritzebüttel
 		dynasty = horne_dynasty
 	}
 
-
-	FRI = { #Frisia
-		own_control_core = {
-			leer emden aurich
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		capital = groningen
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-			parliament = {
-				parliament_type = council
-			}
-
-			privilege = {
-				peasants_free_peasantry
-			}
-
-			reforms = {
-				frisian_freedom_reform
-			}
-
-			laws = {
-				censorship = limited_censorship
-				republican_foundation_law = republicanism_policy
-				education_masses_law = basic_religious_education
-				administrative_system = local_courts_administration
-				cultural_traditions_law = civil_society
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-				legal_code_law = civil_law_policy
-				maritime_law = protect_trade_routes
-				piracy_law = anti_piracy_policy
-				distribution_of_power_law = dop_favor_the_commoners
-			}
-
-			centralization_vs_decentralization = 100
-			traditionalist_vs_innovative = -70
-			spiritualist_vs_humanist = 30
-			aristocracy_vs_plutocracy = 100
-			serfdom_vs_free_subjects = 100
-			mercantilism_vs_free_trade = 100
-			belligerent_vs_conciliatory = 50
-			quality_vs_quantity = 100
-			offensive_vs_defensive = 100
-			land_vs_naval = 30
-			capital_economy_vs_traditional_economy = 100
-			individualism_vs_communalism = 100
-			outward_vs_inward = 50
-		}
-
-		tolerated_cultures = {
-			westphalian
-		}
-
-		country_rank = rank_county
-	}
 
 
 	STV = { #Princely Abbey of Stavelot-Malmedy

@@ -157,7 +157,7 @@ diplomacy_manager = {
 	#Auld Alliance
 	#scripted_oneway = { first = FRA second = SCO type = guarantee }
 
-    dependency = { first = FRA second = MUL subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = FRA second = MUL subject_type = vassal }
 	
     #Appanages
     dependency = { first = FRA second = BUR subject_type = appanage }
