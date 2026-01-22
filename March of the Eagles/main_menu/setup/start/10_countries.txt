@@ -1115,6 +1115,7 @@ countries = {
 			goleniow kamien resko
 			nowogard
 			beeskow lebus ruppin havelberg wittstock
+			zagan krosno_odrzanskie sulechow zary
 			
 		}
 
@@ -35425,39 +35426,7 @@ HOL = { #Dutch Republic
 
 	#-------------------------- Silesia + Poland + Lithuania + Ruthenia ----------------------------
 
-	ZAG = { #Zagan
-		own_control_core = {
-			zagan krosno_odrzanskie sulechow zary
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
-		include = "eastern_european_catholic"
-		country_rank = rank_duchy
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = zag_henryk_iv_wierny_piast
-			ruler_term = {	character = glg_henryk_iii_piast start_date = 1304.1.1 end_date = 1310.12.11 regnal_number = 3	}
-			ruler_term = {	character = zag_henryk_iv_wierny_piast start_date = 1310.12.11 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_henry = 4
-				Przemko = 1
-			}
-		}
-
-		tolerated_cultures = {
-			german_silesian
-			sorbian
-		}
-
-		capital = zagan
-		dynasty = piast_dynasty
-	}
-
-	LGC = { #Legnica
+LGC = { #Legnica
 		own_control_core = {
 			legnica zlotoryja #Duchy of Legnica
 			kluczbork #Duchy of Brzeg
