@@ -1112,7 +1112,7 @@ countries = {
 			chojna soltyn
 			stendal osterburg salzwedel gardelegen
 			wittenberge pritzwalk treuenbrietzen
-			angermunde prenzlau
+			angermunde prenzlau cottbus
 		}
 
 		own_control_integrated = {
@@ -1282,99 +1282,7 @@ countries = {
 		}
 	}
 
-	LDB = { #Landsberg
-		own_control_core = {
-			weissenfels zwickau rochlitz grimma delitzsch
-			leipzig chemnitz altenburg
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = ldb_sophie_von_brandenburg
-			consort = bru_magnus_braunschweig_wolfenbuttel
-
-			ruler_term = { character = ldb_sophie_von_brandenburg start_date = 1320.1.1 end_date = 1327.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = ldb_sophie_von_brandenburg start_date = 1327.1.1 regnal_number = 1
-				#character = bru_magnus_braunschweig_wolfenbuttel start_date = 1327.1.1 regnal_number = 1 # As Marital Co-Ruler
-			}
-
-			regnal_numbers = {
-				name_conrad = 1
-				name_henry = 2
-				name_otto = 4
-				name_waldemar = 1
-				name_magnus = 1
-			}
-
-			reforms = {
-				margraviate
-			}
-
-			offensive_vs_defensive = 10
-			belligerent_vs_conciliatory = 0
-			outward_vs_inward = 0
-
-
-		}
-		country_rank = rank_county
-		capital = weissenfels
-		dynasty = askanier_dynasty
-		tolerated_cultures = {
-			sorbian
-		}
-	}
-
-	MEI = { #Meissen
-		own_control_core = {
-			meissen sayda freiberg dresden
-			pirna annaburg
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = mei_friedrich_ii_meissen
-			consort = mei_mathilde_von_bayern
-
-			ruler_term = {	character = mei_albrecht_ii_the_degenerate_meissen start_date = 1288.1.1 end_date = 1291.1.1 regnal_number = 2	}
-			ruler_term = {	character = mei_friedrich_the_bitten_meissen start_date = 1291.1.1 end_date = 1323.1.1 regnal_number = 1	}
-			ruler_term = {	character = mei_friedrich_ii_meissen start_date = 1323.1.1 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_frederick = 2
-			}
-
-			reforms = {
-				margraviate
-			}
-
-			laws = {
-				feudal_de_jure_law = by_tradition
-			}
-
-			offensive_vs_defensive = 10
-			belligerent_vs_conciliatory = 0
-			outward_vs_inward = 0
-
-
-		}
-
-		country_rank = rank_county
-		capital = meissen
-		dynasty = wettin_dynasty
-		tolerated_cultures = {
-			sorbian
-		}
-	}
-
+	
 	MAG = {	#Magdeburg
 		own_control_core = {
 			magdeburg juterbog jerichow burg wolmirstedt
@@ -1753,8 +1661,7 @@ countries = {
 			budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
 			bechyne jicin podebrady caslav nachod nemecky_brod
 			chrudim hradec_kralove klodzko litomysl trebon
-			bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
-		}
+			}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
@@ -13113,56 +13020,7 @@ countries = {
 		tolerated_cultures = { venetian }
 	}
 
-	GOR = {
-		own_control_core = {
-			gorizia pazin
-			lienz bruneck hermagor winklern
-			metlika #County of Möttling
-		}
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "catholic_monarchy"
-		include = "german_principality"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			regency = consort_regency
-			active_regent = gor_beatrix_of_lower_bavaria
-			start_regency_date = 1327.1.1
-			end_regency_date = 1340.1.1
-			heir = gor_john_henry_iv_gorizia
-
-			ruler_term = { character = gor_meinhard_iii_gorizia start_date = 1231.1.1 end_date = 1258.7.22 regnal_number = 3 }
-			ruler_term = {
-				character = tir_meinhard_gorizia start_date = 1258.7.22 end_date = 1271.1.1 regnal_number = 4
-				character = gor_albert_i_gorizia start_date = 1258.7.22 end_date = 1271.1.1 regnal_number = 1
-			}
-			ruler_term = { character = gor_albert_i_gorizia start_date = 1271.1.1 end_date = 1304.4.1 regnal_number = 1 }
-			ruler_term = {
-				character = gor_henry_iii_gorizia start_date = 1304.4.1 end_date = 1320.1.1 regnal_number = 3
-				character = gor_meinhard_v_gorizia start_date = 1304.4.1 end_date = 1320.1.1 regnal_number = 5
-			}
-			ruler_term = { character = gor_henry_iii_gorizia start_date = 1320.1.1 end_date = 1323.4.24 regnal_number = 3 }
-			ruler_term = { character = gor_albert_ii_gorizia start_date = 1323.4.24 end_date = 1327.1.1 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_meinhard = 5
-				name_albert = 2
-				name_henry = 3
-				name_john.name_henry = 1
-			}
-		}
-
-		tolerated_cultures = {
-			slovene southern_bavarian croatian
-		}
-
-		country_rank = rank_county
-		capital = gorizia
-	}
-
-	CAR = { #Carniola
+CAR = { #Carniola
 		our_cores_conquered_by_others = {
 			novo_mesto ilirska_bistrica kocevje metlika postojna
 			ljubljana bled kranj skofja_loka
@@ -14704,6 +14562,8 @@ HOL = { #Dutch Republic
 			ljubljana kranj novo_mesto postojna #Duchy of Carniola
 			graz feldbach furstenfeld judenburg kapfenberg leoben liezen maribor murau murzzuschlag rottenmann schladming slovenj_gradec voitsberg weiz #Duchy of Styria
 			linz bad_ischl freistadt gmunden kirchdorf perg rohrbach st_georgen steyr wels #Duchy of Upper Austria
+			schwaz innsbruck imst reutte landeck merano sterzing villandro bolzano silandro #Herzogtum von Tirol
+			gorizia pazin lienz bruneck hermagor winklern metlika #County of Möttling
 		}
 
 		own_control_integrated = {
@@ -30932,40 +30792,6 @@ HOL = { #Dutch Republic
 		capital = brixen
 	}
 
-	TIR = {	#Tirol
-		own_control_core = {
-			schwaz innsbruck
-			imst reutte landeck
-			merano sterzing villandro bolzano silandro
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = tir_margarete_von_tirol
-			regnal_numbers = {
-				name_meinhard = 2
-				name_henry = 2
-			}
-			ruler_term = { character = gor_meinhard_iii_gorizia start_date = 1253.7.22 end_date = 1258.7.22 regnal_number = 1 }
-			ruler_term = { character = tir_meinhard_gorizia start_date = 1258.7.22 end_date = 1295.11.1 regnal_number = 2 }
-			ruler_term = { character = tir_henry_gorizia start_date = 1295.11.1 end_date = 1335.4.2 regnal_number = 2}
-			ruler_term = { character = tir_margarete_von_tirol start_date = 1335.4.2 regnal_number = 1 }
-			#ruler_term = { character = tir_jan_jindrich_luxembourg start_date = 1335.4.2 regnal_number = 1 } # As Marital Co-Ruler
-		}
-
-		tolerated_cultures = {
-			danube_bavarian
-			romansh
-		}
-
-		country_rank = rank_county
-		capital = merano
-	}
-
 	WER = {	#Werdenberg
 		own_control_core = {
 			werdenberg bludenz
@@ -33391,34 +33217,6 @@ HOL = { #Dutch Republic
 		dynasty = plauen_dynasty
 	}
 
-	SOR = { #Lusatia
-		own_control_core = {
-			cottbus guben lubben luckau calau zossen
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		capital = cottbus
-		government = {
-			ruler = bra_ludwig_v_wittelsbach
-
-			reforms = {
-				margraviate
-			}
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		tolerated_cultures = {
-			brandenburgish
-		}
-		country_rank = rank_county
-	}
-
 	SPB = { #Spremberg
 		own_control_core = {
 			spremberg
@@ -33476,6 +33274,11 @@ HOL = { #Dutch Republic
 	SWB = { #Saxe-Wittenberg
 		own_control_core = {
 			wittenberg belzig schweinitz bitterfeld torgau liebenwerda
+			weissenfels zwickau rochlitz grimma delitzsch
+			leipzig chemnitz meissen sayda freiberg dresden
+			pirna annaburg altenburg
+			bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern zittau
+			guben lubben luckau calau zossen
 		}
 
 		starting_technology_level = 3
@@ -36054,8 +35857,7 @@ HOL = { #Dutch Republic
 	JAW = { #Jawor
 		own_control_core = {
 			jawor boleslawiec #Duchy of Jawor
-			zittau
-		}
+			}
 
 		starting_technology_level = 3
 		include = "catholic_monarchy_no_coast"
