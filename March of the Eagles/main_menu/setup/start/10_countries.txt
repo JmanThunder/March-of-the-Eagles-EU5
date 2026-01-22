@@ -1034,7 +1034,8 @@ RIG = { #Riga
 			bytow lebork
 			torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
 			lidzbark olsztyn frombork fischhausen kwidzyn
-			lubawa chelmno
+			lubawa chelmno geldern
+			mors
 
 		}
 
@@ -33925,7 +33926,7 @@ HSF = {	#Hersfeld
 
 	GEL = {	#Guelders / Geldern / former EU4 Gelre
 		own_control_core = {
-			geldern venlo roermond
+			venlo roermond
 		}
 
 		starting_technology_level = 3
@@ -34027,33 +34028,6 @@ WTG = {	#Wittgenstein
 		capital = essen
 	}
 
-	MRS = {	#Moers
-		own_control_core = {
-			mors
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = mrs_dietrich_iv_moers
-			ruler_term = {	character = mrs_dietrich_iii_moers start_date = 1274.1.1 end_date = 1295.1.1 regnal_number = 3	}
-			ruler_term = {	character = mrs_dietrich_iv_moers start_date = 1295.1.1 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_theodoric = 4
-			}
-		}
-		tolerated_cultures = {
-			westphalian
-		}
-		country_rank = rank_county
-		capital = mors
-		dynasty = mors_dynasty
-	}
 
 ANB = {	#Arnsberg
 		own_control_core = {

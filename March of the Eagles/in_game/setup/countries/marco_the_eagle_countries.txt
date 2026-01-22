@@ -10,7 +10,8 @@
 
 PRU = { #PRU
 	color = rgb { 76 76 79 }
-
+	color = map_PRU 
+	
 	culture_definition = prussian
 	religion_definition = lutheran
 
