@@ -33622,7 +33622,7 @@ HSF = {	#Hersfeld
 
 	ZWE = {	#Zweibrucken
 		own_control_core = {
-			zweibrucken bitche pirmasens
+			zweibrucken pirmasens
 		}
 
 		starting_technology_level = 3
