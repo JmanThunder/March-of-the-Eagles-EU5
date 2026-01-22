@@ -34619,6 +34619,7 @@ HSF = {	#Hersfeld
 			luchow #County of Lüchow
 			uelzen #Amt of Bodenteich
 			stade neuhaus gestenthorpe osterholz achim bremervorde zeven #Duchy of Bremen
+			verden soltau
 
 		}
 
@@ -34932,29 +34933,7 @@ HSF = {	#Hersfeld
 		dynasty = diepholz_dynasty
 	}
 
-	VRD = {	#Verden
-		own_control_core = {
-			verden soltau
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = vrd_johannes_hake
-
-			ruler_term = { character = vrd_konrad_i_braunschweig start_date = 1269.5.4 end_date = 1300.9.15 regnal_number = 1 }
-			
-			reforms = {
-				prince_bishopric_reform
-			}
-		}
-		country_rank = rank_county
-		capital = verden
-	}
-
-	RTB = {	#Ritzebüttel
+RTB = {	#Ritzebüttel
 		own_control_core = {
 			ritzebuttel
 		}
