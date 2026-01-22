@@ -12859,7 +12859,7 @@ countries = {
 
 	BOS = {
 		own_control_core = {
-			mostar metkovic glamoc
+			bihac srb gradiski_brod mostar metkovic glamoc
 			vrhbosna konjic srebrenica doboj soli
 			jajce livno drijeva zenica kljuc srebrenik
 			kozara glaz teocak olovo borac nevesinje
@@ -12964,8 +12964,11 @@ CAR = { #Carniola
 
 	CRO = {
 		own_control_core = {
-			sibenik kaseg knin novigrad crikvenica senj
-			bihac krk makarska srb sinj otocac
+			dubica osijek sibenik kaseg knin novigrad crikvenica senj
+			krk makarska sinj otocac
+			bjelovar koprivnica kutina pakrac vaska virovitica
+			vukovar ilok pozega sremska_mitrovica petrovaradin
+			zagreb cakovec karlovac petrinja sisak slunj varazdin
 		}
 		our_cores_conquered_by_others = {
 			zadar split
@@ -12991,7 +12994,7 @@ CAR = { #Carniola
 			dalmatian
 		}
 
-		capital = knin
+		capital = zagreb
 		country_rank = rank_kingdom
 	}
 
@@ -14565,7 +14568,6 @@ HOL = { #Dutch Republic
 
 	HUN = {	#Hungary
 		own_control_core = {
-			osijek
 			aiud hunedoara cincu
 			cristuru_secuiesc reghin
 			mezhorje sighet
@@ -14585,7 +14587,6 @@ HOL = { #Dutch Republic
 			pancevo
 			kikinda titel modos
 			belgrad debrc sabac
-			gradiski_brod dubica
 			buda pest kalocsa felegyhaza
 			sopron vasvar magyarovar zalavar
 			veszprem gyor komarom fehervar esztergom
@@ -14608,11 +14609,7 @@ HOL = { #Dutch Republic
 			kovin veliky_beckerek carasova mihalt
 			timisoara arad zarand
 			dabaca baia_crisului gurghiu
-			#Banate of Croatia
-			bjelovar koprivnica kutina pakrac vaska virovitica
-			vukovar ilok pozega sremska_mitrovica petrovaradin
-			zagreb cakovec karlovac petrinja sisak slunj varazdin
-		}
+			}
 
 		own_control_integrated = {
 			olsnica jaszbereny
