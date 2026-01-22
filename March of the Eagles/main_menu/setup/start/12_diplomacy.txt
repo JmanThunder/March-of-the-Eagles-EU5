@@ -3,48 +3,8 @@ diplomacy_manager = {
 	#Balliol Backing
 	#scripted_oneway = { first = ENG second = SBL type = guarantee }
 	
-    dependency = { first = ENG second = WLS subject_type = dominion start_date = 1283.1.1 }
-    dependency = { first = ENG second = PLE subject_type = dominion }
-    dependency = { first = ENG second = AQN subject_type = fiefdom }
-    dependency = { first = ENG second = DHM subject_type = vassal }
-    dependency = { first = ENG second = CET subject_type = vassal }
-    dependency = { first = ENG second = LAN subject_type = vassal }
-    #dependency = { first = SBL second = MNN subject_type = vassal }
-    #dependency = { first = ENG second = SBL subject_type = vassal }
-    dependency = { first = SBL second = LOI subject_type = vassal }
-    dependency = { first = SCO second = ROS subject_type = vassal }
-    dependency = { first = SCO second = MOY subject_type = vassal }
-
-    dependency = { first = WLS second = GWR subject_type = vassal }
-    dependency = { first = WLS second = GMG subject_type = vassal }
-    dependency = { first = WLS second = MAC subject_type = vassal }
-    dependency = { first = WLS second = AUD subject_type = vassal }
-    dependency = { first = WLS second = BRO subject_type = vassal }
-    dependency = { first = WLS second = POS subject_type = vassal }
-    dependency = { first = WLS second = EWY subject_type = vassal }
-    dependency = { first = WLS second = CMS subject_type = vassal }
-    dependency = { first = WLS second = PMB subject_type = vassal }
-    dependency = { first = WLS second = DEN subject_type = vassal }
-
-    #dependency = { first = PLE second = CLR subject_type = vassal }
-    dependency = { first = PLE second = CWM subject_type = vassal }
-    #dependency = { first = PLE second = MYO subject_type = vassal }
-    dependency = { first = PLE second = KID subject_type = vassal }
-    dependency = { first = PLE second = ORD subject_type = vassal }
-    dependency = { first = PLE second = DMS subject_type = vassal }
-    dependency = { first = PLE second = ULS subject_type = vassal }
-    dependency = { first = PLE second = AMA subject_type = vassal }
-    dependency = { first = PLE second = DCI subject_type = vassal }
-    #dependency = { first = PLE second = GLE subject_type = vassal }
+   dependency = { first = ENG second = PLE subject_type = dominion }
     
-    dependency = { first = TRY second = AMH subject_type = vassal }
-    dependency = { first = TYR second = INI subject_type = vassal }
-    dependency = { first = TYR second = KEE subject_type = vassal }
-    dependency = { first = LEI second = OSS subject_type = vassal }
-    dependency = { first = MCM second = BEA subject_type = vassal }
-
-    scripted_mutual = { first = THO second = CWM type = alliance }
-    scripted_mutual = { first = MYO second = UMH type = alliance }
 
     # Scandinavia
 
@@ -60,9 +20,8 @@ diplomacy_manager = {
     dependency = { first = LIV second = BIO subject_type = vassal }
     dependency = { first = LIV second = BID subject_type = vassal }
     dependency = { first = DAN second = SLV subject_type = fiefdom }
-    dependency = { first = DAN second = HTR subject_type = fiefdom }
-    scripted_mutual = { first = DAN second = UBV type = alliance }
-    scripted_mutual = { first = DAN second = BRA type = alliance }
+    dependency = { first = DAN second = SHL subject_type = fiefdom }
+
 
 
     # Russia
@@ -300,11 +259,7 @@ diplomacy_manager = {
     dependency = { first = NED second = NSS subject_type = fiefdom }
 
     #-------Baltics-------
-    dependency = { first = TEU second = ERM subject_type = vassal }
-    dependency = { first = TEU second = SMD subject_type = vassal }
-    dependency = { first = TEU second = PMS subject_type = vassal }
-    dependency = { first = TEU second = CHL subject_type = vassal }
-    scripted_mutual = { first = TEU second = BOH type = alliance }
+ 
 
     #-------Lithuania-------
     dependency = { first = LIT second = DRU subject_type = vassal }
