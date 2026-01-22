@@ -14718,7 +14718,6 @@ HOL = { #Dutch Republic
 			aarau baden_im_aargau #County of Lenzburg
 			frauenfeld #Lordship of Thurgau
 			wolhusen #Lordship of Wolhusen
-			schaffhausen
 			fribourg
 			glarus
 		}
@@ -31238,7 +31237,7 @@ HOL = { #Dutch Republic
 
 				tarasp zuoz disentis davos chur ilanz mesocco silvretta_alps glarner_alps lepontine_alps2 rhaetian_alps1 rhaetian_alps4
 
-				zurich werdenberg st_gallen frauenfeld toggenburg kyburg lake_zurich
+				zurich werdenberg st_gallen frauenfeld toggenburg kyburg lake_zurich schaffhausen
 
 
 		}
@@ -34541,7 +34540,7 @@ HOL = { #Dutch Republic
 	TRI = {	#Trier
 		own_control_core = {
 			trier wittlich
-			mayen coblenz saarburg
+			merzig mayen coblenz saarburg
 		}
 
 		starting_technology_level = 3
