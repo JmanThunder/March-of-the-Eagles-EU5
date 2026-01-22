@@ -981,7 +981,7 @@ RIG = { #Riga
 		country_rank = rank_county
 	}
 
-	BRA = {	#Brandenburg
+	PRU = {	#Brandenburg
 		own_control_core = {
 			brandenburg berlin teltow potsdam freienwalde herzfelde templin
 			chojna soltyn
@@ -1159,7 +1159,7 @@ RIG = { #Riga
 			eastern_pomeranian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_kingdom
 		capital = berlin
 		dynasty = wittelsbach_dynasty
 	}
@@ -13959,7 +13959,7 @@ CAR = { #Carniola
 
 
 
-HOL = { #Dutch Republic
+NED = { #Dutch Republic
 		own_control_core = {
 
 			the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn

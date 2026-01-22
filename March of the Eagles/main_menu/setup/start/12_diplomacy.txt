@@ -281,13 +281,12 @@ diplomacy_manager = {
     dependency = { first = WUR second = HBR subject_type = vassal }
     dependency = { first = TRI second = PSZ subject_type = vassal }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
-    dependency = { first = BRA second = SOR subject_type = fiefdom }
-    dependency = { first = BRA second = ANS subject_type = fiefdom }
+    dependency = { first = PRU second = ANS subject_type = fiefdom }
     dependency = { first = PAL second = BRG subject_type = fiefdom }
     dependency = { first = PAL second = JUL subject_type = fiefdom }
-    dependency = { first = BRA second = NEU subject_type = fiefdom }
+    dependency = { first = PRU second = NEU subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
-    scripted_oneway = { first = FLA second = HOL type = trade_access }
+
 
     
 
@@ -295,7 +294,7 @@ diplomacy_manager = {
     dependency = { first = BYZ second = EPI subject_type = vassal }
 
     #-------Low Lands-------
-    dependency = { first = HOL second = ZEE subject_type = fiefdom }
+    dependency = { first = NED second = ZEE subject_type = fiefdom }
 
     #-------Baltics-------
     dependency = { first = TEU second = ERM subject_type = vassal }
