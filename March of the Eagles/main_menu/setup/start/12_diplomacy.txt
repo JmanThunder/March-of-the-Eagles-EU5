@@ -13,7 +13,6 @@ diplomacy_manager = {
     dependency = { first = NOR second = GRL subject_type = dominion }
     dependency = { first = NOR second = ORK subject_type = vassal }
 
-    dependency = { first = TEU second = LIV subject_type = vassal }
     dependency = { first = LIV second = RIG subject_type = vassal }
     dependency = { first = LIV second = ARR subject_type = vassal }
     dependency = { first = LIV second = KUR subject_type = vassal }
@@ -187,7 +186,6 @@ diplomacy_manager = {
 
     dependency = { first = SAV second = CEV subject_type = vassal }
     dependency = { first = SAV second = AOS subject_type = fiefdom }
-    dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = SAV second = PIE subject_type = appanage }
     dependency = { first = SAV second = VUD subject_type = appanage }
 
@@ -245,10 +243,13 @@ diplomacy_manager = {
     dependency = { first = PRU second = ANS subject_type = fiefdom }
     dependency = { first = PAL second = BRG subject_type = fiefdom }
     dependency = { first = PAL second = JUL subject_type = fiefdom }
-    dependency = { first = PRU second = NEU subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }
-
-
+    dependency = { first = SWI second = BAS subject_type = vassal }
+    dependency = { first = SWI second = SIT subject_type = vassal }
+    dependency = { first = SWI second = NEU subject_type = vassal }
+    dependency = { first = SWI second = GNV subject_type = vassal } 
+    dependency = { first = SWI second = STG subject_type = vassal } 
+    dependency = { first = SWI second = SGL subject_type = vassal } 
     
 
     #------Byzantium--------
@@ -276,16 +277,18 @@ diplomacy_manager = {
     dependency = { first = HAB second = BOH subject_type = fiefdom start_date = 1526.8.29 } #Bohemia
     dependency = { first = HAB second = HUN subject_type = fiefdom start_date = 1526.8.29 } #Hungary 
     dependency = { first = HAB second = CRO subject_type = fiefdom start_date = 1526.8.29 }
-    dependency = { first = HAB second = FLA subject_type = fiefdom start_date = 1327.1.1 }
-    dependency = { first = HAB second = NAM subject_type = fiefdom start_date = 1327.1.1 }
-    dependency = { first = HAB second = HAI subject_type = fiefdom start_date = 1327.1.1 }
-    dependency = { first = HAB second = LUX subject_type = fiefdom start_date = 1327.1.1 }
-    dependency = { first = HAB second = BRB subject_type = vassal start_date = 1327.1.1 }
-    dependency = { first = LIE second = LOO subject_type = fiefdom start_date = 1327.1.1 }
+    dependency = { first = HAB second = FLA subject_type = fiefdom  }
+    dependency = { first = HAB second = NAM subject_type = fiefdom }
+    dependency = { first = HAB second = HAI subject_type = fiefdom }
+    dependency = { first = HAB second = LUX subject_type = fiefdom }
+    dependency = { first = HAB second = BRB subject_type = vassal }
+    dependency = { first = LIE second = LOO subject_type = fiefdom }
     dependency = { first = HAB second = TES subject_type = fiefdom }
     dependency = { first = HAB second = LIM subject_type = fiefdom }
     dependency = { first = HAB second = GLD subject_type = fiefdom }
-
+    dependency = { first = HAB second = TNT subject_type = vassal  }
+    dependency = { first = HAB second = BXN subject_type = vassal  }
+    
     #-------Bohemia-------
     dependency = { first = HAB second = MVA subject_type = fiefdom } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
     

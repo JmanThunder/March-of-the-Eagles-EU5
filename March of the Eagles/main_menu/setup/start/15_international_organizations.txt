@@ -12,7 +12,9 @@ international_organization_manager = {
 
 		map_color = hsv360 { 40 50 70 }
 
-		members = { BAV SAX SHL HAB PRU BOH MVA TES PSS SLZ BAM HAN KOL LUX FLA BRB NAM MAI PAL WUR HAI JUL BRG HES WBG BDE TRI MKL LUB LBB HAM JEV OLD BRM MUN BNT DTM RBG LPP SCB PDB BRU HDH ANH BNB OSN ESS GEL LOO LIE STV LIM AAC }
+		members = { BAV SAX SHL HAB PRU BOH MVA TES PSS SLZ BAM HAN KOL LUX FLA BRB NAM MAI PAL WUR HAI JUL BRG HES WBG BDE TRI MKL LUB LBB HAM JEV OLD BRM MUN BNT DTM RBG LPP SCB PDB BRU HDH ANH BNB OSN ESS GEL LOO LIE STV LIM AAC 
+					WRN SYN WDE GOS HOX MLH NHS SHS THU QUB ANS NUR FLD EIC REG OET SPY ZWE SAA PSZ NSS NSI KTZ FRN SWZ VEL SPO LNN WIE NSH DIE FLK ERB MSB HBR UFF HOH ALS OFB HAC FBG SAB BAS MTB FUR NEL KNZ UBL RVA MBZ AUG KMP WDB 
+					TNT BXN FRE MEM BIB KIR ELL SWH WRM SYE BUD WTZ WTG ROT DNB WEI TEU AGC ULM RIE RDL HNA BRC }
 		leader = HAB
 		areas = { 
 			#North Germany
@@ -26,6 +28,7 @@ international_organization_manager = {
 			moravia_area
 			austria_area styria_area carinthia_area salzburg_area bohemia_area
 			bavaria_area tirol_area franconia_area swabia_area upper_rhine_area upper_austria_area
+			flanders_area
 		}
 		provinces = { 
 			#Emilia Romagna
@@ -43,7 +46,6 @@ international_organization_manager = {
 			
 		}
 		locations = { 
-			aalst hulst sint_niklaas
 			mouzon
 			arezzo cortona
 			modigliana

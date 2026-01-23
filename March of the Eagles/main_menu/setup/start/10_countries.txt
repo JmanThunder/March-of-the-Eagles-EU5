@@ -7811,13 +7811,13 @@ GLY = { # Galloway
 
 	AQU = {
 		own_control_core = {
-			aquileia tolmezzo pordenone spilimbergo udine gemona
-			tolmin pieve
-			ilirska_bistrica #Counts of Duino
+			tolmezzo pordenone spilimbergo udine gemona
+			pieve
+			
 		}
 
 		own_control_integrated = {
-			buzet rijeka
+			 
 		}
 
 		our_cores_conquered_by_others = {
@@ -9285,9 +9285,9 @@ GLY = { # Galloway
 		}
 
 		own_control_conquered = {
-			bormio chiavenna tresivio vercelli arona novara domodossola varallo como
+			vercelli arona novara domodossola varallo como
 			casalmaggiore cremona soncino bergamo cortenuova clusone zogno lodi
-			bardi fiorenzuola piacenza lugano biella
+			bardi fiorenzuola piacenza biella
 		}
 
 		starting_technology_level = 3
@@ -10316,7 +10316,7 @@ GLY = { # Galloway
 				oristano ales sorgono terralba 
 				cagliari tratalias villa_di_chiesa isili muravera seddori tortoli gennargentu_mountains 
 				terranova_pausania orosei posada tempiopausania 
-				sassari alghero bosa castelsardo macomer bitti ozieri thiesi 
+				sassari alghero bosa castelsardo macomer bitti ozieri thiesi annecy la_roche_sur_foron
 			 
 		}
 
@@ -10428,7 +10428,7 @@ GLY = { # Galloway
 	#Geneve - GNV
 	GNV = {
 		own_control_core = {
-			geneve annecy la_roche_sur_foron
+			geneve 
 		}
 
 		starting_technology_level = 3
@@ -10446,45 +10446,8 @@ GLY = { # Galloway
 		}
 
 		country_rank = rank_county
-		capital = annecy
+		capital = geneve
 	}
-
-	#Vaud - VUD
-	VUD = {
-		own_control_core = {
-			yverdon_les_bains nyon montreux monthey
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = sav_louis_ii_savoy_vaud
-
-			ruler_term = { character = sav_pierre_ii_savoy start_date = 1234.1.1 end_date = 1268.5.16 regnal_number = 1 }
-			ruler_term = {
-				character = sav_beatrix_faucigny start_date = 1268.5.16 end_date = 1271.1.1 regnal_number = 1
-				character = dau_guigues_vii_viennois start_date = 1268.5.16 end_date = 1271.1.1 regnal_number = 1 # As Marital Co-Ruler
-			}
-			ruler_term = { character = sav_philippe_i_savoy_achaia start_date = 1271.1.1 end_date = 1281.9.1 regnal_number = 1 }
-			ruler_term = { character = sav_louis_i_savoy_vaud start_date = 1281.9.1 end_date = 1302.1.13 regnal_number = 1 }
-			ruler_term = { character = sav_louis_ii_savoy_vaud start_date = 1302.1.13 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_peter = 1
-				name_beatrix = 1
-				name_wigo = 1
-				name_philip = 1
-				name_louis = 2
-			}
-		}
-
-		country_rank = rank_county
-		capital = yverdon_les_bains
-	}
-
 
 	SIC = {
 		own_control_core = {
@@ -10791,36 +10754,7 @@ GLY = { # Galloway
 		capital = treviso
 	}
 
-	TTE = {
-		own_control_core = {
-			trieste
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			slovene
-		}
-
-		capital = trieste
-	}
-
-	TTN = {
+TTN = {
 		own_control_core = {
 			novi tortona
 		}
@@ -10906,7 +10840,7 @@ GLY = { # Galloway
 		}
 
 		own_control_integrated = {
-			corfu modon kythira andros mykonos amorgos karpathos
+			corfu modon kythira andros mykonos amorgos karpathos pazin
 		}
 
 		include = "expl_mediterranean"
@@ -12127,7 +12061,7 @@ CAR = { #Carniola
 			krk makarska sinj otocac
 			bjelovar koprivnica kutina pakrac vaska virovitica
 			vukovar ilok pozega sremska_mitrovica petrovaradin
-			zagreb cakovec karlovac petrinja sisak slunj varazdin
+			zagreb cakovec karlovac petrinja sisak slunj varazdin rijeka
 		}
 		our_cores_conquered_by_others = {
 			zadar split
@@ -13257,7 +13191,7 @@ NED = { #Dutch Republic
 
 		starting_technology_level = 3
 		include = "expl_western_europe"
-		capital = groningen
+		capital = the_hague
 		government = {
 			type = republic
 			heir_selection = oligarchic_elective
@@ -13617,8 +13551,9 @@ NED = { #Dutch Republic
 			graz feldbach furstenfeld judenburg kapfenberg leoben liezen maribor murau murzzuschlag rottenmann schladming slovenj_gradec voitsberg weiz #Duchy of Styria
 			linz bad_ischl freistadt gmunden kirchdorf perg rohrbach st_georgen steyr wels #Duchy of Upper Austria
 			schwaz innsbruck imst reutte landeck merano sterzing villandro bolzano silandro #Herzogtum von Tirol
-			gorizia pazin lienz bruneck hermagor winklern metlika #County of Möttling
-			celje lasko
+			gorizia lienz bruneck hermagor winklern metlika #County of Möttling
+			celje lasko spittal kocevje feldkirchen bludenz bregenz feldkirch scharding ried braunau kitzbuhel kufstein
+			trieste ilirska_bistrica tolmin aquileia buzet
 		}
 
 		own_control_integrated = {
@@ -13627,13 +13562,14 @@ NED = { #Dutch Republic
 			krumbach gunzburg wertingen #Margraviate of Burgau
 			#Lordship of Upper Alsace
 			waldsee saulgau #Lordship of Waldsee
+			hohenberg horb
+			freiburg
 		}
 
 		own_control_conquered = {
 			aarau baden_im_aargau #County of Lenzburg
 			frauenfeld #Lordship of Thurgau
 			wolhusen #Lordship of Wolhusen
-			fribourg
 			glarus
 		}
 
@@ -13998,30 +13934,7 @@ NED = { #Dutch Republic
 		capital = huedin
 	}
 
-ORT = {	#Ortenburg
-		own_control_core = {
-			spittal kocevje
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			slovene
-		}
-
-		country_rank = rank_county
-		capital = spittal
-		dynasty = von_ortenburg_dynasty
-
-	}
-
-	NEO = {	#Neopatria
+NEO = {	#Neopatria
 		own_control_core = {
 			neopatras zetounion
 		}
@@ -29645,12 +29558,13 @@ ORT = {	#Ortenburg
 	BAV = {	#Upper Bavaria
 		own_control_core = {
 			munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
-			pfaffenhofen friedberg ingolstadt neuburg_an_der_donau kitzbuhel kufstein burglengenfeld
+			pfaffenhofen friedberg ingolstadt neuburg_an_der_donau burglengenfeld
 			amberg eschenbach neumarkt roding sulzbach #Oberpfalz
 			
-			landshut scharding ried braunau traunstein griesbach kelheim eggenfelden
+			landshut traunstein griesbach kelheim eggenfelden
 			landau straubing bavaria_regen cham burghausen
 			erding rosenheim mallersdorf rottenburg
+			tirschenreuth leuchtenberg grafenau
 		}
 
 		starting_technology_level = 3
@@ -29863,35 +29777,9 @@ WBG = {	#Würzburg
 		capital = brixen
 	}
 
-	WER = {	#Werdenberg
+MBZ = { #Bregenz
 		own_control_core = {
-			werdenberg bludenz
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			regnal_numbers = {
-				name_hugh = 2
-			}
-			ruler = wer_albrecht_werdenberg
-		}
-
-		tolerated_cultures = {
-			romansh
-		}
-
-		country_rank = rank_county
-		capital = werdenberg
-		dynasty = werdenberg_dynasty
-	}
-
-	MBZ = { #Bregenz
-		own_control_core = {
-			bregenz immenstadt
+			 immenstadt
 		}
 
 		starting_technology_level = 3
@@ -29910,33 +29798,6 @@ WBG = {	#Würzburg
 		}
 
 		country_rank = rank_county
-	}
-
-	MFK = { #Feldkirch
-		own_control_core = {
-			feldkirch
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			regnal_numbers = {
-				name_hugh = 4
-				name_rudolf = 4
-			}
-			ruler = mfk_rudolf_iv_montfort
-		}
-
-		tolerated_cultures = {
-			romansh
-		}
-
-		dynasty = montfort_feldkirch_dynasty
-		country_rank = rank_county
-		capital = feldkirch
 	}
 
 	STG = {	#St. Gallen
@@ -30065,17 +29926,15 @@ WBG = {	#Würzburg
 	SWI = {	#Swiss
 		own_control_core = {
 				
-				bern burgdorf_emmental saanen thun frutigen interlaken
+				lugano bellinzona locarno ilanz bern burgdorf_emmental saanen thun frutigen interlaken bienne
 
-				brig sion martigny monthey bernese_alps stein_glacier lepontine_alps1
+				brig sion martigny monthey bernese_alps stein_glacier 
 
 				aarau baden_im_aargau lucerne wolhusen lake_lucerne
 
 				schwyz glarus altdorf sarnen
 
-				tarasp zuoz disentis davos chur ilanz mesocco silvretta_alps glarner_alps lepontine_alps2 rhaetian_alps1 rhaetian_alps4
-
-				zurich werdenberg st_gallen frauenfeld toggenburg kyburg lake_zurich schaffhausen
+				zurich werdenberg frauenfeld toggenburg kyburg lake_zurich schaffhausen fribourg lausanne nyon yverdon_les_bains  montreux disentis
 
 
 		}
@@ -30095,104 +29954,7 @@ WBG = {	#Würzburg
 	}
 
 
-	GLR = {	#Glarus
-		our_cores_conquered_by_others = {
-			glarus
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_bishopric_not_present"
-		include = "expl_northern_europe"
-		government = {
-			#Controlled by the Säckingen Abbey for the most part until 1387
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = glarus
-	}
-
-	LCA = {	# Como, last remnants in defense against Milan
-		own_control_core = {
-			bellinzona locarno
-		}
-		our_cores_conquered_by_others = {
-			como lugano
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_republic_no_coast"
-		include = "expl_northern_europe"
-		capital = bellinzona
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-			ruler = lca_franchino_i_rusconi
-
-			ruler_term = { character = lca_lotario_i_rusconi start_date = 1282.1.1 end_date = 1291.1.1 regnal_number = 0 }
-			# Vitale Family 1291-1313
-			ruler_term = { character = lca_franchino_i_rusconi start_date = 1313.1.1 regnal_number = 0 }
-		}
-		country_rank = rank_county
-	}
-
-	URI = {	#Uri
-		own_control_core = {
-			altdorf
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = altdorf
-	}
-
-	OBW = {	#Obwalden
-		own_control_core = {
-			sarnen
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = sarnen
-	}
-
-	LCU = {	#Lucerne
-		own_control_core = {
-			lucerne
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = lucerne
-	}
-
-	SIT = {	#Sion / Sitten
+ SIT = {	#Sion / Sitten
 		own_control_core = {
 			sion brig martigny
 		}
@@ -30242,41 +30004,8 @@ WBG = {	#Würzburg
 		}
 	}
 
-	BRN = {	#Bern
-		own_control_core = {
-			bern interlaken
-		}
 
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = bern
-	}
-
-	SLT = {	#Solothurn
-		own_control_core = {
-			solothurn
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_republic_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = slt_konrad_von_durrach
-		}
-		country_rank = rank_county
-		capital = solothurn
-	}
-
-	NEU = {	#Neuchatel
+NEU = {	#Neuchatel
 		own_control_core = {
 			neuchatel
 		}
@@ -30288,7 +30017,7 @@ WBG = {	#Würzburg
 		include = "german_principality"
 		include = "swiss_monarchy"
 		government = {
-			ruler = neu_rodolphe_iv_neuchatel
+			ruler = bra_ludwig_v_wittelsbach
 
 			ruler_term = { character = neu_bertoldo_i_neuchatel start_date = 1225.1.1 end_date = 1259.1.1 }
 			ruler_term = { character = neu_rodolphe_iii_neuchatel start_date = 1259.1.1 end_date = 1263.1.1 }
@@ -30311,7 +30040,7 @@ WBG = {	#Würzburg
 
 	BAS = {	#Basel
 		own_control_core = {
-			basel bienne delemont
+			basel delemont
 		}
 
 		starting_technology_level = 3
@@ -30340,96 +30069,7 @@ WBG = {	#Würzburg
 
 	}
 
-	LSA = {	#Lausanne
-		own_control_core = {
-			lausanne
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		include = "swiss_theocracy"
-		country_rank = rank_county
-		capital = lausanne
-		government = {
-			ruler = lsa_jean_de_roussillon
-
-			ruler_term = { character = bas_gerhard_von_wippingen start_date = 1302.1.1 end_date = 1309.7.30 }
-			ruler_term = { character = lsa_othon_de_champvent start_date = 1309.7.30 end_date = 1313.10.1 }
-			ruler_term = { character = lsa_pierre_de_oron start_date = 1313.10.1 end_date = 1323.3.27 }
-			ruler_term = { character = lsa_jean_de_roussillon start_date = 1323.3.27 }
-
-			reforms = {
-				prince_bishopric_reform
-			}
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		tolerated_cultures = {
-			high_alemannic
-		}
-
-	}
-
-	KYB = {
-		own_control_core = {
-			burgdorf_emmental thun
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		include = "swiss_monarchy"
-		capital = burgdorf_emmental
-		dynasty = neu_kyburg_dynasty
-		government = {
-			ruler = kyb_eberhard_ii_kyburg
-
-			ruler_term = { character = kyb_eberhard_i_kyburg start_date = 1269.1.1 end_date = 1284.1.1 }
-			ruler_term = { character = kyb_hartmann_kyburg start_date = 1284.1.1 end_date = 1301.1.1 }
-			ruler_term = { character = kyb_hartmann_ii_kyburg start_date = 1301.1.1 end_date = 1322.10.31 }
-			ruler_term = { character = kyb_eberhard_ii_kyburg start_date = 1322.10.31 }
-		}
-		country_rank = rank_county
-	}
-
-	TRN = {	#Turn
-		own_control_core = {
-			frutigen
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		include = "swiss_monarchy"
-		government = {
-			regnal_numbers = {
-				name_peter = 3
-				name_john = 1
-				Aymo = 3
-				Girold = 1
-				Willhelm = 1
-			}
-			ruler = trn_peter_iii_turn
-
-			ruler_term = { character = trn_aymon_ii_turn start_date = 1265.1.1 end_date = 1276.1.1 }
-			ruler_term = { character = trn_peter_ii_turn start_date = 1276.1.1 end_date = 1308.1.1 }
-			ruler_term = { character = trn_johann_turn start_date = 1308.1.1 end_date = 1324.1.1 }
-			ruler_term = { character = trn_peter_iii_turn start_date = 1324.1.1  }
-		}
-		country_rank = rank_county
-		capital = frutigen
-		dynasty = turn_dynasty
-	}
-
-	FRE = {	#Freising
+FRE = {	#Freising
 		own_control_core = {
 			freising miesbach garmisch
 			skofja_loka waidhofen
@@ -30480,26 +30120,7 @@ WBG = {	#Würzburg
 		capital = berchtesgaden
 	}
 
-	GRF = {	#Grafenau
-		own_control_core = {
-			grafenau
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		capital = grafenau
-		dynasty = hals_dynasty
-		government = {
-			ruler = grf_johann_von_hals
-		}
-
-		country_rank = rank_county
-	}
-
-	PAL = {	#The Palatinate
+PAL = {	#The Palatinate
 		own_control_core = {
 			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern landau_rhineland
 			
@@ -30572,26 +30193,12 @@ BBD = {  # Bishopric of Brandenburg
 		capital = brandenburg
 	}
 
-	MSO = {  # Mesocco
+
+SGL = {  # Grey League - Formable in Switzerland		
 		own_control_core = {
-			mesocco
+			tarasp zuoz davos chur ilanz mesocco gruyere bormio chiavenna tresivio
 		}
 		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = {
-			ruler = random
-
-			laws = {
-				mining_law = burghers_mining_law
-			}
-		}		country_rank = rank_county
-		capital = mesocco
-	}
-
-
-SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		include = "expl_western_europe"
 		include = "expl_northern_europe"
 		include = "catholic_republic_not_present"
@@ -30600,6 +30207,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 			heir_selection = oligarchic_elective
 			ruler = random
 		 }
+		country_rank = rank_duchy
 		capital = ilanz
 	}
 
@@ -30674,42 +30282,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		capital = rietberg
 	}
 
-	LEU = {	#Leuchtenberg
-		own_control_core = {
-			leuchtenberg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			regnal_numbers = {
-				name_ulrick = 1
-			}
-			reforms = {
-				landgraviate
-			}
-			regency = consort_regency
-			active_regent = leu_anna_von_nurnberg
-			start_regency_date = 1334.1.1
-			end_regency_date = 1346.1.1
-			heir = leu_ulrich_ii_leuchtenberg
-			ruler_term = {	 character = leu_ulrich_leuchtenberg start_date = 1293.1.1 end_date = 1334.1.1 regnal_number = 1	}
-		}
-
-		tolerated_cultures = {
-			east_franconian
-		}
-
-		country_rank = rank_county
-		capital = leuchtenberg
-		dynasty = leuchtenberg_dynasty
-	}
-
-	FLK = {  # Falkenstein (South Germany)
+FLK = {  # Falkenstein (South Germany)
 		own_control_core = {
 			friedberg_hesse offenbach
 		}
@@ -30903,67 +30476,7 @@ VEL = {  # Veldenz (South Germany)
 		capital = lichtenberg_veldenz
 	}
 
-	GRY = {  # Gruyère (South Germany)
-		own_control_core = {
-			saanen
-			gruyere
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "swiss_monarchy"
-		government = {
-			ruler = gry_pierre_iii_de_gruyere
-
-			ruler_term = { character = gry_guillaume_ii_de_gruyere start_date = 1136.1.1 end_date = 1145.1.1 regnal_number = 2 }
-			ruler_term = { character = gry_rodolphe_i_de_gruyere start_date = 1145.1.1 end_date = 1196.1.1 regnal_number = 1 }
-			ruler_term = { character = gry_pierre_i_de_gruyere start_date = 1196.1.1 end_date = 1200.1.1 regnal_number = 1 }
-			ruler_term = { character = gry_rodolphe_i_de_gruyere start_date = 1200.1.1 end_date = 1224.1.1 regnal_number = 2 }
-			ruler_term = { character = gry_rodolphe_ii_de_gruyere start_date = 1224.1.1 end_date = 1270.1.1 regnal_number = 3 }
-			ruler_term = { character = gry_pierre_ii_de_gruyere start_date = 1270.1.1 end_date = 1307.1.1 regnal_number = 2 }
-			ruler_term = { character = gry_pierre_iii_de_gruyere start_date = 1307.1.1 regnal_number = 3 }
-
-			regnal_numbers = {
-				name_peter = 3
-				name_rudolf = 2
-				name_william = 2
-			}
-		}
-		tolerated_cultures = {
-			arpitan
-		}
-		country_rank = rank_county
-		capital = gruyere
-	}
-
-	TGG = {  # Toggenburg (South Germany)
-		own_control_core = {
-			toggenburg davos
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = tgg_diethelm_v_von_toggenburg
-
-			ruler_term = { character = tgg_diethelm_i_von_toggenburg start_date = 1176.1.1 end_date = 1206.1.1 regnal_number = 1 }
-			ruler_term = { character = tgg_diethelm_ii_von_toggenburg start_date = 1206.1.1 end_date = 1235.1.25 regnal_number = 2 }
-			ruler_term = { character = tgg_kraft_i_von_toggenburg start_date = 1235.1.25 end_date = 1249.7.15 regnal_number = 3 }
-			ruler_term = { character = tgg_friedrich_iii_von_toggenburg start_date = 1249.7.15 end_date = 1309.1.17 regnal_number = 3 }
-			ruler_term = { character = tgg_friedrich_iv_von_toggenburg start_date = 1309.1.17 end_date = 1315.11.15 regnal_number = 4 }
-			ruler_term = { character = tgg_diethelm_v_von_toggenburg start_date = 1315.11.15 regnal_number = 5 }
-		}
-		tolerated_cultures = {
-			romansh
-		}
-		country_rank = rank_county
-		capital = toggenburg
-		dynasty = von_toggenburg_dynasty
-	}
-
-	PSZ = {  # Simmern (South Germany)
+PSZ = {  # Simmern (South Germany)
 		own_control_core = {
 			simmern
 		}
@@ -31011,50 +30524,7 @@ VEL = {  # Veldenz (South Germany)
 		capital = mulhouse
 	}
 
-	BLM = {  # Belmont (Switzerland)
-		own_control_core = {
-			ilanz
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "swiss_republic"
-		government = { ruler = random }
-		tolerated_cultures = {
-			romansh
-		}
-		country_rank = rank_county
-		capital = ilanz
-	}
 
-	DIS = {  # Disentis (Switzerland)
-		own_control_core = {
-			disentis
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "swiss_theocracy"
-		tolerated_cultures = {
-			romansh
-		}
-		government = {
-			ruler = random
-			heir_selection = abbot_elective
-
-			laws = {
-				heir_religion_law = heir_special_succession
-			}
-
-			reforms = {
-				abbey_reform
-			}
-		}
-		country_rank = rank_county
-		capital = disentis
-	}
-
-	
 	FUR = {  # Fürstenberg (South Germany)
 		own_control_core = {
 			furstenberg
@@ -31069,21 +30539,7 @@ VEL = {  # Veldenz (South Germany)
 		capital = furstenberg
 	}
 
-	GRK = {  # Gurk (South Germany)
-		own_control_core = {
-			feldkirchen
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = feldkirchen
-	}
-
-	HAC = {  # Hachberg (Baden) (South Germany)
+HAC = {  # Hachberg (Baden) (South Germany)
 		own_control_core = {
 			hachberg
 		}
@@ -31165,36 +30621,6 @@ VEL = {  # Veldenz (South Germany)
 		capital = ellwangen
 	}
 
-	HEH = {  # Heidenheim (South Germany)
-		own_control_core = {
-			heidenheim
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = heidenheim
-	}
-
-	HLF = {  # Helfenstein (South Germany)
-		own_control_core = {
-			helfenstein
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		tolerated_cultures = {
-		}
-		country_rank = rank_county
-		capital = helfenstein
-	}
-
 	HOH = {  # Hohenzollern (South Germany)
 		own_control_core = {
 			balingen
@@ -31266,21 +30692,7 @@ VEL = {  # Veldenz (South Germany)
 		capital = stockach
 	}
 
-	TUB = {  # Tübingen (South Germany)
-		own_control_core = {
-			tubingen
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = { ruler = random }
-		country_rank = rank_county
-		capital = tubingen
-	}
-
-	REG = {	#Regensburg
+REG = {	#Regensburg
 		own_control_core = {
 			regensburg
 		}
@@ -31516,7 +30928,7 @@ VEL = {  # Veldenz (South Germany)
 
 	WUR = {	#Württemberg
 		own_control_core = {
-			stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw
+			stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw heidenheim tubingen vaihingen helfenstein
 		}
 
 		starting_technology_level = 3
@@ -31543,7 +30955,7 @@ VEL = {  # Veldenz (South Germany)
 
 	OET = {	#Oettingen
 		own_control_core = {
-			oettingen vaihingen
+			oettingen 
 		}
 
 		starting_technology_level = 3
@@ -31717,64 +31129,7 @@ VEL = {  # Veldenz (South Germany)
 		capital = uberlingen
 	}
 
-	HHB = {	#Hohenberg
-		own_control_core = {
-			hohenberg horb
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			regency = consort_regency
-			active_regent = hhb_margaretha_nassau_hademar
-			start_regency_date = 1336.1.11
-			end_regency_date = 1348.1.1
-			heir = hhb_rudolf_iii_hohenberg_rotenburg
-
-			ruler_term = { character = hhb_burkhard_ii_hohenberg start_date = 1139.1.1 end_date = 1152.1.1 regnal_number = 2 }
-			ruler_term = { character = hhb_burkhard_iii_hohenberg start_date = 1152.1.1 end_date = 1193.7.4 regnal_number = 3 }
-			ruler_term = { character = hhb_burkhard_iv_hohenberg start_date = 1193.7.4 end_date = 1225.1.1 regnal_number = 4 }
-			ruler_term = { character = hhb_burkhard_v_hohenberg start_date = 1225.1.1 end_date = 1253.7.14 regnal_number = 5 }
-			ruler_term = { character = hhb_albrecht_ii_hohenberg_rotenburg start_date = 1253.7.14 end_date = 1298.4.17 regnal_number = 2 }
-			ruler_term = { character = hhb_rudolf_hohenberg_rotenburg start_date = 1298.4.17 end_date = 1336.1.11 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_burchard = 5
-				name_albert = 2
-				name_rudolf = 2
-			}
-		}
-		country_rank = rank_county
-		capital = hohenberg
-	}
-
-	FBG = {	#Freiburg
-		own_control_core = {
-			freiburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = fbg_konrad_ii_freiburg
-		}
-
-		tolerated_cultures = {
-			high_alemannic
-		}
-
-		country_rank = rank_county
-		capital = freiburg
-		dynasty = freiburg_dynasty
-	}
-
-	OFB = { #Offenburg
+OFB = { #Offenburg
 		own_control_core = {
 			offenburg
 		}
@@ -31790,26 +31145,7 @@ VEL = {  # Veldenz (South Germany)
 		capital = offenburg
 	}
 
-	WLD = { #Waldsassen
-		own_control_core = {
-			tirschenreuth
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_abbey"
-		include = "expl_northern_europe"
-
-		tolerated_cultures = {
-		}
-		capital = tirschenreuth
-		government = {
-			ruler = wld_franz_kuebel
-		}
-		country_rank = rank_county
-	}
-
-	ALS = { #Strasbourg
+ALS = { #Strasbourg
 		own_control_core = {
 			oberkirch 
 		}
@@ -32109,7 +31445,7 @@ RST = { #Rostock
 
 HAM = {	#Hamburg
 		own_control_core = {
-			hamburg
+			hamburg ritzebuttel
 		}
 
 		starting_technology_level = 3
@@ -33163,31 +32499,7 @@ HDH = {	#Hildesheim
 	}
 
 
-RTB = {	#Ritzebüttel
-		own_control_core = {
-			ritzebuttel
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = rtb_wolderich_lappe
-			ruler_term = { character = rtb_wolderich_lappe start_date = 1324.1.1 regnal_number = 1 }
-		}
-
-		tolerated_cultures = {
-			frisian
-		}
-
-		country_rank = rank_county
-		capital = ritzebuttel
-		dynasty = lappe_dynasty
-	}
-
-	OLD = {	#Oldenburg
+OLD = {	#Oldenburg
 		own_control_core = {
 			oldenburg elsfleth
 			delmenhorst
@@ -33362,7 +32674,6 @@ STV = { #Princely Abbey of Stavelot-Malmedy
 TES = {	#Tesin
 		own_control_core = {
 			tesin bielsko #Duchy of Cieszyn
-			oswiecim zywiec
 			opava #Duchy of Opava
 			krnov #Duchy of Krnov
 			fryvaldov
