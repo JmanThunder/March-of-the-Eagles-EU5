@@ -3955,6 +3955,11 @@ RIG = { #Riga
 			oban inverary cowal forfar arbroath arran selkirk scone
 			dornoch durness tongue dingwall gairloch ullapool urquhart uist lewis mull islay harris mann inverness elgin badenoch lochaber kintyre thurso ardtornish skye
 			brecknock mann orkney shetland
+
+
+
+			gibraltar
+
 		}
 		
 
@@ -8589,48 +8594,6 @@ GLY = { # Galloway
 		capital = cremona
 	}
 
-	CRR = {
-		own_control_core = {
-			cairo_montenotte finalborgo
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			ruler = crr_giorgio_del_carretto
-			consort = crr_leonora_fieschi
-
-			ruler_term = { character = crr_enrico_i_del_carretto start_date = 1162.1.1 end_date = 1185.1.1 regnal_number = 1 }
-			ruler_term = { character = crr_enrico_ii_del_carretto start_date = 1185.1.1 end_date = 1231.1.1 regnal_number = 2 }
-			ruler_term = { character = crr_giacomo_i_del_carretto start_date = 1231.1.1 end_date = 1268.10.21 regnal_number = 1 }
-			ruler_term = { character = crr_antonio_del_carretto start_date = 1268.10.21 end_date = 1313.1.1 regnal_number = 1 }
-			ruler_term = { character = crr_giorgio_del_carretto start_date = 1313.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_henry = 2
-				name_james = 1
-				name_anthony = 1
-				name_george = 1
-			}
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		tolerated_cultures = {
-			ligurian
-		}
-
-		country_rank = rank_county
-		capital = cairo_montenotte
-		dynasty = aleramici_dynasty
-	}
 
 	FAB = { #Annexed by Urbino on 1327, Alberghetto II restored independence in 1344
 		our_cores_conquered_by_others = {
@@ -9922,7 +9885,7 @@ GLY = { # Galloway
 		}
 
 		court_language = latin_language
-		capital = avignon
+		capital = rome
 
 		is_valid_for_release = no
 	}
@@ -10370,13 +10333,27 @@ GLY = { # Galloway
 		dynasty = del_vasto_dynasty
 	}
 
-	#Savoy - SAV
-	SAV = {
+	#Savoy - SAV/Sardina-Piedmont
+	SAR = {
 		own_control_core = {
-			bourg_en_bresse belley chambery gex saint_jean_de_maurienne
-			moutiers evian
-			bage thoire
-			vienne 
+
+			chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches 
+			nice grasse puget_theniers
+
+				alessandria novi rovegno tortona 
+				aosta chatillonaos morgex  
+				mondovi alba ceva  
+				casale acqui asti 
+				novara arona biella domodossola varallo vercelli  
+				turin ivrea lanzo pinerolo susa  
+				saluzzo carmagnola chieri cuneo 
+				cairo_montenotte finalborgo
+
+				oristano ales sorgono terralba 
+				cagliari tratalias villa_di_chiesa isili muravera seddori tortoli gennargentu_mountains 
+				terranova_pausania orosei posada tempiopausania 
+				sassari alghero bosa castelsardo macomer bitti ozieri thiesi 
+			 
 		}
 
 		starting_technology_level = 3
@@ -10418,7 +10395,8 @@ GLY = { # Galloway
 		}
 
 		tolerated_cultures = {
-			piedmontese
+			arpitan
+			sardinian
 		}
 
 		country_rank = rank_county
@@ -11503,12 +11481,10 @@ GLY = { # Galloway
 	}
 
 	EPI = {
-		own_control_core = {
-			nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
-			argyrokastro avlonya karpenisi konitsa
-		}
+
 		our_cores_conquered_by_others = {
-			ballsh berat
+			ballsh berat nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
+			argyrokastro avlonya karpenisi konitsa
 		}
 
 		starting_technology_level = 3
@@ -11642,25 +11618,10 @@ GLY = { # Galloway
 	}
 
 	BYZ = {
-		own_control_core = {
-			sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
-			kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
-			traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
-			edirne hayrabolu corlu
-			rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
-			malgara alasehir
-			monemvasia mystras oitylo leuktron astros ostrovo
-			uskudar silli biga eregli
-			chios vize
-			ormenio
-		}
-		own_control_integrated = {
-			bukelon devol ustra
-		}
-		own_control_conquered = {
-			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
-		}
+
 		our_cores_conquered_by_others = {
+			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
+			bukelon devol ustra
 			#Vardar Province - lost in 1285
 			kocani strumica
 
@@ -11703,6 +11664,17 @@ GLY = { # Galloway
  			dospat bansko krupnik melnik nevrokop 
 			tsepina 
 			beden haskovo perperek smolyan stanimaka
+
+			sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
+			kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
+			traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
+			edirne hayrabolu corlu
+			rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
+			malgara alasehir
+			monemvasia mystras oitylo leuktron astros ostrovo
+			uskudar silli biga eregli
+			chios vize
+			ormenio
 		}
 
 		starting_technology_level = 3
@@ -12014,7 +11986,9 @@ GLY = { # Galloway
 	}
 
 	SER = {
-		own_control_core = {
+
+		our_cores_conquered_by_others = {
+			slano mostar konjic belgrad debrc sabac
 			peja prizren bitola prilep kicevo tetovo kotor shkoder debar onogost gradina
 			budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
 			kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
@@ -12022,12 +11996,6 @@ GLY = { # Galloway
 			krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice pljevlja
 			gradac zica trgoviste_SER sjenica velbuzd
 			arilje brvenik medveda
-		}
-		own_control_integrated = {
-			koman has dukagjini lezha florina
-		}
-		our_cores_conquered_by_others = {
-			slano mostar konjic belgrad debrc sabac
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12084,7 +12052,8 @@ GLY = { # Galloway
 	}
 
 	BOS = {
-		own_control_core = {
+
+		our_cores_conquered_by_others = {
 			bihac srb gradiski_brod mostar metkovic glamoc
 			vrhbosna konjic srebrenica doboj soli
 			jajce livno drijeva zenica kljuc srebrenik
@@ -12225,7 +12194,9 @@ CAR = { #Carniola
 	}
 
 	BUL = {
-		own_control_core = {
+
+		our_cores_conquered_by_others = {
+			nis glubocica velbuzd
 			sredets samokov plovdiv stipon ovech
 			hiambouli rusokastro lardeja boruy
 			tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran
@@ -12236,18 +12207,9 @@ CAR = { #Carniola
 			babadag cernavoda constanta enisala isaccea
 			visesav kozelj svrljig pirot tsaribrod  
 			zemlungrad dupnitsa
-		}
-		own_control_conquered = {
- 			dospat bansko krupnik melnik nevrokop 
+			dospat bansko krupnik melnik nevrokop 
 			tsepina 
 			beden haskovo perperek smolyan stanimaka
-		}
-		own_control_integrated = {
-			burgas sozopol
-		}
-
-		our_cores_conquered_by_others = {
-			nis glubocica velbuzd
 		}
 
 		starting_technology_level = 3
@@ -12401,7 +12363,7 @@ CAR = { #Carniola
 		country_rank = rank_duchy
 	}
 	ARA = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			barcelona berga besalu ripoll castellon_ampurias girona manresa sant_feliu sitges terrassa vic
 			cervera balaguer flix lleida montblanc tarragona tarrega tortosa villafranca_del_penedes
 			seu_durgell agramunt cardona talarn vielha
@@ -12411,21 +12373,12 @@ CAR = { #Carniola
 			castellon_de_la_plana ares_del_maestre llucena morella peniscola
 			jativa alcoy alicante denia elche orihuela
 			valencia gandia ayora bunol chelva lliria
-		}
-
-		own_control_integrated = {
-			jumilla
-		}
-
-		own_control_conquered = {
-			cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania
-			sassari
-		}
-
-		our_cores_conquered_by_others = {
 			puigcerda prades montpellier perpignan
 			palma ciudadela_de_menorca ibiza manacor pollensa #Majorca
+			
 		}
+
+
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12521,47 +12474,9 @@ CAR = { #Carniola
 			ruler = random
 		}
 	}
-	MLL = {
-		own_control_core = {
-			palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
-			puigcerda prades #County of Cerdanya
-			perpignan #County of Roselló
-			montpellier #Lordship of Montpellier
-		}
 
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "iberian_monarchy"
 
-		country_rank = rank_kingdom
-		capital = palma
-		government = {
-			ruler = mll_james_iii_mallorca
-
-			ruler_term = { character = ara_jacme_i_arago start_date = 1231.1.1 end_date = 1276.7.27 regnal_number = 1 }
-			ruler_term = { character = mll_jacme_ii_mallorca start_date = 1276.7.27 end_date = 1311.5.29 regnal_number = 2 }
-			ruler_term = { character = mll_sancho_i_mallorca start_date = 1311.5.29 end_date = 1324.9.4 regnal_number = 1 }
-			ruler_term = { character = mll_james_iii_mallorca start_date = 1324.9.4 regnal_number = 3 }
-
-			regnal_numbers = {
-				name_james = 3
-				name_sancho = 1
-			}
-		}
-
-		tolerated_cultures = {
-			languedocien
-			sephardi
-			andalusi
-		}
-
-	}
-
-	CAS = {
+	SPA = {
 		own_control_core = {
 			avila adrada arevalo las_navas oropesa villatoro
 			burgos aranda_de_duero briviesca castrojeriz lerma logrono miranda_de_ebro najera sto_domingo_silos villadiego villarcayo
@@ -12591,11 +12506,31 @@ CAR = { #Carniola
 			sevilla arcos_de_la_frontera cadiz carmona constantina ecija jerez_de_la_frontera medina_sidonia moron olvera osuna sanlucar tarifa
 			huelva almonaster_la_real aracena aroche ayamonte coria_del_rio niebla puebla_de_guzman sanlucar_la_mayor
 			bilbao anana durango onate salvatierra san_sebastian tolosa valmaseda vitoria
+
+			barcelona berga besalu ripoll castellon_ampurias girona manresa sant_feliu sitges terrassa vic
+			cervera balaguer flix lleida montblanc tarragona tarrega tortosa villafranca_del_penedes
+			seu_durgell agramunt cardona talarn vielha
+			huesca ainsa almudevar anso barbastro benabarre ejea_de_los_caballeros fraga jaca monzon sarinena sos
+			teruel albarracin alcaniz alfambra cantavieja montalban mora_de_rubielos valderrobres
+			zaragoza ariza belchite carinena caspe calatayud daroca pina_de_ebro tarazona zuera
+			castellon_de_la_plana ares_del_maestre llucena morella peniscola
+			jativa alcoy alicante denia elche orihuela
+			valencia gandia ayora bunol chelva lliria
+
+			pamplona elizondo estella olite roncesvalles sanguesa tudela viana laguardia
+			saint_jean_pied_de_port #Gascony
+
+			almeria almanzora baza gergal mojacar velez_rubio
+			granada adra almunecar guadix huescar illora loja pinar orgiva
+			malaga antequera velez_malaga jumilla
+
+			ronda algeciras marbella
+
+			palma ciudadela_de_menorca ibiza manacor pollensa
+			puigcerda 
+
 		}
 
-		our_cores_conquered_by_others = {
-			jumilla
-		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -12891,14 +12826,13 @@ CAR = { #Carniola
 	}
 
 	GRA = {
-		own_control_core = {
-			almeria almanzora baza gergal mojacar velez_rubio
-			granada adra almunecar guadix huescar illora loja pinar orgiva
-			malaga antequera velez_malaga
-		}
 
 		our_cores_conquered_by_others = {
 			olvera
+
+			almeria almanzora baza gergal mojacar velez_rubio
+			granada adra almunecar guadix huescar illora loja pinar orgiva
+			malaga antequera velez_malaga
 		}
 
 		starting_technology_level = 3
@@ -12953,12 +12887,11 @@ CAR = { #Carniola
 
 	#Navarre
 	NAV = {
-		own_control_core = {
-			pamplona elizondo estella olite roncesvalles sanguesa tudela viana laguardia
-			saint_jean_pied_de_port #Gascony
-		}
 
 		our_cores_conquered_by_others = {
+			pamplona elizondo estella olite roncesvalles sanguesa tudela viana laguardia
+			saint_jean_pied_de_port #Gascony
+
 			bilbao anana durango onate salvatierra san_sebastian tolosa valmaseda vitoria
 		}
 
@@ -13175,15 +13108,15 @@ CAR = { #Carniola
 				saint_quentin nesle peronne 
 			
 				grenoble briancon gap la_mure pragelato cottian_alps1 dauphine_alps1 dauphine_alps2 
-				chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches graian_alps1 pennine_alps1 
-				valence condorcet die mevouillon vercors_massif 
+				#	chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches 
+				valence condorcet die mevouillon  
 				vienne romans saint_marceilin la_tour_du_pin 
 
 				aix_en_provence arles marseille tarascon lagoon_of_berre lagoon_of_vaccares 
-				avignon apt forcalquier orange 
+				apt forcalquier orange 
 				digne barcelonnette castellane sisteron 
 				draguignan barjols brignoles frejus toulon 
-				nice grasse puget_theniers maritime_alps1 
+				# nice grasse puget_theniers maritime_alps1 
 
 				strasbourg haguenau zabern lichtenberg benfeld 
 				colmar belfort ensisheim ferrette murbach mulhouse 
@@ -13193,6 +13126,8 @@ CAR = { #Carniola
 				thionville montmedy
 
 				lille valenciennes maubeuge douai
+
+				perpignan prades
 
 		}
 		own_control_integrated = {
@@ -13345,7 +13280,7 @@ NED = { #Dutch Republic
 
 			the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
 
-			arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen
+			arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen eindhoven
 
 			utrecht amersfoort oldenzaal zwolle deventer kampen assen coevorden meppel
 
@@ -13607,7 +13542,7 @@ NED = { #Dutch Republic
 	#Brabant
 	BRB = {
 		own_control_core = {
-			brussels nivelles leuven mechelen antwerp turnhout eindhoven
+			brussels nivelles leuven mechelen antwerp turnhout
 		}
 
 		starting_technology_level = 3
@@ -13812,7 +13747,6 @@ NED = { #Dutch Republic
 			povazska_bystrica zilina
 			pancevo
 			kikinda titel modos
-			belgrad debrc sabac
 			buda pest kalocsa felegyhaza
 			sopron vasvar magyarovar zalavar
 			veszprem gyor komarom fehervar esztergom
@@ -14481,7 +14415,6 @@ NED = { #Dutch Republic
 			jerada taourirt debdou echemmaia sidi_bennour
 			nedroma tegeget kalaat_sraghna midelt
 			aouint_yghomane afso ifrane
-			ronda algeciras gibraltar marbella
 		}
 
 		control = {
@@ -27471,7 +27404,7 @@ NED = { #Dutch Republic
 
 	#Aydinids - AYD https://en.wikipedia.org/wiki/Aydinids
 	AYD = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			smyrna ayasuluk cesme menemen urla
 			tire balat birgi guzelhisar nazilli
 		}
@@ -27817,7 +27750,7 @@ NED = { #Dutch Republic
 
 	#Eretnids - ERE https://en.wikipedia.org/wiki/Eretnids
 	ERE = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			akdagmadeni aydincik koyulhisar sulusaray tokat zile
 			bozok baliseyh candir dinek_keskin sorgun
 			corum huseyinabad sungurlu
@@ -27826,12 +27759,8 @@ NED = { #Dutch Republic
 			hacibektas urgup
 			sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
 			bayburt erzincan ilic kelkit kemah sebinkarahisar siran
-			yahyali malatya
+			yahyali malatya amasya
 			}
-
-		our_cores_conquered_by_others = {
-			amasya
-		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -27859,7 +27788,7 @@ NED = { #Dutch Republic
 
 	#Germiyanids - GRM https://en.wikipedia.org/wiki/Germiyanids
 	GRM = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			mihaliccik sivrihisar bozan kaymaz
 			altintas emirdag seyitgazi
 			kutahya aslanapa emet simav tavsanli
@@ -27888,7 +27817,7 @@ NED = { #Dutch Republic
 
 	#Hamidids - HMD https://en.wikipedia.org/wiki/Hamidids
 	HMD = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			isparta burdur dinar egirdir uluborlu yalvac
 			golhisar stefani
 		}
@@ -27973,12 +27902,10 @@ NED = { #Dutch Republic
 
 	#Inanjids - INA https://en.wikipedia.org/wiki/Inanjids
 	INA = {
-		own_control_core = {
-			honaz lazkiye
-		}
+
 
 		our_cores_conquered_by_others = {
-			tavas yuksekkum
+			tavas yuksekkum honaz lazkiye
 		}
 
 		starting_technology_level = 3
@@ -28003,18 +27930,15 @@ NED = { #Dutch Republic
 
 	#Karamanids - KAR https://en.wikipedia.org/wiki/Karamanids
 	KAR = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			aksaray kochisar insuyu
 			kirsehir nevsehir sariyahsi
 			konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
 			bekarlar bor_tur ermenek
-			beysehir aksehir bolvadin sarkikaraagac seydisehir
+			beysehir aksehir bolvadin sarkikaraagac seydisehir silifke anamur mut nigde
 			ilgin turgut suluklu kulu_turkey obruk altinekin cumra
 		}
 
-		own_control_integrated = {
-			silifke anamur mut nigde
-		}
 
 		include = "expl_eastern_europe"
 		include = "expl_muslim_mediterranean"
@@ -28074,7 +27998,7 @@ NED = { #Dutch Republic
 
 	#Karasids - KRD https://en.wikipedia.org/wiki/Karasids
 	KRD = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			balikesir balya edremit manyas mihalic susurluk
 			ayvacik bandirma bayramic can canakkale gonen lapseki
 			dursunbey harmancik
@@ -28107,7 +28031,7 @@ NED = { #Dutch Republic
 
 	#Mentese - MEN https://en.wikipedia.org/wiki/Menteshe
 	MEN = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			milas
 			mugla bodrum cine gokabat marmaris megri yuksekkum
 		}
@@ -28199,7 +28123,7 @@ NED = { #Dutch Republic
 
 	#Saruhanids - SRU https://en.wikipedia.org/wiki/Sarukhanids
 	SRU = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			manisa akhisar demirci gordes kula
 			bergama bigadic soma
 		}
@@ -28709,7 +28633,7 @@ NED = { #Dutch Republic
 
 	#Teke - TEK https://en.wikipedia.org/wiki/Beylik_of_Teke
 	TEK = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			antalya elmali karahisar_i_teke kas istanoz
 			manavgat finike
 		}
@@ -28805,6 +28729,96 @@ NED = { #Dutch Republic
 			izmit atpazari
 			domanic
 			sultanonu bilecik goynuk eynegol inonu nalli sogut
+
+			sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
+			kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
+			traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
+			edirne hayrabolu corlu
+			rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
+			malgara alasehir
+			monemvasia mystras oitylo leuktron astros ostrovo
+			uskudar silli biga eregli
+			chios vize
+			ormenio
+
+			bukelon devol ustra
+
+			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
+
+			peja prizren bitola prilep kicevo tetovo kotor shkoder debar onogost gradina
+			budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
+			kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
+			glubocica nis prokuplje stalac ravno jagodina gacko trebinje ohrid kocani strumica
+			krusevac kucevo branicevo rudnik smederevo krupanj valjevo uzice pljevlja
+			gradac zica trgoviste_SER sjenica velbuzd
+			arilje brvenik medveda koman has dukagjini lezha florina
+
+			bihac srb gradiski_brod mostar metkovic glamoc
+			vrhbosna konjic srebrenica doboj soli
+			jajce livno drijeva zenica kljuc srebrenik
+			kozara glaz teocak olovo borac nevesinje
+
+			mihaliccik sivrihisar bozan kaymaz
+			altintas emirdag seyitgazi
+			kutahya aslanapa emet simav tavsanli
+			usak banaz gediz seyhli
+
+			ballsh berat nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
+			argyrokastro avlonya karpenisi konitsa
+
+			akdagmadeni aydincik koyulhisar sulusaray tokat zile
+			bozok baliseyh candir dinek_keskin sorgun
+			corum huseyinabad sungurlu
+			divrigi arapgir egin arguvan
+			kayseri bogazliyan comana_cil develi tomarza
+			hacibektas urgup
+			sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
+			bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+			yahyali malatya amasya
+
+			belgrad debrc sabac
+
+			sredets samokov plovdiv stipon ovech
+			hiambouli rusokastro lardeja boruy
+			tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran
+			lovech nikopol pleven vratsa kutlovitsa vidin oryahovo bozhenitsa hotalich tryavna
+			anhialo varna karvuna pangalia kaliakra
+			tulcea harsova
+			archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
+			babadag cernavoda constanta enisala isaccea
+			visesav kozelj svrljig pirot tsaribrod  
+			zemlungrad dupnitsa
+
+			burgas sozopol
+			dospat bansko krupnik melnik nevrokop 
+			tsepina 
+			beden haskovo perperek smolyan stanimaka
+
+			balikesir balya edremit manyas mihalic susurluk
+			ayvacik bandirma bayramic can canakkale gonen lapseki
+			dursunbey harmancik
+
+			manisa akhisar demirci gordes kula
+			bergama bigadic soma
+
+			smyrna ayasuluk cesme menemen urla
+			tire balat birgi guzelhisar nazilli
+			tavas yuksekkum honaz lazkiye
+			milas
+			mugla bodrum cine gokabat marmaris megri 
+			isparta burdur dinar egirdir uluborlu yalvac
+			golhisar stefani
+			antalya elmali karahisar_i_teke kas istanoz
+			manavgat finike
+
+			aksaray kochisar insuyu
+			kirsehir nevsehir sariyahsi
+			konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
+			bekarlar bor_tur ermenek
+			beysehir aksehir bolvadin sarkikaraagac seydisehir
+			ilgin turgut suluklu kulu_turkey obruk altinekin cumra
+			silifke anamur mut nigde
+
 		}
 
 		include = "expl_eastern_europe"
@@ -28879,9 +28893,9 @@ NED = { #Dutch Republic
 			turkoman_culture
 		}
 
-		capital = bursa
+		capital = constantinople
 
-		country_rank = rank_duchy
+		country_rank = rank_empire
 
 		religious_school = maturidi_school #since their founding they were supporters of maturidi, although they were also among the earliest adopters of hanafi and had ismaili, alawi, alevi, bektashi and mevlevi
 	}

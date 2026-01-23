@@ -111,3 +111,12 @@ GLD = {
 
 	difficulty = 3
 }
+
+SAR = { #Sardina
+	color = map_sardinia
+
+	culture_definition = piedmontese
+	religion_definition = catholic
+
+	difficulty = 3
+}
