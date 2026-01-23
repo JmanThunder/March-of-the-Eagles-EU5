@@ -100,6 +100,16 @@
 		c:JAP = {
 			japan_set_up = yes
 		}
+
+		every_location_in_the_world = {
+			every_pop = { 
+				add_pop_size = {
+					value = pop_size
+					multiply = 0.7
+				}
+			}
+		}		
+		
 	}
 }
 
