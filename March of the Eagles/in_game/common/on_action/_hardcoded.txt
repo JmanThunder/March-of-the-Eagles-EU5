@@ -101,6 +101,12 @@
 			japan_set_up = yes
 		}
 
+		# The Plagues
+		every_country = {
+			set_variable = { name = had_great_pestilence value = yes }
+			set_situation_end_flag_effect = { situation = black_death }
+		}
+
 		every_location_in_the_world = {
 			every_pop = { 
 				add_pop_size = {

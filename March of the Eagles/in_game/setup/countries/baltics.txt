@@ -108,7 +108,7 @@ LIT = {
 	color2 = rgb { 154 69 116 }
 
 	culture_definition = aukstaitian
-	religion_definition = romuva
+	religion_definition = catholic
 
 	description_category = military
 	difficulty = 3
