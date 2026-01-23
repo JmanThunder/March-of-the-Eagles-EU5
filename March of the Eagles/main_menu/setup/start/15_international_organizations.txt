@@ -12,9 +12,8 @@ international_organization_manager = {
 
 		map_color = hsv360 { 40 50 70 }
 
-		members = { BAV SAX SHL HAB PRU BOH MVA TES PSS SLZ BAM HAN KOL LUX FLA BRB NAM MAI PAL WUR HAI JUL BRG HES WBG BDE TRI}
+		members = { BAV SAX SHL HAB PRU BOH MVA TES PSS SLZ BAM HAN KOL LUX FLA BRB NAM MAI PAL WUR HAI JUL BRG HES WBG BDE TRI MKL LUB LBB HAM JEV OLD BRM MUN BNT DTM RBG LPP SCB PDB BRU HDH ANH BNB OSN ESS GEL LOO LIE STV LIM AAC }
 		leader = HAB
-		regions = { south_german_region }
 		areas = { 
 			#North Germany
 			brabant_area wallonia_area holstein_area brandenburg_area rhineland_area
@@ -23,6 +22,10 @@ international_organization_manager = {
 			liguria_area lombardy_area piemonte_area  
 			#Poland
 			silesia_area
+			#South Germany
+			moravia_area
+			austria_area styria_area carinthia_area salzburg_area bohemia_area
+			bavaria_area tirol_area franconia_area swabia_area upper_rhine_area upper_austria_area
 		}
 		provinces = { 
 			#Emilia Romagna

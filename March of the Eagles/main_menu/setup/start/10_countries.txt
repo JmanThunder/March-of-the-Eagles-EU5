@@ -50,7 +50,8 @@ countries = {
 			hollola lohja tavastehus janakkala forssa liljendal jamsa
 
 			valkeasaari kyyrola
-			wolgast stralsund rugen grimmen
+			wolgast stralsund rugen grimmen 
+			wismar #gets sold back to Mecklenburg in 1803
 		}
 
 
@@ -1184,49 +1185,12 @@ RIG = { #Riga
 		capital = ravensburg
 	}
 
-	ALL = {	#Saxony-Allstedt
-		own_control_core = {
-			sangerhausen
-		}
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = bra_ludwig_v_wittelsbach
-			consort = bra_margrethe_estric
-
-
-			ruler_term = { character = gbh_heinrich_i_braunschweig_grubenhagen start_date = 1288.1.1 end_date = 1291.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = bra_otto_iv_askanier start_date = 1291.1.1 end_date = 1308.11.27 regnal_number = 1
-				character = bra_heinrich_i_askanier start_date = 1291.1.1 end_date = 1308.11.27 regnal_number = 1
-			}
-			ruler_term = { character = bra_heinrich_i_askanier start_date = 1308.11.27 end_date = 1318.2.14 regnal_number = 1 }
-			ruler_term = { character = bra_agnes_wittelsbach start_date = 1318.2.14 end_date = 1319.8.14 regnal_number = 1 }
-			ruler_term = { character = bra_heinrich_ii_askanier start_date = 1319.8.14 end_date = 1320.7.1 regnal_number = 2 }
-			ruler_term = {	character = bra_ludwig_v_wittelsbach start_date = 1323.7.8 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_henry = 2
-				name_louis = 1
-				name_otto = 1
-				name_agnes = 1
-			}
-		}
-
-		country_rank = rank_county
-		capital = sangerhausen
-		dynasty = wittelsbach_dynasty
-		tolerated_cultures = {
-			markish
-		}
-	}
-
-	
-	THU = {	#Thuringia - PU under Meissen
+THU = {	#Thuringia - Replacement Tag till we split Thüringen
 		own_control_core = {
 			eisenach gotha eisenberg apolda
+			meiningen schmalkalden
+			coburg hildburghausen #Lordship of Coburg
+			ohrdruf weimar
 		}
 
 		starting_technology_level = 3
@@ -13287,7 +13251,7 @@ NED = { #Dutch Republic
 			bergen_zoom breda hertogenbosch helmond cuijk
 
 			leeuwarden sloten harlingen stavoren groningen appingedam wedde
-			wolvega
+			wolvega maastricht venlo
 
 		}
 
@@ -13654,6 +13618,7 @@ NED = { #Dutch Republic
 			linz bad_ischl freistadt gmunden kirchdorf perg rohrbach st_georgen steyr wels #Duchy of Upper Austria
 			schwaz innsbruck imst reutte landeck merano sterzing villandro bolzano silandro #Herzogtum von Tirol
 			gorizia pazin lienz bruneck hermagor winklern metlika #County of Möttling
+			celje lasko
 		}
 
 		own_control_integrated = {
@@ -14033,35 +13998,7 @@ NED = { #Dutch Republic
 		capital = huedin
 	}
 
-	CLI = {	#Cilli
-		own_control_core = {
-			celje lasko
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-
-			ruler = cli_friderik
-			consort = cli_diemut_walsee
-
-			laws = {
-				mining_law = nobles_mining_law
-			}
-		}
-
-		tolerated_cultures = {
-			southern_bavarian
-		}
-
-		country_rank = rank_county
-		capital = celje
-
-	}
-
-	ORT = {	#Ortenburg
+ORT = {	#Ortenburg
 		own_control_core = {
 			spittal kocevje
 		}
@@ -29802,38 +29739,9 @@ NED = { #Dutch Republic
 		capital = weissenburg
 	}
 
-	HNB = {	#Henneberg
+WBG = {	#Würzburg
 		own_control_core = {
-			meiningen schleusingen schmalkalden
-			aschach
-			coburg hildburghausen #Lordship of Coburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			regnal_numbers = {
-				name_berthold = 4
-				name_henry = 7
-			}
-			ruler = hnb_berthold_iv_henneberg_schleusingen
-		}
-
-		tolerated_cultures = {
-			saxon
-		}
-
-		country_rank = rank_county
-		capital = meiningen
-		dynasty = henneberg_dynasty
-	}
-
-	WBG = {	#W�rzburg
-		own_control_core = {
-			wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau
+			wurzburg hassfurt karlstadt mellrichstadt konigshofen schweinfurt bruckenau kitzingen aschach
 		}
 
 		starting_technology_level = 3
@@ -30593,7 +30501,7 @@ NED = { #Dutch Republic
 
 	PAL = {	#The Palatinate
 		own_control_core = {
-			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern
+			heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim  kaiserslautern landau_rhineland
 			
 		}
 
@@ -30693,52 +30601,6 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 			ruler = random
 		 }
 		capital = ilanz
-	}
-
-	GLN = {  # Gleichen (North Germany)
-		own_control_core = {
-			ohrdruf
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = gln_hermann_iv
-
-			ruler_term = { character = gln_erwin_i start_date = 1099.1.1 end_date = 1116.1.1 regnal_number = 1 }
-			ruler_term = { character = gln_lambert_i start_date = 1116.1.1 end_date = 1149.1.1 regnal_number = 1 }
-			ruler_term = { character = gln_ernst_i start_date = 1149.1.1 end_date = 1152.1.1 regnal_number = 1 }
-			ruler_term = { character = gln_ernst_ii start_date = 1152.1.1 end_date = 1170.1.1 regnal_number = 2 }
-			ruler_term = { character = gln_erwin_ii start_date = 1170.1.1 end_date = 1193.1.1 regnal_number = 2 }
-			ruler_term = { character = gln_lambert_ii start_date = 1193.1.1 end_date = 1228.1.1 regnal_number = 2 }
-			ruler_term = { character = gln_ernst_iii start_date = 1228.1.1 end_date = 1230.1.1 regnal_number = 3 }
-			ruler_term = { character = gln_heinrich_i start_date = 1230.1.1 end_date = 1257.1.1 regnal_number = 1 }
-			ruler_term = { character = gln_albrecht_ii start_date = 1257.1.1 end_date = 1270.1.1 regnal_number = 2 }
-			ruler_term = { character = gln_albrecht_iii start_date = 1270.1.1 end_date = 1283.1.1 regnal_number = 3 }
-			ruler_term = { character = gln_ernst_v start_date = 1283.1.1 end_date = 1287.1.1 regnal_number = 4 }
-			ruler_term = { character = gln_heinrich_iii start_date = 1287.1.1 end_date = 1290.1.1  regnal_number = 3 }
-			ruler_term = { character = gln_ernst_iv start_date = 1290.1.1 end_date = 1299.1.1 regnal_number = 4 }
-			ruler_term = { character = gln_heinrich_iv start_date = 1299.1.1 end_date = 1314.1.1 regnal_number = 4 }
-			ruler_term = { character = gln_hermann_iv start_date = 1314.1.1 regnal_number = 4 }
-
-			regnal_numbers = {
-				name_erwin = 2
-				name_ernest = 5
-				name_lambert = 2
-				name_henry = 4
-				name_herman = 4
-				name_albert = 3
-			}
-		}
-
-		tolerated_cultures = {
-			east_franconian
-		}
-		country_rank = rank_county
-		capital = ohrdruf
-		dynasty = von_gleichen_dynasty
 	}
 
 	AOS = {  # Aosta (South Germany)
@@ -30872,7 +30734,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 
 	KTZ = {  # Katzenelnbogen (North Germany)
 		own_control_core = {
-			katzenelnbogen darmstadt alsfeld giessen
+			katzenelnbogen darmstadt alsfeld giessen nidda
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -30884,37 +30746,10 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		capital = katzenelnbogen
 	}
 
-	NSW = {  # Nassau Weilburg (North Germany)
-		own_control_core = {
-			usingen
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-
-		government = {
-			ruler = nsi_gerlach_i_nassau
-
-			ruler_term = {	character = nsi_walram_ii_nassau start_date = 1255.12.16 end_date = 1276.1.24 regnal_number = 2	}
-			ruler_term = {	character = ogk_adolf_von_nassau start_date = 1276.1.24 end_date = 1298.7.2 regnal_number = 1	}
-			ruler_term = {	character = nsi_gerlach_i_nassau start_date = 1298.7.2 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_adolph = 1
-				name_gerlach = 1
-				name_waleram = 2
-			}
-		}
-
-		country_rank = rank_county
-		capital = usingen
-	}
 
 	NSI = {  # Nassau Idstein (North Germany)
 		own_control_core = {
-			wiesbaden
+			wiesbaden usingen
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -31038,72 +30873,9 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		capital = lauterbach
 	}
 
-	NID = {  # Nidda (North Germany)
-		own_control_core = {
-			nidda
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = zig_johann_i_ziegenhain
-			ruler_term = { character = zig_gottfried_vi_ziegenhain start_date = 1207.1.1 end_date = 1250.9.6 regnal_number = 1 }
-        	ruler_term = { character = nid_ludwig_ii start_date = 1250.9.7 end_date = 1289.12.31 regnal_number = 1 }
-			ruler_term = { character = nid_engelbert_i start_date = 1290.1.1 end_date = 1329.9.6 regnal_number = 1 }
-			ruler_term = { character = nid_lukardis start_date = 1329.9.6 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = { character = zig_johann_i_ziegenhain start_date = 1333.1.1 regnal_number = 1 }
-		}
-		country_rank = rank_county
-		capital = nidda
-	}
-
-	MDS = {  # Manderscheid (South Germany)
-		own_control_core = {
-			schleiden
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-			ruler = mds_wilhelm_iv_von_manderscheid
-
-			ruler_term = { character = mds_wilhelm_i_von_manderscheid start_date = 1200.1.1 end_date = 1220.1.1 regnal_number = 1 }
-			ruler_term = { character = mds_wilhelm_ii_von_manderscheid start_date = 1220.1.1 end_date = 1270.1.1 regnal_number = 2 }
-			ruler_term = { character = mds_wilhelm_iii_von_manderscheid start_date = 1270.1.1 end_date = 1312.1.1 regnal_number = 3 }
-			ruler_term = { character = mds_wilhelm_iv_von_manderscheid start_date = 1312.1.1 regnal_number = 4 }
-
-			regnal_numbers = {
-				name_william = 4
-			}
-		}
-		tolerated_cultures = {
-		}
-		country_rank = rank_county
-		capital = schleiden
-	}
-
-	LDA = {  # Landau (South Germany)
-		own_control_core = {
-			landau_rhineland
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_free_city_no_coast"
-		government = {
-			type = republic
-			heir_selection = republic_4_year_terms
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = landau_rhineland
-	}
-
-	VEL = {  # Veldenz (South Germany)
+	
+	
+VEL = {  # Veldenz (South Germany)
 		own_control_core = {
 			lichtenberg_veldenz
 			meisenheim
@@ -31548,7 +31320,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 	ANS = {	#Ansbach
 		own_control_core = {
 			ansbach wunsiedel bayreuth neustadt schwabach
-			kulmbach hof
+			kulmbach hof uffenheim crailsheim
 		}
 
 		starting_technology_level = 3
@@ -31589,7 +31361,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 
 	UFF = {	#Uffenheim
 		own_control_core = {
-			uffenheim crailsheim ohringen kitzingen
+			ohringen 
 		}
 
 		starting_technology_level = 3
@@ -31855,7 +31627,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 
 	BDE = {	#Baden
 		own_control_core = {
-			baden durlach
+			baden durlach 
 		}
 
 		starting_technology_level = 3
@@ -32174,7 +31946,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 			leipzig chemnitz meissen sayda freiberg dresden
 			pirna annaburg altenburg
 			bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern zittau
-			guben lubben luckau calau zossen glauchau plauen spremberg juterbog naumburg langensalza freyburg merseburg beichlingen wurzen
+			guben lubben luckau calau zossen glauchau plauen spremberg juterbog naumburg langensalza freyburg merseburg beichlingen wurzen schleusingen sangerhausen
 		}
 
 		starting_technology_level = 3
@@ -32200,43 +31972,13 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 			sorbian
 		}
 
-		capital = wittenberg
+		capital = dresden
 		dynasty = askanier_dynasty
-	}
-
-	SWR = { #Schwerin
-		own_control_core = {
-			schwerin butzow
-		}
-
-		starting_technology_level = 3
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = swr_heinrich_iii
-
-			ruler_term = {	character = swr_helmold_iii start_date = 1262.1.1 end_date = 1296.1.1 regnal_number = 3	}
-			ruler_term = {	character = swr_heinrich_iii start_date = 1296.1.1 regnal_number = 3	}
-
-			regnal_numbers = {
-				Helmold = 3
-				name_henry = 3
-			}
-		}
-
-		tolerated_cultures = {
-			polabian
-		}
-
-		capital = schwerin
-		dynasty = schwerin_dynasty
 	}
 
 	MKL = { #Mecklenburg
 		own_control_core = {
-			wismar strelitz neubrandenburg grabow hagenow grevesmuhlen doberan ribnitz rostock
+			grabow hagenow grevesmuhlen doberan ribnitz rostock schwerin butzow waren malchin gustrow parchim malchow
 		}
 
 		starting_technology_level = 3
@@ -32307,13 +32049,13 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		}
 
 		country_rank = rank_county
-		capital = wismar
+		capital = schwerin
 		dynasty = mecklenburg_dynasty
 	}
 
 	WRN = { #Waren
 		own_control_core = {
-			waren malchin
+			strelitz neubrandenburg ratzeburg
 		}
 
 		starting_technology_level = 3
@@ -32337,35 +32079,11 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 		}
 
 		country_rank = rank_county
-		capital = waren
+		capital = strelitz
 		dynasty = mecklenburg_dynasty
 	}
 
-	RZB = {	#Ratzeburg
-		own_control_core = {
-			ratzeburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = rzb_volrad_von_dem_dorne
-			reforms = {
-				prince_bishopric_reform
-			}
-		}
-		capital = ratzeburg
-
-		tolerated_cultures = {
-			polabian
-		}
-
-		country_rank = rank_county
-	}
-
-	RST = { #Rostock
+RST = { #Rostock
 		our_cores_conquered_by_others = {
 			rostock
 		}
@@ -32387,67 +32105,7 @@ SGL = {  # Grey League - Formable in Switzerland		starting_technology_level = 3
 
 	}
 
-	GSW = { #Gustrow
-		own_control_core = {
-			gustrow parchim malchow
-		}
 
-		starting_technology_level = 3
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = gsw_johann_ii_the_bald
-
-			ruler_term = { character = gsw_nikolaus_i_werle start_date = 1234.1.1 end_date = 1277.5.14 regnal_number = 1 }
-			ruler_term = {
-				character = gsw_bernhard_i_werle start_date = 1277.5.14 end_date = 1281.1.1 regnal_number = 1
-				character = gsw_heinrich_i_werle start_date = 1277.5.14 end_date = 1281.1.1 regnal_number = 1
-				character = gsw_johann_i_werle start_date = 1277.5.14 end_date = 1281.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = gsw_heinrich_i_werle start_date = 1281.1.1 end_date = 1283.10.15 regnal_number = 1
-				character = gsw_johann_i_werle start_date = 1281.1.1 end_date = 1283.10.15 regnal_number = 1
-			}
-			ruler_term = {
-				character = gsw_heinrich_i_werle start_date = 1283.10.15 end_date = 1291.10.8 regnal_number = 1
-				character = gsw_nikolaus_ii_werle start_date = 1283.10.15 end_date = 1291.10.8 regnal_number = 2
-			}
-			ruler_term = {
-				character = gsw_nikolaus_ii_werle start_date = 1291.10.8 end_date = 1298.1.1 regnal_number = 2
-				character = gsw_heinrich_ii_werle start_date = 1291.10.8 end_date = 1298.1.1 regnal_number = 2
-				character = gsw_nikolaus_werle start_date = 1291.10.8 end_date = 1298.1.1 regnal_number = 0
-			}
-			ruler_term = {
-				character = gsw_nikolaus_ii_werle start_date = 1298.1.1 end_date = 1308.1.1 regnal_number = 2
-				character = gsw_heinrich_ii_werle start_date = 1298.1.1 end_date = 1308.1.1 regnal_number = 2
-			}
-			ruler_term = { character = gsw_nikolaus_ii_werle start_date = 1308.1.1 end_date = 1316.2.18 regnal_number = 2 }			
-			ruler_term = {
-				character = gsw_johann_ii_the_bald start_date = 1316.2.18 regnal_number = 2
-				#character = gsw_johann_iii_werle_goldberg start_date = 1316.2.18 regnal_number = 3 # As Co-Ruler
-			}
-
-			regnal_numbers = {
-				name_nicholas = 2
-				name_bernard = 1
-				name_henry = 2
-				name_john = 3
-			}
-		}
-
-		tolerated_cultures = {
-			polabian
-		}
-
-		country_rank = rank_county
-		capital = gustrow
-		dynasty = mecklenburg_dynasty
-	}
-
-	
-	
 
 HAM = {	#Hamburg
 		own_control_core = {
@@ -32556,35 +32214,7 @@ QUB = {	#Gera / sold by Quedlinburg
 		capital = gera
 	}
 
-	WMA = {	#Weimar
-		own_control_core = {
-			weimar
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = wma_otto_vi_weimar_orlamunde
-			ruler_term = {	character = wma_hermann_vi_weimar_orlamunde start_date = 1318.8.20 end_date = 1319.1.1 regnal_number = 6	}
-			ruler_term = {	character = wma_otto_vi_weimar_orlamunde start_date = 1319.1.1 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_herman = 6
-				name_otto = 4
-				Siegfried = 3
-			}
-		}
-
-		country_rank = rank_county
-		capital = weimar
-		dynasty = askanier_dynasty
-	}
-
-	SWZ = {	#Schwarzburg
+SWZ = {	#Schwarzburg
 		own_control_core = {
 			arnstadt saalfeld
 		}
@@ -32702,26 +32332,9 @@ QUB = {	#Gera / sold by Quedlinburg
 		capital = muhlhausen
 	}
 
-HSF = {	#Hersfeld
+HES = {	#Hesse
 		own_control_core = {
-			hersfeld
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_german_bishopric_no_coast"
-		include = "expl_northern_europe"
-		government = {
-			ruler = hsf_ludwig_ii_von_mansbach
-			#Abbey reform
-		}
-		country_rank = rank_county
-		capital = hersfeld
-	}
-
-	HES = {	#Hesse
-		own_control_core = {
-			kassel rotenburg eschwege frankenberg marburg melsungen
+			kassel rotenburg eschwege frankenberg marburg melsungen hersfeld ziegenhain
 		}
 
 		starting_technology_level = 3
@@ -32777,33 +32390,6 @@ HSF = {	#Hersfeld
 
 		country_rank = rank_county
 		capital = paderborn
-	}
-
-	ZIG = {	#Ziegenhain
-		own_control_core = {
-			ziegenhain
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = zig_johann_i_ziegenhain
-			ruler_term = {	character = zig_gottfried_vi_ziegenhain start_date = 1272.1.1 end_date = 1304.11.30 regnal_number = 6	}
-			ruler_term = {	character = zig_johann_i_ziegenhain start_date = 1304.11.30 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_godfrey = 6
-				name_engelbert = 1
-				name_john = 1
-			}
-		}
-		country_rank = rank_county
-		capital = ziegenhain
-		dynasty = ziegenhain_dynasty
 	}
 
 	HNA = {	#Hanau
@@ -32874,7 +32460,7 @@ HSF = {	#Hersfeld
 	TRI = {	#Trier
 		own_control_core = {
 			trier wittlich
-			merzig mayen coblenz saarburg
+			merzig mayen coblenz saarburg schleiden prum daun cochem
 		}
 
 		starting_technology_level = 3
@@ -33003,7 +32589,7 @@ HSF = {	#Hersfeld
 
 	ZWE = {	#Zweibrucken
 		own_control_core = {
-			zweibrucken pirmasens
+			castellaun zweibrucken pirmasens 
 		}
 
 		starting_technology_level = 3
@@ -33056,7 +32642,7 @@ HSF = {	#Hersfeld
 
 	SPO = {	#Sponheim
 		own_control_core = {
-			kreuznach birkenfeld castellaun
+			kreuznach birkenfeld
 		}
 
 		starting_technology_level = 3
@@ -33139,54 +32725,7 @@ HSF = {	#Hersfeld
 		capital = cologne
 	}
 
-	DUN = {	#Daun
-		own_control_core = {
-			daun cochem
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = dun_wirich_iii_daun
-			ruler_term = {	character = dun_wirich_ii_daun start_date = 1280.1.1 end_date = 1310.1.1 regnal_number = 2	}
-			ruler_term = {	character = dun_wirich_iii_daun start_date = 1310.1.1 regnal_number = 3	}
-
-			regnal_numbers = {
-				Wirich = 3
-				name_henry = 2
-			}
-		}
-		tolerated_cultures = {
-			rhine_franconian
-		}
-		country_rank = rank_county
-		capital = daun
-		dynasty = daun_dynasty
-	}
-
-	APR = {	#Prüm
-		own_control_core = {
-			prum
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_abbey"
-		include = "expl_northern_europe"
-		government = {
-			ruler = apr_heinrich_i_von_schonecken
-		}
-		tolerated_cultures = {
-		}
-		country_rank = rank_county
-		capital = prum
-	}
-
-	AAC = {	#Aachen
+AAC = {	#Aachen
 		own_control_core = {
 			aachen
 		}
@@ -33209,7 +32748,7 @@ HSF = {	#Hersfeld
 
 	JUL = {	#Jülich
 		own_control_core = {
-			bergheim duren monchengladbach
+			bergheim duren monchengladbach heinsberg
 		}
 
 		starting_technology_level = 3
@@ -33242,38 +32781,7 @@ HSF = {	#Hersfeld
 		dynasty = julich_dynasty
 	}
 
-	GEL = {	#Guelders / Geldern / former EU4 Gelre
-		own_control_core = {
-			venlo roermond
-		}
 
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
-
-			ruler = gel_reinoud_ii_van_gelre
-			ruler_term = {	character = gel_reinoud_i_van_gelre start_date = 1271.1.10 end_date = 1326.1.1 regnal_number = 1	}
-			ruler_term = {	character = gel_reinoud_ii_van_gelre start_date = 1326.1.1 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_reginald = 2
-			}
-			reforms = {
-				landgraviate
-			}
-		}
-		capital = geldern
-		dynasty = wassenberg_dynasty
-
-		country_rank = rank_county
-
-		tolerated_cultures = {
-			westphalian
-		}
-	}
 
 WTG = {	#Wittgenstein
 		own_control_core = {
@@ -33719,7 +33227,7 @@ RTB = {	#Ritzebüttel
 
 	LIM = { #Limbourg - PU under Brabant
 		own_control_core = {
-			limbourg
+			limbourg weert roermond
 		}
 
 		starting_technology_level = 3
@@ -33828,91 +33336,7 @@ RTB = {	#Ritzebüttel
 		dynasty = heinsberg_dynasty
 	}
 
-	VBG = { #Valkenburg - PU under Loon
-		own_control_core = {
-			maastricht
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		capital = maastricht
-		dynasty = heinsberg_dynasty
-		government = {
-			ruler = loo_dietrich_iv_von_heinsberg
-
-			aristocracy_vs_plutocracy = -20
-			capital_economy_vs_traditional_economy = -10
-			land_vs_naval = -20
-		}
-
-		tolerated_cultures = {
-			ripuarian_franconian
-		}
-
-		country_rank = rank_county
-	}
-
-	HBG = { #Heinsberg - PU under Loon
-		own_control_core = {
-			heinsberg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		dynasty = heinsberg_dynasty
-		government = {
-			ruler = loo_dietrich_iv_von_heinsberg
-
-			aristocracy_vs_plutocracy = -20
-			capital_economy_vs_traditional_economy = -10
-			land_vs_naval = -20
-		}
-
-		tolerated_cultures = {
-			ripuarian_franconian
-		}
-
-		capital = heinsberg
-		country_rank = rank_county
-	}
-
-	HRN = { #Horne
-		own_control_core = {
-			weert
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-
-			ruler = hrn_willem_iv_van_horne
-			ruler_term = {	character = hrn_gerard_i_van_horne start_date = 1301.1.1 end_date = 1330.1.1 regnal_number = 1	}
-			ruler_term = {	character = hrn_willem_iv_van_horne start_date = 1330.1.1 regnal_number = 4	}
-
-			regnal_numbers = {
-				name_gerard = 1
-				name_william = 4
-			}
-
-			aristocracy_vs_plutocracy = -20
-			capital_economy_vs_traditional_economy = -10
-			land_vs_naval = -20
-		}
-
-		country_rank = rank_county
-		capital = weert
-		dynasty = horne_dynasty
-	}
-
-
-
-	STV = { #Princely Abbey of Stavelot-Malmedy
+STV = { #Princely Abbey of Stavelot-Malmedy
 		own_control_core = {
 			stavelot
 		}
@@ -33968,7 +33392,37 @@ TES = {	#Tesin
 		capital = tesin
 		dynasty = piast_dynasty
 	}
+GLD = {	#Galicia-Lodmeria #This is gonna be Pain
+		own_control_core = {
+			
+			oswiecim zywiec lviv
+			wieliczka myslenice nowy_targ nowy_sacz biecz czchow jaslo debica tarnow
+			sandomierz rudnik_poland pilzno
 
+			
+		}
+		starting_technology_level = 3
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		country_rank = rank_kingdom
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+
+			
+			
+
+			
+		}
+
+		tolerated_cultures = {
+			lesser_polish
+			halychian_culture
+		}
+
+		capital = lviv
+		
+	}
 
 POL = {	#Poland
 		own_control_core = {
@@ -33977,11 +33431,9 @@ POL = {	#Poland
 			kielce opoczno przedborz zarnow
 			czestochowa lelow mstow
 			lublin janow_lubelski kazimierz lukow lubartow urzedow
-			nowy_sacz biecz czchow jaslo nowy_targ
-			pilzno busko_zdroj debica tarnow wislica
+			busko_zdroj wislica
 			radom ilza stezyca szydlowiec zwolen
-			sandomierz kunow opatow rudnik_poland
-			wieliczka myslenice
+			kunow opatow 
 			#Greater Poland
 			gniezno mogilno trzemeszno
 			kalisz ostrow_wielkopolski pleszew
@@ -34417,7 +33869,7 @@ POL = {	#Poland
 			lubaczow
 			drohobych sambir stryi turka
 			kolomyia kosiv sniatyn tysmenytsia
-			lviv bereschany zhovkva yavoriv zvenyhorod
+			bereschany zhovkva yavoriv zvenyhorod
 			przemysl piskorowice rzeszow yaroslav_poland
 			sanok krosno lesko
 			terebovlia khorostkiv ternopil
@@ -34510,7 +33962,7 @@ POL = {	#Poland
 			moldovan
 		}
 
-		capital = lviv
+		capital = rov
 		country_rank = rank_kingdom
 	}
 

@@ -283,6 +283,8 @@ diplomacy_manager = {
     dependency = { first = HAB second = BRB subject_type = vassal start_date = 1327.1.1 }
     dependency = { first = LIE second = LOO subject_type = fiefdom start_date = 1327.1.1 }
     dependency = { first = HAB second = TES subject_type = fiefdom }
+    dependency = { first = HAB second = LIM subject_type = fiefdom }
+    dependency = { first = HAB second = GLD subject_type = fiefdom }
 
     #-------Bohemia-------
     dependency = { first = HAB second = MVA subject_type = fiefdom } #Prince Charles is made Margrave of Moravia, and confirmed heir to Bohemia
