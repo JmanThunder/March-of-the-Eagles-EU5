@@ -95,10 +95,13 @@ international_organization_manager = {
 		}
 		
 		laws = {
-			hre_religion_catholic
-			only_imperial_religion_policy
-			no_golden_bull_policy
+			hre_religion_christian
+			only_imperial_religion_group_policy
+			golden_bull_policy
+			hre_tri_camerial_imperial_diet_policy
+			perpetual_diet_policy
 			no_monetary_contribution
+			
 		}
 
 		ruler_term = { character = ogk_otto_liudolfinger start_date = 962.2.2 end_date = 967.12.25 regnal_number = 1 }

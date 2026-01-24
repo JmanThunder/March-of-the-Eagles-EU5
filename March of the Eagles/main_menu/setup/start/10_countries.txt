@@ -1028,7 +1028,7 @@ RIG = { #Riga
 			malbork
 			konigsberg brandenburg_prussia
 			#Chełmno Land
-			brodnica grudziadz torun
+			brodnica grudziadz 
 			#Pomerelia
 			gniew koscierzyna mirochowo puck tczew
 			tuchola bialobork czluchow nowe swiecie
@@ -1037,6 +1037,7 @@ RIG = { #Riga
 			lidzbark olsztyn frombork fischhausen kwidzyn
 			lubawa chelmno geldern
 			mors wernigerode
+			naklo wyrzysk zlotow bydgoszcz inowroclaw
 
 		}
 
@@ -29934,7 +29935,7 @@ MBZ = { #Bregenz
 
 				schwyz glarus altdorf sarnen
 
-				zurich werdenberg frauenfeld toggenburg kyburg lake_zurich schaffhausen fribourg lausanne nyon yverdon_les_bains  montreux disentis
+				zurich werdenberg frauenfeld toggenburg kyburg lake_zurich schaffhausen fribourg lausanne nyon yverdon_les_bains  montreux disentis gruyere
 
 
 		}
@@ -30196,7 +30197,7 @@ BBD = {  # Bishopric of Brandenburg
 
 SGL = {  # Grey League - Formable in Switzerland		
 		own_control_core = {
-			tarasp zuoz davos chur ilanz mesocco gruyere bormio chiavenna tresivio
+			tarasp zuoz davos chur ilanz mesocco  bormio chiavenna tresivio
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
@@ -32750,11 +32751,10 @@ POL = {	#Poland
 			kalisz ostrow_wielkopolski pleszew
 			konin kolo lad_konin
 			koscian babimost grodzisk_wielkopolski rawicz srem
-			naklo wyrzysk zlotow
-			poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
+						poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
 			pyzdry kozmin sroda_wielkopolska
 			znin chodziez szubin siewierz
-			gdansk
+			gdansk torun
 			# own_control_integrated, but culture accepted
 			#Wielun
 			wielun ostrzeszow wieruszow
@@ -32767,7 +32767,7 @@ POL = {	#Poland
 		}
 		our_cores_conquered_by_others = {
 			#Chełmno Land
-			chelmno brodnica grudziadz lubawa torun
+			chelmno brodnica grudziadz lubawa 
 			#Kuyavia
 			bydgoszcz inowroclaw
 			#Pomerelia
@@ -33146,34 +33146,7 @@ POL = {	#Poland
 		dynasty = piast_dynasty
 	}
 
-	INO = {	#Inowrocław - PU under Poland
-		own_control_core = { #Should actually be own_core
-			bydgoszcz inowroclaw
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
-		include = "eastern_european_catholic"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = pol_casimir_iii_piast
-
-			ruler_term = {	character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1	}
-			ruler_term = {	character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3	}
-		}
-
-		tolerated_cultures = {
-			prussian
-		}
-
-		country_rank = rank_duchy
-		capital = inowroclaw
-		dynasty = piast_dynasty
-	}
-
-	HAL = {	#Halych
+HAL = {	#Halych
 		own_control_core = {
 			#Halych
 			halych bohorodchany buchach rohatyn
