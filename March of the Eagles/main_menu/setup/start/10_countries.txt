@@ -12356,73 +12356,12 @@ NED = { #Dutch Republic
 		capital = targoviste
 	}
 
-	BIA = {	#Baia
-		own_control_core = {
-			suceava adjud campulung_moldovenesc focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici vatra_dornei
-		}
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}		
-		liturgical_language = church_slavonic_language
-		capital = suceava
-	}
 
-	BLD = {	#Bârlad
-		own_control_core = {
-			barlad cahul cudalbi galati oancea palada reni targul_saratii tecuci
-		}
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}		
-		liturgical_language = church_slavonic_language
-		capital = barlad
-	}
 
-	HSC = {	#Hansca
+	 MOL = {	#Iaşi
 		own_control_core = {
-			chisinau targu_lapusnei tuzara
-		}
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}		
-		liturgical_language = church_slavonic_language
-		capital = chisinau
-	}
-
-	HTN = {	#Hotin
-		own_control_core = {
-			hotin cernauti cetatea_tetina
-		}
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}		
-		liturgical_language = church_slavonic_language
-		capital = hotin
-	}
-
-	IAS = {	#Iaşi
-		own_control_core = {
-			iasi bacau cotnari dorohoi harlau husi roman stefanesti tutova ungheni vaslui
+			hotin  chisinau targu_lapusnei tuzara barlad cahul cudalbi galati oancea palada reni targul_saratii tecuci soroca balti lipnic orhei 
+			suceava adjud focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici viadineti iasi bacau cotnari dorohoi harlau husi roman stefanesti tutova ungheni vaslui
 		}
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -12436,37 +12375,7 @@ NED = { #Dutch Republic
 		capital = iasi
 	}
 
-	SRC = {	#Soroca
-		own_control_core = {
-			soroca balti lipnic orhei viadineti
-		}
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}		
-		liturgical_language = church_slavonic_language
-		capital = soroca
-	}
 
-	SSI = {	#Străşineţ
-		own_control_core = {
-			storozhynets putna siret
-		}
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}		
-		liturgical_language = church_slavonic_language
-		capital = storozhynets
-	}
 
 	TRA = { #Transylvania
 		own_control_core = {
@@ -12626,7 +12535,7 @@ NEO = {	#Neopatria
 
 	KNI = { #Knights Hospitaller
 		own_control_core = {
-			rodos kos
+			malta
 		}
 
 		include = "catholic_military_order"
@@ -12726,43 +12635,7 @@ NEO = {	#Neopatria
 		capital = negroponte
 	}
 
-	SAO = { #Salona
-		own_control_core = {
-			salona loidoriki
-			malta
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = sao_alfons_frederic_de_arago
-
-			ruler_term = { character = sao_alfons_frederic_de_arago start_date = 1318.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_thomas = 3
-				name_william = 1
-				name_roger = 1
-				name_alphonse = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture maltese
-		}
-
-		court_language = catalan_dialect
-		capital = salona
-	}
-
-	TRO = { #Travunija		
+TRO = { #Travunija		
 		our_cores_conquered_by_others = {
 			trebinje
 		}
@@ -27221,7 +27094,7 @@ NEO = {	#Neopatria
 			bekarlar bor_tur ermenek
 			beysehir aksehir bolvadin sarkikaraagac seydisehir
 			ilgin turgut suluklu kulu_turkey obruk altinekin cumra
-			silifke anamur mut nigde
+			silifke anamur mut nigde rodos kos salona loidoriki
 
 		}
 
@@ -28486,7 +28359,7 @@ MBZ = { #Bregenz
 
 				aarau baden_im_aargau lucerne wolhusen lake_lucerne
 
-				schwyz glarus altdorf sarnen
+				schwyz glarus altdorf sarnen solothurn
 
 				zurich werdenberg frauenfeld toggenburg kyburg lake_zurich schaffhausen fribourg lausanne nyon yverdon_les_bains  montreux disentis gruyere
 
@@ -31252,6 +31125,13 @@ GLD = {	#Galicia-Lodmeria #This is gonna be Pain
 			oswiecim zywiec lviv
 			wieliczka myslenice nowy_targ nowy_sacz biecz czchow jaslo debica tarnow
 			sandomierz rudnik_poland pilzno
+			kosiv kolomyia sniatyn bohorodchany dolyna
+			halych rohatyn buchach zalishchyky khorostkiv ternopil brody
+			terebovlia bereschany stryi turka bolekhiv zhydachiv zvenyhorod
+			busk sokal belz zhovkva lubaczow yavoriv  przemysl 
+			sambir drohobych lesko sanok krosno rzeszow piskorowice
+			belz busk  sokal brody yaroslav_poland tysmenytsia
+			vatra_dornei campulung_moldovenesc putna siret storozhynets cernauti cetatea_tetina
 
 			
 		}
@@ -31303,6 +31183,7 @@ POL = {	#Poland
 			warsaw grojec czersk liw nur kamieniec garwolin tarczyn rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
 			rozan lomza kolno biala_rawska ciechanow tykocin plock sierpc szrensk plonsk gostynin gabin leczyca lodz zgierz orlow sieradz szadek turek tuszyn uniejow
 			radomsko brzeznica piotrkow_trybunalski
+			horodok mezhybozhe khmilnyk kamianets_podilskyi bakota ushytsia rov letychiv mohyliv_podilskyi 
 			
 			#Actually Occupied
 			#Dobrzyń Land
@@ -31317,8 +31198,7 @@ POL = {	#Poland
 			volodymyr kamin kovel melnytsya turiisk
 			novohrad_volynskyi iziaslav korets liubar polonne
 			#Halych
-			belz busk grabowiec sokal
-			brody
+			grabowiec
 			#Polesia
 			liubeshiv dubrovytsia
 		}
@@ -31429,110 +31309,6 @@ POL = {	#Poland
 	}
 
 
-HAL = {	#Halych
-		own_control_core = {
-			#Halych
-			halych bohorodchany buchach rohatyn
-			lubaczow
-			drohobych sambir stryi turka
-			kolomyia kosiv sniatyn tysmenytsia
-			bereschany zhovkva yavoriv zvenyhorod
-			przemysl piskorowice rzeszow yaroslav_poland
-			sanok krosno lesko
-			terebovlia khorostkiv ternopil
-			zhydachiv bolekhiv dolyna
-			ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov
-			bakota horodok kamianets_podilskyi zalishchyky
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = vol_boleslaw_jerzy_ii_piast
-
-			ruler_term = {
-				character = hal_rurik_rostislavich_rurikovich start_date = 1085.1.1 end_date = 1092.1.1 regnal_number = 1
-				character = hal_volodar_rostislavich_rurikovich start_date = 1085.1.1 end_date = 1092.1.1 regnal_number = 1
-				character = hal_vasilko_rostislavich_rurikovich start_date = 1085.1.1 end_date = 1092.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_volodar_rostislavich_rurikovich start_date = 1092.1.1 end_date = 1124.1.1 regnal_number = 1
-				character = hal_vasilko_rostislavich_rurikovich start_date = 1092.1.1 end_date = 1124.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_volodar_rostislavich_rurikovich start_date = 1124.1.1 end_date = 1124.3.19 regnal_number = 1
-				character = hal_ivan_igor_rurikovich start_date = 1124.1.1 end_date = 1124.3.19 regnal_number = 1
-				character = hal_rostislav_grigoriy_rurikovich start_date = 1124.1.1 end_date = 1124.3.19 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_ivan_igor_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = hal_rostislav_grigoriy_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = hal_rostislav_volodarovich_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1124.3.19 end_date = 1126.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_ivan_igor_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-				character = hal_rostislav_volodarovich_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1126.1.1 end_date = 1129.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_ivan_igor_rurikovich start_date = 1129.1.1 end_date = 1141.1.1 regnal_number = 1
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1129.1.1 end_date = 1141.1.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1129.1.1 end_date = 1141.1.1 regnal_number = 1
-			}
-			ruler_term = {
-				character = hal_vladimirko_volodarovich_rurikovich start_date = 1141.1.1 end_date = 1145.6.1 regnal_number = 1
-				character = byz_ivan_berladnik_rurikovich start_date = 1141.1.1 end_date = 1145.6.1 regnal_number = 1
-			}
-			ruler_term = { character = hal_vladimirko_volodarovich_rurikovich start_date = 1145.6.1 end_date = 1153.2.1 regnal_number = 1 }
-			ruler_term = { character = hal_yaroslav_osmomysl_rurikovich start_date = 1153.2.1 end_date = 1187.10.1 regnal_number = 1 }
-			ruler_term = {
-				character = hal_oleg_nastasich_rurikovich start_date = 1187.10.1 end_date = 1188.1.1 regnal_number = 1
-				character = hal_vladimir_yaroslavich_rurikovich start_date = 1187.10.1 end_date = 1188.1.1 regnal_number = 2
-			}
-
-			ruler_term = { character = hal_vladimir_yaroslavich_rurikovich start_date = 1188.1.1 end_date = 1188.6.1 regnal_number = 2 }
-			ruler_term = {
-				character = hal_oleg_nastasich_rurikovich start_date = 1188.6.1 end_date = 1189.1.1 regnal_number = 1
-				character = hal_vladimir_yaroslavich_rurikovich start_date = 1188.6.1 end_date = 1189.1.1 regnal_number = 2
-				# Andras II of Hungary
-				character = vol_roman_rurikovich start_date = 1188.6.1 end_date = 1189.1.1 regnal_number = 1
-			}
-
-			# Andras II of Hungary alone 1189-1190
-
-			ruler_term = { character = hal_vladimir_yaroslavich_rurikovich start_date = 1190.1.1 end_date = 1199.1.1 regnal_number = 2 }
-			ruler_term = {	character = vol_roman_rurikovich start_date = 1199.1.1 end_date = 1205.6.19 regnal_number = 1	}
-			ruler_term = {	character = vol_daniel_rurikovich start_date = 1253.1.1 end_date = 1264.1.1 regnal_number = 1	} #Start date as the date of the coronation
-			ruler_term = {	character = vol_leo_i_rurikovich start_date = 1264.1.1 end_date = 1301.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_yuri_i_rurikovich start_date = 1301.1.1 end_date = 1308.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_andrii_rurikovich start_date = 1308.1.1 end_date = 1323.1.1 regnal_number = 1	}
-			ruler_term = {	character = vol_boleslaw_jerzy_ii_piast start_date = 1323.1.1 regnal_number = 2	regnal_name = name_george }
-
-			privilege = {
-				#Burghers
-				novi_fori
-				market_fairs
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			lesser_polish
-			volhynian_culture
-			moldovan
-		}
-
-		capital = rov
-		country_rank = rank_kingdom
-	}
-
 
 	LIT = {	#Lithuania
 		own_control_core = {
@@ -31580,7 +31356,7 @@ HAL = {	#Halych
 
 			outward_vs_inward = -90
 
-			ruler = lit_gediminas_gediminids
+			ruler = pol_casimir_iii_piast
 			ruler_term = {	character = lit_butigeidis_gediminids start_date = 1285.1.1 end_date = 1291.1.1 regnal_number = 1	}
 			ruler_term = {	character = lit_butvydas start_date = 1291.1.1 end_date = 1295.1.1 regnal_number = 1	}
 			ruler_term = {	character = lit_vytenis_gediminids start_date = 1295.1.1 end_date = 1316.1.1 regnal_number = 1	}
@@ -31606,10 +31382,7 @@ HAL = {	#Halych
 		capital = vilnius
 		dynasty = gediminid_dynasty
 		country_rank = rank_duchy
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
-		}
+		
 	}
 
 	SXM = {	#Samogitia - Revolter of LIT

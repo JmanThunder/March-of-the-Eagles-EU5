@@ -189,6 +189,9 @@ diplomacy_manager = {
  
 
     #Anatolia
+    dependency = { first = TUR second = WAL subject_type = vassal  }
+    dependency = { first = TUR second = MOL subject_type = vassal  }
+    dependency = { first = TUR second = RAG subject_type = vassal  }
  
 
     #-------------Persia------------
