@@ -20,8 +20,7 @@ international_organization_manager = {
 			#North Germany
 			brabant_area wallonia_area holstein_area brandenburg_area rhineland_area
 			hesse_area westphalia_area lower_saxony_area upper_saxony_area mecklenburg_area
-			#Italy
-			liguria_area lombardy_area piemonte_area  
+			pommerania_area
 			#Poland
 			silesia_area
 			#South Germany
@@ -31,14 +30,6 @@ international_organization_manager = {
 			flanders_area
 		}
 		provinces = { 
-			#Emilia Romagna
-			piacenza_province parma_province reggioem_province modena_province
-			#Pomerania
-			schwerin_province vorpommern_province stettin_province koslin_province pyritz_province stolp_province
-			#Tuscany
-			florence_province grosseto_province lucca_province pisa_province siena_province
-			#Veneto
-			belluno_province friuli_province verona_province vicenza_province
 			#Slovenia
 			lower_styria_province lower_carniola_province upper_carniola_province 
 			#Friesland
@@ -46,15 +37,7 @@ international_organization_manager = {
 			
 		}
 		locations = { 
-			mouzon
-			arezzo cortona
-			modigliana
-			padova este monselice
-			pazin 
-			rijeka
-			rawicz
-			slawno slupsk miastko nowoszczecin drawsko choszczno
-			tolmin gorizia 
+		
 		}
 		emperor = { HAB }
 		elector = { 
