@@ -120,3 +120,22 @@ SAR = { #Sardina
 
 	difficulty = 3
 }
+
+TUS = { #Sardina
+	color = map_TUS
+
+	culture_definition = tuscan
+	religion_definition = catholic
+
+	
+}
+
+RUS = { #Ruzzia
+	color = map_RUS
+
+	culture_definition = moscovite
+	religion_definition = orthodox
+
+	
+}
+

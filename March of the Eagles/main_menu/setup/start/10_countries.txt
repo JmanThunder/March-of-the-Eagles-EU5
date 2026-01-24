@@ -1565,137 +1565,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 		include = "expl_northern_europe"
 	}
 
-	#Novgorod
-	NOV = {
-		own_control_core = {
-			martyshkino koporye soikino yama burga khotsy kulotino megrino moloskovitsa khotchino lisino markovo lyady mezhutka
-			novgorod golino staropolye staraya_russa chudovo kosichkoj zaplyusye kresttsy yazhelbitsy berezovets nebolchi
-			kholm velikiye_luki demon soltsy nalyuchi dolchinyo vlitsy sumino nadvoitsy
-			staraya_ladoga tikhvin lipno_nov borovichi pikalyovo soltsy_kirishi maselga spirkovo lyubytino
-			olonets vazhiny shuya_karelia kondpoga kizhi shyoltozero lindjarvi semcojarvi lodenoye_pole vytegra vinnitsy
-			gorodetsk maksatikha udomlya smerdyn moshenskoye okhona belye_kresty ozerevo troshovo babayevo pudoga iksa village_onega
-			luda malye_oserki nyonoksa priluky pomorye arkhangelsk kholmogory vaymuga brin_navolok siya ust_pinega vershinino sheleksa yemetsk
-			ramenki mednoye vyshny_volochyok bologoye zhabny torzhok kuvshinovo ostashkov
-			volosovskaya kargopol konyovo navolok shalakusha ves_yogonskaya vologda arkhangelskoye_vologda ustye
-			vozhega tavrenga tarnogsky_gorodok totma kubenskoye ust_kuloy shenga_kurya
-			verkhovazhye velsk rovdino vaga bereznik sogra nizhnyaya_toyma verkhnyaya_toyma
-			uftyuga koryazhma yarensk
-			ilyinsko_podomskoye ust_vayenga
-			porkhov plyussa dubronjo spas_na_kholmu
-			rzheva_pustaya ashevo bezhanitsy podberezye visokoye kuretsk lyakhovichy maryovo lyubno svinort gorodets_luga izori tesov
-			bronnitsa gruzino veliky_porog valday pribuzh ivangorod izboishchi pashozero tervenichi megra voznesenye ostrechiny andomsky_pogost
-			kinerma pryazha salmi loimola sordavala kurkijoki sellinkyla karhumagi puatane saarijoki sumsky_posad unezhma vygozero maloshuyka
-			chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
-			#Principality of Volokolansk
-			volok
-		}
 
-		starting_technology_level = 3
-
-		liturgical_language = church_slavonic_language
-
-		country_rank = rank_duchy
-		capital = novgorod
-		include = "expl_novgorod"
-
-		government = {
-			type = republic
-			heir_selection = veche_selection
-			reforms = {
-				veche_republic
-				merchant_republic
-			}
-			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-
-			ruler_term = { character = kie_rurik start_date = 862.1.1 end_date = 879.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_igor_rurikovich start_date = 879.1.1 end_date = 945.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_sviatoslav_rurikovich start_date = 945.1.1 end_date = 970.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_volodymyr_the_great_rurikovich start_date = 970.1.1 end_date = 980.1.1 regnal_number = 1 }
-			ruler_term = { character = nov_vysheslav_rurikovich start_date = 988.1.1 end_date = 1010.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_yaroslav_the_wise_rurikovich start_date = 1010.1.1 end_date = 1034.1.1 regnal_number = 1 }
-			ruler_term = { character = nov_vladimir_yaroslavich_rurikovich start_date = 1036.1.1 end_date = 1052.10.4 regnal_number = 1 }
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1052.10.4 end_date = 1054.2.20 regnal_number = 1 }
-			ruler_term = { character = nov_mstislav_izyaslavich_rurikovich start_date = 1054.2.20 end_date = 1069.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_sviatopolk_ii_rurikovich start_date = 1078.5.30 end_date = 1087.11.22 regnal_number = 2 }
-			
-			#ruler_term = {	character = kie_rostislav_rurikovich start_date = 1154.1.1 end_date = 1154.1.1 regnal_number = 1	}
-			#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1200.1.1 end_date = 1205.1.1 regnal_number = 1 }
-			#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1205.1.1 end_date = 1208.1.1 regnal_number = 1 }
-			
-			#ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1224.1.1 end_date = 1225.1.1  regnal_number = 1 }
-
-			#ruler_term = { character = psk_aleksandr_mikhailovich_rurikovich start_date = 1325.1.1 end_date = 1327.1.1 regnal_number = 1 }
-
-			ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1328.1.1 regnal_number = 1 }
-			parliament = {
-				parliament_type = estate_parliament
-			}
-			centralization_vs_decentralization = 65
-			aristocracy_vs_plutocracy = 30
-			serfdom_vs_free_subjects = -20
-			traditionalist_vs_innovative = 0
-			spiritualist_vs_humanist = -50
-			mercantilism_vs_free_trade = 20
-			offensive_vs_defensive = 40
-			land_vs_naval = -50
-			quality_vs_quantity = 25
-			belligerent_vs_conciliatory = 20
-			capital_economy_vs_traditional_economy = -20
-			individualism_vs_communalism = -20
-			outward_vs_inward = -10
-
-			#Privileges
-			privilege = {
-				novgorod_ivans_hundred
-				tysiatskii_privilege
-				the_ryad_privilege
-				clergy_powerful_dioceses
-
-				#nobles
-				noble_leaders_only
-				banal_lordship
-				noble_serfdom_rights
-				nobles_land_rights
-				kormlenije
-
-				#clergy
-				clergy_literacy_rights
-				clergy_enforced_unity
-
-				#burghers
-				trade_monopolies
-
-			}
-
-			#Laws
-			laws = {
-				administrative_system = pyatina_policy
-				republican_foundation_law = political_dynasties_policy
-				patriarchate_law = separated_patriarchate_policy
-				censorship = limited_censorship
-				education_masses_law = basic_religious_education
-				administrative_system = feudal_administration
-				cultural_traditions_law = martial_society
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-				legal_code_law = russkaya_pravda_policy
-				maritime_law = protect_trade_routes
-				piracy_law = anti_piracy_policy
-				distribution_of_power_law = dop_traditional_distribution_of_power
-			}
-		}
-
-		tolerated_cultures = {
-			ingrian
-			muscovite
-			pomor
-			karelian
-			vepsian
-			bjarmian
-			sapmi
-		}
-
-	}
 
 	#Principality of Toropets
 	TPS = {
@@ -2659,23 +2529,173 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 		include = "expl_novgorod"
 	}
 
-	#Principality of Muscovy
-	MOS = {
+	#Ruzzian Empire
+	RUS = {
 		own_control_core = {
 			moscow zvenigorod ruza pushkino vokhna bronnitsy rogozh
 			mozhaysk vetza odintsovo
 			przemysl_moscow mushkov_pogost
 			#Principality of Pereyaslavl-Zalessky
 			pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
+			qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
+			balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
+			ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
+			mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
+			kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
+			kreminna oleksandrivka bielska_sloboda bilovodsk novopskov kalnivka konstantinovka krasny_sulin
+			shakhty rovenky kalmius kamenskaya azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya semikarakorsk
+			yundin mityakinskaya luhansk novoaidar belaya_kalitva millerovo oblivskaya
+			kashary chertkovo bokovskaya milyutinskaya boguchar ostrogozhsk
+			kalach uryupin mikhaylovka novoanninsky alexeyevskaya veesky kumylzhenskaya
+			yelan machekha novonikolayevsky samoylovka
+			novopavlovsk yessentuq alexandrovskoye blagodarnoye novoselitskoye
+			kalininskaya bryukhovetskaya bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor
+			adyukh stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
+			novo_alexandrovskoye bezopasnoye ipatovo bakanas ashchyozek dagandely koksala sayak
+			irgiz chet_irgiz karasay kayrakty sazanbay
+			zhuban_ana kaip_ata karagau korgan maulimberdy gebergeyel khaiylmysh khaqmar shikashin yuldibay tagatay dandybay karabay smai_samkai yegindybulak
+			sarykopa karasu saryozen ulkayak bolgan_ana aitbulat belen_ana talmas_ata tengiz kon_tengiz kulanotpes sonaly tokrau espe kusak zhamankul
+			aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
+			zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
+			sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
+			usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn 
+			karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka 
+			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk 
+			tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya nizhny_chir anna_russia 
+			novaya_pokrovka semidesyatnoye zemlyansk rossosh borisoglebsk bannoye sadovoye 
+			bolshaya_gribanovka buturlinovka verkhny_mamon zimnyatsky malodelskaya ilovlya 
+			atkarsk lysye_gory yekaterinovka balanda rtishchevo balashov turki arkadak 
+			sosnovy_ostrov malykovka novye_burasy tereshka petrovsk mechet stepanevka 
+			sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic danilovka 
+			kotovo kamyshin goly_karamysh pologoye_zaymishche srednyaya_akhtuba bykovo 
+			elton zolotari berezhnovka kalmyk karatobe shyngyrlau aksay_pointic zhympity
+			terekti oral ryn saryadyn ushtagan sarayjuk kisikkamys kulagin talowski 
+			astrakhan khosheutovo krasny_yar ganyushkino zamyany yenotayevka sapara 
+			chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety 
+			sadovoye_kalmykia ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic 
+			rechnoye bokey botkul zhanybek piterka krasny_kut_pontic mokrous 
+			savinka rovnoye pokrovsk baronsk taskala dergachi chertanla alexandrov_gay 
+			ozinki mechetnaya perelyub ivanteyevka balakovo dukhovnitskoye 
+			sakminskoye_vodokhranilishche yershov dardeling mekletin kok_usn yashkul 
+			iki_burul priyutnoye elista remontnoye gorodovikovsk raguli majar zelenokumsk arzgir levokumskoye 
+			naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek 
+			kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda 
+			kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
+
+			chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
+			lusta soldaia 
+			zainsk syun verkhneyarkeyevo
+			menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
+			ulukulevo davlekanovo bizhbulyak turkmenevo sterlibashevo
+			sterlitamak bavly bugulma abdulino aznakayevo
+			sadak gorkovskoye okoneshnikovo
+			qashliq siberia_abalak turtas yukonda
+			tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
+			siletiteniz zhalauly
+			tuzdysor imakia zhelezin lebyazhye
+			chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
+			tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
+			shish muromtsevo ufa askino baltas
+			sartlan taskayevo kargat kainsky_pas kyshtovka
+			bursol kuchukskoye volchikha butyrskoe zmeinogorsk shemonayevskoye oskemen ust_kalmanka
+			krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
+			suzun berdsk chesnokovka kalmanka barnaul verkhotomsk kolchugino
+			altayskoye onguday ust_koksa smolenskoye mayma biysk
+			kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
+			tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
+			surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
+			alkhan_kala nazran dzhulat tatartup
+			promsa alatyr batyrevo
+			atrat altyshevo bolshoye_boldino shatki arzamas sarov lukoyanov krasnoslobodsk ruzayevka
+			insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari 
+			sergach chamzinka saransk lunino 
+			pokrovskoye simbirsk cherdakly staraya_mayna melekess tetyushi sviyazhsk
+			atishchevo tsivilsk sharanga uren tonshayevo
+			bolshoye_murashkino kurmysh lyskovo perevoz sechenovo spasskoye_lyskovo
+			cheboksary kozmodemyansk alikovo vasilsursk pavlovo
+			vetluga semyonov khakhaly kovernino krasnye_baki raznezhye voskresenskoye varnavino
+			kadom ardatov 
+			ushkan koskuduk manysai shagan zhaksy_karasay
+			ketik_kala kabakty karatobe_mangyshlak kyzylkala
+			masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
+			beleuli kyushe sam shuruk sisem_ata uchkuduk
+			pulzhai qonirat shimbay xojeli khurgancha
+			vezir urgench
+			kazan laish calli mamadysh bogatye_saby oli_baraza dobyaz
+			yaransk kiknur kabachischi yoshkar_ola
+			bolghar cukataw bilyar almetyevsk 
+			tabynsky ishimbay beloretsk 
+			buguruslan sergiyevsk
+			koshki kamyshla bolshoy_cheremshan staryi_amanak
+			samara shigony morkvash chebarkul miass
+			krasnaya_gorka belekes 
+
+			ismail
+			tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
+			lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
+			kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
+			rovenki valuyki korocha belgorod rakitnoye muzhech sudzha oboyan
+			staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun 
+			mokshan chembar
+			serdobinskaya malaya_serdoba shemysheyka
+			penza gorodishche russky_kameshkir staraya_kulatka solovtsovo
+			troitskoye_kuroedovo 
+			kasimov azeevo
+
+			meleuz kapova_pesera
+			khvorostyanka stavropol_na_volge kondurcha pestravka
+			poganovka sorochinskaya buzuluk grachevka bol_shoy_uran malyy_uran
+			s_ezzaja bogatoye
+			tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
+			bayanaul shybyndy bozok_astana akkol
+			karasor karkaraly takhir
+			arykbalyk kak kokshetau shoindykol atbasar
+			kulykol zhetykol shoptikol siberia_tenteksor konildi
+			zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
+			yetkul troitsk uyskoye 
+			bolshoy_ik ust_katav mesyagutovo zlatoust
+			chimgi_tura tugulym yalutorovsk shadrinsk
+			tsaryovo_gorodishche burayevo
+			sarybulak zhanaarka arkat balyktykol kaynar_atbai
+
+			bratslav balta bershad drahushiv karabul savran
+			torhovytsia teplyk tsybuliv uman zavallia
+			vinnytsia buzhskyi pohrebyshche sokilets
+			armavir 
+
+			#Principality of Kursk
+			kursk fatezh kosozhichi olgov
+			manturovo_kursk oskol troitskoye_na_shchigrakh
+			#Principality of Kolomna
+			kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
+			martyshkino koporye soikino yama burga khotsy kulotino megrino moloskovitsa khotchino lisino markovo lyady mezhutka
+			novgorod golino staropolye staraya_russa chudovo kosichkoj zaplyusye kresttsy yazhelbitsy berezovets nebolchi
+			kholm velikiye_luki demon soltsy nalyuchi dolchinyo vlitsy sumino nadvoitsy
+			staraya_ladoga tikhvin lipno_nov borovichi pikalyovo soltsy_kirishi maselga spirkovo lyubytino
+			olonets vazhiny shuya_karelia kondpoga kizhi shyoltozero lindjarvi semcojarvi lodenoye_pole vytegra vinnitsy
+			gorodetsk maksatikha udomlya smerdyn moshenskoye okhona belye_kresty ozerevo troshovo babayevo pudoga iksa village_onega
+			luda malye_oserki nyonoksa priluky pomorye arkhangelsk kholmogory vaymuga brin_navolok siya ust_pinega vershinino sheleksa yemetsk
+			ramenki mednoye vyshny_volochyok bologoye zhabny torzhok kuvshinovo ostashkov
+			volosovskaya kargopol konyovo navolok shalakusha ves_yogonskaya vologda arkhangelskoye_vologda ustye
+			vozhega tavrenga tarnogsky_gorodok totma kubenskoye ust_kuloy shenga_kurya
+			verkhovazhye velsk rovdino vaga bereznik sogra nizhnyaya_toyma verkhnyaya_toyma
+			uftyuga koryazhma yarensk
+			ilyinsko_podomskoye ust_vayenga
+			porkhov plyussa dubronjo spas_na_kholmu
+			rzheva_pustaya ashevo bezhanitsy podberezye visokoye kuretsk lyakhovichy maryovo lyubno svinort gorodets_luga izori tesov
+			bronnitsa gruzino veliky_porog valday pribuzh ivangorod izboishchi pashozero tervenichi megra voznesenye ostrechiny andomsky_pogost
+			kinerma pryazha salmi loimola sordavala kurkijoki sellinkyla karhumagi puatane saarijoki sumsky_posad unezhma vygozero maloshuyka
+			chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
+			#Principality of Volokolansk
+			volok
 		}
 
 		own_control_conquered = {
-			#Principality of Kolomna
-			kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
+			
 		}
 
 		starting_technology_level = 3
-		country_rank = rank_kingdom
+		country_rank = rank_empire
 
 		government = {
 			type = monarchy
@@ -3552,212 +3572,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 		capital = barnaul
 	}
 
-	GLH = {
-		type = army
-		own_control_core = {
-
-			qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
-			balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
-			ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
-			mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
-			kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
-			kreminna oleksandrivka bielska_sloboda bilovodsk novopskov kalnivka konstantinovka krasny_sulin
-			shakhty rovenky kalmius kamenskaya azok bagayevskaya shcherbinovka balzimachi kanevskaya starominskaya yegorlykskaya semikarakorsk
-			yundin mityakinskaya luhansk novoaidar belaya_kalitva millerovo oblivskaya
-			kashary chertkovo bokovskaya milyutinskaya boguchar ostrogozhsk
-			kalach uryupin mikhaylovka novoanninsky alexeyevskaya veesky kumylzhenskaya
-			yelan machekha novonikolayevsky samoylovka
-			novopavlovsk yessentuq alexandrovskoye blagodarnoye novoselitskoye
-			kalininskaya bryukhovetskaya bzhedygu_kal ust_labinsk pavlovskaya tbilisskaya romanovsky_khutor
-			adyukh stavropol grigoropolisskaya uspenskoye shad_kirman petrovskoye_pontic privolnoye belaya_glina peschanokopskoye
-			novo_alexandrovskoye bezopasnoye ipatovo bakanas ashchyozek dagandely koksala sayak
-			irgiz chet_irgiz karasay kayrakty sazanbay
-			zhuban_ana kaip_ata karagau korgan maulimberdy gebergeyel khaiylmysh khaqmar shikashin yuldibay tagatay dandybay karabay smai_samkai yegindybulak
-			sarykopa karasu saryozen ulkayak bolgan_ana aitbulat belen_ana talmas_ata tengiz kon_tengiz kulanotpes sonaly tokrau espe kusak zhamankul
-			aybas kabyrga karaturgay turgay zhaldama orda_bazar alashakhan baskamyr ulytau namjan atach ishkul kumak suyunduk tanalyk yaik
-			zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
-			sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
-		}
-		own_control_integrated = {
-			usivka petrove kodak myshuryn_rih samarchyk pavlohrad oril ternivka adalaga berestyn 
-			karlivka izium barvinkove donets_kharkiv zmiiv chuhuiv vovchansk nyzhnia_duvanka 
-			bol_shaya_martynovka cheplak bolshoy_gashun dubovskoye ust_tsimla konstantinovsk 
-			tatsinskaya tormosin kremenskaya kletskaya ust_medveditskaya nizhny_chir anna_russia 
-			novaya_pokrovka semidesyatnoye zemlyansk rossosh borisoglebsk bannoye sadovoye 
-			bolshaya_gribanovka buturlinovka verkhny_mamon zimnyatsky malodelskaya ilovlya 
-			atkarsk lysye_gory yekaterinovka balanda rtishchevo balashov turki arkadak 
-			sosnovy_ostrov malykovka novye_burasy tereshka petrovsk mechet stepanevka 
-			sarai_al_jadid beljamen zenzevatka nagavskaya aksay rudnya_pontic danilovka 
-			kotovo kamyshin goly_karamysh pologoye_zaymishche srednyaya_akhtuba bykovo 
-			elton zolotari berezhnovka kalmyk karatobe shyngyrlau aksay_pointic zhympity
-			terekti oral ryn saryadyn ushtagan sarayjuk kisikkamys kulagin talowski 
-			astrakhan khosheutovo krasny_yar ganyushkino zamyany yenotayevka sapara 
-			chernyye_zemli ikryanoye chyorny_yar nikolskoye_pontic malye_derbety 
-			sadovoye_kalmykia ded_khulsun zavetnoye bolkhuny mikhaylovka_pontic 
-			rechnoye bokey botkul zhanybek piterka krasny_kut_pontic mokrous 
-			savinka rovnoye pokrovsk baronsk taskala dergachi chertanla alexandrov_gay 
-			ozinki mechetnaya perelyub ivanteyevka balakovo dukhovnitskoye 
-			sakminskoye_vodokhranilishche yershov dardeling mekletin kok_usn yashkul 
-			iki_burul priyutnoye elista remontnoye gorodovikovsk raguli majar zelenokumsk arzgir levokumskoye 
-			naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek 
-			kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda 
-			kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
-
-			chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
-			lusta soldaia 
-			zainsk syun verkhneyarkeyevo
-			menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
-			ulukulevo davlekanovo bizhbulyak turkmenevo sterlibashevo
-			sterlitamak bavly bugulma abdulino aznakayevo
-			sadak gorkovskoye okoneshnikovo
-			qashliq siberia_abalak turtas yukonda
-			tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
-			siletiteniz zhalauly
-			tuzdysor imakia zhelezin lebyazhye
-			chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
-			tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
-			shish muromtsevo ufa askino baltas
-			sartlan taskayevo kargat kainsky_pas kyshtovka
-			bursol kuchukskoye volchikha butyrskoe zmeinogorsk shemonayevskoye oskemen ust_kalmanka
-			krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
-			suzun berdsk chesnokovka kalmanka barnaul verkhotomsk kolchugino
-			altayskoye onguday ust_koksa smolenskoye mayma biysk
-			kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
-			tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
-			surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
-			alkhan_kala nazran dzhulat tatartup
-			promsa alatyr batyrevo
-			atrat altyshevo bolshoye_boldino shatki arzamas sarov lukoyanov krasnoslobodsk ruzayevka
-			insar temnikov tarbeevka zubova_polyana mokhcha nizhny_lomov zemetchino bondari 
-			sergach chamzinka saransk lunino 
-			pokrovskoye simbirsk cherdakly staraya_mayna melekess tetyushi sviyazhsk
-			atishchevo tsivilsk sharanga uren tonshayevo
-			bolshoye_murashkino kurmysh lyskovo perevoz sechenovo spasskoye_lyskovo
-			cheboksary kozmodemyansk alikovo vasilsursk pavlovo
-			vetluga semyonov khakhaly kovernino krasnye_baki raznezhye voskresenskoye varnavino
-			kadom ardatov 
-			ushkan koskuduk manysai shagan zhaksy_karasay
-			ketik_kala kabakty karatobe_mangyshlak kyzylkala
-			masat_ata beket_ata beki kenderli_kayasan koshkar_ata temir_baba
-			beleuli kyushe sam shuruk sisem_ata uchkuduk
-			pulzhai qonirat shimbay xojeli khurgancha
-			vezir urgench
-			kazan laish calli mamadysh bogatye_saby oli_baraza dobyaz
-			yaransk kiknur kabachischi yoshkar_ola
-			bolghar cukataw bilyar almetyevsk 
-			tabynsky ishimbay beloretsk 
-			buguruslan sergiyevsk
-			koshki kamyshla bolshoy_cheremshan staryi_amanak
-			samara shigony morkvash chebarkul miass
-			krasnaya_gorka belekes 
-
-			ismail
-			tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
-			lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
-			kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
-			rovenki valuyki korocha belgorod rakitnoye muzhech sudzha oboyan
-			staroyuryevo morsha sasovo nikolskoye bazarny_syzgan karsun 
-			mokshan chembar
-			serdobinskaya malaya_serdoba shemysheyka
-			penza gorodishche russky_kameshkir staraya_kulatka solovtsovo
-			troitskoye_kuroedovo 
-			kasimov azeevo
-
-			meleuz kapova_pesera
-			khvorostyanka stavropol_na_volge kondurcha pestravka
-			poganovka sorochinskaya buzuluk grachevka bol_shoy_uran malyy_uran
-			s_ezzaja bogatoye
-			tobolsk vagay tavdinsky_sloboda yurginskoye vikulovo
-			bayanaul shybyndy bozok_astana akkol
-			karasor karkaraly takhir
-			arykbalyk kak kokshetau shoindykol atbasar
-			kulykol zhetykol shoptikol siberia_tenteksor konildi
-			zharkol sasykkol kartaly alakol almenevo safkul shchuchye kargapolye kurtamysh
-			yetkul troitsk uyskoye 
-			bolshoy_ik ust_katav mesyagutovo zlatoust
-			chimgi_tura tugulym yalutorovsk shadrinsk
-			tsaryovo_gorodishche burayevo
-			sarybulak zhanaarka arkat balyktykol kaynar_atbai
-
-			bratslav balta bershad drahushiv karabul savran
-			torhovytsia teplyk tsybuliv uman zavallia
-			vinnytsia buzhskyi pohrebyshche sokilets
-			armavir 
-
-			#Principality of Kursk
-			kursk fatezh kosozhichi olgov
-			manturovo_kursk oskol troitskoye_na_shchigrakh
-		}
-		starting_technology_level = 3
-		include = "expl_mongols"
-		include = "eurasian_horde"
-		country_rank = rank_kingdom
-
-		government = {
-			type = steppe_horde
-			heir_selection = tribal_oldest_male
-
-			ruler_term = {	 character = jochi_borjigin start_date = 1207.1.1 end_date = 1227.1.1 regnal_number = 1	}
-			ruler_term = {	 character = batu_borjigin start_date = 1227.1.1 end_date = 1255.1.1 regnal_number = 1	}
-			ruler_term = {	 character = sartaq_borjigin start_date = 1255.1.1 end_date = 1256.1.1 regnal_number = 1	}
-			ruler_term = {	 character = ulaghchi_borjigin start_date = 1256.1.1 end_date = 1257.1.1 regnal_number = 1	}
-			ruler_term = {	 character = berke_borjigin start_date = 1257.1.1 end_date = 1266.1.1 regnal_number = 1	}
-			ruler_term = {	 character = mongke_temur_borjigin start_date = 1266.1.1 end_date = 1280.1.1 regnal_number = 1	}
-			ruler_term = {	 character = tode_mongke_borjigin start_date = 1280.1.1 end_date = 1287.1.1 regnal_number = 1	}
-			ruler_term = {	 character = tole_buqa_borjigin start_date = 1287.1.1 end_date = 1291.1.1 regnal_number = 1	}
-			ruler_term = {	 character = toqta_borjigin start_date = 1291.1.1 end_date = 1312.1.1 regnal_number = 1	}
-			ruler_term = {	 character = glh_giyas_al_din_mohammed_oz_beg_borjigin start_date = 1313.1.1 regnal_number = 1	}
-
-			ruler = glh_giyas_al_din_mohammed_oz_beg_borjigin
-
-			reforms = {
-				legacy_of_genghis
-			}
-			privilege = {
-				dhimmi_abrahamic_communities
-				urban_development_grants
-				dhimmi_military_service
-				dhimmi_traditions
-				dhimmi_administrative_posts
-			}
-
-			laws = {
-				sharia_law = hanafi_policy
-			}
-		}
-		capital = sarai_al_jadid
-		religious_school = hanafi_school
-		government = { mysticism_vs_jurisprudence = -15 }
-		
-		court_language = kipchak_language
-
-
-		accepted_cultures = {
-			crimean
-
-		}
-
-
-		tolerated_cultures = {
-			mishar
-			bashkir
-			uzbek_culture
-			yerle_qaliq_culture
-			smolenskian_culture
-			kyrgyz_culture
-			#ruthenian
-			#ryazanian
-			#severian
-			#nogai
-			#astrakhani
-			#kazani
-
-		}
-
-	}
-
-
-	CRI = {
+CRI = {
 		type = location
 		our_cores_conquered_by_others = {
 			qirq_yer qarasuvbazar seyitler solkhat kalay kezlev aqmecit jurchi or_qapi mapa susaco shanjir copa siba_circassia akhtar kalininskaya bryukhovetskaya 
@@ -7740,27 +7555,7 @@ GLY = { # Galloway
 	}
 
 	#---------------------------- Italy --------------------------------
-	PST = {  # Pistoia (Italy)
-		own_control_core = {
-			pistoia
-		}
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = pistoia
-	}
-
-	ABA = {
+ABA = {
 		own_control_core = {
 			alba
 		}
@@ -7782,153 +7577,8 @@ GLY = { # Galloway
 		capital = alba
 	}
 
-	ANC = {
-		own_control_core = {
-			ancona
-		}
 
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-
-			ruler_term = { character = fer_azzo_vi_este start_date = 1209.1.1 end_date = 1212.11.1 regnal_number = 0 }
-			ruler_term = { character = fer_aldobrandino_i_este start_date = 1212.11.1 end_date = 1215.10.10 regnal_number = 0 }
-		}
-
-		tolerated_cultures = {
-			emilian
-		}
-
-		capital = ancona
-	}
-
-	AQU = {
-		own_control_core = {
-			tolmezzo pordenone spilimbergo udine gemona
-			pieve
-			
-		}
-
-		own_control_integrated = {
-			 
-		}
-
-		our_cores_conquered_by_others = {
-			cividale pieve
-		}
-
-		government = {
-
-			ruler = aqu_bertrando_genasio
-
-			ruler_term = { character = aqu_raimondo_della_torre start_date = 1273.12.21 end_date = 1299.2.23 regnal_number = 1 }
-
-			ruler_term = { character = aqu_cassone_della_torre start_date = 1317.1.10 end_date = 1318.8.20 regnal_number = 1 }
-			# Vacant See 1318-1319
-			ruler_term = { character = aqu_pagano_della_torre start_date = 1319.3.23 end_date = 1331.12.19 regnal_number = 1 }
-			# Vacant See 1331-1334
-			ruler_term = { character = aqu_bertrando_genasio start_date = 1334.7.4 regnal_number = 1 }
-
-			regnal_numbers = {
-				#Ermagora = 1
-				name_hilarius = 1
-				#Crisogono = 2
-				name_theodore = 1
-				name_agapetus = 1
-				name_benedict = 1
-				#Fortunaziano = 1
-				name_valerian = 1
-				#Cromazio = 1
-				name_augustine = 1
-				name_adelphus = 1
-				name_maximus = 2
-				name_secundus = 1
-				name_nicetas = 1
-				name_marcelin = 1
-				name_stephen = 2
-				#Macedonio = 1
-				name_paulinus = 2
-				#Probino = 1
-				name_elias = 1
-				name_severus = 1
-				#Candidiano = 1
-				name_john = 4
-				name_epifanio = 1
-				name_cyprian = 1
-				#Marciano = 1
-				name_fortunatus = 1
-				#Primogenio = 1
-				name_felix = 1
-				#Agatone = 1
-				name_christopher = 1
-				name_peter = 2
-				#Sereno = 1
-				name_callisto = 1
-				#Sigualdo = 1
-				name_ursus = 2
-				name_maxentius = 1
-				name_andrew = 1
-				name_venantius = 1
-				#Teutmaro = 1
-				name_lupus = 2
-				#Valperto = 1
-				name_frederick = 2
-				name_leon = 1
-				#Engelfredo = 1
-				#Rodoaldo = 1
-				#Poppone = 1
-				name_everard = 1
-				#Gotebaldo = 1
-				#Ravengerio = 1
-				#Sigeardo = 1
-				name_henry = 1
-				name_ulrick = 2
-				name_gerard = 1
-				name_engelbert = 1
-				name_peregrine = 2
-				name_godfrey = 1
-				#Volchero (Wolfger) = 1
-				name_berthold = 1
-				name_gregory = 1
-				name_philip = 1
-				name_raymond = 1
-				name_conrad = 1
-				name_ottobonus = 1
-				name_giles = 1
-				name_gaston = 1
-				name_payn = 1
-				name_bertrand = 1
-			}
-
-		}
-
-		include = "catholic_bishopric"
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-
-		tolerated_cultures = {
-			venetian
-			slovene
-			ladin
-		}
-
-		country_rank = rank_duchy
-		capital = aquileia
-	}
-
-	ARB = {
+ARB = {
 		own_control_core = {
 			ales oristano sorgono terralba bosa macomer bitti ozieri
 		}
@@ -8012,29 +7662,7 @@ GLY = { # Galloway
 		capital = arezzo
 	}
 
-	ASC = {
-		own_control_core = {
-			ascolipiceno
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = asc_angelo_del_signor_bartolomeo_di_rieti
-
-			ruler_term = { character = asc_angelo_del_signor_bartolomeo_di_rieti start_date = 1337.1.1 regnal_number = 0 }
-		}
-		capital = ascolipiceno
-	}
-
-	ASD = {
+ASD = {
 		own_control_core = {
 			alessandria
 		}
@@ -8091,57 +7719,7 @@ GLY = { # Galloway
 		capital = asti
 	}
 
-	BLG = {
-		own_control_core = {
-			bologna medicina vergato
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = blg_taddeo_pepoli
-			consort = blg_bartolomea_samaritani
-
-			ruler_term = { character = ven_reniero_zeno start_date = 1231.1.1 end_date = 1232.1.1 }
-			ruler_term = { character = ven_reniero_zeno start_date = 1239.1.1 end_date = 1240.1.1 }
-			ruler_term = { character = mlo_ermanno_della_torre start_date = 1253.1.1 end_date = 1254.1.1 }
-
-			ruler_term = { character = blg_romeo_pepoli start_date = 1306.1.1 end_date = 1321.7.17 regnal_number = 0 }
-
-			ruler_term = { character = gub_jacopo_gabrielli start_date = 1327.1.1 end_date = 1328.1.1 regnal_number = 0 }
-
-			ruler_term = { character = imo_lippo_ii_alidosi start_date = 1334.1.1 end_date = 1334.6.2 regnal_number = 0 }
-
-			ruler_term = {
-				character = blg_taddeo_pepoli start_date = 1334.6.2 regnal_number = 0
-				#character = blg_brandelisio_gozzadini start_date = 1334.6.2 regnal_number = 0
-				#character = blg_bornio_samaritani start_date = 1334.6.2 regnal_number = 0
-			}
-
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = bologna
-		dynasty = pepoli_dynasty
-	}
-
-	BRS = {
+BRS = {
 		our_cores_conquered_by_others = {
 			asola brescia palazzolo salo_ita breno nozza
 		}
@@ -8198,32 +7776,7 @@ GLY = { # Galloway
 		capital = cagliari
 	}
 
-	CDC = {
-		own_control_core = {
-			cittacastello
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			emilian
-		}
-
-		capital = cittacastello
-	}
-
-	CEN = {
+CEN = {
 		our_cores_conquered_by_others = {
 			ceneda conegliano
 		}
@@ -8242,41 +7795,6 @@ GLY = { # Galloway
 		}
 	}
 
-	CES = {
-		own_control_core = {
-			cesena modigliana
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = ces_francesco_ii_ordelaffi
-
-			ruler_term = { character = urb_guido_i_montefeltro start_date = 1275.1.1 end_date = 1278.1.1 regnal_number = 1 }
-
-			ruler_term = { character = urb_guido_i_montefeltro start_date = 1281.1.1 end_date = 1283.1.1 regnal_number = 1 }
-
-			ruler_term = { character = ces_francesco_ii_ordelaffi start_date = 1333.1.1 regnal_number = 2 }
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = cesena
-	}
 
 	CEV = {
 		own_control_core = {
@@ -8406,52 +7924,7 @@ GLY = { # Galloway
 
 
 
-	CMR = {
-		own_control_core = {
-			camerino
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = cmr_gentile_ii_varano
-			consort = ptg_agostina_gherardesca
-
-			ruler_term = { character = cmr_gentile_i_varano start_date = 1259.1.1 end_date = 1284.1.1 regnal_number = 1 }
-
-			ruler_term = {
-				character = cmr_rodolfo_i_varano start_date = 1284.1.1 end_date = 1316.1.1 regnal_number = 1
-				character = cmr_berardo_i_varano start_date = 1284.1.1 end_date = 1316.1.1 regnal_number = 1 # Junior Co-Ruler until 1316
-			}
-			ruler_term = { character = cmr_berardo_i_varano start_date = 1316.1.1 end_date = 1325.1.1 regnal_number = 1 } # Junior Co-Ruler until 1316
-			ruler_term = {
-				character = cmr_berardo_i_varano start_date = 1325.1.1 end_date = 1329.3.1 regnal_number = 1 # Junior Co-Ruler until 1316
-				character = cmr_gentile_ii_varano start_date = 1325.1.1 end_date = 1329.3.1 regnal_number = 2
-			}
-			ruler_term = { character = cmr_gentile_ii_varano start_date = 1329.3.1 regnal_number = 2 }
-		}
-
-		tolerated_cultures = {
-			neapolitan
-		}
-
-		capital = camerino
-		dynasty = da_varano_dynasty
-	}
-
-	CNV = {
+CNV = {
 		own_control_core = {
 			ivrea
 		}
@@ -8497,41 +7970,7 @@ GLY = { # Galloway
 		capital = ajaccio
 	}
 
-	COT = {
-		own_control_core = {
-			cortona
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-			ruler = cot_ranieri_ii_casali
-
-			ruler_term = { character = cot_ranieri_ii_casali start_date = 1325.1.1 regnal_number = 2 }
-
-		}
-
-		tolerated_cultures = {
-			median
-		}
-
-		country_rank = rank_county
-		capital = cortona
-		dynasty = casali_dynasty
-	}
-
-	CRM = {
+CRM = {
 		our_cores_conquered_by_others = {
 			casalmaggiore cremona soncino lodi
 		}
@@ -8588,40 +8027,6 @@ GLY = { # Galloway
 		capital = fabriano
 	}
 
-	FAE = {
-		own_control_core = {
-			faenza
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = fae_ricciardo_manfredi
-			consort = for_cia_ubaldini
-
-			ruler_term = { character = fae_francesco_manfredi start_date = 1313.1.1	end_date = 1327.1.1 regnal_number = 0 }
-			ruler_term = { character = fae_alberghettino_ii_manfredi start_date = 1327.1.1 end_date = 1329.1.1 regnal_number = 2 }
-			ruler_term = { character = fae_ricciardo_manfredi start_date = 1329.1.1 regnal_number = 0 }
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = faenza
-	}
 
 	FEL = {
 		our_cores_conquered_by_others = {
@@ -8643,72 +8048,16 @@ GLY = { # Galloway
 		capital = feltre
 	}
 
-	FER = {
+TUS = { #Grand Duchy of Tuscany
 		own_control_core = {
-			comacchio ferrara ficarolo rovigo argenta 
+			florence mangona poggibonsi sanlorenzo arezzo
+			massamar chiusi montalcino siena grosseto
+			livorno pisa pontedera prato pistoia cortona
+			pitigliano volterra sansepolcro
+
 		}
 
-		own_control_conquered = {
-			frassinoro modena nonantola
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = signoria_selection
-
-			reforms = {
-				dynastic_signoria_reform
-			}
-
-			ruler = fer_obizzo_iii_este
-			consort = fer_giacoma_pepoli
-
-			ruler_term = { character = fer_azzo_vi_este start_date = 1209.1.1 end_date = 1212.11.1 regnal_number = 6 }
-			ruler_term = { character = fer_aldobrandino_i_este start_date = 1212.11.1 end_date = 1215.10.10 regnal_number = 1 }
-			ruler_term = { character = fer_azzo_vii_este start_date = 1215.10.10 end_date = 1222.1.1 regnal_number = 7 }
-			#Ruled by Salinguerra Torrelli 1222-1237 & directly by HRE 1237-1240
-			ruler_term = { character = fer_azzo_vii_este start_date = 1240.1.1 end_date = 1264.2.17 regnal_number = 7 } # As HRE Vicar
-			ruler_term = { character = fer_obizzo_ii_este start_date = 1264.2.17 end_date = 1293.2.13 regnal_number = 2 }
-			ruler_term = { character = fer_azzo_viii_este start_date = 1293.2.13 end_date = 1308.1.31 regnal_number = 8 }
-			ruler_term = { character = fer_aldobrandino_ii_este start_date = 1308.1.31 end_date = 1308.2.15 regnal_number = 2 }
-			ruler_term = { character = fer_fresco_este start_date = 1308.2.15 end_date = 1308.11.30 regnal_number = 0 }
-			ruler_term = { character = fer_folco_ii_este start_date = 1308.11.30 end_date = 1309.1.1 regnal_number = 2 } # As venetian governor
-			#Ruled by Papal States 1309-1317
-			ruler_term = {
-				character = fer_rinaldo_ii_este start_date = 1317.7.17 end_date = 1335.12.31 regnal_number = 2
-				character = fer_nicolo_i_este start_date = 1317.7.17 end_date = 1335.12.31 regnal_number = 1 # Junior Co-Ruler
-			}
-			ruler_term = {
-				character = fer_obizzo_iii_este start_date = 1335.12.31 end_date = 1336.12.31 regnal_number = 3
-				character = fer_nicolo_i_este start_date = 1335.12.31 end_date = 1336.12.31 regnal_number = 1 # Junior Co-Ruler
-			}
-			ruler_term = { character = fer_obizzo_iii_este start_date = 1337.1.1 regnal_number = 3 }
-		}
-
-		tolerated_cultures = {
-			venetian
-		}
-
-		capital = ferrara
-		dynasty = deste_dynasty
-		dynasty = ramberti_dynasty
-	}
-
-	FLO = { #Florence
-		own_control_core = {
-			florence mangona poggibonsi sanlorenzo
-		}
-
-		own_control_conquered = {
-			arezzo
-		}
+		
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -8845,33 +8194,6 @@ GLY = { # Galloway
 		include = "expl_indian_trade_route"
 	}
 
-	FRM = {
-		own_control_core = {
-			fermo
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-
-			ruler = frm_mercenario_monteverde
-
-			ruler_term = { character = frm_mercenario_monteverde start_date = 1331.1.1 regnal_number = 0 }
-		}
-
-		tolerated_cultures = {
-			neapolitan
-		}
-
-		capital = fermo
-	}
 
 	GAL = {
 		our_cores_conquered_by_others = {
@@ -8918,7 +8240,7 @@ GLY = { # Galloway
 		own_control_core = {
 			albenga ventimiglia genoa lavagna sarzana savona #Liguria
 			# own_control_integrated, but culture accepted
-			aleria bastia calvi corte ajaccio sartene vico bonifacio #Corsica
+			finalborgo
 		}
 		own_control_integrated = {
 			alghero thiesi #Sardinia
@@ -9025,81 +8347,6 @@ GLY = { # Galloway
 		capital = genoa
 	}
 
-	GUB = {
-		own_control_core = {
-			gubbio
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-
-			ruler_term = { character = gub_gabriello_gabrielli start_date = 1224.1.1 end_date = 1225.1.1 regnal_number = 0 }
-			ruler_term = { character = gub_gabriello_gabrielli start_date = 1229.1.1 end_date = 1230.1.1 regnal_number = 0 }
-			ruler_term = { character = gub_pietro_gabrielli start_date = 1261.1.1 end_date = 1262.1.1 regnal_number = 0 }
-			ruler_term = { character = gub_cante_gabrielli start_date = 1300.5.23 end_date = 1335.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_cante = 1
-			}
-		}
-
-		tolerated_cultures = {
-			emilian
-		}
-
-		capital = gubbio
-	}
-
-	IMO = {
-		own_control_core = {
-			imola
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = imo_lippo_ii_alidosi
-			consort = imo_cianghella_della_tosa
-
-			ruler_term = { character = imo_lippo_i_alidosi start_date = 1278.1.1 end_date = 1288.1.1 regnal_number = 1 }
-			# Annexed to Papal States 1288-1290
-			ruler_term = { character = imo_alidosio_alidosi start_date = 1290.11.29 end_date = 1292.3.1 regnal_number = 0 }
-			# Annexed to Bologne 1293-1296
-			ruler_term = { character = ver_uguccione_della_faggiola start_date = 1296.1.1 end_date = 1299.1.1 regnal_number = 0 }
-			# Annexed to Papal States 1299-1302
-			ruler_term = { character = imo_alidosio_alidosi start_date = 1302.1.1 end_date = 1311.1.1 regnal_number = 0 }
-			# Annexed to Papal States 1311-1334
-			ruler_term = { character = imo_lippo_ii_alidosi start_date = 1334.1.1 regnal_number = 2 }
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = imola
-		dynasty = alidosi_dynasty
-	}
 
 	LUC = { #Personal Union with Verona
 		own_control_core = {
@@ -9162,46 +8409,7 @@ GLY = { # Galloway
 		capital = lucca
 	}
 
-	MAN = {
-		own_control_core = {
-			goito mantova ostiglia
-			# own_control_integrated, but culture accepted
-			canossa guastalla mirandola reggioem
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = man_luigi_i_gonzaga
-			consort = man_caterina_i_malatesta
-
-			ruler_term = { character = neg_leone_dalle_carceri start_date = 1222.12.25 end_date = 1223.12.24 }
-
-			ruler_term = { character = man_luigi_i_gonzaga start_date = 1328.8.16 regnal_number = 0 }
-
-		}
-
-		tolerated_cultures = {
-			lombard
-		}
-
-		capital = mantova
-		dynasty = gonzaga_dynasty
-	}
-
-	MFA = {
+MFA = {
 		own_control_core = {
 			lanzo casale acqui
 		}
@@ -9282,13 +8490,14 @@ GLY = { # Galloway
 
 	MLO = { #Milan
 		own_control_core = {
-			legnano milano rho varese lecco monza treviglio
+			legnano milano rho varese lecco monza treviglio pavia cremona mantova goito ostiglia
 		}
 
 		own_control_conquered = {
 			vercelli arona novara domodossola varallo como
-			casalmaggiore cremona soncino bergamo cortenuova clusone zogno lodi
-			bardi fiorenzuola piacenza biella
+			casalmaggiore soncino lodi
+			biella
+			
 		}
 
 		starting_technology_level = 3
@@ -9436,8 +8645,8 @@ GLY = { # Galloway
 	}
 
 	MOD = {
-		our_cores_conquered_by_others = {
-			frassinoro modena nonantola
+		own_control_core = {
+			guastalla frassinoro modena nonantola canossa mirandola reggioem
 		}
 
 		starting_technology_level = 3
@@ -9465,7 +8674,7 @@ GLY = { # Galloway
 
 	MSP = {
 		own_control_core = {
-			bobbio fosdinovo rovegno
+			fosdinovo 
 		}
 
 
@@ -9509,53 +8718,18 @@ GLY = { # Galloway
 		dynasty = malaspina_dynasty
 	}
 
-	MTA = {
-		own_control_core = {
-			macerata
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = mta_fredo_molucci
-
-			ruler_term = { character = mta_fredo_molucci start_date = 1323.1.1 regnal_number = 0 }
-
-		}
-
-		tolerated_cultures = {
-			emilian
-		}
-
-		capital = macerata
-	}
-
-	#Naples
+#Naples
 	NAP = {
 		own_control_core = {
+			
+		}
+		our_cores_conquered_by_others = {
 			aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
 			isernia larino trivento altamura andria bari barletta monopoli bovino foggia lucera
 			manfredonia rotondo sansevero brindisi francavilla gallipoliita lecce martinafr taranto
 			acerenza lagonegro matera melfi montepeloso potenza santarcangelo catanzaro cotrone gerace
 			monteleone nicastro palmi reggiocal cassano castrovillari cosenza scalea paola rossano caserta
 			gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
-		}
-		our_cores_conquered_by_others = {
-			#Sicily
-			catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
-			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
 		}
 
 		starting_technology_level = 3
@@ -9679,55 +8853,20 @@ GLY = { # Galloway
 		country_rank = rank_county
 	}
 
-	PAD = {
-		own_control_core = {
-			este monselice padova
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = signoria_selection
-
-			reforms = {
-				dynastic_signoria_reform
-			}
-
-			ruler = pad_marsiglio_carrara
-			heir = pad_ubertino_novello_carrara
-
-			ruler_term = { character = ven_lorenzo_tiepolo start_date = 1265.7.1 end_date = 1266.7.1 }
-			ruler_term = { character = pad_giacomo_carrara start_date = 1318.7.25 end_date = 1324.11.23 }
-			ruler_term = { character = pad_marsiglio_carrara start_date = 1324.11.23 end_date = 1328.9.10 }
-
-			ruler_term = { character = ver_cangrande_scala start_date = 1328.9.10 end_date = 1329.7.22 }
-			ruler_term = {
-				character = ver_mastino_ii_scala start_date = 1329.7.22 end_date = 1337.1.1
-				character = ver_alberto_ii_scala start_date = 1329.7.22 end_date = 1337.1.1
-			}
-
-			ruler_term = { character = pad_marsiglio_carrara start_date = 1337.1.1 }
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		country_rank = rank_county
-		capital = padova
-	}
-
-	PAP = {
+PAP = {
 		own_control_core = {
 			anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
 			corneto orte orvietano viterbo assisi narni rieti spoleto todi
-			benevento
+			benevento chioggia
+			comacchio ferrara ficarolo argenta 
+			bologna medicina vergato
+			marsciano perugia
+			cittacastello
+			gubbio camerino ascolipiceno fermo ancona
+			macerata montefeltro urbino fabriano pesaro
+			rimini cesena modigliana faenza
+			ravenna imola
+
 			avignon #France
 		}
 
@@ -9857,7 +8996,7 @@ GLY = { # Galloway
 
 	PAR = {
 		own_control_core = {
-			berceto parma sandonnino
+			berceto parma sandonnino bardi fiorenzuola piacenza
 		}
 
 		starting_technology_level = 3
@@ -9906,117 +9045,8 @@ GLY = { # Galloway
 		capital = parma
 	}
 
-	PAV = {
+PIO = {
 		own_control_core = {
-			lomello pavia voghera
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = pav_musso_beccaria
-
-			ruler_term = { character = pav_manfredo_beccaria start_date = 1282.1.1	end_date = 1289.8.1 regnal_number = 0 }
-			ruler_term = { character = mfa_guglielmo_vii_monferrato start_date = 1289.8.1 end_date = 1290.10.1 regnal_number = 0 }
-			ruler_term = { character = pav_manfredo_beccaria start_date = 1290.10.1	end_date = 1300.2.1 regnal_number = 0 }
-			# Annexed to Milan 1315-1327
-			# Ruled directly from HRE 1327-1332
-			ruler_term = { character = pav_musso_beccaria start_date = 1332.1.1 regnal_number = 0 }
-
-		}
-
-		tolerated_cultures = {
-			emilian
-		}
-
-		country_rank = rank_county
-		capital = pavia
-		dynasty = beccaria_dynasty
-	}
-
-	PEA = {
-		own_control_core = {
-			marsciano perugia
-		}
-
-		own_control_conquered = {
-			sansepolcro
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective #Priors
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			tuscan
-		}
-
-		capital = perugia
-	}
-
-	PES = {
-		own_control_core = {
-			pesaro
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = rim_malatesta_iii_malatesta
-			consort = rim_constanza_ondedei
-
-			ruler_term = { character = pes_gianciotto_malatesta start_date = 1285.1.1 end_date = 1304.1.1 regnal_number = 0	}
-			ruler_term = { character = rim_pandolfo_i_malatesta start_date = 1304.1.1 end_date = 1306.1.1 regnal_number = 1	}
-			# Annexed by Papal States from 1306 to 1320
-			ruler_term = { character = rim_pandolfo_i_malatesta start_date = 1320.1.1 end_date = 1326.4.6 regnal_number = 1	}
-			ruler_term = { character = rim_malatesta_iii_malatesta start_date = 1326.4.6 end_date = 1333.1.1 regnal_number = 1 }
-			# Annexed by Papal States from 1330 to 1333
-			ruler_term = { character = rim_malatesta_iii_malatesta start_date = 1333.1.1 regnal_number = 1	}
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = pesaro
-		dynasty = malatesta_dynasty
-	}
-
-	PIO = {
-		our_cores_conquered_by_others = {
 			piombino
 		}
 
@@ -10039,131 +9069,6 @@ GLY = { # Galloway
 		capital = piombino
 	}
 
-	PIS = {
-		own_control_core = {
-			livorno piombino pisa pontedera
-
-		}
-
-		our_cores_conquered_by_others = {
-			aleria bastia calvi corte ajaccio sartene vico
-			cagliari tratalias villa_di_chiesa isili muravera seddori tortoli
-			orosei terranova_pausania posada tempiopausania
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = pis_fazio_novello_gherardesca
-
-			ruler_term = { character = pis_eldizio_visconti start_date = 1184.1.1 end_date = 1185.1.1 regnal_number = 0 }
-			ruler_term = { character = mlo_ermanno_della_torre start_date = 1258.1.1 end_date = 1259.1.1 }
-			ruler_term = { character = crt_albertino_morosini start_date = 1284.1.1 end_date = 1285.1.1 }
-			ruler_term = { character = ver_uguccione_della_faggiola start_date = 1314.1.1 end_date = 1316.4.1 regnal_number = 0 }
-			ruler_term = { character = pis_gherardo_gaddo_gherardesca start_date = 1316.4.1 end_date = 1320.5.1 regnal_number = 0 }
-			ruler_term = { character = pis_nieri_gherardesca start_date = 1320.5.1 end_date = 1325.12.13 regnal_number = 0 }
-			# Occupied by the Holy Roman Empire 1325-1328
-			ruler_term = { character = luc_castruccio_castracani start_date = 1328.4.1 end_date = 1328.9.3 regnal_number = 0 }
-			# Occupied by the Holy Roman Empire 1328-1329
-			ruler_term = { character = pis_fazio_novello_gherardesca start_date = 1329.1.1 regnal_number = 0 }
-		}
-
-		tolerated_cultures = {
-			ligurian
-		}
-
-		country_rank = rank_county
-		capital = pisa
-		dynasty = gherardesca_dynasty
-
-	}
-
-	PRA = {
-		own_control_core = {
-			prato
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
-			ruler = nap_robert_i_anjou
-			consort = nap_sancha_aragon
-			heir = nap_giovanna_i_anjou
-		}
-
-		tolerated_cultures = {
-			emilian
-		}
-
-		country_rank = rank_county
-		capital = prato
-	}
-
-	RAV = {
-		own_control_core = {
-			ravenna
-		}
-
-		our_cores_conquered_by_others = {
-			argenta 
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = signoria_selection
-
-			reforms = {
-				dynastic_signoria_reform
-			}
-
-			ruler = rav_ostasio_i_polenta
-			heir = rav_bernardino_i_polenta
-
-			ruler_term = { character = rav_guido_i_polenta start_date = 1275.1.1 end_date = 1310.1.1 regnal_number = 0 }
-			ruler_term = { character = rav_lamberto_i_polenta start_date = 1310.1.1 end_date = 1316.6.22 regnal_number = 0 }
-			ruler_term = { character = rav_guido_novello_polenta start_date = 1316.6.22 end_date = 1322.9.20 regnal_number = 0 }
-			ruler_term = { character = rav_ostasio_i_polenta start_date = 1322.9.20 regnal_number = 0 }
-
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = ravenna
-		dynasty = polenta_dynasty
-	}
 
 	RGG = {
 		our_cores_conquered_by_others = {
@@ -10197,55 +9102,7 @@ GLY = { # Galloway
 		dynasty = carrara_dynasty
 	}
 
-	RIM = {
-		own_control_core = {
-			rimini
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = signoria_selection
-
-			reforms = {
-				dynastic_signoria_reform
-			}
-
-			ruler = rim_malatesta_iii_malatesta
-			consort = rim_constanza_ondedei
-
-			ruler_term = { character = rim_malatesta_di_pennabili start_date = 1239.1.1 end_date = 1240.1.1 regnal_number = 0 } # As Podestá
-
-			ruler_term = { character = rim_malatesta_di_pennabili start_date = 1247.1.1 end_date = 1248.1.1 regnal_number = 0 } # As Podestá (2nd term)
-
-			ruler_term = { character = ces_giovanni_i_malatesta start_date = 1276.1.1 end_date = 1277.1.1 regnal_number = 0 } # As Podestá
-
-			ruler_term = { character = rim_malatesta_da_verucchio start_date = 1295.1.1 end_date = 1312.1.1 regnal_number = 1 }
-			ruler_term = { character = rim_malatestino_i_malatesta start_date = 1312.1.1 end_date = 1317.10.14 regnal_number = 2 }
-			ruler_term = { character = rim_pandolfo_i_malatesta start_date = 1317.10.14 end_date = 1326.4.6 regnal_number = 1 }
-			ruler_term = { character = rim_ferrantino_malatesta start_date = 1326.4.6 end_date = 1326.5.1 regnal_number = 0	}
-			ruler_term = { character = rim_ramberto_malatesta start_date = 1326.5.1 end_date = 1326.8.1 regnal_number = 0 }
-			ruler_term = { character = rim_ferrantino_malatesta start_date = 1326.8.1 end_date = 1331.1.1 regnal_number = 0 }
-			# Annexed by Papal States from 1331 to 1334
-			ruler_term = { character = rim_ferrantino_malatesta start_date = 1334.1.1 end_date = 1335.1.1 regnal_number = 0	}
-			ruler_term = { character = rim_malatesta_iii_malatesta start_date = 1335.1.1 regnal_number = 3	}
-		}
-
-		tolerated_cultures = {
-			italki
-		}
-
-		capital = rimini
-		dynasty = malatesta_dynasty
-	}
-
-	SAL = {
+SAL = {
 		own_control_core = {
 			carmagnola saluzzo
 		}
@@ -10312,12 +9169,17 @@ GLY = { # Galloway
 				novara arona biella domodossola varallo vercelli  
 				turin ivrea lanzo pinerolo susa  
 				saluzzo carmagnola chieri cuneo 
-				cairo_montenotte finalborgo
+				cairo_montenotte lomello voghera
+				
 
 				oristano ales sorgono terralba 
 				cagliari tratalias villa_di_chiesa isili muravera seddori tortoli gennargentu_mountains 
 				terranova_pausania orosei posada tempiopausania 
 				sassari alghero bosa castelsardo macomer bitti ozieri thiesi annecy la_roche_sur_foron
+
+				novi tortona bobbio
+
+				
 			 
 		}
 
@@ -10368,47 +9230,7 @@ GLY = { # Galloway
 		capital = chambery
 	}
 
-	#Principality of Piedmont - PIE
-	PIE = {
-		own_control_core = {
-			pinerolo susa turin
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = sav_jacques_savoy_achaia
-
-			ruler_term = { character = sav_thomas_i_savoy start_date = 1189.3.4 end_date = 1233.3.1 regnal_number = 1 }
-			ruler_term = { character = sav_thomas_ii_piedmont start_date = 1233.3.1 end_date = 1259.2.7 regnal_number = 2 }
-			ruler_term = { character = sav_thomas_iii_piedmont start_date = 1259.2.7 end_date = 1282.5.16 regnal_number = 3 }
-			ruler_term = { character = sav_philippe_i_savoy_achaia start_date = 1282.5.16 end_date = 1334.9.25 regnal_number = 1 }
-			ruler_term = { character = sav_jacques_savoy_achaia start_date = 1334.9.25 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_thomas = 3
-				name_philip = 1
-				name_james = 1
-			}
-		}
-
-		tolerated_cultures = {
-			vivaro_alpine
-			arpitan
-		}
-
-		country_rank = rank_county
-		capital = turin
-	}
-
-	#Saint-Claude Abbey - SCL
+#Saint-Claude Abbey - SCL
 	SCL = {
 		own_control_core = {
 			saint_claude
@@ -10454,9 +9276,16 @@ GLY = { # Galloway
 		own_control_core = {
 			catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 			corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
+			#Naples
+			aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
+			isernia larino trivento altamura andria bari barletta monopoli bovino foggia lucera
+			manfredonia rotondo sansevero brindisi francavilla gallipoliita lecce martinafr taranto
+			acerenza lagonegro matera melfi montepeloso potenza santarcangelo catanzaro cotrone gerace
+			monteleone nicastro palmi reggiocal cassano castrovillari cosenza scalea paola rossano caserta
+			gaeta naples nola piedimonte sora venafro campagna salacon salerno vallo ariano avellino santangelo
 		}
 		our_cores_conquered_by_others = {
-			ajim
+			
 		}
 
 		starting_technology_level = 3
@@ -10530,42 +9359,7 @@ GLY = { # Galloway
 		capital = palermo
 	}
 
-	SIE = {
-		own_control_core = {
-			massamar chiusi montalcino siena
-		}
-
-		own_control_conquered = {
-			grosseto
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-
-			ruler_term = { character = pap_matteo_rosso_orsini_ii start_date = 1281.1.1 end_date = 1282.1.1 regnal_number = 0 }
-			ruler_term = { character = mta_muluccio_ii_molucci start_date = 1323.1.1 end_date = 1323.6.30 regnal_number = 0 }
-			ruler_term = { character = gub_jacopo_gabrielli start_date = 1330.1.1 end_date = 1331.1.1 regnal_number = 0 }
-			ruler_term = { character = mta_guarnaccia_molucci start_date = 1336.1.1 end_date = 1336.6.30 regnal_number = 0 }
-		}
-
-		tolerated_cultures = {
-			median
-		}
-
-		country_rank = rank_county
-		capital = siena
-	}
-
-	SPL = {
+SPL = {
 		our_cores_conquered_by_others = {
 			assisi narni rieti spoleto todi
 		}
@@ -10598,39 +9392,7 @@ GLY = { # Galloway
 		capital = spoleto
 	}
 
-	PTG = {
-		own_control_core = {
-			pitigliano
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = ptg_guido_orsini
-			consort = ptg_agostina_gherardesca
-
-			ruler_term = { character = ptg_guido_orsini start_date = 1336.1.1 }
-
-		}
-
-		tolerated_cultures = {
-			tuscan
-		}
-
-		country_rank = rank_county
-		capital = pitigliano
-		dynasty = orsini_dynasty
-	}
-
-	SSP = {
+SSP = {
 		our_cores_conquered_by_others = {
 			sansepolcro
 		}
@@ -10755,93 +9517,28 @@ GLY = { # Galloway
 		capital = treviso
 	}
 
-TTN = {
-		own_control_core = {
-			novi tortona
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			ligurian
-		}
-
-		country_rank = rank_county
-		capital = tortona
-	}
-
-	URB = {
-		own_control_core = {
-			montefeltro urbino
-		}
-
-		own_control_conquered = {
-			fabriano
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = urb_sighinolfo_montefeltro
-			consort = urb_margherita_gabrielli
-
-			ruler_term = { character = urb_bonconte_i_montefeltro start_date = 1234.1.1 end_date = 1242.1.1 regnal_number = 1 }
-			ruler_term = { character = urb_montefeltrano_ii_montefeltro start_date = 1242.1.1 end_date = 1254.1.1 regnal_number = 2 }
-			ruler_term = { character = urb_guido_i_montefeltro start_date = 1254.1.1 end_date = 1285.1.1 regnal_number = 1 }
-			# Annexed by Papal State 1285-1296)
-			ruler_term = { character = urb_federico_i_montefeltro start_date = 1296.1.1 end_date = 1322.1.1 regnal_number = 1 }
-			# Annexed by Papal State 1322-1323)
-			ruler_term = { character = urb_sighinolfo_montefeltro start_date = 1323.4.26 regnal_number = 1 }
-			#ruler_term = { character = urb_guido_novello_montefeltro start_date = 1323.4.26 regnal_number = 2 } # Junior Count
-			#ruler_term = { character = urb_galasso_montefeltro start_date = 1323.4.26 regnal_number = 1 } # Junior Count
-
-			regnal_numbers = {
-				name_bonconte = 1
-				name_montefeltrano = 2
-				name_wido = 2
-				name_frederick = 2
-				name_galahad = 1
-				name_siginulf = 1
-				name_anthony = 1
-			}
-		}
-
-		tolerated_cultures = {
-			median
-		}
-
-		capital = urbino
-		dynasty = da_montefeltro_dynasty
-	}
 
 	#Venice https://en.wikipedia.org/wiki/Venice
 	VEN = {
 		own_control_core = {
-			chioggia venice mestre
+			venice mestre
 			pola rovinj pag zadar split brac slano
+			legnago peschiera verona
+			bassano schio vicenza
+			asola brescia palazzolo salo_ita breno nozza
+			ceneda conegliano
+			feltre
+			castelfranco treviso belluno
+			este monselice padova
+			zogno clusone cortenuova bergamo
+			tolmezzo pordenone spilimbergo udine gemona
+			pieve
+			rovereto
+			rovigo
 		}
 
 		own_control_integrated = {
-			corfu modon kythira andros mykonos amorgos karpathos pazin
+			corfu modon kythira andros mykonos amorgos karpathos pazin novigrad knin sibenik sinj makarska metkovic
 		}
 
 		include = "expl_mediterranean"
@@ -11018,66 +9715,7 @@ TTN = {
 	}
 
 
-	VER = {
-		own_control_core = {
-			legnago peschiera verona
-			# own_control_integrated, but culture accepted
-			bassano schio vicenza
-		}
-
-		own_control_conquered = {
-			asola brescia palazzolo salo_ita breno nozza
-			cividale
-			ceneda conegliano
-			feltre
-			castelfranco treviso belluno
-			rovereto
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-
-		government = {
-			type = republic
-			heir_selection = signoria_selection
-
-			reforms = {
-				dynastic_signoria_reform
-			}
-
-			ruler = ver_mastino_ii_scala
-			heir = ver_alberto_ii_scala
-			designated_heir_reason = corruler
-
-			ruler_term = { character = ver_redondello_dalle_carceri start_date = 1210.1.1 end_date = 1211.1.1 }
-			ruler_term = { character = ven_reniero_zeno start_date = 1229.1.1 end_date = 1230.1.1 }
-			ruler_term = { character = ver_mastino_i_scala start_date = 1262.1.1 end_date = 1277.10.26 regnal_number = 1 regnal_name = name_mastin }
-			ruler_term = { character = ver_alberto_scala start_date = 1277.10.26 end_date = 1301.9.3 regnal_number = 1 }
-			ruler_term = { character = ver_bartolomeo_scala start_date = 1301.9.3 end_date = 1304.3.7 regnal_number = 1 }
-			ruler_term = { character = ver_alboino_scala start_date = 1304.3.7 end_date = 1308.1.1 regnal_number = 0 }
-			ruler_term = {
-				character = ver_alboino_scala start_date = 1308.1.1 end_date = 1311.11.29 regnal_number = 0
-				character = ver_cangrande_scala start_date = 1308.1.1 end_date = 1311.11.29 regnal_number = 1
-			}
-			ruler_term = { character = ver_cangrande_scala start_date = 1311.11.29 end_date = 1329.7.22 regnal_number = 1 }
-			ruler_term = { character = ver_mastino_ii_scala start_date = 1329.7.22 regnal_number = 2 }
-			#ruler_term = { character = ver_alberto_ii_scala start_date = 1329.7.22 regnal_number = 2 } # Co-Ruler until 1351
-		}
-
-		tolerated_cultures = {
-			lombard
-		}
-
-		country_rank = rank_county
-		capital = verona
-	}
-
-	VIN = {
+VIN = {
 		our_cores_conquered_by_others = {
 			bassano schio vicenza
 		}
@@ -11098,37 +9736,7 @@ TTN = {
 		dynasty = scala_dynasty
 	}
 
-	VLT = {
-		own_control_core = {
-			volterra
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = vlt_rainuccio_allegretti
-
-			ruler_term = { character = vlt_ranieri_belforti start_date = 1301.9.28 end_date = 1320.11.26 regnal_number = 0 }
-			# Interregnum 1320-1321
-			ruler_term = { character = vlt_rainuccio_allegretti start_date = 1321.2.9 regnal_number = 0 }
-		}
-
-		tolerated_cultures = {
-			ligurian
-		}
-
-		country_rank = rank_county
-		capital = volterra
-	}
-
-	#Balkans
+#Balkans
 
 	ATH = {
 		own_control_core = {
@@ -12058,14 +10666,15 @@ CAR = { #Carniola
 
 	CRO = {
 		own_control_core = {
-			dubica osijek sibenik kaseg knin novigrad crikvenica senj
-			krk makarska sinj otocac
+			dubica osijek  kaseg crikvenica senj
+			krk  otocac
 			bjelovar koprivnica kutina pakrac vaska virovitica
 			vukovar ilok pozega sremska_mitrovica petrovaradin
 			zagreb cakovec karlovac petrinja sisak slunj varazdin rijeka
 		}
 		our_cores_conquered_by_others = {
 			zadar split
+			
 		}
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -13027,6 +11636,7 @@ CAR = { #Carniola
 				lille valenciennes maubeuge douai
 
 				perpignan prades
+				aleria bastia calvi corte ajaccio sartene vico bonifacio #Corsica
 
 		}
 		own_control_integrated = {
@@ -13186,7 +11796,7 @@ NED = { #Dutch Republic
 			bergen_zoom breda hertogenbosch helmond cuijk
 
 			leeuwarden sloten harlingen stavoren groningen appingedam wedde
-			wolvega maastricht venlo
+			wolvega maastricht venlo hulst middelburg
 
 		}
 
@@ -13340,7 +11950,7 @@ NED = { #Dutch Republic
 	FLA = {
 		own_control_core = {
 			oudenaarde ypres veurne
-			ostend bruges hulst ghent sint_niklaas aalst kortriik
+			ostend bruges ghent sint_niklaas aalst kortriik
 			tournai
 		}
 		starting_technology_level = 3
@@ -13387,58 +11997,7 @@ NED = { #Dutch Republic
 	}
 
 
-	#Zeeland - Union under Holland
-	ZEE = {
-		own_control_core = {
-			middelburg
-		}
-
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy"
-		include = "german_principality"
-		government = {
-			ruler = hai_guillaume_de_hainault
-
-			ruler_term = { character = hai_jean_ii_de_hainault start_date = 1299.11.10 end_date = 1304.8.22 regnal_number = 2 }
-			ruler_term = { character = hai_guillaume_de_hainault start_date = 1304.8.22 regnal_number = 5 }
-
-			regnal_numbers = {
-				name_baldwin = 5
-				name_arnulf = 1
-				name_robert = 2
-				name_charles = 1
-				name_william = 5
-				name_theodoric = 2
-				name_florence = 3
-				name_philip = 1
-				name_margaret = 2
-				name_ada = 1
-				name_joanna = 1
-				name_ferdinand = 1
-				name_thomas = 1
-				name_wido = 1
-				name_john = 2
-			}
-
-			aristocracy_vs_plutocracy = 20
-			mercantilism_vs_free_trade = 30
-			land_vs_naval = 20
-			capital_economy_vs_traditional_economy = -10
-			individualism_vs_communalism = -20
-			outward_vs_inward = 0
-
-		}
-
-		tolerated_cultures = {
-			frisian
-		}
-
-		country_rank = rank_county
-		capital = middelburg
-	}
-
-	#Brabant
+#Brabant
 	BRB = {
 		own_control_core = {
 			brussels nivelles leuven mechelen antwerp turnhout
@@ -13554,7 +12113,7 @@ NED = { #Dutch Republic
 			schwaz innsbruck imst reutte landeck merano sterzing villandro bolzano silandro #Herzogtum von Tirol
 			gorizia lienz bruneck hermagor winklern metlika #County of Möttling
 			celje lasko spittal kocevje feldkirchen bludenz bregenz feldkirch scharding ried braunau kitzbuhel kufstein
-			trieste ilirska_bistrica tolmin aquileia buzet
+			trieste ilirska_bistrica tolmin buzet cividale aquileia
 		}
 
 		own_control_integrated = {
@@ -13631,10 +12190,8 @@ NED = { #Dutch Republic
 
 	HUN = {	#Hungary
 		own_control_core = {
-			aiud hunedoara cincu
-			cristuru_secuiesc reghin
 			mezhorje sighet
-			baita carei hodod
+			carei hodod
 			recas semlacu_mare
 			cheresig ineu lipova mako oradea szarvas
 			baja_hungary
@@ -13659,18 +12216,15 @@ NED = { #Dutch Republic
 			trencin oravsky_podzamok turciansky_svaty_martin liptovsky_mikulas
 			gemer rimavska_sobota levoca lubica presov turna
 			zemplin kosice humenne uzhorod beregovo
-			miercurea_cluc chezdi_osorheiu covasna odorhei gheorgheni
-			bistrita cuhea rakhiv khust sic dej
-			turda targu_mures cetatea_balta felvint cluj
-			fagaras sibiu sebes alba_iulia medias sighisoara brasov sfantu_gheorghe
-			hateg caransebes lugoj deva
-			bihar beius baia_de_aries huedin crasna
+			cuhea rakhiv khust 
+			caransebes lugoj 
+			bihar beius crasna
 			debrecen nagyboszormeny nagykallo nagyecsed varda szatmar syvlyush zalau baia_mare
 			szolnok eger karcag borsod
 			bekes csanad szeged
 			kovin veliky_beckerek carasova mihalt
 			timisoara arad zarand
-			dabaca baia_crisului gurghiu
+			baia_crisului
 			}
 
 		own_control_integrated = {
@@ -13916,7 +12470,7 @@ NED = { #Dutch Republic
 	}
 
 	TRA = { #Transylvania
-		our_cores_conquered_by_others = {
+		own_control_core = {
 			dabaca baita bistrita dej sic #doboka_province
 			alba_iulia aiud cetatea_balta deva felvint hateg hunedoara #feher_province
 			turda baia_de_aries cluj huedin reghin #torda_province
@@ -28604,7 +27158,7 @@ NEO = {	#Neopatria
 			gradac zica trgoviste_SER sjenica velbuzd
 			arilje brvenik medveda koman has dukagjini lezha florina
 
-			bihac srb gradiski_brod mostar metkovic glamoc
+			bihac srb gradiski_brod mostar  glamoc
 			vrhbosna konjic srebrenica doboj soli
 			jajce livno drijeva zenica kljuc srebrenik
 			kozara glaz teocak olovo borac nevesinje
@@ -30212,17 +28766,6 @@ SGL = {  # Grey League - Formable in Switzerland
 		capital = ilanz
 	}
 
-	AOS = {  # Aosta (South Germany)
-		own_control_core = {
-			aosta  chatillonaos morgex
-		}
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "catholic_monarchy_no_coast"
-		government = { ruler = sav_aymon_savoy }
-		country_rank = rank_duchy
-		capital = aosta
-	}
 
 	WDE = {  # Waldeck (North Germany)
 		own_control_core = {
