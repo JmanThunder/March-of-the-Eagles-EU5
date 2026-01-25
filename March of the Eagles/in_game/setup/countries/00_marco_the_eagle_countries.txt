@@ -133,7 +133,7 @@ TUS = { #Sardina
 RUS = { #Ruzzia
 	color = map_RUS
 
-	culture_definition = moscovite
+	culture_definition = muscovite
 	religion_definition = orthodox
 
 	

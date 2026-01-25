@@ -1144,7 +1144,7 @@ CHI = { #China
 	unit_color1 = rgb {	142 16 16 }
 	unit_color2 = rgb {	223 175 69 }
 
-	culture_definition = mongolian_culture
+	culture_definition = jurchen_culture
 	religion_definition = tibetan_buddhism
 
 	description_category = diplomatic

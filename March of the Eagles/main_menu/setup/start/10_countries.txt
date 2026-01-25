@@ -44,7 +44,7 @@ countries = {
 			abo poytis sauvo nystad
 			helsinge ekenas sjundea porvoo kymi_fi
 
-			vyborg villmanstrand veckelax vederlax beryozovskoye
+			veckelax  
 			ikalis raumo bjorneborg hvittis sastmola birkala sastamala
 			korsholm koppo
 			hollola lohja tavastehus janakkala forssa liljendal jamsa
@@ -53,7 +53,6 @@ countries = {
 			gladsax osby
 			helsingborg lund malmo
 
-			valkeasaari kyyrola
 			wolgast stralsund rugen grimmen 
 			wismar #gets sold back to Mecklenburg in 1803
 
@@ -89,7 +88,13 @@ countries = {
 			rovaniemi
 			kiemi simo kuivaniemi
 			storkyro vora pedersore karleby brahestad uleaborg
-			bygdea skelleftea
+			bygdea skelleftea itis jyvaskyla saarijarvi 
+			viitasaari laukas sysma
+			orivesi lappo kaustby elimaki
+			mikkeli olofsborg heinola kangasniemi 
+			ristiina joroinen kuopio idensalmi 
+			rautavaara savonranta
+			nurmes juuka joensuu
 		}
 
 
@@ -1499,7 +1504,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			dorogobuzh yartsevo dukhovshchina yelnya belik roslavl zaroy
 			rognedino demensk
 			shchuchye_smolensk verzhavsk vetlitsy katyn berezhnyany izyaslavl pustosel shui gorodechnya mozhino
-			#Principality of Bely
+						#Principality of Bely
 			bely bibirevo bolshevo shoptovo verkhovye yotkino
 			tana theodoro kaffa vosporo #Black Sea
 			tuzdysor imakia zhelezin lebyazhye
@@ -1655,6 +1660,13 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			mootka nuorttijarvi prirechnyi suonikyla 
 			ontajarvi pieninka repola tunkuo 
 			suikujarvi kem kriitina keret kiestinki kovda
+			uhtuo jyskyjarvi paanajarvi rukajarvi
+			heinjoki jaskis
+			vartsila suojarvi ilomantsi 
+			mohko lieksa
+			valkeasaari
+			kyyrola beryozovskoye vyborg 
+			villmanstrand vederlax
 
 		}
 
@@ -6770,14 +6782,11 @@ TUS = { #Grand Duchy of Tuscany
 			finalborgo
 		}
 		own_control_integrated = {
-			alghero thiesi #Sardinia
-			samos ikaria foca #Aegean Sea
-			castelsardo #Sardinia
-			amasra #Black Sea
+			
 		}
 
 		our_cores_conquered_by_others = {
-			sassari bosa macomer bitti ozieri #Giudicato of Arborea in Sardinia
+			
 		}
 
 		starting_technology_level = 3
@@ -8174,7 +8183,8 @@ SSP = {
 	}
 
 	CRT = { #Candia https://en.wikipedia.org/wiki/Kingdom_of_Candia
-		own_control_core = {
+				our_cores_conquered_by_others = {
+
 			chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
 		}
 
@@ -8264,131 +8274,6 @@ VIN = {
 
 #Balkans
 
-	ATH = {
-		own_control_core = {
-			athens megara thebes atalanti livadeia gravia
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = ath_william
-			heir = sic_giovanni_sicily
-			designated_heir_reason = sibling_of_ruler
-
-			ruler_term = { character = ath_gautier_v_brienne start_date = 1308.10.5 end_date = 1311.3.15 regnal_number = 1 }
-
-			ruler_term = { character = ath_manfred start_date = 1312.1.1 end_date = 1317.11.9 regnal_number = 1 }
-			ruler_term = { character = ath_william start_date = 1317.11.9 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_otto = 1
-				name_wido = 2
-				name_john = 1
-				name_william = 2
-				name_walter = 1
-				name_roger = 1
-				name_manfred = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		country_rank = rank_duchy
-		court_language = catalan_dialect
-		capital = thebes
-	}
-
-
-	ACH = { #https://en.wikipedia.org/wiki/Principality_of_Achaea
-		own_control_core = {
-			damala ermioni kalamata kyparissia
-			andritsaina pontikokastro andravida corinth
-			chalandritsa patras vostitsa kalavryta xylokastro
-		}
-		our_cores_conquered_by_others = {
-			tripolitsa veligosti karytaina
-		}
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = ach_catherine_valois
-
-			ruler_term = { character = ach_guillaume_i_champlitte start_date = 1205.1.1 end_date = 1209.1.1 regnal_number = 1 }
-
-			ruler_term = { character = nap_charles_i_anjou start_date = 1278.5.1 end_date = 1285.1.7 regnal_number = 1 }
-			ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1289.9.16 regnal_number = 2 }
-			ruler_term = { character = ach_florent_avesnes start_date = 1289.9.16 end_date = 1297.1.23 regnal_number = 1 }
-			ruler_term = { character = sav_philippe_i_savoy_achaia start_date = 1301.2.12 end_date = 1307.1.1 regnal_number = 1 } #Marital Co-Ruler
-
-			ruler_term = { character = alb_filippo_i_taranto start_date = 1307.5.11 end_date = 1313.7.29 regnal_number = 2 }
-
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1313.7.29 end_date = 1315.6.1 regnal_number = 1
-				character = ach_louis_burgundy start_date = 1313.7.29 end_date = 1315.6.1 regnal_number = 1 # As Marital Co-Ruler
-			}
-
-			ruler_term = { character = mll_ferdinand_mallorca start_date = 1315.6.1 end_date = 1316.7.5 regnal_number = 1 }
-
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1316.7.5 end_date = 1316.8.2 regnal_number = 1 # Restored
-				character = ach_louis_burgundy start_date = 1316.7.5 end_date = 1316.8.2 regnal_number = 1 # Restored as Marital Co-Ruler
-			}
-			ruler_term = { character = ach_mathilde_avesnes start_date = 1316.8.2 end_date = 1318.1.1 regnal_number = 1 } # Restored
-			ruler_term = {
-				character = ach_mathilde_avesnes start_date = 1318.1.1 end_date = 1331.1.1 regnal_number = 1 # Restored
-				character = alb_john_gravina start_date = 1318.1.1 end_date = 1331.1.1 regnal_number = 1
-			}
-
-			ruler_term = { character = alb_john_gravina start_date = 1331.1.1 end_date = 1333.1.1 regnal_number = 1 }
-
-			ruler_term = { character = ach_catherine_valois start_date = 1333.1.1 regnal_number = 1 }
-			#ruler_term = { character = ach_robert_taranto start_date = 1333.1.1 regnal_number = 1 } # As Co-Ruler with his mother
-
-			regnal_numbers = {
-				name_william = 2
-				name_godfrey = 2
-				name_charles = 2
-				name_elizabeth = 1
-				name_florence = 1
-				name_philip = 2
-				name_ferdinand = 1
-				name_matilda = 1
-				name_louis = 1
-				name_catherine = 1
-				name_john = 1
-				name_robert = 0 # Should be 1 if Co-Rulers are added
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		country_rank = rank_duchy
-		court_language = french_language
-		capital = andravida
-		dynasty = anjou_dynasty
-		#dynasty = anjou_taranto_dynasty
-	}
 
 LAT = { #The Latin Empire
 		starting_technology_level = 3
@@ -8424,46 +8309,6 @@ LAT = { #The Latin Empire
 		capital = constantinople
 	}
 
-	NAX = { #https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago
-		own_control_core = {
-			naxos kythnos milos
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = nax_niccolo_sanudo
-			consort = nax_joanna_brienne
-
-			ruler_term = { character = nax_marco_i_sanudo start_date = 1207.1.1 end_date = 1227.1.1 regnal_number = 1 }
-			ruler_term = { character = nax_angelo_sanudo start_date = 1227.1.1 end_date = 1262.1.1 regnal_number = 1 }
-			ruler_term = { character = nax_marco_ii_sanudo start_date = 1262.1.1 end_date = 1303.1.1 regnal_number = 2 }
-			ruler_term = { character = nax_guglielmo_sanudo start_date = 1303.1.1 end_date = 1323.1.1 regnal_number = 1 }
-			ruler_term = { character = nax_niccolo_sanudo start_date = 1323.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_mark = 2
-				name_angel = 1
-				name_william = 1
-				name_nicholas = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-		country_rank = rank_duchy
-		capital = naxos
-		dynasty = sanudo_dynasty
-	}
 
 	EPI = {
 
@@ -8808,12 +8653,9 @@ LAT = { #The Latin Empire
 	}
 
 	ALB = {
-		own_control_core = {
-			durres
-		}
-
+		
 		our_cores_conquered_by_others = {
-			elbasan kavaje kruje tirana
+			durres elbasan kavaje kruje tirana
 		}
 
 		starting_technology_level = 3
@@ -8855,33 +8697,7 @@ LAT = { #The Latin Empire
 		#dynasty = anjou_durazzo_dynasty
 	}
 
-	THP = {
-		own_control_core = {
-			kruje tirana
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = thp_tanush_thopia
-
-			ruler_term = { character = thp_tanush_thopia start_date = 1328.2.1 regnal_number = 1 }
-
-		}
-
-		capital = kruje
-		dynasty = thopia_dynasty
-	}
-
-	MZK = {
+MZK = {
 		own_control_core = {
 			berat ballsh
 		}
@@ -8914,63 +8730,7 @@ LAT = { #The Latin Empire
 		dynasty = muzakajt_dynasty
 	}
 
-	ANT = {
-		own_control_core = {
-			elbasan
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			regency = consort_regency
-			active_regent = alb_agnes_perigord
-			start_regency_date = 1336.4.5
-			end_regency_date = 1341.1.1
-			heir = alb_charles_durazzo
-
-			ruler_term = { character = nap_charles_i_anjou start_date = 1272.2.1 end_date = 1285.1.7 regnal_number = 1 }
-
-		}
-
-		capital = elbasan
-		dynasty = arianiti_dynasty
-	}
-
-	MTR = {
-		own_control_core = {
-			kavaje
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = mtr_pal_mataranga
-
-			ruler_term = { character = mtr_pal_mataranga start_date = 1300.1.1 regnal_number = 1 }
-
-		}
-
-		capital = kavaje
-		dynasty = mataranga_dynasty
-	}
-
-	SER = {
+SER = {
 
 		our_cores_conquered_by_others = {
 			slano mostar konjic belgrad debrc sabac
@@ -10876,143 +10636,7 @@ NED = { #Dutch Republic
 		capital = huedin
 	}
 
-NEO = {	#Neopatria
-		own_control_core = {
-			neopatras zetounion
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = ath_william
-			heir = sic_giovanni_sicily
-			designated_heir_reason = sibling_of_ruler
-
-			ruler_term = { character = ath_william start_date = 1319.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_william = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		country_rank = rank_duchy
-		court_language = catalan_dialect
-		capital = neopatras
-	}
-
-	BOD = {	#Bodonitsa
-		own_control_core = {
-			bodonitsa
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = bod_niccolo_i_zorzi
-			consort = bod_guglielma_pallavicini # In fact co-ruler
-
-			ruler_term = { character = bod_guido_pallavicini start_date = 1204.10.1 end_date = 1237.1.1 regnal_number = 1 }
-			ruler_term = { character = bod_ubertino_pallavicini start_date = 1237.1.1 end_date = 1278.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = bod_isabella_pallavicini start_date = 1278.1.1 end_date = 1286.1.1 regnal_number = 1
-				character = ach_anton_the_flemish start_date = 1278.1.1 end_date = 1286.1.1 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = bod_tommaso_pallavicini start_date = 1286.1.1 end_date = 1300.1.1 regnal_number = 1 }
-			ruler_term = { character = bod_alberto_pallavicini start_date = 1300.1.1 end_date = 1311.3.15 regnal_number = 1 }
-
-			ruler_term = { character = bod_guglielma_pallavicini start_date = 1311.3.15 end_date = 1327.1.1 regnal_number = 1 } # In fact she ruled until 1358 together with her husband and her son.
-			ruler_term = {
-				character = bod_guglielma_pallavicini start_date = 1327.1.1 end_date = 1334.1.11 regnal_number = 1
-				character = bod_bartolomeo_zaccaria start_date = 1327.1.1 end_date = 1334.1.1 regnal_number = 1 # Marital Co-Ruler
-			}
-			ruler_term = { character = bod_guglielma_pallavicini start_date = 1334.1.1 end_date = 1335.1.1 regnal_number = 1 }
-			ruler_term = { character = bod_niccolo_i_zorzi start_date = 1335.1.1 regnal_number = 1 }
-			regnal_numbers = {
-				name_wido = 1
-				name_hubert = 1
-				name_elizabeth = 1
-				name_anthony = 1
-				name_thomas = 1
-				name_albert = 1
-				name_mary = 1
-				name_andrew = 1
-				name_willelma = 1
-				name_bartholomew = 1
-				name_nicholas = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		court_language = venetian_dialect
-		capital = bodonitsa
-	}
-
-	ARG = { #Argos
-		own_control_core = {
-			argos nafplio
-		}
-		our_cores_conquered_by_others = {
-			athens megara thebes atalanti livadeia gravia
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = arg_gautier_vi_brienne
-			consort = arg_margherita_taranto
-
-			ruler_term = { character = ath_gautier_v_brienne start_date = 1308.10.5 end_date = 1311.3.15 regnal_number = 1 }
-
-			ruler_term = { character = arg_gautier_vi_brienne start_date = 1311.3.15 end_date = 1311.3.15 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_otto = 2
-				name_wido = 2
-				name_john = 1
-				name_william = 1
-				name_walter = 2
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		court_language = french_language
-		capital = argos
-		dynasty = enghien_dynasty
-	}
-
-	KNI = { #Knights Hospitaller
+KNI = { #Knights Hospitaller
 		own_control_core = {
 			malta
 		}
@@ -11062,57 +10686,6 @@ NEO = {	#Neopatria
 		country_rank = rank_duchy
 	}
 
-	NEG = { #Negroponte https://en.wikipedia.org/wiki/Triarchy_of_Negroponte
-		own_control_core = {
-			negroponte kleisoura karystos kymi oreos eretreia
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = neg_pietro_dalle_carceri
-
-			ruler_term = { character = neg_pietro_dalle_carceri start_date = 1323.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_richard = 1
-				name_carintana = 1
-				name_narzotto = 1
-				name_grapella = 1
-				name_cajetan = 1
-				name_grapozzo = 1
-				name_mary = 1
-				name_andrew = 1
-				name_gilbert = 2
-				name_raven = 1
-				name_william = 2
-				name_albert = 1
-				name_beatrix = 1
-				name_john = 1
-				name_peter = 1
-				name_elizabeth = 1
-				name_bertha = 1
-				name_marinus = 2
-				name_alice = 1
-				name_george = 1
-				name_bartholomew = 1
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		court_language = venetian_dialect
-		capital = negroponte
-	}
 
 TRO = { #Travunija		
 		our_cores_conquered_by_others = {
@@ -21979,15 +21552,6 @@ TRO = { #Travunija
 			khalzan_shireg baidrag biger boontsagaan khangal naran orog tuin
 			tost_uul gaxun_gobi shargyn_gobi shira_qulusun
 			fuxin
-		}
-
-		own_control_integrated = {
-			chit nurchuu tura uldurga kuenga uryum
-
-			lingfang xuanhua_nanning ningpu
-		}
-
-		own_control_conquered = {
 			amgun dukin dzhuk imilen kerbi suluk
 			nurgan bulava shantar torom tugur usalgin
 			boli achan nemptu simmi uninka xungake
@@ -22022,6 +21586,16 @@ TRO = { #Travunija
 			huncun kahari tulazi
 		}
 
+		own_control_integrated = {
+			chit nurchuu tura uldurga kuenga uryum
+
+			lingfang xuanhua_nanning ningpu
+		}
+
+		own_control_conquered = {
+			
+		}
+
 		include = "far_east_asia_monarchy"
 		include = "expl_mongols"
 		include = "expl_china"
@@ -22050,6 +21624,7 @@ TRO = { #Travunija
 		}
 		court_language = northern_mandarin_dialect
 		accepted_cultures = {
+			mongolian_culture
 			jilu_culture
 			zhongyuan_culture
 			qin_culture
@@ -24055,69 +23630,7 @@ TRO = { #Travunija
 
 	#Anatolia
 
-	#Ahiler - AHI https://en.wikipedia.org/wiki/Ahis
-	AHI = {
-		own_control_core = {
-			ankara cubuk haymana kalecik polatli karakecili
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "muslim_republic"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-
-			reforms = {
-				anatolian_beylik
-			}
-
-		}
-
-		tolerated_cultures = {
-			romanyoti
-		}
-
-		capital = ankara
-		religious_school = alevism_school
-		tolerated_cultures = {
-			greek_culture
-			turkoman_culture
-		}
-	}
-
-	#Alaiye - ALY https://en.wikipedia.org/wiki/Alaiye
-	ALY = {
-		own_control_core = {
-			alaiye selinti
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = kar_mahmut start_date = 1293.1.1 end_date = 1308.1.1 }
-			ruler_term = {	 character = aly_yusuf start_date = 1308.1.1 }
-			ruler = aly_yusuf
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = alaiye
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
-
-	#Artuqids - ATQ https://en.wikipedia.org/wiki/Artuqids
+#Artuqids - ATQ https://en.wikipedia.org/wiki/Artuqids
 	ATQ = {
 		own_control_core = {
 			midyat
@@ -24290,47 +23803,7 @@ TRO = { #Travunija
 		capital = sis
 	}
 
-	#Candarids - CND https://en.wikipedia.org/wiki/Candar_dynasty
-	CND = {
-		own_control_core = {
-			bartin
-			kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
-			cankiri bayat cerkes kursunlu tosya
-			iskilip sabanozu ulus yenicepazari
-		}
-
-		own_control_integrated = {
-			safranbolu
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik"
-
-		government = {
-			ruler_term = {	 character = cnd_yaman start_date = 1291.1.1 end_date = 1309.1.1 }
-			ruler_term = {	 character = cnd_suleyman start_date = 1309.1.1	}
-			ruler = cnd_suleyman
-
-			#Naval Beylik
-			land_vs_naval = 40
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-
-		}
-
-		capital = kastamonu
-		religious_school = mevlevi_school
-		tolerated_cultures = {
-			pontic_greek_culture
-			turkoman_culture
-		}
-	}
-
-	#Cyprus - CYP
+#Cyprus - CYP
 	CYP = {
 		own_control_core = {
 			nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
@@ -25496,7 +24969,15 @@ TRO = { #Travunija
 			uskudar silli biga eregli
 			chios vize
 			ormenio
-
+			bartin
+			kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
+			cankiri bayat cerkes kursunlu tosya
+			iskilip sabanozu ulus yenicepazari
+			safranbolu
+			amasra #Black Sea
+			alaiye selinti ankara cubuk haymana kalecik polatli karakecili midyat
+			dunaysir
+			araban hasakah makisin mardin tunanir
 			bukelon devol ustra
 
 			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
@@ -25567,6 +25048,7 @@ TRO = { #Travunija
 			antalya elmali karahisar_i_teke kas istanoz
 			manavgat finike
 			modon andros mykonos amorgos karpathos 
+			samos ikaria foca #Aegean Sea
 
 			aksaray kochisar insuyu
 			kirsehir nevsehir sariyahsi
@@ -25575,12 +25057,21 @@ TRO = { #Travunija
 			beysehir aksehir bolvadin sarkikaraagac seydisehir
 			ilgin turgut suluklu kulu_turkey obruk altinekin cumra
 			silifke anamur mut nigde rodos kos salona loidoriki
-			
+			elbasan kavaje kruje tirana durres
+			neopatras zetounion bodonitsa argos nafplio negroponte kleisoura karystos kymi oreos eretreia
+			athens megara thebes atalanti livadeia gravia
+			damala ermioni kalamata kyparissia
+			andritsaina pontikokastro andravida corinth
+			chalandritsa patras vostitsa kalavryta xylokastro
+			naxos kythnos milos
 			#Yedisan
 			dashev balikley aqmecit_prybuzhzhya ananiv teligol 
 			khadjibey kuyanlik iagorlic 
 			#Moldovian Ottoman
 			cetatea_alba gura_galbenei sarata chilia ismail tighina
+			#Crete
+			chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
+
 
 
 
