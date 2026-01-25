@@ -8,18 +8,12 @@ diplomacy_manager = {
 
     # Scandinavia
 
-    dependency = { first = SWE second = SKE subject_type = fiefdom }
-    dependency = { first = NOR second = ICE subject_type = dominion }
-    dependency = { first = NOR second = GRL subject_type = dominion }
-    dependency = { first = NOR second = ORK subject_type = vassal }
-
-    dependency = { first = LIV second = RIG subject_type = vassal }
-    dependency = { first = LIV second = ARR subject_type = vassal }
-    dependency = { first = LIV second = KUR subject_type = vassal }
-    dependency = { first = LIV second = BIO subject_type = vassal }
-    dependency = { first = LIV second = BID subject_type = vassal }
+    dependency = { first = DAN second = ICE subject_type = dominion }
+    dependency = { first = DAN second = GRL subject_type = dominion }
+    dependency = { first = PLC second = KUR subject_type = vassal }
     dependency = { first = DAN second = SLV subject_type = fiefdom }
     dependency = { first = DAN second = SHL subject_type = fiefdom }
+    dependency = { first = DAN second = NOR subject_type = fiefdom }
 
 
 
@@ -144,6 +138,7 @@ diplomacy_manager = {
     dependency = { first = SWI second = GNV subject_type = vassal } 
     dependency = { first = SWI second = STG subject_type = vassal } 
     dependency = { first = SWI second = SGL subject_type = vassal } 
+    dependency = { first = NED second = NSS subject_type = vassal } 
     
 
     #------Byzantium--------

@@ -48,10 +48,48 @@ countries = {
 			ikalis raumo bjorneborg hvittis sastmola birkala sastamala
 			korsholm koppo
 			hollola lohja tavastehus janakkala forssa liljendal jamsa
+			laholm asbo varberg halmstad kungsbacka
+			ronneby bregne solvesborg
+			gladsax osby
+			helsingborg lund malmo
 
 			valkeasaari kyyrola
 			wolgast stralsund rugen grimmen 
 			wismar #gets sold back to Mecklenburg in 1803
+
+
+			#Finn
+			lebesby kirkenes
+
+			vindeln raisa
+			kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta
+			asele lycksele sorsele arvidsjaur arjeplog silbojock volgsjo stensele tarna ortrask akkajaur 
+			pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta kasivarren
+			maaselka   
+			uhtuo jyskyjarvi paanajarvi  
+
+			enare kittila sodankyla savukoski nunnanen ivalo utsjoki kuhmo
+
+			ranua posio salla kemijarvi korvala pudasjarvi
+
+			  
+			ponoi svyatoy_nos kiltina semiostrov 
+
+			gratesk alvsby branna hienatiemi rovaniemi
+
+			taivalkoski kuusamo utajarvi siikalatva
+
+			sotkamo paltamo suomussalmi kajana
+			konghalla uddevalla hornborg stromstad
+			idre sveg hede oviken berg ragunda offerdal 
+			froso hammerdal 
+			
+			ranea gratesk hienatiemi branna byske bodebyn alvsby tornea 
+			pitea
+			rovaniemi
+			kiemi simo kuivaniemi
+			storkyro vora pedersore karleby brahestad uleaborg
+			bygdea skelleftea
 		}
 
 
@@ -177,12 +215,13 @@ countries = {
 			odense navskov assens svendborg
 			roskilde ringsted kalundborg helsingor hammershus
 			kobenhavn slagelse vordingborg falster
+			# Northern Isles
+			#shetland orkney 
+			torshavn
 
-			# own_control_integrated, but culture accepted
-			tallinn narva padise rakvere rapla toolse vasknarva
+		
 			
-			#still owned in skane
-			laholm asbo
+		
 		}
 
 
@@ -252,12 +291,9 @@ countries = {
 			ruler_term = { character = dan_chistopher_ii start_date = 1329.1.1 end_date = 1332.8.2 regnal_number = 2 }
 
 
-			regency = nobles_estate_regency
-			active_regent = shl_gerhard_iii_holstein_rendsburg
-			start_regency_date = 1332.8.2
-			end_regency_date = 1400.1.1
-			heir = dan_valdemar_atterdag
-			designated_heir_reason = prince_in_exile
+			regency = dan_valdemar_atterdag
+			
+				
 
 			regnal_numbers = {
 				name_guthrum = 1
@@ -308,36 +344,7 @@ countries = {
 		
 	}
 
-	SKE = {
-		own_control_core = {
-			varberg halmstad kungsbacka
-			ronneby bregne solvesborg
-			gladsax osby
-			helsingborg lund malmo
-		}
-		
-		our_cores_conquered_by_others = {
-			laholm asbo
-		}
-
-
-		capital = lund
-
-		include = "catholic_monarchy"
-		include = "expl_scandinavia"
-
-		country_rank = rank_kingdom
-
-
-		government = {
-			ruler = swe_magnus_eriksson
-			ruler_term = { character = swe_magnus_eriksson start_date = 1332.6.19 regnal_number = 1	}
-
-		}
-	}
-
-
-	FIN = {
+FIN = {
 		our_cores_conquered_by_others = {
 			abo poytis sauvo nystad
 		}
@@ -353,12 +360,9 @@ countries = {
 	NOR = {
 		own_control_core = {
 
-			konghalla stromstad uddevalla hornborg
 			moss halden borg trogstad
 			oslo ski eidsvoll
-			tonsberg skien sande grenland
-			idre sveg hede
-			hammerdal offerdal berg froso ragunda oviken
+			tonsberg skien sande grenland  
 			nidaros roros stjordal oppdal orkdal skaun storen holtalen meraker tofte
 			levanger namdal orland snasa lierne steinkjer
 			molde fosna sunndal rauma sunnmore borgund stordal
@@ -371,11 +375,10 @@ countries = {
 			troms trondenes senja bardodalen 
 			bodo birndal alstahaug gildeskal steigen langenes lofotr hamaroy ofoti
 			raisa vardo deatnu porsanger hammerfest lebesby 
+			hattfjelldal rana
 			
 
-			# Northern Isles
-			#shetland orkney 
-			torshavn
+			
 		}
 		
 		own_control_integrated = {
@@ -394,7 +397,7 @@ countries = {
 		include = "catholic_monarchy"
 		include = "expl_scandinavia"
 		government = {
-			ruler = swe_magnus_eriksson
+			ruler = dan_valdemar_atterdag
 
 			ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
 			ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
@@ -441,7 +444,7 @@ countries = {
 		include = "expl_scandinavia"
 
 		government = {
-			ruler = swe_magnus_eriksson
+			
 
 			ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
 			ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
@@ -469,7 +472,7 @@ countries = {
 		}
 
 		government = {
-			ruler = swe_magnus_eriksson
+			
 
 			ruler_term = { character = nor_hakan_magnusson start_date = 1299.11.1 end_date = 1319.5.8 regnal_number = 5	}
 			ruler_term = { character = swe_magnus_eriksson start_date = 1319.5.8 regnal_number = 7	}
@@ -510,7 +513,7 @@ countries = {
 			kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta
 			asele lycksele sorsele arvidsjaur arjeplog silbojock volgsjo stensele tarna ortrask akkajaur hattfjelldal
 			pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta kasivarren
-			suonikyla koliskoj maaselka luujarvi akkala mootka pechenga prirechnyi nuorttijarvi
+			suonikyla koliskoj luujarvi akkala mootka pechenga prirechnyi nuorttijarvi
 			alakurti kiestinki uhtuo jyskyjarvi paanajarvi repola ontajarvi pieninka
 
 			enare kittila sodankyla savukoski nunnanen ivalo utsjoki kuhmo
@@ -518,7 +521,7 @@ countries = {
 			ranua posio salla kemijarvi korvala pudasjarvi
 
 			kantalahti olenitsa umba raivke varzuga pyalitsa tetrino kashkarantsy
-			kola ponoi svyatoy_nos kiltina semiostrov dalniye_zelentsy
+			kola  dalniye_zelentsy
 
 			gratesk alvsby branna hienatiemi rovaniemi
 
@@ -749,178 +752,40 @@ countries = {
 		
 	}
 
-	LIV = { #Livonian Order
-		own_control_core = {
-		}
-		
-		own_control_integrated = {
-			parnu  valmiera viljandi kaina valjala
-			karksi poltsamaa  kandava dobele bauska sigulda cesis aluksne
-			rezekne daugavpils selpils kraslava jelgava  tukums
-			saarde suure_jaani makonkalns aizkraukle salaspils  saldus
-			paide
-			ventspils grobina kuldiga durbe
-		}
-		
-		include = "catholic_military_order"
-		include = "expl_northern_europe"
 
-		government = {
-			type = theocracy
-			ruler = liv_eberhard_von_monheim
-			ruler_term = {	character = liv_eberhard_von_monheim start_date = 1328.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_everard = 1
-			}
-
-
-			centralization_vs_decentralization = 20
-			aristocracy_vs_plutocracy = -95
-			serfdom_vs_free_subjects = -90
-			traditionalist_vs_innovative = -20
-			spiritualist_vs_humanist = -90
-			mercantilism_vs_free_trade = -30
-			offensive_vs_defensive = 0
-			land_vs_naval = 0
-			quality_vs_quantity = -30
-			belligerent_vs_conciliatory = -30
-			capital_economy_vs_traditional_economy = 100
-			individualism_vs_communalism = -20
-			outward_vs_inward = -60
-
-		}
-
-		tolerated_cultures = {
-		}
-
-		country_rank = rank_duchy
-		capital = parnu
-	}
-
-RIG = { #Riga
-		own_control_core = {
-			riga
-		}
-
-		include = "catholic_republic"
-		include = "expl_northern_europe"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-
-		tolerated_cultures = {
-			latvian liv
-		}
-
-		country_rank = rank_duchy
-		capital = riga
-	}
-
-	ARR = { #Archbishopric of Riga https://en.wikipedia.org/wiki/Archbishopric_of_Riga
-		own_control_core = {
-			gulbene jekabpils koknese limbazi pietalava rauna straupe vilaka
-		}
-
-		include = "catholic_bishopric"
-		include = "expl_northern_europe"
-
-		government = {
-			type = theocracy
-
-			ruler = rig_friedrich_von_pernstein
-			ruler_term = {	character = rig_friedrich_von_pernstein start_date = 1304.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_frederick = 1
-			}
-		}
-
-		tolerated_cultures = {
-			latvian
-		}
-
-		capital = limbazi
-	}
 
 	KUR = { #Courland
 		own_control_core = {
+			piltene daugavpils selpils aizkraukle salaspils bauska jelgava
+			dobele tukums kandava kuldiga durbe 
 		}
 
 		own_control_integrated = {
-			dundaga piltene
+			
 		}
 
-		include = "catholic_bishopric"
+		
 		include = "expl_northern_europe"
 
 		government = {
-			type = theocracy
-
+			type = monarchy
+			heir_selection = cognatic_primogeniture
 			ruler = kur_johann_ii
 			ruler_term = {	character = kur_johann_ii start_date = 1332.1.1 regnal_number = 2	}
 			regnal_numbers = {
 				name_john = 1
 			}
 		}
-
+		country_rank = rank_duchy
 		tolerated_cultures = {
 		}
 
 		capital = piltene
 	}
 
-	BIO = {
-		own_control_core = {
-			hapsal lihula kuressaare st_martin
-		}
 
-		include = "catholic_bishopric"
-		include = "expl_northern_europe"
 
-		government = {
-			type = theocracy
-
-			ruler = bio_jakob_ii
-			ruler_term = {	character = bio_jakob_ii start_date = 1322.1.1 regnal_number = 2	}
-			regnal_numbers = {
-				name_james = 2
-			}
-		}
-
-		tolerated_cultures = {
-			estonian
-		}
-
-		capital = kuressaare
-	}
-
-	BID = {
-		own_control_core = {
-			tartu valka vastseliina vonnu
-		}
-
-		include = "catholic_bishopric_no_coast"
-		include = "expl_northern_europe"
-
-		government = {
-			type = theocracy
-
-			ruler = bid_engelbert_von_dolen
-			ruler_term = {	character = bid_engelbert_von_dolen start_date = 1323.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_engelbert = 1
-			}
-		}
-
-		tolerated_cultures = {
-			estonian
-		}
-
-		capital = tartu
-	}
-
-	HSA = {	#Hansa
+HSA = {	#Hansa
 		type = building
 		starting_technology_level = 3
 
@@ -1774,6 +1639,23 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			ochyor okhannoye chastye debyosy stepanenki
 			igra dondykar yakshur_bodya votkings sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany
 			kilmez stelty falenki uni ural_nema
+			tallinn narva padise rakvere rapla toolse vasknarva 
+			#Baltic Governate
+			gulbene jekabpils koknese limbazi pietalava rauna straupe vilaka riga parnu  valmiera viljandi kaina valjala
+			karksi poltsamaa  sigulda cesis aluksne
+			rezekne  kraslava  
+			saarde suure_jaani makonkalns    
+			paide hapsal lihula kuressaare st_martin tartu valka vastseliina vonnu
+			#Kola
+			kola dalniye_zelentsy kiltina luujarvi 
+			maaselka ponoi semiostrov svyatoy_nos 
+			umba kantalahti kashkarantsy olenitsa 
+			pyalitsa raivke tetrino varzuga 
+			pechenga akkala alakurti koliskoj 
+			mootka nuorttijarvi prirechnyi suonikyla 
+			ontajarvi pieninka repola tunkuo 
+			suikujarvi kem kriitina keret kiestinki kovda
+
 		}
 
 		own_control_conquered = {
@@ -6727,26 +6609,14 @@ TUS = { #Grand Duchy of Tuscany
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
+		
 
 		government = {
-			type = republic
-			heir_selection = podesta_elective
-
-			reforms = {
-				signoria_reform
-			}
-
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+			country_rank = rank_duchy
 			traditionalist_vs_innovative = 40
-
-			privilege = {
-				signoria_council
-				florence_guilds
-			}
-			laws = {
-				guilds_of_florence = arti_maggiori
-				legal_code_law = consiglio_maggiore
-			}
+		
 			ruler = gub_jacopo_gabrielli
 
 			ruler_term = { character = mlo_ermanno_della_torre start_date = 1256.1.1 end_date = 1257.1.1 regnal_number = 0 }
@@ -6763,12 +6633,7 @@ TUS = { #Grand Duchy of Tuscany
 			emilian
 		}
 
-		timed_modifier = {
-			modifier = "interdict"
-			start_date = 1000.1.1
-			date = 1345.1.1
-			size = 1
-		}
+		
 	}
 
 	PRZ = {	#Peruzzi
@@ -7888,8 +7753,8 @@ SAL = {
 			sardinian
 		}
 
-		country_rank = rank_county
-		capital = chambery
+		country_rank = rank_kingdom
+		capital = cagliari
 	}
 
 #Saint-Claude Abbey - SCL
@@ -8195,11 +8060,11 @@ SSP = {
 			zogno clusone cortenuova bergamo
 			tolmezzo pordenone spilimbergo udine gemona
 			pieve
-			rovigo
+			rovigo kotor pazin novigrad knin sibenik sinj makarska metkovic
 		}
 
 		own_control_integrated = {
-			corfu modon kythira andros mykonos amorgos karpathos pazin novigrad knin sibenik sinj makarska metkovic
+			corfu kythira zakynthos leukas cephalonia
 		}
 
 		include = "expl_mediterranean"
@@ -8525,55 +8390,7 @@ VIN = {
 		#dynasty = anjou_taranto_dynasty
 	}
 
-	CEP = {
-		own_control_core = {
-			zakynthos leukas cephalonia
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = ach_robert_taranto
-
-			ruler_term = { character = cep_riccardo_i_orsini start_date = 1194.1.1 end_date = 1197.1.1 regnal_number = 1 }
-			ruler_term = { character = cep_maio_i_orsini start_date = 1197.1.1 end_date = 1238.1.1 regnal_number = 1 }
-			ruler_term = { character = cep_maio_ii_orsini start_date = 1238.1.1 end_date = 1259.1.1 regnal_number = 2 }
-			ruler_term = { character = cep_riccardo_ii_orsini start_date = 1259.1.1 end_date = 1304.1.1 regnal_number = 2 }
-			ruler_term = { character = cep_giovanni_i_orsini start_date = 1304.1.1 end_date = 1317.1.1 regnal_number = 1 }
-			ruler_term = { character = epi_nikolaos_orsini start_date = 1317.1.1 end_date = 1323.1.1 regnal_number = 1 }
-			ruler_term = { character = cep_john_orsini start_date = 1323.1.1 end_date = 1324.1.1 regnal_number = 2 }
-
-			ruler_term = { character = alb_john_gravina start_date = 1324.1.1 end_date = 1336.4.5 regnal_number = 3 }
-			ruler_term = { character = ach_robert_taranto start_date = 1336.4.5 regnal_number = 1 }
-
-			regnal_numbers = {
-				#Margaritus = 1
-				name_matthew = 2
-				name_richard = 2
-				name_john = 3
-				name_charles = 1
-				name_robert = 1
-			}
-		}
-		
-		tolerated_cultures = {
-			greek_culture
-		}
-		capital = cephalonia
-		court_language = french_language
-		dynasty = anjou_dynasty
-		#dynasty = anjou_taranto_dynasty
-	}
-
-	LAT = { #The Latin Empire
+LAT = { #The Latin Empire
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "expl_silk_road_west"
@@ -25684,7 +25501,7 @@ TRO = { #Travunija
 
 			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
 
-			peja prizren bitola prilep kicevo tetovo kotor shkoder debar onogost gradina
+			peja prizren bitola prilep kicevo tetovo shkoder debar onogost gradina
 			budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
 			kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
 			glubocica nis prokuplje stalac ravno jagodina gacko trebinje ohrid kocani strumica
@@ -25749,6 +25566,7 @@ TRO = { #Travunija
 			golhisar stefani
 			antalya elmali karahisar_i_teke kas istanoz
 			manavgat finike
+			modon andros mykonos amorgos karpathos 
 
 			aksaray kochisar insuyu
 			kirsehir nevsehir sariyahsi
@@ -25763,6 +25581,8 @@ TRO = { #Travunija
 			khadjibey kuyanlik iagorlic 
 			#Moldovian Ottoman
 			cetatea_alba gura_galbenei sarata chilia ismail tighina
+
+
 
 		}
 
@@ -29826,8 +29646,8 @@ GLD = {	#Galicia-Lodmeria #This is gonna be Pain
 		
 	}
 
-POL = {	#Poland
-		own_control_core = {
+	POL = {	#Poland
+			our_cores_conquered_by_others = {
 			#Lesser Poland
 			krakow chrzanow ksiaz_wielki proszowice
 			kielce opoczno przedborz zarnow
@@ -29883,18 +29703,9 @@ POL = {	#Poland
 
 			uman zavallia teplyk tsybuliv pohrebyshche buzhskyi vinnytsia
 			bratslav drahushiv karabul balta savran bershad torhovytsia
+			grobina ventspils dundaga saldus
 		}
-		our_cores_conquered_by_others = {
-			#Chełmno Land
-			chelmno brodnica grudziadz lubawa 
-			#Kuyavia
-			bydgoszcz inowroclaw
-			#Pomerelia
-			gniew koscierzyna mirochowo puck tczew
-			tuchola bialobork czluchow nowe swiecie
-		}
-		own_core = {
-		}
+		
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
@@ -29966,34 +29777,78 @@ POL = {	#Poland
 		country_rank = rank_kingdom
 		court_language = latin_language
 
-		timed_modifier = {
-			modifier = "interdict"
-			start_date = 1000.1.1
-			date = 1342.1.1
-			size = 1
-		}
-
+		
 		accepted_cultures = {
 			greater_polish
-			silesian
-		}
+			}
 
 		tolerated_cultures = {
 			kashubian
 			ashkenazi
 		}
 
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
+		
 		}
 
-	}
-
-
-
-	LIT = {	#Lithuania
+	
+ PLC = {	#Poland-Lithuainia
 		own_control_core = {
+		#Lesser Poland
+			krakow chrzanow ksiaz_wielki proszowice
+			kielce opoczno przedborz zarnow
+			czestochowa lelow mstow
+			lublin janow_lubelski kazimierz lukow lubartow urzedow
+			busko_zdroj wislica
+			radom ilza stezyca szydlowiec zwolen
+			kunow opatow 
+			#Greater Poland
+			gniezno mogilno trzemeszno
+			kalisz ostrow_wielkopolski pleszew
+			konin kolo lad_konin
+			koscian babimost grodzisk_wielkopolski rawicz srem
+			poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
+			pyzdry kozmin sroda_wielkopolska
+			znin chodziez szubin siewierz
+			gdansk torun
+			# own_control_integrated, but culture accepted
+			#Wielun
+			wielun ostrzeszow wieruszow
+			warsaw grojec czersk liw nur kamieniec garwolin tarczyn rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
+			rozan lomza kolno biala_rawska ciechanow tykocin plock sierpc szrensk plonsk gostynin gabin leczyca lodz zgierz orlow sieradz szadek turek tuszyn uniejow
+			radomsko brzeznica piotrkow_trybunalski
+			horodok mezhybozhe khmilnyk kamianets_podilskyi bakota ushytsia rov letychiv mohyliv_podilskyi 
+			
+			
+			#Dobrzyń Land
+			dobrzyn lipno rypin mielnik sokolow suraz drohiczyn
+			#Kujavia
+			wloclawek kowal radziejow
+			#Volhynia
+			chelm krasnystaw liuboml ratne shatsk ugrovesk
+			kremenets dubno zbarazh tykhomel
+			lutsk chortoryisk peremyl rozhyshche stepan volodymyrets
+			rivne kostopil ostroh peresopnytsya
+			volodymyr kamin kovel melnytsya turiisk
+			novohrad_volynskyi iziaslav korets liubar polonne
+			#Halych
+			grabowiec
+			#Polesia
+			liubeshiv dubrovytsia
+			#Ukraine
+			dymer fastiv zdvizhen
+			bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
+			cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
+			chornobyl belaya_soroka brahin khoiniki kholmyech
+			olevsk kopyshche viry yemilchyne
+			ovruch bilokorovychi korosten malyn narodychi stodolichi
+			zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
+  
+			#Black Ruthenia
+			sokilets
+
+			uman zavallia teplyk tsybuliv pohrebyshche buzhskyi vinnytsia
+			bratslav drahushiv karabul balta savran bershad torhovytsia
+			grobina ventspils dundaga saldus
 			#Lithuania
 			vilnius giedraiciai kernave medininkai_vilna
 			ashmyany halshany hieraniony kreva
@@ -30020,13 +29875,7 @@ POL = {	#Poland
 			barysaw klichaw krupki lukolm lyubashany
 			lahoysk begoml byerazino ilya krasnoe smalyavichy
 			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
-			mazyr buinovichi kalinkavichy pietrykaw rudobelka
-			     
-			
-			 
-			     
-			
-			   
+			mazyr buinovichi kalinkavichy pietrykaw rudobelka  
 			slutsk hlusk starobin staryya_darohi
 			kletsk bolshie_krugovichi kapyl turov davyd_haradok hlynne
 			lakhva
@@ -30038,39 +29887,166 @@ POL = {	#Poland
 			bobr novogrudok lyakhavichy lyubcha turets
 			vawkavysk porazava vowpa
 			slonim dzyatlava vyada zdzitov
-			 bocheikovo lyepyel  ushachy zabore
-			   rechytsa streshyn
-
-		}
-		own_control_integrated = {
+			bocheikovo lyepyel  ushachy zabore
+			rechytsa streshyn
 			grodek
 			#Podlasie
-			bielsk_podlaski 
-		}
-		own_core = {
+			bielsk_podlaski
 			palanga rietavas silale skuodas taurage
 			mazeikiai
 		}
+		
 
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_catholic_monarchy_no_coast"
+		include = "eastern_european_catholic"
+		government = {
+			type = monarchy
+			heir_selection = semi_salic_law
+
+			ruler = pol_casimir_iii_piast
+			ruler_term = {	character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1	}
+			ruler_term = {	character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3	}
+			regnal_numbers = {
+				name_vladislav = 1
+				name_casimir = 3
+			}
+
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = 20
+			spiritualist_vs_humanist = 10
+			aristocracy_vs_plutocracy = -90
+			serfdom_vs_free_subjects = -70
+			mercantilism_vs_free_trade = -70
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = -70
+			land_vs_naval = -60
+			capital_economy_vs_traditional_economy = 90
+			individualism_vs_communalism = -20
+			outward_vs_inward = 0
+
+			reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			}
+
+			laws = {
+				language_of_pleading = language_of_pleading_court
+			}
+
+			privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			}
+
+		}
+		capital = warsaw
+		dynasty = piast_dynasty
+		country_rank = rank_kingdom
+		court_language = latin_language
+
+		
+
+		accepted_cultures = {
+			greater_polish
+			polatskian_culture
+			polesian_culture
+			samogitian
+			sudovian
+			curonian
+			aukstaitian
+		}
+
+		tolerated_cultures = {
+			kashubian
+			ashkenazi
+		}
+
+		
+
+	}
+
+
+
+	LIT = {	#Lithuania
+		our_cores_conquered_by_others = {
+			#Lithuania
+			vilnius giedraiciai kernave medininkai_vilna
+			ashmyany halshany hieraniony kreva
+			braslaw drysvyaty ezerenai miory
+			kaunas alytus punia vilkaviskis
+			lida astrina eisiskes shchuchyn
+			suwalki lipsk veisiejai
+			trakai lazdijai onushkis merkine
+			svir dokshytsy hlybokaye myadzyel svencionys vileyka
+			upyte birzai linkava panevezys pasvalys
+			vilkmerge anyksciai maleisiai rokiskis utena
+			#Black Ruthenia
+			grodno bershty masty sokolka
+			nyasvizh
+			babruysk luchin svietlahorsk
+			#Polesia
+			brest_litowsk biala_podlaska chernyany malaryta wlodawa
+			kobryn dabuchyn hajnowka kamyenyets
+			#Samogitia
+			medininkai
+			raseiniai jurbarkas kedainiai panemune tendziogala
+			siauliai kraziai papile zagare
+			#White Ruthenia
+			barysaw klichaw krupki lukolm lyubashany
+			lahoysk begoml byerazino ilya krasnoe smalyavichy
+			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
+			mazyr buinovichi kalinkavichy pietrykaw rudobelka  
+			slutsk hlusk starobin staryya_darohi
+			kletsk bolshie_krugovichi kapyl turov davyd_haradok hlynne
+			lakhva
+			lelchytsy zhytkavichy
+			pinsk drahichyn motal nobel
+			stolin
+			luninets #Black Ruthenia
+			 
+			bobr novogrudok lyakhavichy lyubcha turets
+			vawkavysk porazava vowpa
+			slonim dzyatlava vyada zdzitov
+			bocheikovo lyepyel  ushachy zabore
+			rechytsa streshyn
+		    grodek
+			#Podlasie
+			bielsk_podlaski
+			palanga rietavas silale skuodas taurage
+			mazeikiai
+
+		}
+		
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
 		government = {
 
 			outward_vs_inward = -90
 
-			ruler = pol_casimir_iii_piast
-			ruler_term = {	character = lit_butigeidis_gediminids start_date = 1285.1.1 end_date = 1291.1.1 regnal_number = 1	}
-			ruler_term = {	character = lit_butvydas start_date = 1291.1.1 end_date = 1295.1.1 regnal_number = 1	}
-			ruler_term = {	character = lit_vytenis_gediminids start_date = 1295.1.1 end_date = 1316.1.1 regnal_number = 1	}
-			ruler_term = {	character = lit_gediminas_gediminids start_date = 1316.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_vytenis = 1
-				name_gediminas = 1
-			}
-
-			reforms = {
-				patrimonialism
-			}
+			
 		}
 
 		tolerated_cultures = {
@@ -30087,69 +30063,7 @@ POL = {	#Poland
 		
 	}
 
-	SXM = {	#Samogitia - Revolter of LIT
-		our_cores_conquered_by_others = {
-			medininkai palanga rietavas silale skuodas taurage
-			raseiniai jurbarkas kedainiai panemune tendziogala
-			siauliai kraziai mazeikiai papile zagare
-		}
 
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}
-		capital = raseiniai
-		country_rank = rank_duchy
-	}
-
-	MIS = {	#Minsk - Revolter of LIT
-		our_cores_conquered_by_others = {
-			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
-			lahoysk begoml byerazino ilya krasnoe smalyavichy
-			barysaw bobr krupki lukolm lyubashany
-			drutsk tyatseryn
-			nyasvizh
-			klichaw
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-
-			ruler_term = { character = mis_gleb_vseslavich_rurikovich start_date = 1101.4.24 end_date = 1119.9.13 regnal_number = 1 }
-
-			# Annexed to Kyiv 1119-1146
-
-			ruler_term = { character = mis_rostislav_glebovich_rurikovich start_date = 1146.1.1 end_date = 1151.1.1 regnal_number = 1 }
-			ruler_term = { character = mis_volodar_glebovich_rurikovich start_date = 1151.1.1 end_date = 1159.1.1 regnal_number = 1 }
-			ruler_term = { character = mis_rostislav_glebovich_rurikovich start_date = 1159.1.1 end_date = 1165.1.1 regnal_number = 1 } # Restored
-			ruler_term = { character = mis_volodar_glebovich_rurikovich start_date = 1165.1.1 end_date = 1167.1.1 regnal_number = 1 } # Restored
-			ruler_term = {
-				character = mis_vladimir_volodarevich_rurikovich start_date = 1167.1.1 end_date = 1216.1.1 regnal_number = 2
-				character = pok_vasilko_volodarevich_rurikovich start_date = 1167.1.1 end_date = 1216.1.1 regnal_number = 1
-			}
-
-			# Lithuanian rulers since 1216 until 1242 when it was annexed
-
-			regnal_numbers = {
-				name_gleb = 1
-				name_rostislav = 1
-				name_volodar = 1
-				name_waldemar = 2
-				name_basil = 1
-			}
-		}
-		capital = minsk
-		country_rank = rank_duchy
-	}
 
 
 
