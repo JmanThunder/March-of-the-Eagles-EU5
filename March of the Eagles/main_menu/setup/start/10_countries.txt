@@ -1,4 +1,4 @@
-current_age = age_1_traditions
+current_age = age_6_revolutions
 
 # own_control_core
 # own_control_integrated
@@ -1567,969 +1567,9 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 
 
 
-	#Principality of Toropets
-	TPS = {
-		own_control_core = {
-			toropets andreapol dubrovna nizhelskoe
-		}
 
-		starting_technology_level = 3
-		country_rank = rank_duchy
 
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = random
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			severian
-		}
-
-		capital = toropets
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Beloozero
-	BLO = {
-		own_control_core = {
-			beloozero vashki kirillov nikolskoye_andoma cherepoves ustyuzhna_zheleznopolskaya lukoves poshekhonye
-			beloe knyazhich_gorodok pokrovskoye_yaroslav spasskoye yorga ust_ugla vognema goroditse_megra georgievskoye
-			chuzboy koloshma badozhsky nikolskoye_kema charonda svir_beloozero
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = blo_roman_mikhailovich_rurikovich
-			
-			ruler_term = { character = rso_gleb_vasilkovich_rurikovich start_date = 1238.1.1 end_date = 1278.12.13 regnal_number = 1 }
-			ruler_term = { character = blo_mikhail_glebovich_rurikovich start_date = 1278.12.13 end_date = 1279.1.1 regnal_number = 1 }
-			ruler_term = { character = rso_dmitry_borisovich_rurikovich start_date = 1279.1.1 end_date = 1286.1.1 regnal_number = 1 }
-			ruler_term = { character = blo_mikhail_glebovich_rurikovich start_date = 1286.1.1 end_date = 1293.1.1 regnal_number = 1 }
-			ruler_term = { character = blo_fyodor_mikhailovich_rurikovich start_date = 1293.1.1 end_date = 1314.1.1 regnal_number = 1 }
-			ruler_term = { character = blo_roman_mikhailovich_rurikovich start_date = 1314.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			muscovite
-			vepsian
-		}
-
-		capital = beloozero
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Yaroslavl
-	YAR = {
-		own_control_core = {
-			yaroslavl bolshoye_selo danilov kurba romanov sol_velikaya ust_sheksna
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = yar_vasili_davidovich_rurikovich
-
-			ruler_term = { character = yar_fyodor_rostislavich_cherny_rurikovich start_date = 1260.1.1 regnal_number = 1 end_date = 1299.1.1 }
-			ruler_term = { character = yar_david_fyodorovich_rurikovich start_date = 1299.1.1 regnal_number = 1 end_date = 1321.1.1 }
-			ruler_term = { character = yar_vasili_davidovich_rurikovich start_date = 1321.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = yaroslavl
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Rostov
-	RSO = {
-		own_control_core = {
-			rostov borisogleb petrovsk_rostov
-			veliky_ustyug krasny_bor pyras porog alferovskaya nyuksenitsa gorodishna
-			ledengskoye shuyskoye kichmengsky_gorodok voznesenskoye
-			vekshenga zaostrovskoye krasavino ileza shangaly
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			regency = nobles_estate_regency
-			active_regent = rso_konstantin_vasilievich_rurikovich
-			start_regency_date = 1331.1.1
-			end_regency_date = 1346.1.1
-			heir = rso_andrei_fedorovich_rostovsky_rurikovich
-			
-			ruler_term = { character = kie_yaroslav_the_wise_rurikovich start_date = 978.1.1 end_date = 1010.1.1 regnal_number = 1 }
-			ruler_term = { character = rso_boris_vladimirovich_rurikovich start_date = 1010.1.1 end_date = 1015.1.1 regnal_number = 1 }
-			ruler_term = { character = vol_rostislav_vladimirovich_rurikovich start_date = 1052.10.4 end_date = 1056.1.1 regnal_number = 1 }
-			
-			ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1208.1.1 end_date = 1218.2.2 regnal_number = 1 }
-			ruler_term = { character = rso_vasilko_konstantinovich_rurikovich start_date = 1218.2.2 end_date = 1238.3.4 regnal_number = 1 }
-			ruler_term = { character = rso_boris_vasilkovich_rurikovich start_date = 1238.3.4 end_date = 1277.9.16 regnal_number = 1 }
-			ruler_term = { character = rso_gleb_vasilkovich_rurikovich start_date = 1277.9.16 end_date = 1278.12.13 regnal_number = 1 }
-			ruler_term = { character = rso_dmitry_borisovich_rurikovich start_date = 1278.12.13 end_date = 1294.1.1 regnal_number = 1 }
-			ruler_term = { character = rso_konstantin_borisovich_rurikovich start_date = 1294.1.1 end_date = 1307.1.1 regnal_number = 1 }
-			ruler_term = { character = rso_vasily_konstantinovich_rurikovich start_date = 1307.1.1 end_date = 1316.1.1 regnal_number = 1 }
-			ruler_term = { character = rso_yuri_alexandrovich_rurikovich start_date = 1316.1.1 end_date = 1320.1.1 regnal_number = 1 }
-			ruler_term = { character = rso_fyodor_vasilievich_rostovsky_rurikovich start_date = 1320.1.1 regnal_number = 1 end_date = 1331.1.1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			novgorodian
-		}
-
-		capital = rostov
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Tver
-	TVE = {
-		own_control_core = {
-			tver brody_tver vertyazin
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = tve_konstantin_mikhailovich_rurikovich
-			ruler_term = { character = tve_mikhail_yaroslavich_rurikovich start_date = 1285.1.1 regnal_number = 1 end_date = 1318.11.22 }
-			ruler_term = { character = tve_aleksandr_mikhailovich_rurikovich start_date = 1318.11.22 end_date = 1327.1.1 regnal_number = 1 }
-			ruler_term = { character = tve_konstantin_mikhailovich_rurikovich start_date = 1327.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = tver
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Kashin	(Ruler: Prince Vasily of Kashin (https://en.wikipedia.org/wiki/Mikhail_of_Tver#Family_and_children)
-	#Appanage of Tver
-	KAS = {
-		own_control_core = {
-			kashin kalyazin kesova_gora kimra
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = kai_vasily_mikhailovich_rurikovich
-			ruler_term = { character = tve_mikhail_yaroslavich_rurikovich start_date = 1285.1.1 regnal_number = 1 end_date = 1318.11.22 }
-			ruler_term = { character = kai_vasily_mikhailovich_rurikovich start_date = 1318.11.22 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = kashin
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Klin
-	#Appanage of Tver
-	KLN = {
-		own_control_core = {
-			klin dubna
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = tve_konstantin_mikhailovich_rurikovich
-			ruler_term = { character = tve_mikhail_yaroslavich_rurikovich start_date = 1285.1.1 regnal_number = 1 end_date = 1318.11.22 }
-			ruler_term = { character = tve_konstantin_mikhailovich_rurikovich start_date = 1318.11.22 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = klin
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Zubtsov
-	#Appanage of Tver
-	ZUB = {
-		own_control_core = {
-			zubtsov gorodok kholm_tver lotoshino mikulino_tver
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = tve_aleksandr_mikhailovich_rurikovich
-			ruler_term = { character = tve_mikhail_yaroslavich_rurikovich start_date = 1285.1.1 regnal_number = 1 end_date = 1318.11.22 }
-			ruler_term = { character = tve_aleksandr_mikhailovich_rurikovich start_date = 1318.11.22 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = zubtsov
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Dmitrov
-	DMI = {
-		own_control_core = {
-			dmitrov rogachevo
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = dmi_dmitri_borisovich_rurikovich
-			ruler_term = { character = dmi_boris_davydovich_rurikovich start_date = 1310.1.1 regnal_number = 1 end_date = 1334.1.1 }
-			ruler_term = { character = dmi_dmitri_borisovich_rurikovich start_date = 1334.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = dmitrov
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Galich-Mersky
-	GLM = {
-		own_control_core = {
-			galich chukhloma parfenyevo sol_galichskaya sudai unzha
-		}
-
-		own_control_integrated = {
-			kologriv kunozh kuzhbal manturovo nikolo_dor pyshchug 
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = glm_ivan_fyodorovich_rurikovich
-
-			ruler_term = { character = glm_konstantin_yaroslavich_rurikovich start_date = 1247.1.1 end_date = 1255.1.1 regnal_number = 1 }
-			ruler_term = { character = glm_davyd_konstantinovich_rurikovich start_date = 1255.1.1 end_date = 1280.1.1 regnal_number = 1 }
-			ruler_term = { character = glm_vasily_konstantinovich_rurikovich start_date = 1280.1.1 end_date = 1310.1.1 regnal_number = 1 }
-			ruler_term = { character = glm_fyodor_davydovich_rurikovich start_date = 1310.1.1 end_date = 1334.1.1 regnal_number = 1 }
-			ruler_term = { character = glm_ivan_fyodorovich_rurikovich start_date = 1334.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = galich
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Rzhev - Vassal of Lithuania
-	RZH = {
-		own_control_core = {
-			rzhev bor_volgo khotoshino molodoi_tud
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = rzh_fedor_yurievich_rurikovich
-
-			ruler_term = { character = fmb_yuri_konstantinovich_rurikovich start_date = 1235.1.1 end_date = 1274.1.1 regnal_number = 1 }
-			ruler_term = { character = rzh_yuri_yurievich_rurikovich start_date = 1274.1.1 end_date = 1315.1.1 regnal_number = 1 }
-			ruler_term = { character = rzh_fedor_yurievich_rurikovich start_date = 1315.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			novgorodian
-		}
-
-		capital = rzhev
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Vyazma - Vassal of Smolensk
-	VYA = {
-		own_control_core = {
-			vyazma izdeshkovo khlepen kholm_zhirkovsky kozlov_vyazma orekhovna medyn sychyovka trufany zhulino
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = vya_fedor_svyatoslavich_rurikovich
-			ruler_term = { character = vya_fedor_svyatoslavich_rurikovich start_date = 1318.11.22 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			muscovite
-		}
-
-		capital = vyazma
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Fomin-Berezuesk - Vassal of Smolensk
-	FMB = {
-		own_control_core = {
-			fomin_gorodok
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = fmb_fyodor_konstantinovich_krasny_rurikovich
-
-			ruler_term = { character = fmb_yuri_konstantinovich_rurikovich start_date = 1235.1.1 end_date = 1274.1.1 regnal_number = 1 }
-			ruler_term = { character = fmb_konstantin_yurievich_rurikovich start_date = 1274.1.1 end_date = 1318.1.1 regnal_number = 1 }
-			ruler_term = { character = fmb_fyodor_konstantinovich_krasny_rurikovich start_date = 1318.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = fomin_gorodok
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Trubchevsk
-	TRB = {
-		own_control_core = {
-			trubchevsk
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = bry_gleb_svyatoslavich_rurikovich
-
-			ruler_term = { character = bry_roman_mikhailovich_rurikovich start_date = 1240.1.1 end_date = 1288.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_oleg_romanovich_rurikovich start_date = 1288.1.1 end_date = 1309.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_svyatoslav_glebovich_rurikovich start_date = 1309.1.1 end_date = 1310.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_vasily_alexandrovich_rurikovich start_date = 1310.1.1 end_date = 1314.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_vasily_alexandrovich_rurikovich start_date = 1314.1.1 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_gleb_svyatoslavich_rurikovich start_date = 1333.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = trubchevsk
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Bryansk	(Брянское княжество)
-	BRY = {
-		own_control_core = {
-			bryansk foshnya pochep
-			dmitriyev boldyzh
-			vshchizh knyazhichi revny sevsk
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = bry_gleb_svyatoslavich_rurikovich
-
-			ruler_term = { character = bry_roman_mikhailovich_rurikovich start_date = 1240.1.1 end_date = 1288.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_oleg_romanovich_rurikovich start_date = 1288.1.1 end_date = 1309.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_svyatoslav_glebovich_rurikovich start_date = 1309.1.1 end_date = 1310.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_vasily_alexandrovich_rurikovich start_date = 1310.1.1 end_date = 1314.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_vasily_alexandrovich_rurikovich start_date = 1314.1.1 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = { character = bry_gleb_svyatoslavich_rurikovich start_date = 1333.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			severian
-		}
-
-		capital = bryansk
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Grand Duchy of Chernihiv
-	CHR = {
-		own_control_core = {
-			chernihiv liubech horodnia snovsk
-			rechytsa streshyn
-			gomel chachersk dobrush tereshkovichy volosovichy
-			bakhmach sosnytsia nizhyn 
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = bry_gleb_svyatoslavich_rurikovich
-
-			
-			ruler_term = { character = mrm_yaroslav_svyatoslavich_rurikovich start_date = 1123.1.1 end_date = 1127.1.1  regnal_number = 1 }
-
-			ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1223.1.1 end_date = 1246.1.1  regnal_number = 1 }
-
-			ruler_term = { character = bry_roman_mikhailovich_rurikovich start_date = 1263.1.1 end_date = 1288.1.1 regnal_number = 1 }
-
-			ruler_term = { character = bry_gleb_svyatoslavich_rurikovich start_date = 1333.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			ruthenian
-			polesian_culture
-		}
-
-		capital = chernihiv
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Starodub Siverskyi
-	STS = {
-		own_control_core = {
-			starodub_siverskyi klintsy ropsk radogosch
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}
-
-		liturgical_language = church_slavonic_language
-
-		accepted_cultures = {
-			ruthenian
-		}
-
-		dynasty = rurikovich_dynasty
-		capital = starodub_siverskyi
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Novgorod Siverskyi
-	NVS = {
-		own_control_core = {
-			novhorod_siverskyi hlukhiv verba voronizh_chernihiv znobov
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-
-			ruler_term = { character = vol_mstislav_sviatopolkovich_rurikovich start_date = 1095.1.1 end_date = 1097.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		accepted_cultures = {
-			ruthenian
-		}
-
-		dynasty = rurikovich_dynasty
-		capital = novhorod_siverskyi
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Rylsk
-	RYL = {
-		own_control_core = {
-			rylsk
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}
-
-		liturgical_language = church_slavonic_language
-
-		dynasty = rurikovich_dynasty
-		capital = rylsk
-		include = "expl_northern_europe"
-		include = "russian_principality_no_coast"
-	}
-
-	#Principality of Novosil	(Новосильское княжество)
-	NSL = {
-		own_control_core = {
-			novosil kolpny plavsk belyov odoyev tagin mtsensk
-			bogorodskoye mikhailovka vorotynsk vorotynsk_novosil rzhavets
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = nsl_semyon_alexandrovich_rurikovich
-
-			ruler_term = { character = nsl_semyon_mikhailovich_rurikovich start_date = 1246.1.1 end_date = 1296.1.1 regnal_number = 1 }
-			ruler_term = { character = nsl_alexander_semyonovich_rurikovich start_date = 1296.1.1 end_date = 1326.9.15 regnal_number = 1 }
-			ruler_term = { character = nsl_semyon_alexandrovich_rurikovich start_date = 1326.9.15 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			muscovite
-		}
-
-		capital = novosil
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Karachev	(Карачевское княжество)
-	KCH = {
-		own_control_core = {
-			karachev zvenihorod_siverskyi kromy bolkhov khvastovichi usty meshchovsk masalsk fominichi yukhnov
-			lyubun pogostishche khotiml ktsyn pogoreloye
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = kch_panteleimon_mstislavich_rurikovich
-			ruler_term = { character = kch_mstislav_mikhailovich_rurikovich start_date = 1246.1.1 end_date = 1300.1.1 regnal_number = 1 }
-			ruler_term = { character = kch_svyatoslav_mstislavich_rurikovich start_date = 1300.1.1 end_date = 1310.1.1 regnal_number = 1 }
-			ruler_term = { character = kch_panteleimon_mstislavich_rurikovich start_date = 1310.1.1 regnal_number = 1 }
-		}
-		#
-		liturgical_language = church_slavonic_language
-
-		capital = karachev
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Kozelsk
-	KZK = {
-		own_control_core = {
-			kozelsk
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = kzk_titus_mstislavich_rurikovich
-			ruler_term = { character = kch_mstislav_mikhailovich_rurikovich start_date = 1246.1.1 end_date = 1300.1.1 regnal_number = 1 }
-			ruler_term = { character = kzk_titus_mstislavich_rurikovich start_date = 1300.1.1 regnal_number = 1 }
-		}
-		#
-		liturgical_language = church_slavonic_language
-
-		capital = kozelsk
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Tarusa
-	TRS = {
-		own_control_core = {
-			tarusa kaluga obolensk volkona
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = trs_konstantin_yurievich_rurikovich
-
-			ruler_term = { character = trs_yuri_mikhailovich_rurikovich start_date = 1246.1.1 end_date = 1300.1.1 regnal_number = 1 }
-			ruler_term = { character = trs_konstantin_yurievich_rurikovich start_date = 1300.1.1 regnal_number = 1 }
-		}
-		#
-		liturgical_language = church_slavonic_language
-
-		accepted_cultures = {
-			smolenskian_culture
-		}
-
-		capital = tarusa
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Ryazan
-	RYA = {
-		own_control_core = {
-			ryazan perevitska rostislavl_ryazansky venyov
-			staraya_ryazan shilovo lopasnya
-			koponovo kazari putyatino
-		}
-
-		own_control_integrated = {
-			lyubichi
-		}
-
-		our_cores_conquered_by_others = {
-			#Principality of Kolomna
-			kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = rya_ivan_ii_korotopol_rurikovich
-
-			#ruler_term = { character = rya_svyatoslav_yaroslavich_rurikovich start_date = 1129.1.1 end_date = 1143.1.1 regnal_number = 1 }
-			#ruler_term = { character = prk_rostislav_yaroslavich_rurikovich start_date = 1143.1.1 end_date = 1145.1.1 regnal_number = 1 }
-			#ruler_term = { character = rya_gleb_rostislavich_rurikovich start_date = 1145.1.1 end_date = 1147.1.1 regnal_number = 1 }
-
-			#ruler_term = { character = rya_gleb_rostislavich_rurikovich start_date = 1151.1.1 end_date = 1153.1.1 regnal_number = 1 }
-			#ruler_term = { character = mrm_vladimir_svyatoslavich_rurikovich start_date = 1153.1.1 end_date = 1161.1.1 regnal_number = 1 }
-			#ruler_term = { character = rya_gleb_rostislavich_rurikovich start_date = 1161.1.1 end_date = 1178.6.30 regnal_number = 1 }
-
-			#ruler_term = { character = rya_ingvar_igorevich_rurikovich start_date = 1217.1.1 end_date = 1235.1.1 regnal_number = 1 }
-
-			#ruler_term = { character = rya_oleg_ingvarevich_krasny_rurikovich start_date = 1252.1.1 end_date = 1258.3.8 regnal_number = 1 }
-			#ruler_term = { character = rya_roman_olgovich_rurikovich start_date = 1258.3.8 end_date = 1270.7.19 regnal_number = 1 }
-
-			ruler_term = { character = rya_yaroslav_romanovich_rurikovich start_date = 1294.1.1 end_date = 1299.1.1 regnal_number = 1 }
-			ruler_term = { character = rya_konstantin_romanovich_rurikovich start_date = 1299.1.1 end_date = 1308.1.1 regnal_number = 1 }
-			ruler_term = { character = rya_ivan_yaroslavich_rurikovich start_date = 1308.1.1 end_date = 1327.1.1 regnal_number = 1 }
-			ruler_term = { character = rya_ivan_ii_korotopol_rurikovich start_date = 1327.1.1 regnal_number = 2 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			mishar
-		}
-
-		capital = ryazan
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Pronsk
-	PRK = {
-		own_control_core = {
-			pronsk  dubok karniki knyazhoye mikhaylov ryazhsk serebryanye_prudy skopin
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = prk_mikhail_yaroslavich_rurikovich
-
-
-			#ruler_term = { character = prk_rostislav_yaroslavich_rurikovich start_date = 1129.1.1 end_date = 1143.1.1 regnal_number = 1 }
-
-			ruler_term = { character = rya_yaroslav_romanovich_rurikovich start_date = 1270.1.1 end_date = 1299.1.1 regnal_number = 1 }
-			ruler_term = { character = prk_mikhail_yaroslavich_rurikovich start_date = 1299.1.1 regnal_number = 2 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			mishar
-		}
-
-		capital = pronsk
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Starodub (-on-the-Klyazma)
-	SKY = {
-		own_control_core = {
-			starodub_on_the_klyazma palekh rozhdestveno
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = sky_dmitriy_fyodorovych_rurikovich
-
-			ruler_term = { character = sky_fyodor_ivanovich_rurikovich start_date = 1217.1.1 end_date = 1227.1.1 regnal_number = 1 }
-
-			ruler_term = { character = sky_ivan_vsevolodovich_kasha_rurikovich start_date = 1238.1.1 end_date = 1247.1.1 regnal_number = 1 }
-			ruler_term = { character = sky_ivan_vsevolodovich_kasha_rurikovich start_date = 1247.1.1 end_date = 1281.1.1 regnal_number = 1 }
-			ruler_term = { character = sky_ivan_vsevolodovich_kasha_rurikovich start_date = 1281.1.1 end_date = 1315.1.1 regnal_number = 1 }
-			ruler_term = { character = sky_vladimir_vsevolodovich_rurikovich start_date = 1315.1.1 end_date = 1330.1.1 regnal_number = 1 }
-			ruler_term = { character = sky_dmitriy_fyodorovych_rurikovich start_date = 1330.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = starodub_on_the_klyazma
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Nizhny Novgorod
-	#Personal Union under Moscovy, event fires when MOS' ruler dies which gives NZH an owner ruler
-	NZH = {
-		own_control_core = {
-			nizhny_novgorod gorokhovets meshchersk pestyaki rastyapino
-		}
-
-		own_control_integrated = {
-			dalneye_konstantinovo
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-			ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = nizhny_novgorod
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Suzdal
-	SZL = {
-		own_control_core = {
-			suzdal gavrilovskoye ilyinskoye_khovanskoye
-			shuya ivanovo lezhnevo vichuga
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = szl_konstantin_vasilyevich_rurikovich
-
-			#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1238.1.1 end_date = 1246.1.1 regnal_number = 1 }
-			ruler_term = { character = vlr_andrey_yaroslavich_rurikovich start_date = 1252.1.1 end_date = 1264.1.1 regnal_number = 1 }
-			ruler_term = { character = szl_yuri_andreevich_rurikovich start_date = 1264.1.1 end_date = 1279.3.8 regnal_number = 1 }
-			ruler_term = { character = szl_mikhail_andreevich_rurikovich start_date = 1279.3.8 end_date = 1305.1.1 regnal_number = 1 }
-			ruler_term = { character = szl_vasily_andreevich_rurikovich start_date = 1305.1.1 end_date = 1309.1.1 regnal_number = 1 }
-			ruler_term = { character = szl_alexander_vasilyevich_rurikovich start_date = 1309.1.1 end_date = 1332.1.1 regnal_number = 1 }
-			ruler_term = { character = szl_konstantin_vasilyevich_rurikovich start_date = 1332.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = suzdal
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Gorodets
-	#Appanage under Nizhny Novgorod and in Union with Moscow
-	GRS = {
-		own_control_core = {
-			gorodets lukh korenevo vasilyeva_sloboda yuryev_povolzhsk kadyy
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-			ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = gorodets
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-	#Principality of Kostroma
-	#Personal Union under Moscovy
-	KOS = {
-		own_control_core = {
-			kostroma buy demyanovo gryazovets lyubim nerekhta sudislavl yakovlevskoye_bolshoye
-		}
-
-		own_control_integrated = {
-			ostrovskoye
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-			ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = kostroma
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Murom
-	MRM = {
-		own_control_core = {
-			murom gorbatovo melenki tuma starodub_votsky shatur 
-		}
-
-		own_control_integrated = {
-			klepiki
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mrm_vasily_yaroslavich_rurikovich
-
-			ruler_term = { character = mrm_gleb_vladimirovich_rurikovich start_date = 1013.1.1 end_date = 1015.1.1 regnal_number = 1 }
-			#ruler_term = { character = mrm_yaroslav_svyatoslavich_rurikovich start_date = 1097.1.1 end_date = 1123.1.1  regnal_number = 1 }
-
-			#ruler_term = { character = rya_svyatoslav_yaroslavich_rurikovich start_date = 1143.1.1 end_date = 1145.1.1 regnal_number = 1 }
-			#ruler_term = { character = prk_rostislav_yaroslavich_rurikovich start_date = 1145.1.1 end_date = 1147.1.1 regnal_number = 1 }
-			#ruler_term = { character = mrm_vladimir_svyatoslavich_rurikovich start_date = 1147.1.1 end_date = 1149.1.1 regnal_number = 1 }
-
-			#ruler_term = { character = mrm_vladimir_svyatoslavich_rurikovich start_date = 1155.1.1 end_date = 1161.1.1 regnal_number = 1 }
-			#ruler_term = { character = mrm_yuri_vladimirovich_rurikovich start_date = 1161.1.1 end_date = 1174.1.1 regnal_number = 1 }
-
-			#ruler_term = { character = mrm_david_yurievich_rurikovich start_date = 1203.1.1 end_date = 1228.1.1 regnal_number = 1 }
-			#ruler_term = { character = mrm_yuri_davidovich_rurikovich start_date = 1228.1.1 end_date = 1237.1.1 regnal_number = 1 }
-			#ruler_term = { character = mrm_yaroslav_yurievich_rurikovich start_date = 1237.1.1 end_date = 1270.1.1 regnal_number = 1 }
-
-			ruler_term = { character = mrm_vasily_yaroslavich_rurikovich start_date = 1330.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = murom
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Mologa
-	MOG = {
-		own_control_core = {
-			mologa ilovna prozorovo
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mog_mikhail_davidovich_rurikovich
-			ruler_term = { character = yar_david_fyodorovich_rurikovich start_date = 1299.1.1 regnal_number = 1 end_date = 1321.1.1 }
-			ruler_term = { character = mog_mikhail_davidovich_rurikovich start_date = 1321.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = mologa
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Ruzzian Empire
+#Ruzzian Empire
 	RUS = {
 		own_control_core = {
 			moscow zvenigorod ruza pushkino vokhna bronnitsy rogozh
@@ -2537,8 +1577,8 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			przemysl_moscow mushkov_pogost
 			#Principality of Pereyaslavl-Zalessky
 			pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
-			qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi khadjibey teligol kuyanlik ananiv iagorlic dashev
-			balikley aqmecit_prybuzhzhya argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
+			qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi 
+			argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
 			ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
 			mala_vyska umanske ingul sofiivka kryvyi_rih tomakivka mykytyn_rih kichkas rozdory hryshyne
 			kupiansk posad velyka_novosilka domakha huliaipole shyrokyne vasylivka taganrog bakhmut sloviansk lysychansk
@@ -2581,10 +1621,8 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			naurskaya kara_bazaar terekli_mekteb kurskaya kamysh_burun baytak ilek 
 			kargaly_aktobe kobda irek tas_kichu kaynar shagiz tenteksor mavliberda 
 			kiyl koptam uil emba atzhaksy shatyrlysay temir or_aktobe
-
-			chilia cetatea_alba gura_galbenei sarata tighina chatyun kutarka sernur morki urzhum
-			lusta soldaia 
-			zainsk syun verkhneyarkeyevo
+			chatyun kutarka sernur morki urzhum
+			lusta soldaia zainsk syun verkhneyarkeyevo
 			menzelinsk lower_aktanyshbash chalninsky_pochinok chekmagush chishmy
 			ulukulevo davlekanovo bizhbulyak turkmenevo sterlibashevo
 			sterlitamak bavly bugulma abdulino aznakayevo
@@ -2592,6 +1630,13 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			qashliq siberia_abalak turtas yukonda
 			tara znamenskoye ust_ishim omsk kamyshnoye cherlak tyukalinsk kolosovka
 			siletiteniz zhalauly
+			smolensk krasny demidov luchani
+			dorogobuzh yartsevo dukhovshchina yelnya belik roslavl zaroy
+			rognedino demensk
+			shchuchye_smolensk verzhavsk vetlitsy katyn berezhnyany izyaslavl pustosel shui gorodechnya mozhino
+			#Principality of Bely
+			bely bibirevo bolshevo shoptovo verkhovye yotkino
+			tana theodoro kaffa vosporo #Black Sea
 			tuzdysor imakia zhelezin lebyazhye
 			chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
 			tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
@@ -2629,8 +1674,8 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			koshki kamyshla bolshoy_cheremshan staryi_amanak
 			samara shigony morkvash chebarkul miass
 			krasnaya_gorka belekes 
-
-			ismail
+			bolshaya_yakshanga koksharov nikolsky
+			
 			tula_russia bogoroditsk arkhangelskoye kurkino donkov yelets talitsa_yelets gogol teshevka voronezh ukek
 			lipetsk usman mordovo zherdevka uvarovo kirsanov rasskazovo izberdey tambov ust_stanovykh_ryas
 			kozlov ust_livny terbuny kastornoye chernyanka alexeyevka opalkova
@@ -2657,11 +1702,11 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			chimgi_tura tugulym yalutorovsk shadrinsk
 			tsaryovo_gorodishche burayevo
 			sarybulak zhanaarka arkat balyktykol kaynar_atbai
-
-			bratslav balta bershad drahushiv karabul savran
-			torhovytsia teplyk tsybuliv uman zavallia
-			vinnytsia buzhskyi pohrebyshche sokilets
+		     
 			armavir 
+			chernihiv liubech horodnia snovsk
+			gomel chachersk dobrush tereshkovichy volosovichy
+			bakhmach sosnytsia nizhyn 
 
 			#Principality of Kursk
 			kursk fatezh kosozhichi olgov
@@ -2688,6 +1733,47 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
 			#Principality of Volokolansk
 			volok
+			kyiv desnyanskyi_horodok lutava kozelets oster yaroslavka 
+			pereiaslav zolotonosha horoshino horodyshche kremenchuk 
+			poltava hovtva velyki_sorochyntsi myrhorod lubny yahotyn 
+			pyriatyn pryluky ichnia chornukhy romen lypova_dolyna hadiach 
+			opishnya kolomak kotelva okhtyrka
+			khotmyzh krasnopillia sumy glushkovo buryn melnya putyvl vilshana boryspil
+
+			rahachow bykhaw tyatseryn drutsk syanno ulla polotsk
+			dzisna asvieja novy_bykhaw mogilev orsha vydreya
+			vitebsk haradok jeziarysca 
+			rasony vydritsa nekloch nevel usvyaty zhizhets 
+			ilyino velizh mikulino rudnya kopys
+			horki chavusy mstsislaw monastyrshchina
+			shumyachi krychaw slawharad kastsyukovichy 
+			khotsimsk popowa_gora drokov mglin
+			pskov gdov izborsk kobyle meletovo prudy
+			ostrov opochka sebech slavkovitchi volodimerets voronich
+			toropets andreapol dubrovna nizhelskoe mologa ilovna prozorovo murom gorbatovo melenki tuma starodub_votsky shatur kostroma buy demyanovo gryazovets lyubim nerekhta sudislavl yakovlevskoye_bolshoye gorodets lukh korenevo vasilyeva_sloboda yuryev_povolzhsk kadyy suzdal gavrilovskoye ilyinskoye_khovanskoye
+			shuya ivanovo lezhnevo vichuga nizhny_novgorod gorokhovets meshchersk pestyaki rastyapino starodub_on_the_klyazma palekh rozhdestveno pronsk  dubok karniki knyazhoye mikhaylov ryazhsk serebryanye_prudy skopin ryazan perevitska rostislavl_ryazansky venyov
+			staraya_ryazan shilovo lopasnya
+			koponovo kazari putyatino tarusa kaluga obolensk volkona kozelsk karachev zvenihorod_siverskyi kromy bolkhov khvastovichi usty meshchovsk masalsk fominichi yukhnov
+			lyubun pogostishche khotiml ktsyn pogoreloye novosil kolpny plavsk belyov odoyev tagin mtsensk
+			bogorodskoye mikhailovka vorotynsk vorotynsk_novosil rzhavets rylsk novhorod_siverskyi hlukhiv verba voronizh_chernihiv znobov starodub_siverskyi klintsy ropsk radogosch bryansk foshnya pochep
+			dmitriyev boldyzh dalneye_konstantinovo
+			vshchizh knyazhichi revny sevsk trubchevsk fomin_gorodok vyazma izdeshkovo khlepen kholm_zhirkovsky kozlov_vyazma orekhovna medyn sychyovka trufany zhulino rzhev bor_volgo khotoshino molodoi_tud galich chukhloma parfenyevo sol_galichskaya sudai unzha dmitrov rogachevo zubtsov gorodok kholm_tver lotoshino mikulino_tver klin dubna kashin kalyazin kesova_gora kimra tver brody_tver vertyazin rostov borisogleb petrovsk_rostov
+			veliky_ustyug krasny_bor pyras porog alferovskaya nyuksenitsa gorodishna
+			ledengskoye shuyskoye kichmengsky_gorodok voznesenskoye ostrovskoye klepiki
+			vekshenga zaostrovskoye krasavino ileza shangaly yaroslavl bolshoye_selo danilov kurba romanov sol_velikaya ust_sheksna beloozero vashki kirillov nikolskoye_andoma cherepoves ustyuzhna_zheleznopolskaya lukoves poshekhonye
+			beloe knyazhich_gorodok pokrovskoye_yaroslav spasskoye yorga ust_ugla vognema goroditse_megra georgievskoye
+			chuzboy koloshma badozhsky nikolskoye_kema charonda svir_beloozero kologriv kunozh kuzhbal manturovo nikolo_dor pyshchug lyubichi yuryev_polsky uglich koi rozhalovo vladimir moshok muromtsevo_murom osovets sudogda vlasovo yaropolch kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye pereyaslavl 
+			alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo zolotkovo
+			oreshek toksovo korela konevets neva vyatka ust_cheptsa suna verkhoshizhemye orlov belozerye slobodskoy
+			oparino obyachevo lalsk nikolsk vokhma
+			podosinovets omutninsk kholunitsky kobra nagorsk
+			cherdyn nyrob ust_kulom lupya chernaya troitsko_pechorsk vukyl ukhta kortkeros ust_vym zheshart
+			ust_sysola vizinga koygorodok kirs afanasyevo siva karagay nytva perm kungur 
+			beryozovka lysva kizel gubakha dobryanka solikamsk
+			usolye yusva chyormoz kudymkar kelich kosa_perm gayny 
+			ochyor okhannoye chastye debyosy stepanenki
+			igra dondykar yakshur_bodya votkings sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany
+			kilmez stelty falenki uni ural_nema
 		}
 
 		own_control_conquered = {
@@ -2713,380 +1799,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 		include = "expl_novgorod"
 	}
 
-	#Principality of Pereyaslavl-Zalessky
-	PZL = {
-		our_cores_conquered_by_others = {
-			pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_kingdom
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler_term = { character = kie_vsevolod_iii_rurikovich start_date = 1175.1.1 end_date = 1176.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_yaroslav_iii_rurikovich start_date = 1246.1.1 end_date = 1246.10.30 regnal_number = 1 }
-			ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1246.10.30 end_date = 1263.11.14 regnal_number = 1 }
-
-			ruler_term = { character = yar_fyodor_rostislavich_cherny_rurikovich start_date = 1293.1.1 end_date = 1294.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = pereyaslavl
-		include = "russian_principality_no_coast_not_present"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Kolomna
-	KLM = {
-		our_cores_conquered_by_others = {
-			kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_kingdom
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = kolomna
-		include = "russian_principality_no_coast_not_present"
-		include = "expl_novgorod"
-	}
-
-	#Grand Principality of Vladimir
-	#Personal Union under Moscovy
-	VLR = {
-		own_control_core = {
-			vladimir moshok muromtsevo_murom osovets sudogda vlasovo yaropolch 
-		}
-
-		own_control_integrated = {
-			zolotkovo
-		}
-
-		starting_technology_level = 3
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-			
-			#ruler_term = {	character = kie_vsevolod_iii_rurikovich start_date = 1176.6.20 end_date = 1212.4.15 regnal_number = 1	}
-			#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1216.1.1 end_date = 1218.1.1 regnal_number = 1 }	
-			#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1246.1.1 end_date = 1248.1.1 regnal_number = 1 }
-			#ruler_term = { character = vlr_andrey_yaroslavich_rurikovich start_date = 1248.1.1 end_date = 1252.1.1 regnal_number = 1 }
-			#ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1252.1.1 end_date = 1263.1.1 regnal_number = 1 }
-			#ruler_term = { character = psk_aleksandr_mikhailovich_rurikovich start_date = 1326.1.1 end_date = 1327.1.1 regnal_number = 1 }
-			ruler_term = { character = szl_alexander_vasilyevich_rurikovich start_date = 1328.1.1 end_date = 1332.1.1 regnal_number = 1 }
-			ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1332.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		country_rank = rank_kingdom
-		capital = vladimir
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Uglich
-	#Personal Union under Moscovy
-	UGL = {
-		own_control_core = {
-			uglich koi rozhalovo
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = mos_ivan_i_danilovich_kalita_rurikovich
-
-			#ruler_term = { character = rso_dmitry_borisovich_rurikovich start_date = 1285.1.1 end_date = 1288.1.1 regnal_number = 1 }
-			#ruler_term = { character = rso_konstantin_borisovich_rurikovich start_date = 1288.1.1 end_date = 1294.1.1 regnal_number = 1 }
-			#ruler_term = { character = rso_alexander_konstantinovich_rurikovich start_date = 1294.1.1 end_date = 1307.1.1 regnal_number = 1 }
-			#ruler_term = { character = rso_yuri_alexandrovich_rurikovich start_date = 1307.1.1 end_date = 1320.1.1 regnal_number = 1 }
-			ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = uglich
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	#Principality of Yuriev
-	YRV = {
-		own_control_core = {
-			yuryev_polsky
-		}
-
-		starting_technology_level = 3
-		country_rank = rank_duchy
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = yrv_yaroslav_ivanovich_rurikovich
-
-			#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1214.1.1 end_date = 1230.1.1 regnal_number = 1 }
-			ruler_term = { character = yrv_dmitriy_svyatoslavich_rurikovich start_date = 1253.1.1 end_date = 1269.1.1 regnal_number = 1 }
-			ruler_term = { character = yrv_yaroslav_dmitrevich_rurikovich start_date = 1269.1.1 end_date = 1279.1.1 regnal_number = 1 }
-			ruler_term = { character = yrv_ivan_dmitrevich_rurikovich start_date = 1279.1.1 end_date = 1310.1.1 regnal_number = 1 }
-			ruler_term = { character = yrv_yaroslav_ivanovich_rurikovich start_date = 1310.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = yuryev_polsky
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
-
-	ORE = {
-		own_control_core = {
-			oreshek toksovo korela konevets neva
-		}
-		starting_technology_level = 3
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = pok_narimantas_gediminds
-			ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			ingrian
-			karelian
-		}
-
-		country_rank = rank_duchy
-		capital = oreshek
-		include = "russian_principality"
-		include = "expl_novgorod"
-
-	}
-
-
-	PSK = {
-		own_control_core = {
-			pskov gdov izborsk kobyle meletovo prudy
-			ostrov opochka sebech slavkovitchi volodimerets voronich
-
-		}
-
-		starting_technology_level = 3
-		government = {
-			type = republic
-			heir_selection = veche_selection
-			reforms = {
-				veche_republic
-			}
-			parliament = {
-				parliament_type = estate_parliament
-			}
-			ruler = psk_aleksandr_mikhailovich_rurikovich
-
-			ruler_term = {	 character = psk_aleksandr_mikhailovich_rurikovich start_date = 1327.1.1 end_date = 1330.1.1 regnal_number = 1	}
-
-			ruler_term = {	 character = psk_aleksandr_mikhailovich_rurikovich start_date = 1331.1.1 regnal_number = 1	}
-		
-			centralization_vs_decentralization = 65
-			aristocracy_vs_plutocracy = 30
-			serfdom_vs_free_subjects = -20
-			traditionalist_vs_innovative = 0
-			spiritualist_vs_humanist = -50
-			mercantilism_vs_free_trade = 20
-			offensive_vs_defensive = 40
-			land_vs_naval = -50
-			quality_vs_quantity = 25
-			belligerent_vs_conciliatory = 20
-			capital_economy_vs_traditional_economy = -20
-			individualism_vs_communalism = -20
-			outward_vs_inward = -10
-
-			#Privileges
-			privilege = {
-				the_ryad_privilege
-				clergy_powerful_dioceses
-
-				#nobles
-				noble_leaders_only
-				banal_lordship
-				noble_serfdom_rights
-				nobles_land_rights
-				kormlenije
-
-				#clergy
-				clergy_literacy_rights
-				clergy_enforced_unity
-
-				#burghers
-				trade_monopolies
-
-			}
-
-			#Laws
-			laws = {
-				administrative_system = pyatina_policy
-				republican_foundation_law = political_dynasties_policy
-				patriarchate_law = separated_patriarchate_policy
-				censorship = limited_censorship
-				education_masses_law = basic_religious_education
-				administrative_system = feudal_administration
-				cultural_traditions_law = martial_society
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-				legal_code_law = russkaya_pravda_policy
-				distribution_of_power_law = dop_traditional_distribution_of_power
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			polatskian_culture
-		}
-
-		country_rank = rank_duchy
-		capital = pskov
-		include = "expl_novgorod"
-
-	}
-
-	VYT = {
-		own_control_core = {
-			vyatka ust_cheptsa suna verkhoshizhemye orlov belozerye slobodskoy
-			oparino obyachevo lalsk nikolsk vokhma
-			podosinovets omutninsk kholunitsky kobra nagorsk
-		}
-
-		own_control_integrated = {
-			nikolsky koksharov bolshaya_yakshanga 
-		}
-
-		starting_technology_level = 3
-		government = {
-			type = republic
-			heir_selection = veche_selection
-			reforms = {
-				veche_republic
-			}
-			parliament = {
-				parliament_type = estate_parliament
-			}
-			ruler = random
-			
-			centralization_vs_decentralization = 65
-			aristocracy_vs_plutocracy = 30
-			serfdom_vs_free_subjects = -20
-			traditionalist_vs_innovative = 0
-			spiritualist_vs_humanist = -50
-			mercantilism_vs_free_trade = 20
-			offensive_vs_defensive = 40
-			land_vs_naval = -50
-			quality_vs_quantity = 25
-			belligerent_vs_conciliatory = 20
-			capital_economy_vs_traditional_economy = -20
-			individualism_vs_communalism = -20
-			outward_vs_inward = -10
-
-			#Privileges
-			privilege = {
-				the_ryad_privilege
-				clergy_powerful_dioceses
-
-				#nobles
-				noble_leaders_only
-				banal_lordship
-				noble_serfdom_rights
-				nobles_land_rights
-				kormlenije
-
-				#clergy
-				clergy_literacy_rights
-				clergy_enforced_unity
-
-				#burghers
-				trade_monopolies
-
-			}
-
-			#Laws
-			laws = {
-				administrative_system = pyatina_policy
-				republican_foundation_law = political_dynasties_policy
-				patriarchate_law = separated_patriarchate_policy
-				censorship = limited_censorship
-				education_masses_law = basic_religious_education
-				administrative_system = feudal_administration
-				cultural_traditions_law = martial_society
-				marriage_law = monogamous_marriage
-				heir_religion_law = heir_same_religion
-				legal_code_law = russkaya_pravda_policy
-				distribution_of_power_law = dop_traditional_distribution_of_power
-			}
-		}
-
-		tolerated_cultures = {
-			muscovite
-			udmurt
-			komi
-		}
-
-		dynasty = rurikovich_dynasty
-		capital = vyatka
-		include = "expl_novgorod"
-		include = "expl_mongols"
-	}
-
-	PRM = {
-		own_control_core = {
-			cherdyn nyrob ust_kulom lupya chernaya troitsko_pechorsk vukyl ukhta kortkeros ust_vym zheshart
-			ust_sysola vizinga koygorodok kirs afanasyevo siva karagay nytva perm kungur 
-			beryozovka lysva kizel gubakha dobryanka solikamsk
-			usolye yusva chyormoz kudymkar kelich kosa_perm gayny 
-			ochyor okhannoye chastye debyosy stepanenki
-			igra dondykar yakshur_bodya votkings sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany
-			kilmez stelty falenki uni ural_nema
-		}
-
-		own_control_integrated = {
-			aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
-		}
-
-		starting_technology_level = 3
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}
-		tolerated_cultures = {
-			udmurt
-		}
-
-		dynasty = rurikovich_dynasty
-		capital = cherdyn
-		include = "limited_russian_principality"
-		include = "expl_novgorod"
-		include = "expl_mongols"
-	}
-
-	OBD = {
+OBD = {
 		type = pop
 
 		add_pops_from_locations = {
@@ -3658,59 +2371,8 @@ CRI = {
 	}
 
 
-	FEO = {	# Theodoro
-		own_control_core = {
-			theodoro
-		}
 
-		starting_technology_level = 3
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = feo_demetrios_gabras
-			ruler_term = { character = feo_demetrios_gabras start_date = 1337.1.1 regnal_number = 1 }
-		}
-		country_rank = rank_duchy
-		capital = theodoro
-
-		tolerated_cultures = {
-			pontic_greek_culture
-		}
-
-		include = "expl_western_europe"
-		include = "eastern_european_monarchy"
-	}
-
-	GAZ = {	# Gazaria
-		own_control_core = {
-			kaffa vosporo #Black Sea
-		}
-
-		own_control_integrated = {
-			tana 
-		}
-
-		starting_technology_level = 3
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-		capital = kaffa
-
-		accepted_cultures = {
-			pontic_greek_culture
-		}
-
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-	}
-
-	GBR = { # England
+GBR = { # England
 		own_control_core = {
 			appleby hythe alnwick barnstaple bedford dunstable birmingham boston bosworth shoreham lewes bristol buckingham bury glossop cambridge canterbury carlisle rochester cheltenham chelmsford chesterfield chichester chippenham cockermouth colchester kettering coventry cirencester derby dorchester dover exeter gloucester grimsby guildford reigate harrow hastings hedingham hertford hexham hull huntingdon ipswich kendal grantham penrith kidderminster leeds leicester lincoln london loughborough lowestoft lynn daventry newark newcastle northampton norwich nottingham oxford ely plymouth bideford bampton okehampton poole portsmouth amesbury lymington retford rutland salisbury southampton prittlewell kingston stafford stoke stratford trowbridge taunton wells barking weymouth shaftesbury wight winchester windsor worcester yarmouth york scarborough tamworth bedale richmond whitby bridlington selby pontefract skipton wakefield louth thetford fakenham reading tonbridge minehead portishead bath henley royston aylesbury wycombe lavenham abingdon st_albans banbury walden spalding woking morpeth billingham norton ripon doncaster egremont basingstoke
 			denbigh durham darlington stockton lancaster blackburn liverpool preston manchester chester macclesfield nantwich flint
@@ -27095,6 +25757,12 @@ TRO = { #Travunija
 			beysehir aksehir bolvadin sarkikaraagac seydisehir
 			ilgin turgut suluklu kulu_turkey obruk altinekin cumra
 			silifke anamur mut nigde rodos kos salona loidoriki
+			
+			#Yedisan
+			dashev balikley aqmecit_prybuzhzhya ananiv teligol 
+			khadjibey kuyanlik iagorlic 
+			#Moldovian Ottoman
+			cetatea_alba gura_galbenei sarata chilia ismail tighina
 
 		}
 
@@ -31173,7 +29841,7 @@ POL = {	#Poland
 			kalisz ostrow_wielkopolski pleszew
 			konin kolo lad_konin
 			koscian babimost grodzisk_wielkopolski rawicz srem
-						poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
+			poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
 			pyzdry kozmin sroda_wielkopolska
 			znin chodziez szubin siewierz
 			gdansk torun
@@ -31187,7 +29855,7 @@ POL = {	#Poland
 			
 			#Actually Occupied
 			#Dobrzyń Land
-			dobrzyn lipno rypin 
+			dobrzyn lipno rypin mielnik sokolow suraz drohiczyn
 			#Kujavia
 			wloclawek kowal radziejow
 			#Volhynia
@@ -31201,6 +29869,20 @@ POL = {	#Poland
 			grabowiec
 			#Polesia
 			liubeshiv dubrovytsia
+			#Ukraine
+			dymer fastiv zdvizhen
+			bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
+			cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
+			chornobyl belaya_soroka brahin khoiniki kholmyech
+			olevsk kopyshche viry yemilchyne
+			ovruch bilokorovychi korosten malyn narodychi stodolichi
+			zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
+  
+			#Black Ruthenia
+			sokilets
+
+			uman zavallia teplyk tsybuliv pohrebyshche buzhskyi vinnytsia
+			bratslav drahushiv karabul balta savran bershad torhovytsia
 		}
 		our_cores_conquered_by_others = {
 			#Chełmno Land
@@ -31279,7 +29961,7 @@ POL = {	#Poland
 			}
 
 		}
-		capital = krakow
+		capital = warsaw
 		dynasty = piast_dynasty
 		country_rank = rank_kingdom
 		court_language = latin_language
@@ -31326,7 +30008,7 @@ POL = {	#Poland
 			#Black Ruthenia
 			grodno bershty masty sokolka
 			nyasvizh
-			babruysk luchin rahachow svietlahorsk
+			babruysk luchin svietlahorsk
 			#Polesia
 			brest_litowsk biala_podlaska chernyany malaryta wlodawa
 			kobryn dabuchyn hajnowka kamyenyets
@@ -31338,12 +30020,32 @@ POL = {	#Poland
 			barysaw klichaw krupki lukolm lyubashany
 			lahoysk begoml byerazino ilya krasnoe smalyavichy
 			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
-			mogilev bykhaw
+			mazyr buinovichi kalinkavichy pietrykaw rudobelka
+			     
+			
+			 
+			     
+			
+			   
+			slutsk hlusk starobin staryya_darohi
+			kletsk bolshie_krugovichi kapyl turov davyd_haradok hlynne
+			lakhva
+			lelchytsy zhytkavichy
+			pinsk drahichyn motal nobel
+			stolin
+			luninets #Black Ruthenia
+			 
+			bobr novogrudok lyakhavichy lyubcha turets
+			vawkavysk porazava vowpa
+			slonim dzyatlava vyada zdzitov
+			 bocheikovo lyepyel  ushachy zabore
+			   rechytsa streshyn
+
 		}
 		own_control_integrated = {
 			grodek
 			#Podlasie
-			drohiczyn bielsk_podlaski mielnik sokolow suraz
+			bielsk_podlaski 
 		}
 		own_core = {
 			palanga rietavas silale skuodas taurage
@@ -31449,613 +30151,10 @@ POL = {	#Poland
 		country_rank = rank_duchy
 	}
 
-	POK = {	#Polotsk - Vassal of LIT
-		own_control_core = {
-			polotsk bocheikovo lyepyel ulla ushachy zabore
-			dzisna asvieja nekloch rasony vydritsa
-		}
 
-		include = "expl_eastern_europe"
-		include = "lithuanian_monarchy"
-		government = {
-			ruler = pok_narimantas_gediminds
 
-			ruler_term = { character = pok_iziaslav_vladimirovich_rurikovich start_date = 988.1.1 end_date = 1001.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_vseslav_iziaslavich_rurikovich start_date = 1001.1.1 end_date = 1003.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_bryachislav_iziaslavich_rurikovich start_date = 1003.1.1 end_date = 1044.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_vseslav_bryachislavich_rurikovich start_date = 1044.1.1 end_date = 1101.4.24 regnal_number = 2 }
-			ruler_term = { character = pok_rogvolod_vseslavich_rurikovich start_date = 1101.4.24 end_date = 1129.1.1 regnal_number = 2 } # Rogvolod II Boris I
-			ruler_term = { character = dru_davyd_vseslavich_rurikovich start_date = 1129.1.1 end_date = 1129.6.1 regnal_number = 1 }
-			# Iziaslav II (1129-1132)
-			# Sviatopolk (1132)
-			ruler_term = { character = pok_vasilko_sviatoslavich_rurikovich start_date = 1132.6.1 end_date = 1144.1.1 regnal_number = 1 }
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1144.1.1 end_date = 1151.1.1 regnal_number = 3 }
-			ruler_term = { character = mis_rostislav_glebovich_rurikovich start_date = 1151.1.1 end_date = 1159.1.1 regnal_number = 1 }
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1159.1.1 end_date = 1162.1.1 regnal_number = 3 } # Restored
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1162.1.1 end_date = 1167.1.1 regnal_number = 3 }
-			ruler_term = { character = mis_volodar_glebovich_rurikovich start_date = 1167.1.1 end_date = 1167.6.1 regnal_number = 1 }
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1167.6.1 end_date = 1180.1.1 regnal_number = 3 } # Restored
-			ruler_term = { character = pok_boris_davidovich_rurikovich start_date = 1180.1.1 end_date = 1185.1.1 regnal_number = 2 }
-			ruler_term = { character = mis_vladimir_volodarevich_rurikovich start_date = 1185.1.1 end_date = 1216.1.1 regnal_number = 2 }
-			ruler_term = { character = pok_vasilko_volodarevich_rurikovich start_date = 1216.1.1 end_date = 1222.1.1 regnal_number = 2 }
 
-			# Annexed to Lithuania 1222-1232
-
-			ruler_term = { character = pok_bryachislav_vasilkovich_rurikovich start_date = 1232.1.1 end_date = 1256.1.1 regnal_number = 2 }
-			ruler_term = { character = pok_konstantin_bryachislavich_rurikovich start_date = 1256.1.1 end_date = 1258.1.1 regnal_number = 1 }
-
-			# Tautvilas, brother of Mindaugas 1258-1264
-			# Gerdine 1264-1267
-
-			ruler_term = { character = pok_iziaslav_iziaslavich_rurikovich start_date = 1267.1.1 end_date = 1268.1.1 regnal_number = 3 }
-			ruler_term = { character = pok_konstantin_bryachislavich_rurikovich start_date = 1268.1.1 end_date = 1290.1.1 regnal_number = 1 } # Restored
-
-			# Annexed to Livonian Order 1290-1307
-
-			ruler_term = {	character = pok_vainius_gediminids start_date = 1307.1.1 end_date = 1336.1.1 regnal_number = 1	}
-			ruler_term = {	character = pok_narimantas_gediminds start_date = 1336.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_iziaslav = 3
-				name_vseslav = 3
-				name_briachislav = 2
-				name_reginald = 3
-				name_boris = 2
-				name_david = 1
-				name_sviatopolk = 1
-				name_basil = 2
-				name_rostislav = 1
-				name_volodar = 1
-				name_waldemar = 2
-				name_constantine = 1
-				#Tautvilas = 1
-				#Gerdine = 1
-				name_vainius = 1
-				name_narimantas = 1
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			novgorodian
-		}
-
-		capital = polotsk
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-	}
-
-	NRK = {	#Novogrudok - Vassal of LIT
-		own_control_core = {
-			#Black Ruthenia
-			novogrudok lyakhavichy lyubcha turets
-			vawkavysk porazava vowpa
-			slonim dzyatlava vyada zdzitov
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = nrk_karijotas_gediminds
-			ruler_term = {	 character = nrk_karijotas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-			laws = { heir_religion_law = heir_any_religion }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			aukstaitian
-		}
-
-		capital = novogrudok
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-	}
-
-	DRU = {	#Drutsk - Vassal of LIT
-		own_control_core = {
-			#Black Ruthenia
-			drutsk tyatseryn
-			bobr
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-
-			ruler_term = {
-				character = dru_roman_vseslavich_rurikovich start_date = 1101.4.24 end_date = 1116.1.1 regnal_number = 1
-				character = pok_rogvolod_vseslavich_rurikovich start_date = 1101.4.24 end_date = 1116.1.1 regnal_number = 1
-				}
-			ruler_term = { character = pok_rogvolod_vseslavich_rurikovich start_date = 1116.1.1 end_date = 1127.1.1 regnal_number = 1 } # Rogvolod I Boris I
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1127.1.1 end_date = 1129.1.1 regnal_number = 2 }
-			# Iziaslav II (1129-1132)
-			# Sviatopolk (1132)
-			ruler_term = { character = pok_vasilko_sviatoslavich_rurikovich start_date = 1132.6.1 end_date = 1140.1.1 regnal_number = 1 }
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1140.1.1 end_date = 1144.1.1 regnal_number = 2 } # Restored
-			ruler_term = { character = dru_gleb_rogvolodich_rurikovich start_date = 1144.1.1 end_date = 1151.1.1 regnal_number = 1 }
-			ruler_term = { character = dru_gleb_rostislavich_rurikovich start_date = 1151.1.1 end_date = 1158.1.1 regnal_number = 2 }
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1158.1.1 end_date = 1159.1.1 regnal_number = 2 } # Restored
-			ruler_term = { character = dru_gleb_rogvolodich_rurikovich start_date = 1159.1.1 end_date = 1162.1.1 regnal_number = 1 } # Restored
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1162.1.1 end_date = 1170.1.1 regnal_number = 2 } # Restored
-			ruler_term = { character = dru_gleb_rogvolodich_rurikovich start_date = 1170.1.1 end_date = 1186.1.1 regnal_number = 1 } # Restored
-			ruler_term = {
-				character = dru_boris_rogvolodich_rurikovich start_date = 1186.1.1 end_date = 1200.1.1 regnal_number = 2
-				character = dru_vseslav_rogvolodich_rurikovich start_date = 1186.1.1 end_date = 1200.1.1 regnal_number = 1
-				}
-
-			# Annexed to Polotsk 1200-1217
-
-			ruler_term = { character = dru_vojtech_borisovich_rurikovich start_date = 1217.1.1 end_date = 1220.1.1 regnal_number = 1 }
-
-			# Annexed to Polotsk, later to Vitebsk since 1220
-
-			regnal_numbers = {
-				name_roman = 1
-				name_reginald = 2
-				name_boris = 1
-				name_iziaslav = 1
-				name_sviatopolk = 1
-				name_basil = 2
-				name_gleb = 2
-				name_vseslav = 2
-				name_albert = 1
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = drutsk
-		dynasty = drutsky_dynasty
-		country_rank = rank_duchy
-	}
-
-	PNK = {	#Pinsk - Vassal of LIT
-		own_control_core = {
-			pinsk drahichyn motal nobel
-			stolin
-			luninets
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = pok_narimantas_gediminds
-
-			ruler_term = { character = kie_sviatopolk_rurikovich start_date = 988.1.1 end_date = 1019.1.1 regnal_number = 1 }
-
-			# Annexed to Kyiv 1019-1045
-
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1045.1.1 end_date = 1078.10.3 regnal_number = 1 }
-			ruler_term = { character = tuv_yaropolk_izyaslavich_rurikovich start_date = 1078.10.3 end_date = 1087.11.22 regnal_number = 1 }
-			ruler_term = { character = kie_sviatopolk_ii_rurikovich start_date = 1087.11.22 end_date = 1093.4.13 regnal_number = 2 }
-			ruler_term = { character = tuv_vyacheslav_yaropolkovich_rurikovich start_date = 1093.4.13 end_date = 1104.11.22 regnal_number = 1 }
-			# Vladimir II of Kyiv 1104-1125
-			# Vyacheslav Vladimirovich 1125-1132 / 1134-1136 / 1136-1142 & 1146
-			# Iziaslav II of Kyiv 1132-1134
-			# Sviatoslav Vsevolodovich 1142-1146 & 1154
-			# Yaroslav Iziaslovich 1146-1148
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1148.1.1 end_date = 1150.1.1 regnal_number = 1 }
-			# Andrei Yurievich 1150-1151
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1151.1.1 end_date = 1154.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1157.1.1 end_date = 1168.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_ivan_yurievich_rurikovich start_date = 1168.1.1 end_date = 1170.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_yaroslav_yurievich_rurikovich start_date = 1170.1.1 end_date = 1190.1.1 regnal_number = 2 }
-			ruler_term = { character = pnk_yaropolk_yurievich_rurikovich start_date = 1190.1.1 end_date = 1204.1.1 regnal_number = 2 }
-			ruler_term = { character = tuv_vladimir_sviatopolkovich_rurikovich start_date = 1204.1.1 end_date = 1228.1.1 regnal_number = 2 }
-			ruler_term = { character = pnk_rostislav_sviatopolkovich_rurikovich start_date = 1228.1.1 end_date = 1232.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_mikhail_vladimirovich_rurikovich start_date = 1232.1.1 end_date = 1247.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_feodor_vladimirovich_rurikovich start_date = 1247.1.1 end_date = 1262.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_yuri_vladimirovich_rurikovich start_date = 1262.1.1 end_date = 1290.1.1 regnal_number = 2 }
-			ruler_term = { character = pnk_demid_vladimirovich_rurikovich start_date = 1290.1.1 end_date = 1292.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_yaroslav_iii_rurikovich start_date = 1292.1.1 end_date = 1300.1.1 regnal_number = 3 }
-			ruler_term = { character = pnk_vasily_yaroslavich_rurikovich start_date = 1300.1.1 end_date = 1320.1.1 regnal_number = 1 }
-
-			ruler_term = { character = lit_gediminas_gediminids start_date = 1320.1.1 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_sviatopolk = 2
-				name_iziaslav = 2
-				name_yaropolk = 2
-				name_wenceslas = 2
-				name_waldemar = 2
-				name_sviatoslav = 1
-				name_yaroslav = 3
-				name_george = 2
-				name_andrew = 1
-				name_john = 1
-				name_rostislav = 1
-				name_michael = 1
-				name_theodore = 1
-				name_diomedes = 1
-				name_basil = 1
-				name_gediminas = 1
-				name_narimantas = 1
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = pinsk
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-	}
-
-	TUV = {	#Turov - Vassal of LIT
-		own_control_core = {
-			turov davyd_haradok hlynne
-			lakhva
-			lelchytsy zhytkavichy
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = tuv_danylo_dmitrovich_rurikovich
-
-			ruler_term = { character = kie_sviatopolk_rurikovich start_date = 988.1.1 end_date = 1019.1.1 regnal_number = 1 }
-
-			# Annexed to Kyiv 1019-1045
-
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1045.1.1 end_date = 1078.10.3 regnal_number = 1 }
-			ruler_term = { character = tuv_yaropolk_izyaslavich_rurikovich start_date = 1078.10.3 end_date = 1087.11.22 regnal_number = 1 }
-			ruler_term = { character = kie_sviatopolk_ii_rurikovich start_date = 1087.11.22 end_date = 1093.4.13 regnal_number = 2 }
-			ruler_term = { character = tuv_vyacheslav_yaropolkovich_rurikovich start_date = 1093.4.13 end_date = 1104.11.22 regnal_number = 1 }
-			# Vladimir II of Kyiv 1104-1125
-			# Vyacheslav Vladimirovich 1125-1132 / 1134-1136 / 1136-1142 & 1146
-			# Iziaslav II of Kyiv 1132-1134
-			# Sviatoslav Vsevolodovich 1142-1146 & 1154
-			# Yaroslav Iziaslovich 1146-1148
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1148.1.1 end_date = 1150.1.1 regnal_number = 1 }
-			# Andrei Yurievich 1150-1151
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1151.1.1 end_date = 1154.1.1 regnal_number = 1 }
-			# Boris Yurievich 1154-1157
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1157.1.1 end_date = 1168.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_ivan_yurievich_rurikovich start_date = 1168.1.1 end_date = 1170.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_sviatopolk_yurievich_rurikovich start_date = 1170.1.1 end_date = 1190.4.19 regnal_number = 2 }
-			ruler_term = { character = tuv_gleb_yurievich_rurikovich start_date = 1190.4.19 end_date = 1195.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_andrei_ivanovich_rurikovich start_date = 1195.1.1 end_date = 1223.6.1 regnal_number = 2 }
-			ruler_term = { character = tuv_vladimir_sviatopolkovich_rurikovich start_date = 1223.6.1 end_date = 1228.1.1 regnal_number = 2 }
-			ruler_term = { character = tuv_yuri_andreievich_rurikovich start_date = 1228.1.1 end_date = 1280.1.1 regnal_number = 2 }
-			ruler_term = { character = tuv_semyon_yurievich_rurikovich start_date = 1280.1.1 end_date = 1320.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_dmitry_yurievich_rurikovich start_date = 1320.1.1 end_date = 1322 regnal_number = 1 }
-			ruler_term = { character = tuv_danylo_dmitrovich_rurikovich start_date = 1322.1.1 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_sviatopolk = 2
-				name_iziaslav = 2
-				name_yaropolk = 1
-				name_wenceslas = 2
-				name_waldemar = 2
-				name_sviatoslav = 1
-				name_yaroslav = 1
-				name_george = 2
-				name_andrew = 2
-				name_john = 1
-				name_simeon = 1
-				name_demetrius = 1
-				name_daniel = 1
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		capital = turov
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-	}
-
-	SSK = {	#Slutsk - Vassal of LIT
-	own_control_core = {
-			slutsk hlusk starobin staryya_darohi
-			kletsk bolshie_krugovichi kapyl
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = lit_gediminas_gediminids
-			ruler_term = {	character = lit_gediminas_gediminids start_date = 1320.1.1 regnal_number = 1	}
-			laws = { heir_religion_law = heir_any_religion }
-		}
-		capital = slutsk
-		#
-		liturgical_language = church_slavonic_language
-
-		country_rank = rank_duchy
-	}
-
-	VBK = {	#Vitebsk - Vassal of LIT
-		own_control_core = {
-			vitebsk haradok jeziarysca mikulino syanno usvyaty velizh vydreya
-			nevel
-			orsha horki kopys rudnya
-			ilyino zhizhets
-		}
-
-		include = "expl_eastern_europe"
-		include = "lithuanian_monarchy"
-		government = {
-			ruler = vbk_algirdas_gediminds
-
-			ruler_term = { character = pok_bryachislav_iziaslavich_rurikovich start_date = 1024.1.1 end_date = 1044.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_vseslav_bryachislavich_rurikovich start_date = 1044.1.1 end_date = 1101.4.24 regnal_number = 1 }
-			ruler_term = { character = vbk_sviatoslav_vseslavich_rurikovich start_date = 1101.4.24 end_date = 1129.1.1 regnal_number = 1 }
-
-			# Annexed to Kyiv 1129-1132
-
-			ruler_term = { character = pok_vasilko_sviatoslavich_rurikovich start_date = 1132.6.1 end_date = 1144.1.1 regnal_number = 1 }
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1144.1.1 end_date = 1162.1.1 regnal_number = 2 }
-			ruler_term = { character = vbk_roman_vyacheslavich_rurikovich start_date = 1162.1.1 end_date = 1165.1.1 regnal_number = 1 }
-			ruler_term = { character = vbk_davyd_sviatoslavich_rurikovich start_date = 1165.1.1 end_date = 1167.1.1 regnal_number = 1 }
-			ruler_term = { character = vbk_viacheslav_sviatoslavich_rurikovich start_date = 1167.1.1 end_date = 1168.1.1 regnal_number = 1 }
-			ruler_term = { character = vbk_bryachislav_vasilkovich_rurikovich start_date = 1168.1.1 end_date = 1176.1.1 regnal_number = 2 }
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1176.1.1 end_date = 1178.1.1 regnal_number = 2 } # Restored
-			ruler_term = { character = vbk_bryachislav_vasilkovich_rurikovich start_date = 1178.1.1 end_date = 1182.1.1 regnal_number = 2 } # Restored
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1182.1.1 end_date = 1186.1.1 regnal_number = 2 } # Restored
-			ruler_term = { character = vbk_vasilko_bryacheslavich_rurikovich start_date = 1186.1.1 end_date = 1221.1.1 regnal_number = 2 }
-			ruler_term = { character = vbk_bryachislav_iii_rurikovich start_date = 1221.1.1 end_date = 1232.1.1 regnal_number = 3 }
-			ruler_term = { character = vbk_iziaslav_bryachislavich_rurikovich start_date = 1232.1.1 end_date = 1262.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_konstantin_bryachislavich_rurikovich start_date = 1262.1.1 end_date = 1263.1.1 regnal_number = 1 }
-			ruler_term = { character = vbk_iziaslav_bryachislavich_rurikovich start_date = 1264.1.1 end_date = 1264.6.1 regnal_number = 1 } # Restored
-			ruler_term = { character = vbk_mikhail_konstantinovich_rurikovich start_date = 1264.6.1 end_date = 1287.1.1 regnal_number = 1 }
-			ruler_term = { character = vbk_vasilko_iii_rurikovich start_date = 1287.1.1 end_date = 1297.1.1 regnal_number = 3 }
-			ruler_term = { character = vbk_yaroslav_vasilkovich_rurikovich start_date = 1297.1.1 end_date = 1320.1.1 regnal_number = 1 }
-
-			ruler_term = {
-				character = vbk_algirdas_gediminds start_date = 1320.1.1 regnal_number = 1
-				#character = vbk_maria_of_vitebsk start_date = 1320.1.1 regnal_number = 1
-			}
-
-			regnal_numbers = {
-				name_briachislav = 3
-				name_vseslav = 2
-				name_roman = 1
-				name_david = 1
-				name_wenceslas = 1
-				name_basil = 3
-				name_iziaslav = 1
-				name_constantine = 1
-				name_michael = 1
-				name_yaroslav = 1
-				name_mary = 1
-				name_algirdas = 1
-			}
-
-			laws = { heir_religion_law = heir_any_religion }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			severian
-		}
-
-		capital = vitebsk
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-	}
-
-	MSV = {	#Mstislavl - Vassal of LIT
-		own_control_core = {
-			mstsislaw kastsyukovichy khotsimsk krychaw monastyrshchina shumyachi
-			novy_bykhaw slawharad
-			chavusy drokov
-			mglin popowa_gora
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-			
-			ruler_term = { character = msv_mikhail_rostislavich_rurikovich start_date = 1260.1.1  end_date = 1278.1.1 regnal_number = 1 }
-
-			ruler_term = { character = msv_roman_glebovich_rurikovich start_date = 1281.1.1  end_date = 1301.1.1 regnal_number = 1 }
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			smolenskian_culture
-		}
-
-		capital = mstsislaw
-		country_rank = rank_duchy
-	}
-
-	SMO = {	#Smolensk - Vassal of LIT
-		own_control_core = {
-			smolensk krasny demidov luchani
-			dorogobuzh yartsevo dukhovshchina yelnya belik roslavl zaroy
-			rognedino demensk
-			shchuchye_smolensk verzhavsk vetlitsy katyn berezhnyany izyaslavl pustosel shui gorodechnya mozhino
-			#Principality of Bely
-			bely bibirevo bolshevo shoptovo verkhovye yotkino
-		}
-
-		include = "expl_eastern_europe"
-		include = "lithuanian_monarchy"
-		government = {
-			ruler = smo_ivan_alexandrovich_rurikovich 
-
-			ruler_term = { character = smo_stanislav_vladimirovich_rurikovich start_date = 988.1.1 end_date = 1015.1.1 regnal_number = 1 }
-			ruler_term = { character = smo_vyacheslav_yaroslavich_rurikovich start_date = 1054.2.20 end_date = 1057.1.1 regnal_number = 1 }
-			ruler_term = { character = smo_igor_yaroslavich_rurikovich start_date = 1057.1.1 end_date = 1060.1.1 regnal_number = 1 }
-
-			ruler_term = { character = kie_rostislav_rurikovich start_date = 1127.1.1 end_date = 1167.1.1 regnal_number = 1	}
-			ruler_term = { character = smo_david_rostislavich_rurikovich start_date = 1180.1.1 end_date = 1197.4.23 regnal_number = 1	}
-		
-			ruler_term = { character = kie_vladimir_iv_rurikovich start_date = 1212.1.1 end_date = 1219.1.1 regnal_number = 1	}
-			ruler_term = { character = smo_mstislav_davidovich_rurikovich start_date = 1219.1.1 end_date = 1230.4.23 regnal_number = 1	}
-
-			ruler_term = { character = smo_rostislav_mstislavich_rurikovich start_date = 1240.1.1 end_date = 1249.1.1 regnal_number = 1	}
-			ruler_term = { character = smo_gleb_rostislavich_rurikovich start_date = 1249.1.1 end_date = 1278.1.1 regnal_number = 1	}
-			ruler_term = { character = msv_mikhail_rostislavich_rurikovich start_date = 1278.1.1 end_date = 1279.1.1 regnal_number = 1	}
-			ruler_term = { character = yar_fyodor_rostislavich_cherny_rurikovich start_date = 1279.1.1 end_date = 1297.1.1 regnal_number = 1 }
-			ruler_term = { character = smo_alexander_glebovich_rurikovich start_date = 1297.1.1  end_date = 1314.1.1 regnal_number = 1 }
-			ruler_term = { character = smo_ivan_alexandrovich_rurikovich start_date = 1314.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				Iwan = 1
-			}
-		}
-		capital = smolensk
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			muscovite
-			polatskian_culture
-		}
-
-		country_rank = rank_duchy
-	}
-
-	KIE = {	#Kyiv - Vassal of LIT
-		own_control_core = {
-			#Ukraine
-			kyiv dymer fastiv zdvizhen
-			bila_tserkva bohuslav kaharlyk kaniv sherbiv skvyra
-			cherkasy chyhyryn korsun lebedyn rozkishna smila zvenyhorodka
-			chornobyl belaya_soroka brahin khoiniki kholmyech
-			olevsk kopyshche viry yemilchyne
-			ovruch bilokorovychi korosten malyn narodychi stodolichi
-			zhytomyr berdychiv chudniv chortolisy korostyshiv mychesk
-
-			poltava kremenchuk myrhorod velyki_sorochyntsi kotelva
-			lubny pyriatyn horodyshche horoshino zolotonosha
-			pereiaslav desnyanskyi_horodok boryspil oster kozelets
-			#Black Ruthenia
-			mazyr buinovichi kalinkavichy pietrykaw rudobelka
-			#Chernihiv
-			melnya 
-			ichnia pryluky chornukhy
-			lypova_dolyna romen buryn sumy okhtyrka krasnopillia hadiach
-			glushkovo putyvl khotmyzh vilshana
-
-			yaroslavka yahotyn lutava opishnya hovtva kolomak
-		} 
-
-		include = "expl_eastern_europe"
-		include = "lithuanian_monarchy"
-		government = {
-			ruler = kie_teodoras_ivanovich_rurikovich
-
-			ruler_term = { character = kie_igor_rurikovich start_date = 912.1.1 end_date = 945.1.1 regnal_number = 1 }
-			ruler_term = { 
-				character = kie_saint_olga start_date = 945.1.1 end_date = 962.1.1 regnal_number = 1
-				character = kie_sviatoslav_rurikovich start_date = 945.1.1 end_date = 962.1.1 regnal_number = 1 
-			}
-			ruler_term = { character = kie_sviatoslav_rurikovich start_date = 962.1.1 end_date = 972.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_yaropolk_rurikovich start_date = 972.1.1 end_date = 978.6.11 regnal_number = 1 }
-			ruler_term = { character = kie_volodymyr_the_great_rurikovich start_date = 978.6.11 end_date = 1015.7.15 regnal_number = 1 }
-			ruler_term = { character = kie_sviatopolk_rurikovich start_date = 1015.7.15 end_date = 1019.1.1 regnal_number = 1 }
-			ruler_term = { character = kie_yaroslav_the_wise_rurikovich start_date = 1019.1.1 end_date = 1054.2.20 regnal_number = 1 }
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1054.2.20 end_date = 1068.9.1 regnal_number = 1	}
-			ruler_term = { character = pok_vseslav_bryachislavich_rurikovich start_date = 1068.9.1 end_date = 1069.4.1 regnal_number = 1 }
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1069.4.1 end_date = 1073.3.22 regnal_number = 1 } # Restored
-			ruler_term = { character = kie_sviatoslav_ii_rurikovich start_date = 1073.3.22 end_date = 1076.12.27 regnal_number = 2	}
-			ruler_term = { character = kie_vsevolod_rurikovich start_date = 1076.12.27 end_date = 1077.7.15 regnal_number = 1	}
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1077.7.15 end_date = 1078.10.3 regnal_number = 1 }
-			ruler_term = { character = kie_vsevolod_rurikovich start_date = 1078.10.3 end_date = 1093.4.13 regnal_number = 1	}
-			ruler_term = { character = kie_sviatopolk_ii_rurikovich start_date = 1093.4.13 end_date = 1113.4.16 regnal_number = 2 }
-			ruler_term = { character = kie_vladimir_ii_rurikovich start_date = 1113.4.16 end_date = 1125.5.19 regnal_number = 2	}
-			ruler_term = { character = kie_mstislav_rurikovich start_date = 1125.5.19 end_date = 1132.4.14 regnal_number = 1	}
-			ruler_term = { character = kie_yaropolk_ii_rurikovich start_date = 1132.4.14 end_date = 1139.2.18 regnal_number = 2	}
-			ruler_term = { character = kie_viacheslav_rurikovich start_date = 1139.2.18 end_date = 1139.3.1 regnal_number = 1	}
-			ruler_term = { character = kie_vsevolod_ii_rurikovich start_date = 1139.3.1 end_date = 1146.8.1 regnal_number = 2	}
-			ruler_term = { character = kie_igor_ii_rurikovich start_date = 1146.8.1 end_date = 1147.9.19 regnal_number = 2	}
-			ruler_term = { character = kie_iziaslav_ii_rurikovich start_date = 1147.9.19 end_date = 1149.9.1 regnal_number = 2	}
-			ruler_term = { character = kie_yuri_rurikovich start_date = 1149.9.1 end_date = 1151.4.1 regnal_number = 1	}
-			ruler_term = { character = kie_iziaslav_ii_rurikovich start_date = 1151.4.1 end_date = 1154.11.13 regnal_number = 2	}
-			ruler_term = { character = kie_rostislav_rurikovich start_date = 1154.11.13 end_date = 1154.11.20 regnal_number = 1	}
-			ruler_term = { character = kie_iziaslav_iii_rurikovich start_date = 1154.11.20 end_date = 1155.3.1 regnal_number = 3	}
-			ruler_term = { character = kie_yuri_rurikovich start_date = 1155.3.1 end_date = 1157.5.15 regnal_number = 1	}
-			ruler_term = { character = kie_iziaslav_iii_rurikovich start_date = 1157.5.15 end_date = 1158.10.1 regnal_number = 3	}
-			ruler_term = { character = kie_rostislav_rurikovich start_date = 1158.10.1 end_date = 1167.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_mstislav_ii_rurikovich start_date = 1167.5.19 end_date = 1169.3.12 regnal_number = 2	}
-			ruler_term = { character = kie_gleb_rurikovich start_date = 1169.3.12 end_date = 1170.3.1 regnal_number = 1	}
-			ruler_term = { character = kie_mstislav_ii_rurikovich start_date = 1170.3.1 end_date = 1170.4.1 regnal_number = 2	}
-			ruler_term = { character = kie_gleb_rurikovich start_date = 1170.4.1 end_date = 1171.2.5 regnal_number = 1	}
-			ruler_term = { character = kie_vladimir_iii_rurikovich start_date = 1171.2.5 end_date = 1171.5.10 regnal_number = 1	}
-			ruler_term = { character = kie_mikhail_rurikovich start_date = 1171.5.10 end_date = 1171.7.1 regnal_number = 1	}
-			ruler_term = { character = kie_roman_rurikovich start_date = 1171.7.1 end_date = 1173.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_vsevolod_iii_rurikovich start_date = 1173.1.1 end_date = 1173.2.1 regnal_number = 1	}
-			ruler_term = { character = kie_rurik_rostislavich_rurikovich start_date = 1173.2.1 end_date = 1173.12.31 regnal_number = 1	}
-			ruler_term = { character = kie_sviatoslav_iii_rurikovich start_date = 1174.1.1 end_date = 1174.6.1 regnal_number = 3	}
-			ruler_term = { character = kie_yaroslav_ii_rurikovich start_date = 1174.6.1 end_date = 1175.1.1 regnal_number = 2	}
-			ruler_term = { character = kie_roman_rurikovich start_date = 1175.1.1 end_date = 1175.6.1 regnal_number = 1	}
-			ruler_term = { character = kie_sviatoslav_iii_rurikovich start_date = 1175.6.1 end_date = 1177.1.1 regnal_number = 3	}
-			ruler_term = { character = kie_yaroslav_ii_rurikovich start_date = 1177.1.1 end_date = 1180.1.1 regnal_number = 2	}
-			ruler_term = { character = kie_rurik_rostislavich_rurikovich start_date = 1180.1.1 end_date = 1182.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_sviatoslav_iii_rurikovich start_date = 1182.1.1 end_date = 1194.7.27 regnal_number = 3	}
-			ruler_term = { character = kie_rurik_rostislavich_rurikovich start_date = 1194.7.27 end_date = 1202.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_igor_iii_rurikovich start_date = 1202.1.1 end_date = 1202.12.31 regnal_number = 3	}
-			ruler_term = { character = kie_rurik_rostislavich_rurikovich start_date = 1202.12.31 end_date = 1204.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_rostislav_ii_rurikovich start_date = 1204.1.1 end_date = 1206.1.1 regnal_number = 2	}
-			ruler_term = { character = kie_vsevolod_iv_svyatoslavich_rurikovich start_date = 1206.1.1 end_date = 1207.1.1 regnal_number = 4	}
-			ruler_term = { character = kie_rurik_rostislavich_rurikovich start_date = 1207.1.1 end_date = 1210.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_vsevolod_iv_svyatoslavich_rurikovich start_date = 1210.1.1 end_date = 1212.8.1 regnal_number = 4	}
-			ruler_term = { character = kie_igor_iii_rurikovich start_date = 1212.8.1 end_date = 1214.1.1 regnal_number = 3	}
-			ruler_term = { character = kie_mstislav_iii_rurikovich start_date = 1214.1.1 end_date = 1223.1.1 regnal_number = 3	}
-			ruler_term = { character = kie_vladimir_iv_rurikovich start_date = 1223.1.1 end_date = 1235.1.1 regnal_number = 4	}
-			ruler_term = { character = kie_iziaslav_iv_rurikovich start_date = 1235.1.1 end_date = 1236.1.1 regnal_number = 4	}
-			ruler_term = { character = kie_yaroslav_iii_rurikovich start_date = 1236.1.1 end_date = 1238.1.1 regnal_number = 2	}
-			ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1238.1.1 end_date = 1239.1.1 regnal_number = 2	}
-			ruler_term = { character = vol_daniel_rurikovich start_date = 1239.1.1 end_date = 1240.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_mikhail_ii_vsevolodovich_rurikovich start_date = 1241.1.1 end_date = 1243.1.1 regnal_number = 2	}
-			ruler_term = { character = kie_yaroslav_iii_rurikovich start_date = 1243.1.1 end_date = 1246.10.30 regnal_number = 2	}
-			ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1246.10.30 end_date = 1263.11.14 regnal_number = 1	}
-			ruler_term = { character = kie_yaroslav_iv_rurikovich start_date = 1263.11.14 end_date = 1271.9.9 regnal_number = 1	}
-			ruler_term = { character = kie_vladimir_ivan_ivanovich_rurikovich start_date = 1271.9.9 end_date = 1301.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_stanislav_ivanovich_rurikovich start_date = 1301.1.1 end_date = 1321.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_mindaugas_holshanski start_date = 1321.1.1 end_date = 1324.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_algimantas start_date = 1324.1.1 end_date = 1331.1.1 regnal_number = 1	}
-			ruler_term = { character = kie_teodoras_ivanovich_rurikovich start_date = 1331.1.1 regnal_number = 1	}
-
-			privilege = {
-				#Clergy
-				clergy_powerful_dioceses
-				#Burghers
-				market_fairs
-				cossack_identity
-			}
-		}
-
-		liturgical_language = church_slavonic_language
-
-		tolerated_cultures = {
-			severian
-			polesian_culture
-		}
-
-		capital = kyiv
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
-	}
-
-	ZAZ = { #Zaporozhia
+ZAZ = { #Zaporozhia
 		type = army
 		starting_technology_level = 3
 		include = "expl_eastern_europe"

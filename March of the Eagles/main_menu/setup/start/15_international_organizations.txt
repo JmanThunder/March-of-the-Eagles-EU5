@@ -20,7 +20,7 @@ international_organization_manager = {
 			#North Germany
 			brabant_area wallonia_area holstein_area brandenburg_area rhineland_area
 			hesse_area westphalia_area lower_saxony_area upper_saxony_area mecklenburg_area
-			pommerania_area
+			pomerania_area
 			#Poland
 			silesia_area
 			#South Germany
