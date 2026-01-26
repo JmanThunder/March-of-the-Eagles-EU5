@@ -100,7 +100,7 @@ countries = {
 
 
 		own_control_colony = {
-			 asele
+			 
 		}
 
 
@@ -387,8 +387,7 @@ FIN = {
 		}
 		
 		own_control_integrated = {
-			varanger  alta
-			kirkenes
+			
 		}
 
 		accepted_cultures = {
@@ -1152,7 +1151,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			low_franconian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = dusseldorf
 		dynasty = limbourg_dynasty
 	}
@@ -1245,7 +1244,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			}
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = rendsburg
 		dynasty = schauenburg_dynasty
 	}
@@ -1446,7 +1445,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 			mozhaysk vetza odintsovo
 			przemysl_moscow mushkov_pogost
 			#Principality of Pereyaslavl-Zalessky
-			pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
+			pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach yanovo
 			qirq_yer qarasuvbazar seyitler kalay kezlev aqmecit or_qapi solkhat jurchi 
 			argamakli_sarai vithold_hammami harbuzynka oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka qalancaq aslan_horod
 			ordu_bazar rohat_kermen enice velyka_lepetykha melitopol kyrylivka tokmak konski_vody kuchugur berdiansk yelanets
@@ -6629,7 +6628,7 @@ TUS = { #Grand Duchy of Tuscany
 			country_rank = rank_duchy
 			traditionalist_vs_innovative = 40
 		
-			ruler = gub_jacopo_gabrielli
+			ruler = random
 
 			ruler_term = { character = mlo_ermanno_della_torre start_date = 1256.1.1 end_date = 1257.1.1 regnal_number = 0 }
 			ruler_term = { character = gub_rosso_gabrielli start_date = 1289.1.1 end_date = 1290.1.1 regnal_number = 0 }
@@ -7313,81 +7312,6 @@ MFA = {
 		dynasty = anjou_dynasty
 	}
 
-	#Provence (Union with Naples)
-	PRO = {
-		own_control_core = {
-			aix_en_provence arles brignoles marseille toulon tarascon
-			apt barcelonnette forcalquier sisteron
-			nice barjols castellane digne draguignan frejus grasse puget_theniers
-			cuneo
-		}
-		our_cores_conquered_by_others = {
-			avignon #Controlled by the Pope, but historically owned by Naples
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = nap_robert_i_anjou
-			consort = nap_sancha_aragon
-			heir = nap_giovanna_i_anjou
-
-			ruler_term = { character = cat_ramon_berenguer_iii_barcelona start_date = 1127.1.1 end_date = 1131.7.19 regnal_number = 1 }
-			ruler_term = { character = pro_berenguier_ramon_barcelona start_date = 1131.7.19 end_date = 1144.3.1 regnal_number = 1 }
-			ruler_term = {
-				character = cat_ramon_berenguer_iv_barcelona start_date = 1144.3.1 end_date = 1162.8.7 regnal_number = 2
-				character = pro_ramon_berenguier_iii_barcelona start_date = 1144.3.1 end_date = 1162.8.7 regnal_number = 3
-			}
-			ruler_term = { character = pro_ramon_berenguier_iii_barcelona start_date = 1162.8.7 end_date = 1166.3.1 regnal_number = 3 }
-			ruler_term = { character = pro_doca_ii_barcelona start_date = 1166.3.1 end_date = 1167.1.1 regnal_number = 2 }
-
-			ruler_term = { character = ara_alfons_ii_arago start_date = 1167.1.1 end_date = 1173.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = ara_alfons_ii_arago start_date = 1173.1.1 end_date = 1181.4.5 regnal_number = 1
-				character = pro_ramon_berenguier_iv_barcelona start_date = 1173.1.1 end_date = 1181.4.5 regnal_number = 4 regnal_name = name_raymond.name_berengar # Liutenant of Provence
-			}
-			ruler_term = {
-				character = ara_alfons_ii_arago start_date = 1181.4.5 end_date = 1185.1.1 regnal_number = 1
-				character = pro_sanc_i_barcelona start_date = 1181.4.5 end_date = 1185.1.1 regnal_number = 1 # Liutenant of Provence
-			}
-			ruler_term = { character = ara_alfons_ii_arago start_date = 1185.1.1 end_date = 1196.4.25 regnal_number = 1 }
-			ruler_term = { character = pro_anfos_ii_arago start_date = 1196.4.25 end_date = 1209.2.2 regnal_number = 2 }
-			ruler_term = { character = pro_ramon_berenguier_v_arago start_date = 1209.2.2 end_date = 1245.8.19 regnal_number = 5 }
-			ruler_term = { character = pro_beatritz_i_arago start_date = 1245.8.19 end_date = 1246.1.31 regnal_number = 1 }
-			ruler_term = {
-				character = nap_charles_i_anjou start_date = 1246.1.31 end_date = 1267.9.23 regnal_number = 1
-				character = pro_beatritz_i_arago start_date = 1246.1.31 end_date = 1267.9.23 regnal_number = 1
-			}
-			ruler_term = { character = nap_charles_i_anjou start_date = 1267.9.23 end_date = 1285.1.7 regnal_number = 1 }
-			ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1309.5.5 regnal_number = 2 }
-			ruler_term = { character = nap_robert_i_anjou start_date = 1309.5.5 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_boson = 1
-				name_william = 5
-				name_bertrand = 2
-				name_godfrey = 2
-				#Gerberge = 1
-				name_douce = 2
-				name_raymond.name_berengar = 5
-				name_berengar.name_raymond = 1
-				name_alphonse = 2
-				name_beatrix = 1
-				name_charles = 2
-				name_robert = 1
-			}
-		}
-
-		tolerated_cultures = {
-			vivaro_alpine
-		}
-
-		capital = marseille
-		country_rank = rank_county
-	}
 
 PAP = {
 		own_control_core = {
@@ -9264,7 +9188,7 @@ CAR = { #Carniola
 			valencia gandia ayora bunol chelva lliria
 
 			pamplona elizondo estella olite roncesvalles sanguesa tudela viana laguardia
-			saint_jean_pied_de_port #Gascony
+			
 
 			almeria almanzora baza gergal mojacar velez_rubio
 			granada adra almunecar guadix huescar illora loja pinar orgiva
@@ -9792,8 +9716,8 @@ CAR = { #Carniola
 				besancon dole ornans 
 
 				auch lectoure lisle_jourdain mirande nogaro 
-				pau oloron orthez tarbes north_western_pyrenees 
-				muret aspet saint_lizier saint_gaudens north_eastern_pyrenees1 
+				pau oloron orthez tarbes 
+				muret aspet saint_lizier saint_gaudens 
 				dax aire labrit mimizan mont_de_marsan tartas tosse lagoon_of_sanguinet 
 				bayonne mauleon saint_jean_pied_de_port 
 
@@ -9809,7 +9733,7 @@ CAR = { #Carniola
 				chateauneuf_de_randon florac mende peyre massif_central 
 				narbonne agde beziers lodeve saint_pons lagoon_of_bages_sigean 
 				nimes french_ales melgueil montpellier st_ambroix uzes 
-				carcassonne fenouillet limoux north_eastern_pyrenees2 
+				carcassonne fenouillet limoux 
 				toulouse castelnaudary lavaur verdun_sur_garonne villemur 
 				viviers chalancon le_puy montlaur privas tournon vivarais_mountains 
 
@@ -9853,7 +9777,7 @@ CAR = { #Carniola
 				guise hirson marle ribemont 
 				saint_quentin nesle peronne 
 			
-				grenoble briancon gap la_mure pragelato cottian_alps1 dauphine_alps1 dauphine_alps2 
+				grenoble briancon gap la_mure pragelato 
 				#	chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches 
 				valence condorcet die mevouillon  
 				vienne romans saint_marceilin la_tour_du_pin 
@@ -10083,7 +10007,7 @@ NED = { #Dutch Republic
 			frisian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_kingdom
 	}
 
 	#-------------------- HRE -------------------
@@ -10127,7 +10051,7 @@ NED = { #Dutch Republic
 			land_vs_naval = -20
 			outward_vs_inward = -40
 		}
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = luxembourg
 
 		tolerated_cultures = {
@@ -26540,7 +26464,7 @@ PAL = {	#The Palatinate
 		capital = heidelberg
 		dynasty = wittelsbach_dynasty
 		government = {
-			ruler = pal_rudolf_ii_wittelsbach
+			ruler = ubv_ludwig_iv_wittelsbach
 
 			ruler_term = { character = pal_konrad_hohenstaufen start_date = 1156.1.1 end_date = 1195.11.8 regnal_number = 1 }
 
@@ -26709,7 +26633,11 @@ FLK = {  # Falkenstein (South Germany)
 		include = "catholic_monarchy_no_coast"
 		include = "expl_northern_europe"
 		include = "german_principality"
-		government = { ruler = random }
+		government = { ruler = random 
+		reforms = {
+				landgraviate
+			}
+		}
 		country_rank = rank_county
 		capital = katzenelnbogen
 	}
@@ -27343,7 +27271,7 @@ REG = {	#Regensburg
 			rhine_franconian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = stuttgart
 		dynasty = wurttemberg_dynasty
 	}
@@ -27779,7 +27707,7 @@ ALS = { #Strasbourg
 			polabian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = schwerin
 		dynasty = mecklenburg_dynasty
 	}
@@ -27809,7 +27737,7 @@ ALS = { #Strasbourg
 			polabian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = strelitz
 		dynasty = mecklenburg_dynasty
 	}
@@ -28507,7 +28435,7 @@ AAC = {	#Aachen
 			low_franconian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = duren
 		dynasty = julich_dynasty
 	}
@@ -28769,7 +28697,7 @@ OSN = {	#Osnabrück
 			polabian
 		}
 
-		capital = luneburg
+		capital = hanover
 		dynasty = welfen_dynasty
 	}
 
@@ -28927,7 +28855,7 @@ OLD = {	#Oldenburg
 			frisian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = oldenburg
 		dynasty = oldenburg_dynasty
 	}
