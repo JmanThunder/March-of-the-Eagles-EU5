@@ -45,7 +45,8 @@ international_organization_manager = {
 				BOH	#Bohemia
 				SAX  # Saxony-Wittenberg
 				PRU # Brandenburg-Prussia
-				PAL # Palatinate
+				BAV # Bavaria gained the electorate in 1621 from the Palatinate
+				HAN #Hannover-Lüneburg gained the Elector in 1692
 		}
 		archbishop_elector = {
 				# The 3 bishops
@@ -84,6 +85,7 @@ international_organization_manager = {
 			hre_tri_camerial_imperial_diet_policy
 			perpetual_diet_policy
 			no_monetary_contribution
+			expanded_electors_policy
 			
 		}
 
