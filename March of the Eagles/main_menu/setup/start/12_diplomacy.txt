@@ -3,7 +3,7 @@ diplomacy_manager = {
 	#Balliol Backing
 	#scripted_oneway = { first = ENG second = SBL type = guarantee }
 	
-   dependency = { first = ENG second = PLE subject_type = dominion }
+   dependency = { first = GBR second = PLE subject_type = dominion }
     
 
     # Scandinavia

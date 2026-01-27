@@ -201,7 +201,7 @@ SWI = {
 	color2 = rgb { 153 122 108 }	#Like in EU4
 
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = calvinist
 	is_historic = yes
 }
 
@@ -319,7 +319,7 @@ NUR = {
 	color = rgb { 243 112 15 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = lutheran
 }
 
 WBG = {
@@ -396,7 +396,7 @@ WUR = {
 	color = rgb { 111 162 128 }
 	
 	culture_definition = swabian
-	religion_definition = catholic
+	religion_definition = lutheran
 }
 
 OET = {
