@@ -1,0 +1,40 @@
+USA = { #United States of America
+	color = map_USA 
+	
+	culture_definition = english
+	religion_definition = anglican
+
+	description_category = economic
+	difficulty = 3
+}
+
+AYT = { #Haiti/Saint-Domingue (AYT = Ayiti)
+    color = rgb { 139 179 207 }
+	
+	culture_definition = french
+	religion_definition = catholic
+
+    unit_color0 = rgb { 0 38 94 }
+	unit_color1 = rgb { 171 19 19 }
+	unit_color2 = rgb { 200 200 210 }
+
+	difficulty = 5
+}
+
+CAN = { #Colonial Canada
+	color = map_USA 
+	
+	culture_definition = english
+	religion_definition = anglican
+
+	# description_category = economic
+	difficulty = 3
+}
+
+MEX = { 
+    color = map_MEX
+
+    culture_definition = castilian
+	religion_definition = catholic
+
+}
