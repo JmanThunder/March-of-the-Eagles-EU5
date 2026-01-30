@@ -61,7 +61,7 @@ countries = {
 			lebesby kirkenes
 
 			vindeln raisa
-			kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta
+			kautokeino varanger vardo deatnu porsanger karasjok hammerfest
 			asele lycksele sorsele arvidsjaur arjeplog silbojock volgsjo stensele tarna ortrask akkajaur 
 			pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta kasivarren
 			maaselka   
@@ -365,7 +365,7 @@ FIN = {
 	NOR = {
 		own_control_core = {
 
-			moss halden borg trogstad
+			moss halden borg trogstad alta
 			oslo ski eidsvoll
 			tonsberg skien sande grenland  
 			nidaros roros stjordal oppdal orkdal skaun storen holtalen meraker tofte
@@ -23042,76 +23042,12 @@ TRO = { #Travunija
 		}
 	}
 
-	#Cilicia - CIL https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia
-	CIL = {
-		own_control_core = {
-			adana
-			anavarza kars_armenia
-			sis caxud hargan molevon
-			tarsus candir_cil corycus
-			ayas kapan
-		}
 
-		our_cores_conquered_by_others = {
-			silifke anamur ermenek mut
-			selinti
-			nigde bor_tur
-			develi
-			ayntab
-			kilis trapessac
-			iskenderun
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "eastern_european_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = cil_leo_iv
-
-			ruler_term = { character = cil_levon_i_roupenid start_date = 1198.1.6 end_date = 1219.5.2 regnal_number = 1 }
-			ruler_term = { character = cil_zabel_i_roupenid start_date = 1219.5.2 end_date = 1226.1.1 regnal_number = 1 }
-			ruler_term = {
-				character = cil_zabel_i_roupenid start_date = 1226.1.1 end_date = 1252.1.23 regnal_number = 1
-				character = cil_hethum_i_hethumid start_date = 1226.1.1 end_date = 1252.1.23 regnal_number = 1
-			}
-			ruler_term = { character = cil_hethum_i_hethumid start_date = 1252.1.23 end_date = 1269.1.1 regnal_number = 1 }
-			ruler_term = { character = cil_leo_ii_hetumid start_date = 1269.1.1 end_date = 1289.1.1 regnal_number = 2 }
-			ruler_term = { character = cil_hethum_ii_hetumid start_date = 1289.1.1 end_date = 1293.1.1 regnal_number = 2 }
-			ruler_term = { character = cil_thoros_iii_hetumid start_date = 1293.1.1 end_date = 1295.1.1 regnal_number = 1 }
-			ruler_term = { character = cil_hethum_ii_hetumid start_date = 1295.1.1 end_date = 1296.1.1 regnal_number = 2 }
-			ruler_term = { character = cil_smbat_hetumid start_date = 1296.1.1 end_date = 1298.1.1 regnal_number = 1 }
-			ruler_term = { character = cil_kostandin_i_hetumid start_date = 1298.1.1 end_date = 1299.1.1 regnal_number = 1 }
-			ruler_term = { character = cil_hethum_ii_hetumid start_date = 1299.1.1 end_date = 1305.5.1 regnal_number = 2 }
-			ruler_term = { character = cil_leo_iii_hetumid start_date = 1305.5.1 end_date = 1307.11.17 regnal_number = 3 }
-			ruler_term = { character = cil_oshin_hetumid start_date = 1307.11.17 end_date = 1320.7.20 regnal_number = 1 }
-			ruler_term = { character = cil_leo_iv start_date = 1320.7.20 regnal_number = 4 }
-
-			regnal_numbers = {
-				name_leon = 4
-				name_elizabeth = 1
-				name_philip = 1
-				name_hethum = 2
-				name_theodore = 1
-				name_simbad = 1
-				name_constantine = 1
-				name_oshin = 1
-			}
-		}
-
-		tolerated_cultures = {
-			syriac_culture
-		}
-
-		country_rank = rank_kingdom
-		capital = sis
-	}
 
 #Cyprus - CYP
 	CYP = {
 		own_control_core = {
-			nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos
+			nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos 
 		}
 
 		starting_technology_level = 3
@@ -23627,35 +23563,7 @@ TRO = { #Travunija
 		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 	}
 
-	#Sahipataids - SHP https://en.wikipedia.org/wiki/Sahib_Ataids
-	SHP = {
-		own_control_core = {
-			karahisar_i_sahib sandikli suhut
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = shp_hussein start_date = 1249.1.1 end_date = 1272.1.1	}
-			ruler_term = {	 character = shp_hassan start_date = 1275.1.1 end_date = 1277.1.1	}
-			ruler_term = {	 character = shp_mehmed start_date = 1277.1.1 end_date = 1287.1.1	}
-			ruler_term = {	 character = shp_nusreddin_ahmed start_date = 1287.1.1	}
-			ruler = shp_nusreddin_ahmed
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = karahisar_i_sahib
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
-
-	#Saruhanids - SRU https://en.wikipedia.org/wiki/Sarukhanids
+#Saruhanids - SRU https://en.wikipedia.org/wiki/Sarukhanids
 	SRU = {
 		our_cores_conquered_by_others = {
 			manisa akhisar demirci gordes kula
@@ -24257,13 +24165,18 @@ TRO = { #Travunija
 	#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 	TUR = {
 		own_control_core = {
+			adana
+			anavarza kars_armenia
+			sis caxud hargan molevon
+			tarsus candir_cil corycus
+			ayas kapan
 			beypazari kibrus kizilca
 			bolu akcasehir akyazi konrapa gerede mengen mudurnu
 			bursa adranos iznik
 			izmit atpazari
 			domanic
 			sultanonu bilecik goynuk eynegol inonu nalli sogut
-
+			karahisar_i_sahib sandikli suhut
 			sporades servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
 			kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
 			traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
