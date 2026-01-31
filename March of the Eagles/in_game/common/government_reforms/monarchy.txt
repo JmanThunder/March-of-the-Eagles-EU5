@@ -192,3 +192,21 @@ feudal_theocracy = {
 		monthly_towards_spiritualist = societal_value_monthly_move
 	}
 }
+grand_duchy_reform = {
+	unique = yes
+	major = yes
+
+	potential = {
+		country_rank_level = 2
+		government_type = government_type:monarchy
+		
+	}
+
+	country_modifier = {
+		monthly_prestige = 0.2
+		
+		
+
+	years = 2
+	}
+}
