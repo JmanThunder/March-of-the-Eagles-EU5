@@ -1013,7 +1013,7 @@ HSA = {	#Hansa
 			}
 
 			reforms = {
-				margraviate
+				prussian_monarchy
 			}
 
 			centralization_vs_decentralization = 60
@@ -5988,8 +5988,6 @@ TUS = { #Grand Duchy of Tuscany
 
 		}
 
-		
-
 		starting_technology_level = 3
 		include = "expl_mediterranean"
 		include = "expl_silk_road_west"
@@ -6001,7 +5999,7 @@ TUS = { #Grand Duchy of Tuscany
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			country_rank = rank_duchy
+			
 			traditionalist_vs_innovative = 40
 		
 			ruler = random
@@ -6015,7 +6013,7 @@ TUS = { #Grand Duchy of Tuscany
 		}
 
 		capital = florence
-
+		country_rank = rank_duchy
 		tolerated_cultures = {
 			emilian
 		}
@@ -9910,6 +9908,7 @@ NED = { #Dutch Republic
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
 		include = "eastern_european_monarchy_no_coast"
+		country_rank = rank_duchy
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
