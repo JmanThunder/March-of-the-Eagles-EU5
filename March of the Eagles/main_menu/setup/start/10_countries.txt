@@ -5999,7 +5999,7 @@ TUS = { #Grand Duchy of Tuscany
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			reforms = { grand_duchy_reform }
+			
 			traditionalist_vs_innovative = 40
 		
 			ruler = random
