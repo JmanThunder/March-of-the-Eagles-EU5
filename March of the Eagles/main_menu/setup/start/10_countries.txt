@@ -35459,26 +35459,26 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	NAN = { #Nanai
-		type = pop
-
-		add_pops_from_locations = {
-			achan boli nemptu
-			arkhara jiajin
-			ilan_hala
-			lahasusu nuoluo shuangyashan
-			wehe
-			tyrma
-			simmi urmi bidzhan bira kukan kur sutara chalin taowen wanhufu futi tulguur
-		}
-
-		include = "expl_manchurian_tribe"
-		include = "yeren_tribe"
-		government = {
-			ruler = random
-			heir_selection = ritual_selection
-		}
-	}
+	#NAN = { #Nanai
+	#	type = pop
+	#
+	#	add_pops_from_locations = {
+	#		achan boli nemptu
+	#		arkhara jiajin
+	#		ilan_hala
+	#		lahasusu nuoluo shuangyashan
+	#		wehe
+	#		tyrma
+	#		simmi urmi bidzhan bira kukan kur sutara chalin taowen wanhufu futi tulguur
+	#	}
+	#
+	#	include = "expl_manchurian_tribe"
+	#	include = "yeren_tribe"
+	#	government = {
+	#		ruler = random
+	#		heir_selection = ritual_selection
+	#	}
+	#}
 
 	NVK = { #Nivkh
 		type = pop
@@ -35546,21 +35546,21 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	SOL = { #Solon
-		type = pop
-
-		add_pops_from_locations = {
-			boduna yushu
-			dalaiketun nemeri
-			hulan bayan_susu hailun hvlan ougen shangjing hulawen zhaozhou_jurchen talaha sart zhalong
-		}
-
-		include = "expl_manchurian_tribe"
-		include = "asia_tribe"
-		government = {
-			ruler = random
-		}
-	}
+	#SOL = { #Solon
+	#	type = pop
+	#
+	#	add_pops_from_locations = {
+	#		boduna yushu
+	#		dalaiketun nemeri
+	#		hulan bayan_susu hailun hvlan ougen shangjing hulawen zhaozhou_jurchen talaha sart zhalong
+	#	}
+	#
+	#	include = "expl_manchurian_tribe"
+	#	include = "asia_tribe"
+	#	government = {
+	#		ruler = random
+	#	}
+	#}
 
 	UDE = { #Udege
 		type = pop
@@ -35599,23 +35599,23 @@ ZAZ = { #Zaporozhia
 
 	}
 
-	WRK = { #Warkha
-		type = pop
-
-		add_pops_from_locations = {
-			malong mudan_ula
-			juru_hoton mulun
-			hailang ningguta dongning kaiyuan_warka yongmingcheng huncun tulazi
-			kahari 
-		}
-
-		include = "expl_manchurian_tribe"
-		include = "yeren_tribe"
-		government = {
-			ruler = random
-			heir_selection = ritual_selection
-		}
-	}
+	#WRK = { #Warkha
+	#	type = pop
+	#
+	#	add_pops_from_locations = {
+	#		malong mudan_ula
+	#		juru_hoton mulun
+	#		hailang ningguta dongning kaiyuan_warka yongmingcheng huncun tulazi
+	#		kahari 
+	#	}
+	#
+	#	include = "expl_manchurian_tribe"
+	#	include = "yeren_tribe"
+	#	government = {
+	#		ruler = random
+	#		heir_selection = ritual_selection
+	#	}
+	#}
 
 	HDA = { #Hada
 		own_control_core = {
