@@ -6182,7 +6182,7 @@ america = {
 				xaymaca_province = { maynoa yaguabo aguacadiba guaygata anaya oristan kaiman}
 				bahamas_province = { abacoa exuma guanima eleuthera utiaquia guanahani inagua samana_cay jumento caycos lucayoneque bahama }
 			}
-			Haiti = {
+			hispaniola_area = {
 				higuey_province = { bavaro yuma mona_island hicayagua cayacoa yamasa boya}
 				maguana_province = { cayguani baoruco maguana jarabacoa cibao azua bani neiba_mountains banique baoruco_mountains cordrilla_central}
 				magua_province = { yaqui magorix bohio moca samana cubao ciguayo cotui}
@@ -7492,7 +7492,7 @@ america = {
 					tahuunde tseichi
 				}
 			}
-			Tejas = {
+			texas_area = {
 				cacaxtles_province = {
 					tugumlepen estok_gna cachopostales cacaxtles gueiquesales
 					koke_metchesko_laha cabias

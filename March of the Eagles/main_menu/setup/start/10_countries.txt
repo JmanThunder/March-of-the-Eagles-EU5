@@ -237,7 +237,7 @@ countries = {
 			helsingborg lund malmo
 		}
 
-		capital = roskilde
+		capital = kobenhavn
 		dynasty = estrid_dynasty
 		court_language = low_german_dialect
 
