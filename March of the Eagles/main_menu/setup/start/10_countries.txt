@@ -41912,7 +41912,7 @@ ZAZ = { #Zaporozhia
 			}
 
 		}
-
+		country_rank = rank_kingdom
 		capital = monocacy
 		include = "expl_western_europe"
 
