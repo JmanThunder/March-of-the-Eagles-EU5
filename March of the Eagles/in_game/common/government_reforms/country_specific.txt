@@ -3156,18 +3156,13 @@ austrian_archduchy_reform = {
 	unique = yes
 	government = monarchy
 	potential = {
-		OR = {
-			has_or_had_tag = HAB
-			has_or_had_tag = STY
-			has_or_had_tag = TIR
-		}
-		has_unlocked_government_reform_trigger = { type = austrian_archduchy_reform }
+		has_or_had_tag = HAB
 	}
 	allow = {
-		is_member_of_international_organization = international_organization:hre
+		#is_member_of_international_organization = international_organization:hre
 	}
 	locked = {
-		is_member_of_international_organization = international_organization:hre
+		#is_member_of_international_organization = international_organization:hre
 	}
 	country_modifier = {
 		government_reform_slots = 1
