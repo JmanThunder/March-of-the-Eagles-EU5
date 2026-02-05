@@ -2265,7 +2265,7 @@ CRI = {
 
 
 
-GBR = { # England
+GBR = { # United Kingdom of Great Britian
 		own_control_core = {
 			appleby hythe alnwick barnstaple bedford dunstable birmingham boston bosworth shoreham lewes bristol buckingham bury glossop cambridge canterbury carlisle rochester cheltenham chelmsford chesterfield chichester chippenham cockermouth colchester kettering coventry cirencester derby dorchester dover exeter gloucester grimsby guildford reigate harrow hastings hedingham hertford hexham hull huntingdon ipswich kendal grantham penrith kidderminster leeds leicester lincoln london loughborough lowestoft lynn daventry newark newcastle northampton norwich nottingham oxford ely plymouth bideford bampton okehampton poole portsmouth amesbury lymington retford rutland salisbury southampton prittlewell kingston stafford stoke stratford trowbridge taunton wells barking weymouth shaftesbury wight winchester windsor worcester yarmouth york scarborough tamworth bedale richmond whitby bridlington selby pontefract skipton wakefield louth thetford fakenham reading tonbridge minehead portishead bath henley royston aylesbury wycombe lavenham abingdon st_albans banbury walden spalding woking morpeth billingham norton ripon doncaster egremont basingstoke
 			denbigh durham darlington stockton lancaster blackburn liverpool preston manchester chester macclesfield nantwich flint
@@ -9275,7 +9275,7 @@ CAR = { #Carniola
 			outward_vs_inward = -50
 
 			reforms = {
-				french_feudal_nobility
+				french_centralized_monarchy
 				ancient_french_taxation
 			}
 
@@ -9344,7 +9344,7 @@ NED = { #Dutch Republic
 			heir_selection = oligarchic_elective
 			ruler = random
 			parliament = {
-				parliament_type = council
+				parliament_type = dutch_parliament
 			}
 
 
@@ -24361,9 +24361,20 @@ TRO = { #Travunija
 			}
 		}
 
+		court_language = persian_language
+		accepted_cultures = { 
+			bosnian
+			albanian
+		}
+
 		tolerated_cultures = {
 			greek_culture
 			turkoman_culture
+			bulgarian
+			serbian
+			pontic_greek_culture
+			levantine_culture
+			azeri_culture
 		}
 
 		capital = constantinople
@@ -25576,7 +25587,9 @@ MBZ = { #Bregenz
 		capital = zurich
 
 		accepted_cultures = {
-			northumbrian
+			arpitan
+			romansh
+			lombard
 		}
 
 	}
@@ -28628,6 +28641,9 @@ GLD = {	#Galicia-Lodmeria #This is gonna be Pain
 			regnal_numbers = {
 				name_vladislav = 1
 				name_casimir = 3
+			}
+			parliament = {
+				parliament_type = plc_parliament
 			}
 
 			centralization_vs_decentralization = 80
@@ -32997,6 +33013,62 @@ ZAZ = { #Zaporozhia
 		government = {
 			ruler = random
 		}
+	}
+	### Colonial Caribbean ###
+	AYT = { # Saint-Domingue/Haiti
+
+		own_control_core = {
+			marien guahaba tortuga baynoa
+			jaragua guanabo cahay guacayakima haniguayagua yaquimo yaguana
+		}
+
+		starting_technology_level = 3
+		#include = "expl_western_europe"
+		#include = "catholic_monarchy"
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur général Marie-Charles du Chilleau
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				formal_guilds
+				clergy_literacy_rights
+				auxilium_et_consilium
+				nobles_land_rights
+				noble_leaders_only
+				primacy_of_nobility
+				noble_armies
+				chancellor_nobles
+				villes_franches
+			}
+		}
+
+		country_rank = rank_county
+		capital = jaragua
 	}
 
 	#Magua
@@ -41642,18 +41714,35 @@ ZAZ = { #Zaporozhia
 		}
 	}
 	#Seneca/Onondowaga
-	ONN = {
+	IRO = {
 
 		own_control_core = {
-		canadaigua geneseo tsonentsiio irondequoit
+			canadaigua geneseo tsonentsiio irondequoit
+			tiotoren kanentaweron thahnawate cattaraugus ahouenro
 		}
 
-		starting_technology_level = 0
+		our_cores_conquered_by_others = {
+			skaniatares assorodus gahato
+			tsikahiotsisto otsiningo oswego
+			onenioteke oneniote teiehonwahkhkwatha niiohehsane oswegatchie nikahionhwakowa
+			canajoharie teionontatatie oneonta schenectady saratoga ticonderoga kawenote oronia tsiietsenhtha oskennonton itekiatonhniarikon
+		}
+
+		starting_technology_level = 3
 		include = "haudenosaunee_tribe"
-		include = "expl_amerindian_east_coast"
+		include = "expl_western_europe"
 		government = {
 			ruler = random
 		}
+		
+		accepted_cultures = {
+			wenrohronon_culture
+			gayogohono_culture
+			onondowaga_culture
+			onyotaaka_culture
+			kanienkehaka_culture
+		}
+
 		capital = canadaigua
 
 		currency_data = {
@@ -41684,6 +41773,152 @@ ZAZ = { #Zaporozhia
 			ruler = random
 		}
 	}
+
+	#### These United States of America
+	USA = {
+
+		own_control_core = {
+			minguannan tappahanna assawoman
+
+			anacostia monocacy potapoco catoctin
+			conococheague antietam opequon
+			patapsco wicontiss nentego patuxent
+			wicomico chicamacomico matapeake
+
+			shawmut naumkeag assabet quinsigamond weshacum
+			patuxet assonet nauset nantucket
+			agawam pocumtuck mahaiwe pontoosuck
+
+			ticonderoga itekiatonhniarikon oskennonton oronia
+			kawenote tsiietsenhtha adirondacks
+			kanyengehaga
+			
+			nikahionhwakowa oswegatchie ahkwesasne_ny kaniatarahontsi ahna_wate
+			skaniatares assorodus 
+			tsikahiotsisto oswego 
+			niiohehsane teiehonwahkhkwatha 
+
+			werowocomoco patawomeck wicocomico nanzatico rappahannock
+			kiskiack accomac nansemond chesapeake weyanock
+			powhatan appamatuck cheroenhaka waqua pamunkey
+			doeg manassas tegninateo
+			rassawek mowhemencho appomattox monahassanugh massinacak monasukapanough
+			saponi nessoneick occaneechi pintahae meherrin
+			mahock chiswell tutelo torope mondongachate 
+			onandagoa massanutten schinhandowi cacapon wapocomo shenandoah
+			mosopeleacipi tazewell bland kallamuckee xualae anigiduwagi
+			moneton mohetan kanawha ouasioto pocatalico tsalagi 
+			wihlink monongahela onimgohow calicua 
+			roanoke croatan hatteras chowanoke pocosin wiccacon
+			pamlico coree corani neuse
+			chicora dawhee woccon cohari sapponah necoes
+			gowtano nooherooka kehaukee cherohenaka_nc pamticough
+			adshusheer eno sissipahaw uwharrie waxhaw
+			saura alamance yadkin keyauwee
+			joara iswa guaquili eswawpuddenah
+			wappacoma ashby chinquetana
+			kituwa nikwasi guaxule
+			tahkeeosteh italwa wattogee watauga 
+			amoyeli_gunahita canasoga chiaha coste  hogohega
+			pelisipi maniatique
+			patna_us calicuas weotowe
+			
+			eskalapia chattarawa nepepimmesipi yuchi 
+			kentucky eskippakaithiki chenoka adena shawnee
+			lewekeomi cuttawba tywhapita
+			kuttawa aaboukingon
+			pennyrile cuttaway warioto
+			daguwanalahi aniyutsi shawanoe spithota
+
+			waccamaw winyah winnee peedee pocotaligo
+			etiwan wando kiawah coosaw combahee wimbee santee
+			cofitachequi hymahi talimeco ilasi
+			catawba enoree pacolate amoyescheck
+			keowee oolenoy generostee
+			selkehatchie saluda congaree kosalu
+
+			tybee ossabaw sapelo canoochee
+			kiokee wahachee ogeechee ohoopee
+			tugaloo nacoochee estatoe etoho
+			ocute	ichisi altamaha cofaqui
+			sawokli alapaha ocmulgee oconee hitchiti toa
+			tacatacaru tamathli icafui
+			coweta kealedji pakanahuili tussahaw tuckabutche 
+
+			allegheny youghiogheny erie saucunk shenango tionesta kittaning 
+			loyalhanna quemahoning conemaugh punxsutawney
+			loyalsock lycoming tangasootack andastoerrhonon susquehannock
+			scahentowanen lackawanna atrakwaye wappasening lackawaxen
+			shamokin mahoning mattawana juniata onojutta tuckahoe wallenpaupack massawomeck
+			tesinigh attaock cocalico
+			lehigh paunacussing tohickon
+			schuylkill shackamaxon wawassan wyomissing
+			paxtang connatachequa conewago
+
+			assunpink muscotnetcong hopatcong
+			tetamekanch kechemeche cohansey amintonck
+			raritan hackensack navisink piscopeek
+			onenioteke oneniote gahato otsiningo oneyotdehaga canajoharie saratoga schenectady teionontatatie oneonta
+			manhattan tappan nochpeem montauk unquachog massapequa poughkeepsie ponkhockie minisink kitchawanc mahicannituck horicon esquatak lenape
+
+			passamaquoddy machias nicatous maatawamkeag
+			penobscot majabigwaduce piscataquis passagassawkeag pemetic millinocket katahdin
+			kineo caratunk kennebango nanrantsouak
+			kennebec sagadahoc messalonskee norridgewock
+			casco kennebunk androscoggin pequawket	ammoscongon anasagunticook
+			monadnock sunapee coos ammonoosuc
+			pennacook umbagog pemigewasset ossipee
+			amoskeag nashua squamscott
+			ottauquechee ompompanusooc passumpsic 
+			walloomsac pecunktuk wantastiquet
+			# cowasuck winooski gwenaska koes nitamibontegw
+			quinnipiac rippowam scatacook
+			saukiog siccanemos willimantic nehantuck
+			seekonk woonsocket pawcatuck
+		}
+
+
+		starting_technology_level = 3
+
+		
+		government = {
+			type = republic
+			heir_selection = republic_4_year_terms
+			ruler = random #George Washinton
+
+			parliament = {
+				parliament_type = constitutional_parliament
+			}
+			centralization_vs_decentralization = 95
+			traditionalist_vs_innovative = 50
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 50
+			serfdom_vs_free_subjects = 70
+			mercantilism_vs_free_trade = -50
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 25
+			offensive_vs_defensive = 70
+			land_vs_naval = -5
+			capital_economy_vs_traditional_economy = -90
+			individualism_vs_communalism = -90
+			outward_vs_inward = 100
+
+			laws = { 
+				legal_code_law = common_law_policy
+			}
+
+			reforms = {
+				national_assemblies
+			}
+
+		}
+
+		capital = monocacy
+		include = "expl_western_europe"
+
+	}
+
+
 	#Doeg
 	DOE = {
 		type = pop

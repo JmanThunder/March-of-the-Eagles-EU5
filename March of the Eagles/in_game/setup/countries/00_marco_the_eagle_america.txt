@@ -8,7 +8,7 @@ USA = { #United States of America
 	difficulty = 3
 }
 
-AYT = { #Haiti/Saint-Domingue (AYT = Ayiti)
+AYT  = { #Haiti/Saint-Domingue (AYT = Ayiti)
     color = rgb { 139 179 207 }
 	
 	culture_definition = french
@@ -37,4 +37,13 @@ MEX = {
     culture_definition = castilian
 	religion_definition = catholic
 
+}
+
+IRO = { # Haudenosaunee / Iroquois Confederacy
+	color = map_haudenosaunee
+
+	culture_definition = onondowaga_culture
+	religion_definition = iroquoian_totemism
+
+	difficulty = 3
 }
