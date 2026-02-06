@@ -1,0 +1,885 @@
+﻿l_english:
+ gaspe: "Gaspé" #Gaspé
+ chicchoc: "Saint-Maxime-du-Mont-Louis" #Chic-Chocs
+ marsoui: "Sainte-Anne-des-Monts" #Marsoui
+ pewjeg: "Le Rocher-Percé" #Pew'jeg
+ cascapedia: "Bonaventure" #Cascapédia
+ paspebiac: "Carleton-sur-Mer" #Paspébiac
+ matapedia: "Pointe-à-la-Croix" #Matapédia
+ matane: "Matane" #Matane
+ rimouski: "Rimouski" #Rimouski
+ temiscouata: "Edmundston" #Témiscouata
+ belle_isle: "St. Anthony" #Belle Isle
+ wipetikil: "Roddickton" #Wipetikil
+ naskwotchu: "Flowers Cove" #Naskwotchu
+ mekapisk: "Port au Choix" #Mekapisk
+ long_range_mountains: "⠀" #Long Range Mountains
+ eimastukwek: "Corner Brook" #Eimastukwek
+ epwikek: "Codroy" #Epwikek
+ kutapuskuj: "Stephenville" #Kutapusku'j
+ pgotapesg: "Buchans" #Pgotapesg
+ upsukdaskooch: "Pollard's Point" #Upsukdaskooch
+ wli_qospem: "Deer Lake" #Wli' Qospem
+ gosaoie: "Channel-Port aux Basques" #Gosaoie
+ nogamsig: "Burgeo" #Nogamsig
+ meelpaeg: "⠀" #Meelpaeg
+ amasipukwek: "St. Alban's" #Amasipukwek
+ sibook: "Harbour Breton" #Sibook
+ walnaypek: "Lewisporte" #Walnaypek
+ akilasiewakik: "Twilingate" #Akilasie'wa'kik
+ newfoundland_highlands: "⠀" #Newfoundland Highlands
+ cape_spear: "St. John" #Cape Spear
+ bacalhieu: "Carbonear" #Bacalhieu
+ mekwiskajk: "Gambo" #Mekwiskajk
+ mollyhuajeck: "Bonavista" #Mollyhuajeck
+ placentia: "Placentia" #Placentia
+ cape_race: "Trepassey" #Cape Race
+ maqtewey: "Arnold's Cove" #Maqtewey
+ nukamkiajijk: "Marystown" #Nukamkia'ji'jk
+ miquelon: "Saint-Pierre" #Miquelon
+ elsiktuk: "Charlottetown" #Elsiktuk
+ tignish: "Alberton" #Tignish
+ malpeque: "Sumerside" #Malpeque
+ tapu_tuitn: "North Rustico" #Tapu Tuitn
+ pukusamkek: "Montague" #Puku'samtek
+ menageesenog: "Îles de la Madeleine" #Menageesenog
+ askataliank: "Louisbourg" #Sule'katik
+ cheticamp: "Inverness" #Wiaqajk
+ ingonish: "Ingonish" #Nikanisk
+ qospemk: "Port Hawkesbury" #Qospemk
+ sipuk: "Sydney" #Sipuk
+ kluskapewiktuk: "Baddick" #Kluskapewiktuk
+ pictou: "New Glasgow" #Piktuk
+ chignecto: "Amherst" #Sikniktuk
+ maccan: "Parrsboro" #Akumaqnuk
+ tatamagouche: "Tatamagouche" #Taqamiku'jk
+ antigonish: "Antigonish" #Nalikitquniejk
+ canso: "Guysborough" #Qamso'q
+ wikipoq: "Sherbrooke" #Wikipoq
+ weljuik: "Sheet Harbour" #Weljuik
+ jijkwtuk: "Kentville" #Jijkwtuk
+ cobequid: "Truro" #We'kopektik
+ shubenacadie: "Shubenacadie" #Sipekne'katik
+ kennetook: "Windsor" #Knetkuk
+ kjipuktuk: "Halifax" #Punamu'kwati'jk
+ wetewatoqsik: "Chebucto Peninsula" #Kjipuktuk
+ musquedoboit: "Musquodoboit Harbour" #Muskito'pukwek
+ aspotogan: "Chester" #Kpiteskaqnk
+ esekatik: "Lunenburg" #E'se'katik
+ nmejuaqnek: "Annapolis Royal" #Nme'juaqnek
+ nictaux: "Greenwood" #Niktaq
+ wekwayik: "Digby" #We'kwayik
+ chebogue: "Yarmouth" #Tkipok
+ muinawamek: "Shelburne" #Muinawamek
+ nisiamk: "Lockeport" #Nisiamk
+ oqumkikiak: "Liverpool" #Oqumkikiak
+ petitcodiac: "Petitcodiac" #Petitcodiac
+ memramcook: "Tantramar" #Memramcook
+ richibucto: "Grand-Bouctouche" #Richibucto
+ kouchibouguac: "Kouchibouguac" #Kouchibouguac
+ miramichi: "Miramichi" #Miramichi
+ neguac: "Neguac" #Neguac
+ anagance: "Moncton" #Anagance
+ nepisiguit: "Bathurst" #Nepisiguit
+ restigouche: "Campbellton" #Restigouche
+ menahkwesk: "Saint John" #Menahkwesk
+ nashwaak: "Fredericton" #Nahswaak
+ oromocto: "Oromocto" #Oromocto
+ napanee: "Napanee" #Napanee, # Still called Napanee, or well Greater Napanee.
+ niagara: "Niagara" #Niagara
+ tkaronto: "Toronto" #Tkaronto, # Largest City in Canada now
+ oshawa: "Oshawa" #Oshawa, # Still Called Oshawa
+ bavaro: "Punta Cana" #, Bavaro is still the name of a town in the region but Punta Cana is more internationall recognized
+ yuma: "Bayahíbe" #, Yuma is the indigenous name of a river in the region, bayahíbe is a nearby beach town (tho also indigenous in origin)
+ mona_island: "Isla de Mona" #
+ hicayagua: "La Romana" #
+ cayacoa: "Santo Domingo" #
+ yamasa: "Yamasá" #
+ boya: "Miches" #
+ maguana: "San Juan de La Maguana" #
+ jarabacoa: "Jarabacoa" #
+ cibao: "Monción" #
+ azua: "Azua" #
+ bani: "Bani" #
+ banique: "Las Matas de Farfán" #
+ yaqui: "Santiago de Los Caballeros" #
+ magorix: "Monte Cristi" #
+ bohio: "Luperón" #
+ moca: "Moca" #
+ samana: "Samana" #
+ cubao: "Puerto Plata" #
+ ciguayo: "Cabrera" #
+ cotui: "Cotuí" #
+ marien: "Cap-Haitien" #
+ iguamuco: "Hincha" #
+ guahaba: "Port-dePaix" #
+ tortuga: "Ile de la Tortue" #
+ baynoa: "Anse-Rouge" #
+ jaragua: "Port-au-Prince" #
+ cayguani: "Neiba" #
+ baoruco: "Pedernales" #
+ guanabo: "Ile de la Gonave" #
+ cahay: "Gonaives" #
+ guacayakima: "Jéremie" #
+ haniguayagua: "des Cayes" #
+ yaquimo: "Jacmel" #
+ yaguana: "Leogáne" #
+ guaynabo: "San Juan" #
+ guaraca: "Guayama" #
+ guaynia: "Ponce" #
+ guama: "Mayaguez" #
+ arasibo: "Arecibo" #
+ ayamaco: "Aguadiya" #
+ saukiog: "Hartford" #Saukiog
+ siccanemos: "New London" #Siccanemos
+ willimantic: "Tolland & Windham" #Willimantic
+ nehantuck: "Middlesex" #Nehantuck
+ quinnipiac: "Newhaven" #Quinnipiac
+ rippowam: "Fairfield" #Rippowam
+ scatacook: "Litchfield" #Scatacook
+ manhattan: "Manhattan" #Mannahatta, Should probably be New York...? (it's Manhattan in the other AtEs)
+ tappan: "Orangetown" #Tappan
+ nochpeem: "Putnam" #Nochpeem
+ montauk: "Montauk" #Montauk
+ unquachog: "Patchogue" #Unquachog, (Could be several names to be here, the Unquachog were based on a misconception that Long Island was filled with several tribes and Patchogue is the closest modern translation to that)
+ massapequa: "Massapequa" #Massapequa, (This one is odd because it's meant to be Brooklyn but there is a Massapequa irl that is not within the province)
+ poughkeepsie: "Poughkeepsie" #U-puku-ipi-sing
+ ponkhockie: "Columbia" #Ponkhockie
+ minisink: "Sullivan" #Minisink
+ kitchawanc: "Ulster" #Esopus
+ mahicannituck: "Albany" #Mahicannituck
+ horicon: "Washington" #Horicon
+ esquatak: "Renesselaer" #Esquatak
+ lenape: "Delhi" #Lenape
+ canajoharie: "Montgomery" #Canajoharie
+ saratoga: "Saratoga" #Serachtague
+ schenectady: "Schenectady " #Schaunaughtada, (not Schenectady per se but a name for the general area of Albany)
+ oneonta: "Oneonta" #Oneonta
+ ticonderoga: "Ticonderoga" #Tekontaroken
+ oskennonton: "Clinton" #Oskennonton
+ kawenote: "Hadley" #Kawenote
+ tsiietsenhtha: "Plattsburgh" #Tsi Ietsenhtha
+ oswegatchie: "Ogdensburg" #Oswegatchie
+ ahkwesasne_ny: "Akwesasne" #Ahkwesahsne, (Major Mohawk Nation town)
+ kaniatarahontsi: "Mohawk" #Kaniatarahontsi
+ ahna_wate: "Potsdam" #Ahná:wate
+ onenioteke: "Syracuse" #Onenioteke
+ oneniote: "Binghamton" #Oneniote
+ oneida_lake: "Oneida" #Lake Oneida
+ tsikahiotsisto: "Onondaga" #Tsikahiotsisto
+ oswego: "Oswego" #Oswego
+ assorodus: "Sodus" #Assorodus
+ gahato: "Ithaca" #Gahato
+ seneca_lake: "Seneca" #Seneca Lake
+ skaneateles_lake: "Auburn" #Skaneateles Lake
+ caguya_lake: "Cayuga" #Caguya Lake
+ canadaigua: "Canandaigua" #Canandaigua
+ irondequoit: "Rochester" #Irondequoit
+ geneseo: "Geneseo" #Geneseo
+ tsonentsiio: "Allegany" #Tsonentsiio
+ tiotoren: "Buffalo" #Tiotoren
+ kanentaweron: "Chautauqua" #Kanentaweron
+ thahnawate: "Lockport" #Thahnawate
+ cattaraugus: "Cattaraugus" #Cattaraugus
+ ahouenro: "Tonawanda" #Ahouenro
+ hackensack: "Bergen" #Hackensack
+ navisink: "Monmouth" #Navisink
+ tetamekanch: "Teaneck" #Tetamekanch
+ kechemeche: "Cape May" #Kechemeche
+ cohansey: "Cumberland" #Cohansey
+ assunpink: "Trenton" #Assunpink
+ muscotnetcong: "Morris" #Muscotnetcong, (need to see the map again because the muscotnetcong river flows through about 4 counties)
+ hopatcong: "Sussex" #Hopatcong
+ chesapeake: "Chesapeake" #Chesapeake
+ checagou: "Chicago" #Checagou
+ tiatiki: "Kankakee" #Tiatiki
+ pisticoui: "DeKalb" #Pisticoui
+ kishwaukee: "Rockford" #Kishwaukee
+ ahsenisiipi: "Moline" #Ahsenisiipi
+ pecatonica: "Freeport" #Pecatonica
+ peewareewa: "Galesburg" #Peewareewa
+ peoria: "Peoria" #Peoria
+ theakeiki: "Peru" #Theakeiki
+ waupecan: "Ottawa" #Waupecan
+ sangamon: "Springfield" #Sangamon
+ matsigame: "Bloomington" #Matsigama
+ cahokia: "Edwardsville" #Cahokia, The current location actually seems to exclude the French settlement of Cahokia and should probably be redrawn to include it. 
+ kaskaskia: "Belleville" #Kaskaskia
+ kaskankaham: "Effingham" #Kaskankaham
+ amonokoa: "Quincy" #Amonokoa
+ ochechiton: "Carbondale" #Ochechiton
+ mitchigamea: "Cairo" #Mitchigamea
+ ambraw: "Charleston" #Ambraw
+ osanamon: "Danville" #Osanamon
+ okaw: "Champaign" #Okaw
+ bulbancha: "New Orleans" #Bulbancha
+ bogue_chitto: "Mandeville" #Bogue Chitto
+ tangipahoa: "Hammond" #Tangipahoa
+ itihumma: "Baton Rouge" #Itihumma
+ ciwat: "Lafayette" #Ciwat
+ otse: "Lake Charles" #Otse
+ ya_ttaish: "Mansfield" #Ya'ttaish
+ calcasieu: "Natchitoches" #Calcasieu
+ doustioni: "Shreveport" #Doustioni
+ ouachita: "Monroe" #Ouachita
+ kisatchie: "Alexandria" #Kisatchie
+ tamaroa: "St. Louis" #Tamaroa
+ towosaghy: "New Madrid" #Towosaghy
+ chepoussa: "Ste. Genevieve" #Chepoussa
+ nudarcha: "Kansas City" #Nudarcha
+ moingwena: "Burlington" #Moingwena
+ coiracoentanon: "Cedar Rapids" #Coircacoentanon
+ wapsipinicon: "Dubuque/Davenport" #Wapsipinicon
+ xaltocan: "San Miguel Jaltocan" #Xaltocan
+ tetzcoco: "Texcoco de Mora" #Tetzcuco
+ apan: "Apan" #Apan, Municipality of Apan
+ tenochtitlan: "Mexico City" #Tenochtitlan, Cuauhtémoc
+ tlacopan: "Tacuba" #Tlacopan
+ azcapotzalco: "Azcapotzalco" #Azcapotzalco
+ chalco: "Chalco de Díaz Covarrubias" #Chalco
+ xochimilco: "Xochimilco" #Xochimilco
+ cuauhnahuac: "Cuernavaca" #Cuauhnahuac
+ quauhquechollan: "Huaquechula" #Quauhquechollan
+ huaxtepec: "Oaxtepec" #Huaxtepec
+ itzocan: "Izúcar de Matamoros" #Itzocan, You can keep the short name Izucar
+ tlapan: "Totomixtlahuaca" #Totomixtlahuacan, misplaced
+ ometepec: "Ometepec" #Ometepec
+ oapan: "Tlapa de Comonfort" #Tlachinollan, misplaced. Tlachinollan is the pre-Aztec name of Tlapa
+ jicayan: "Jicayan" #Jicayan
+ yohualtepec: "Acatlan de Osorio" #Acatlan, wrong location - Yohualtepec refers to San Juan Ihualtepec
+ huajuapan: "Huajuapan de Leon" #Huajuapan, You can keep the short name Huajuapan
+ silacayoapam: "San Juan Ihualtepec" #Yohualtepec
+ chiautla: "Chiautla de Tapia" #Chiauhtlan
+ yopitzinco: "Acapulco" #Yopitzinco, Yopitzinco was not a specific settlement, but the area to the north and east of Acapulco that was outside Aztec/Mexica control 
+ chilapa: "Chilapa de Alvarez" #Chilapa
+ tecoanapa: "Ayutla de los Libres" #Ayutla, after the Aztec province
+ cihuatlan: "Rancho Alegre del Llano" #Cihuatlan, the prehispanic town of Cihuatlan is not to be confused with Zihuatanejo
+ tecpan: "Tecpan de Galeana" #Tecpan
+ ixtapan: "Ixtapa" #Ixtapan
+ zacatollan: "Lazaro Cardenas" #Zacatollan
+ tlapacoya: "Atotonilco el Grande" #Atotonilco, misplaced; Tlapacoya is in Puebla state to the east
+ pachyohcan: "Pachuca" #Pachyohcan
+ tollantzinco: "Tulancingo" #Tollantzinco
+ axocopan: "Ajacuba" #Axocopan
+ zimapan: "Zimapan" #Zimapan
+ ixmiquilpan: "Ixmiquilpan" #Ixmiquilpan
+ cuauhtolco: "Santa Maria Huatulco" #Cuauhtolco
+ tonameca: "Santa Maria Tonameca" #Tonameca
+ manialtepec: "San Jose Manialtepec" #Manialtepec
+ juchatengo: "San Pedro Juchatengo" #Juchatengo
+ guiigu_yudxi: "Jalapa" #Guiigu yudxi
+ huamelula: "San Pedro Huamelula" #Cuauhmilollan
+ tlachquiauhco: "Tlaxiaco" #Tlachquiauhco
+ poctlan: "Putla" #Poctlan
+ tillantonco: "Tilantongo" #Tillantonco
+ yucucui: "Oaxaca de Juárez" #Yucucui
+ coixtlahuacan: "San Juan Bautista Coixtlahuaca" #Coixtlahuacan
+ yucundaa: "San Juan Teposcolula" #Yucundaa
+ yodzocahi: "Santo Domingo Yanhuitlán" #Yodzocahi, It could also be Yancuitlan
+ nochixtlan: "Asunción Nochixtlán" #Nochixtlan
+ sosola: "San Jerónimo Sosola" #Sosola
+ ixtlan: "Ixtlán de Juarez" #Ixtepexi
+ miahuatlan: "Miahuatlan de Porfirio Diaz" #Miahuatlan
+ totolapan: "San Pedro Totolapan" #Totolapan
+ mictlan: "San Pablo Villa de Mitla" #Mictlan
+ tlacolula: "Tlacolula de Matamoros" #Tlacolollan
+ teotitlan: "Teotitlan del Valle" #Teotitlan
+ ixcatlan: "San Pedro Teutila" #Teutila, wrong location - needs to be switched with Teutila
+ oxitlan: "San Lucas Ojitlán" #Oxitlan
+ xicaltepec: "Monte Liberal" #Xicaltepec
+ cuicatlan: "San Juan Bautista Cuicatlan" #Cuicatlan
+ tochtepec: "San Juan Bautista Tuxtepec" #Tochtepec
+ mixtlan: "Mixtán" #Mixtlan
+ tozlan: "San Andrés Tuxtla" #Tuxtla
+ tlacotlalpan: "Tlacotalpan" #Tlacotlalpan
+ cosamaloapan: "Cosamaloapan de Carpio" #Cosamaloapan
+ ozumacin: "San Pedro Ozumacín" #Ozumacin
+ cuauhcuetzpaltepec: "Playa Vicente" #Cuauhcuetzpaltepec
+ chinantlan: "San Juan Bautista Valle Nacional" #Chinantlan
+ cuetlaxtlan: "Cotaxtla" #Cuetlaxtlan
+ xamapan: "Heroica Veracruz" #Xamapan
+ nopiloa: "Loma de los Pichones" #Nopiloa
+ teutila: "San Pedro Ixcatlán" #Ixcatlan, wrong location - needs to be switched with Ixcatlan
+ coatlicamac: "Río Uxpanapa" #Texintan
+ suchilapan: "Jesús Carranza" #Xaltepec
+ atitlan: "Santiago Atitlán" #Atitlan
+ choapan: "Choapam" #Choapan
+ coatzacoalco: "Coatzacoalcos" #Coatzacoalco
+ acayucan: "Acayucan" #Acayucan
+ tonala_coatzacoalco: "Tonalá" #Tonallan
+ ahuilizapan: "Orizaba" #Ahuilizapan
+ otlaquiquixtla: "Huatusco de Chicuellar" #Otlaquiquixtla, The prehispanic Cuauhtochco does not correspond with the modern Huatusco, as the Spaniards mistakenly applied the name of the province to this settlement.
+ zongolica: "Zongolica" #Tzoncoliuhcan
+ quiahuiztlan: "Actopan?? / Quiahuiztlan archaeological zone" #Quiahuiztlan, This is the area where Cortés landed and founded the first city, called Villa Rica de la Vera Cruz, later Veracruz. However, some time later it had to be moved to the current port of Veracruz.
+ huexotzinco: "Huejotzingo" #Huexotzinco
+ cholollan: "Puebla" #Cholollan
+ xicotepec: "Huauchinango" #Cuauhchinanco
+ zacatlan: "Zacatlan" #Zacatlan
+ tetela: "Tetela de Ocampo" #Tetela
+ tepeyacac: "Tepeaca" #Tepeyacac
+ tecamachalco: "Tecamachalco" #Tecamachalco
+ tepexi: "Tepexi de Rodriguez" #Tepexic
+ citlaltepetl_mountains: "Pico de Orizaba" #Citlaltepetl Mountains
+ nauhtlan: "Nautla" #Nauhtlan
+ papantla: "Papantla de Olarte" #Papantla
+ tlapacoyan: "Tlapacoyan" #Tlapacoyan
+ xalapa: "Xalapa-Enriquez" #Xalapa
+ xalacinco: "Jalacingo" #Xalatzinco
+ mizantla: "Mizantla" #Mizantla
+ teziutlan: "Teziutlan" #Teziutlan
+ tuxpan: "Tuxpan de Rodriguez Cano" #Tochpan
+ teayotlan: "Castillo de Teayo" #Tetzapotitlan, Tetzapotitlan probably refers to Castillo de Teayo
+ pantepec: "Ameluca" #Atlan
+ taximaroa: "Ciudad Hidalgo" #Taximaroa
+ tzitacuaro: "Heroica Zitacuaro" #Tzitacuaro
+ zinapecuaro: "Zinapecuaro" #Zinapecuaro
+ guayangareo: "Morelia" #Guayangareo
+ tiripetio: "Tiripetio" #Tiripetio
+ tacambaro: "Tacambaro" #Tacambaro
+ tzintzuntzan: "Tzintzuntzan" #Tzintzuntzan
+ patzcuaro_lake: "Lago de Patzcuaro" #Lake Patzcuaro
+ churumekua: "Churumuco de Morelos" #Churumekua
+ caracuaro: "Caracuaro" #Caracuaro
+ maravatio: "Maravatio" #Maravatio
+ yuririapundaro: "Yuriria" #Yuririapundaro
+ zacapu: "Zacapu" #Tzacapu
+ xacona: "Jacona de Plancarte" #Xacona
+ xilotlan: "Jilotlán de los Dolores" #Xilotlan
+ erongaricuaro: "Erongaricuaro" #Erongaricuaro
+ patzcuaro: "Patzcuaro" #Patzcuaro
+ aguacana: "La Huacana" #Aguacana
+ uruapan: "Uruapan" #Huruapa
+ coliman: "Colima" #Coliman
+ tlacalahuastla: "Manzanillo" #Tlacalahuastla
+ caxitlan: "Tecomán" #Caxitlan
+ coahuayana: "Coahuayana de Hidalgo" #Coahuayana
+ chucutitlan: "Chucutitán" #Chucutitlan
+ apatzingan: "Apatzingán de la Constitución" #Apatzingan
+ teloloapan: "Teloloapan" #Teloloapan
+ ajuchitlan: "Ajuchitlan" #Axochitlan
+ tetellan: "Tetela del Río" #Tetellan
+ zompanco: "Zumpango del Río" #Zompanco
+ oztoman: "Oztuma" #Oztoman
+ tlachco: "Taxco" #Tlachco
+ temascaltepec: "Temascaltepec de González" #Temascaltepec
+ tlalpujahua: "Tlalpujahua de Rayón" #Tlalpoxahuac
+ tollohcan: "Toluca" #Pintanbati
+ ixtlahuaca: "Ixtlahuaca de Rayón" #Ixtlahuaca
+ teotenanco: "Tenango del Valle" #Teotenanco
+ toluca_mountains: "Nevado de Toluca" #Toluca Mountains
+ tollan: "Tula de Allende" #Tōllān
+ ixtachichimecapan: "San Juan del Río" #Ixtachichimecapan
+ kerhiretarhu: "Querétaro" #Kerhiretarhu
+ tetzapotitlan: "Doctor Montes de Oca" #Tziuhccoac
+ huayacocotla: "Huayacocotla" #Huayacocotla
+ tutotepec: "San Bartolo Tutotepec" #Tutotepec
+ tziuhcoac: "Huejutla de Reyes" #Huexotlan
+ cocomacan: "Dolores Hidalgo" #Cocomacan
+ mo_o_ti: "Guanajuato" #Mo o ti
+ pechichitane: "León" #Pechichitlan
+ xiriquitzio: "Irapuato" #Xiriquitzio
+ nat_tha_hi: "Celaya" #Nat tha hi
+ penlamu: "Pénjamo" #Penlamu
+ tangamanga: "San Luis Potosí" #Tangamanga
+ panuco: "Panuco" #Panuco
+ tenamitl: "Comitán de Domínguez" #Tenamitl
+ zinacantan: "San Cristóbal de las Casas" #Zinacantan
+ pochutla: "Perla de Acapulco" #Pochotlan
+ tonala_chiapas: "Tonalá" #Tonallan
+ napinaica: "Chiapa de Corzo" #Napiniaca
+ baak: "Palenque" #Lakamha
+ cupilco: "José María Pino Suárez" #Cupilco, there were two prehispanic Cupilcos in the region - one here, another in the modern town of Cupilco
+ zahuatan: "Jahuacapa" #Zahuatan
+ mayapan: "Mayapán" #Màayapáan
+ tho: "Mérida" #T'Hó
+ motul: "Motul" #Motul
+ titsimin: "Tizimín" #Ti'tsimín
+ chichen_itza: "Chichén Itzá" #Chi' ch'e'en its ja'
+ tases: "Tixcancal" #Tases
+ kalotmul: "Calotmul" #Kalotmul
+ zaci: "Valladolid" #Zaci
+ kaan_peech: "Campeche" #Kaan peech
+ calkini: "Calkiní" #Calkiní
+ chakan_putum: "Champotón" #Chakán Putum
+ xicallanco: "Ciudad del Carmen" #Xicallanco
+ itzamkanac: "El Tigre" #Itzamkanac
+ chactemal: "Chetumal" #Cháak te' éemal
+ bakhalal: "Bacalar" #Bakhalal
+ zama: "Tulum" #Tzama
+ noh_peten: "Flores" #Noj Petén
+ chiquimula: "Chiquimula" #Chiquimuljá
+ itzalku: "Izalco" #Itzalku
+ xelahuh: "Quetzaltenango" #Xelahuh
+ kakol_kiej: "Mazatenango" #Kakol Kiej
+ itzcuintlan: "Escuintla" #Itzkwintlan
+ atitlan_guatemala: "Santiago Atitlan" #Atitlan
+ jolom_konob: "Santa Eulalia" #Jolom konob
+ zapaluta: "La Trinitaria" #Zapaluta
+ tzunun_kaab: "San Miguel Uspantán" #Tz'unun Kaab
+ otzoya: "Totonicapán" #Otzoyá
+ chinabajul: "Huehuetenango" #Zaculeu
+ pismachi: "Santa Cruz del Quiché" #Pismachi
+ chama: "Cobán" #Chi Mon'a
+ kajyub: "Rabinal" #Kajyub
+ toquegua: "Santo Tomás de Castilla" #Toquegua
+ tecohtzincalpan: "Tegucigalpa" #Tecohtzincalpan
+ ocotepec: "Ocotepeque" #Ocotepec
+ shalatenan: "Chalatenango" #Shalatenan
+ xoxonal: "Ojojona" #Xoxonal
+ papayeca: "Río Claro" #Papayeca
+ cojutepeque: "Cojutepeque" #Kuxutepek
+ queiquin: "San Alejo" #Queiquin
+ xalapan: "Jalapa" #Xalapan
+ nagarando: "Nagarote" #Nagarando
+ nequecheri: "Granada" #Nequecheri
+ cuauhcapolca: "San Jorge" #Cuauhcapolca
+ tezoatega: "El Viejo" #Tezoatan
+ sutiapan: "León" #Sutiapan
+ nekokiaw: "Nicoya" #Nekokiaw
+ uxarraci: "Ujarrás" #Uxarraci
+ pacaca: "Tabarcia" #Pacaca
+ chuchures: "Portobelo" #Chuchures
+ tlayolan: "Ciudad Guzmán" #Tlayolan
+ tochpan: "Tuxpan" #Tochpan
+ tlamazolan: "Tamazula de Gordiano" #Tlamazolan
+ amollan: "San Juan de Amula" #Amollan
+ cocollan: "Cocula" #Cocollan
+ cutzalan: "San Juan Cosalá" #Cutzalan
+ xihutla: "Puerto Vallarta" #Xihutla
+ melahuacan: "Villa Purificación" #Melahuacan
+ cuauhchinanco: "Guachinango" #Cuauhchinanco
+ tlalpan: "Talpa de Allende" #Tlalpan
+ amaxacotlan: "Mascota" #Amaxacotlan
+ hostoticpac: "San Sebastián" #Hostoticpac
+ tonala: "Guadalajara" #Tonallan
+ tlaxomulco: "Tlajomulco de Zúñiga" #Tlaxomulco
+ chapallan: "Chapala" #Chapallan
+ yenecamu: "La Paz" #Yenecamú
+ tugumlepen: "McAllen" #Tugumlepen
+ estok_gna: "Rio Grande City" #Esto'k Gna
+ cachopostales: "Laredo" #Cachopostales
+ piguique: "Corpus Christi" #Piguique
+ capoque: "Lake Jackson" #Capoque
+ karankawa: "Matagorda" #Karankawa
+ copane: "Refugio" #Copane
+ mariame: "Victoria" #Mariame
+ waco: "Waco" #Waco
+ tanimuu: "Dallas" #Tanimʉʉ
+ kitsai: "Fort Worth" #Kitsai
+ atajal: "Fredericksburg" #Atajal
+ aranama: "Goliad" #Aranama
+ saxop_wan_pupako: "New Braunfels" #Saxop wan pupako
+ chayopin: "Floresville" #Chayopin
+ yanaguana: "San Antonio" #Yanaguana
+ nasoni: "Texarkana" #Nishone
+ nacogdoches: "Nacogdoches" #Nacogdoches
+ ayish: "San Augustine" #Ayish
+ patiri: "Conroe" #Patiri
+ ishak: "Jasper" #Ishak
+ han: "Galveston" #Han
+ orcoquisac: "Anahuac" #Orcoquisac
+ caux: "Liberty" #Caux
+ toyal: "Houston" #Toyal
+ pachina: "Beaumont" #Pachina
+ palaquechare: "Brenham" #Palaquechare
+ yojuane: "Bastrop" #Yojuane
+ ajehuac_yana: "San Marcos" #Ajehuac yana
+ sana_tx: "Gonzales" #Sana
+ tza_wan_pupako: "Austin" #Tza wan pupako
+ xochipillan: "Juchipila" #Xochipillan
+ teulinchan: "Tlaltenango de Sánchez Román" #Tlaltenanco
+ saanich: "Victoria" #Saanich
+ stz_uminus: "Nanaimo" #Stz'uminus, Nanaimo is older and larger than Chemanius
+ ditidaht: "Port Renfrew" #Ditid'aa'tx
+ pentlatch: "Courtenay" #Pentlach
+ ucluelet: "Port Alberni" #Ucluelet
+ k_omoks: "Campbell River" #K'omoks
+ maaqtusiis: "Yuquot" #Mowachaht
+ yuquot: "Gold River" #Ahousaht
+ tlatlasikwala: "Port Hardy" #Tlatlasikwala
+ ma_amtagila: "Port McNeil" #Ma'amtagila
+ tanakteuk: "Knight Inlet" #Tanakteuk
+ quawshelah: "Seymour Inlet" #Quawshelah
+ oweekeno: "Owikeno" #Oweekeno
+ nuxalc: "Ocean Falls" #Nuxalc
+ kitasoo: "Bella Coola" #Kitasoo
+ heiltsuk: "Bella Bella" #Heiltsuk
+ haisla: "Kitimat" #Xai'sla
+ sm_algyax: "Prince Rupert" #Sm'álgyax
+ nisga_a: "Terrace" #Nisga'a
+ gitxsanimaax: "Gitlaxt'aamiks" #Gitxsanimaax
+ kiis_gwaay: "Kiis Gwaay" #Kiis'gwaay
+ gwaay_haanas: "Gwaii Haanas" #Gwaay'haanas
+ taant_a: "Wrangell" #Taant'a Kwáan
+ t_aaku: "Juneau" #T'aaku Kwáan
+ lheidlit_en: "Prince George" #Lheidlit'en
+ nat_oot_en: "Vanderhoof" #Nat'oot'en
+ yekooche: "Fort St. James" #Yekooche, Close to the border with Nedleh'whuten
+ nadleht_en: "Quesnel" #Nadleht en
+ goat_creek: "Barkerville" #Goat Creek
+ witset: "Babine" #Witset
+ sguuxs: "Smithers" #Sgüüxs
+ ingenika: "Fort McLeod" #Ingenika
+ yutuwichan: "Mackenzie" #Yutuwichan
+ tsa_tinne: "Hudson's Hope" #Tsa'tinne
+ chinchaga: "Fort St. John" #Chinchaga
+ k_alii_xkalaan: "Stewart" #K'alii'xkalaan
+ chiyone: "Iskut" #Chiyone
+ ford_liard: "Fort Laird" #Acho Dene Koe
+ yaanga: "Los Angeles" #Yaanga
+ ventureno: "Ventura" #Ventureno
+ ineseno: "Santa Barbara" #Ineseno
+ yaquina: "Yaquina/Newport" #Yaquina, The name is retained for the Bay, but the big city in the area is called Newport
+ tillamook: "Tillamook" #Tillamook, Still a settlement
+ atfalati: "Tualatin" #Atfalati, Direct translation, there are other settlements in the area but this is the one that should be retained, Salem could be used.
+ chinook: "Astoria" #Chinook, Should only be used by Americans
+ multnomah: "Portland" #Multnomah, Portland was only chosen as the name in 1844 following a coin toss. Should NOT be used.
+ watlala: "Oregon City" #Watlala, Technically Gresham is here too but it was settled after the timeframe, also technically named after the group in Skamania but picking more prominent sites here
+ saleesh: "Thompson Falls" #Selish
+ aqanqmi: "Libby" #aq'anqmi
+ yaqan_nukiy: "Creston" #Yaqan Nu'kyi
+ akinkumasnuqit: "Eureka" #akinkum asnuq'it
+ aq_am: "Cranbrook" #aq'am
+ akisq_nuk: "Invermere" #akisq'nuk
+ kananmituk: "Sparwood" #Kananmituk
+ akinka_nup: "Kootenay Lake" #akinka'nuk
+ aqyam_nup: "Duncan Lake" #aqyam'up
+ ainu_nik: "Parson" #ainu'nik
+ ktunwakanmituk: "Golden" #Ktunwakanmituk
+ aknuq_uk: "Icefields Parkway" #aknuq'uk
+ yakyu_ki: "Banff" #Yakyu'ki
+ nisqually: "Olympia" #Nisqually
+ nooksack: "Abbotsford" #Nuxwsa'aq, Langley is a bit larger (and older) but partially in Whonnock
+ lhaq_temish: "San Juan Islands" #Lhaq'temish
+ sto_lo: "Chilliwack" #Sto'lo
+ sts_ailes: "Skagit Valley" #Sts'ailes, After Skagit Valley Provincial Park 
+ whonnock: "Vancouver" #Whonnock
+ katzie: "Pitt Lake" #Katzie
+ squamish: "Squamish" #Sko-ko-mish
+ sechelt: "Sechelt" #Shishalh
+ sliammon: "Powell River" #Tla'amin
+ klahoose: "Klahoose" #Kla'oos
+ homalco: "Bute Inlet" #Xwémalhkwu
+ scqescilni: "Spokane" #Scqescilni, close to the border
+ wenatchi: "Wenatchee" #Wenatchi
+ chelan: "Chelan" #Chelan
+ osoyoos: "Osoyoos" #Osoyoos, Osoyoos is a bit bigger than Omak
+ similkameen: "Penticton" #Similkameen
+ okanagan: "Kelowna" #Okanagan
+ spaxomin: "Merritt" #Spaxomin
+ n_pooh_le: "Grand Coulee" #N'pooh-le
+ enselxcin: "Grand Forks" #Enselxcin
+ swarakxen: "Fauquier" #Swarakxen
+ ntiltxitk: "Nelson" #Ntiltxitk
+ stxtilusten: "Beaverdale" #Stxtilusten
+ snk_mip: "Nakusp" #Snk'mip
+ q_espiea: "Cherryville" #Q'espiea
+ illecillewaet: "Revelstoke" #Illecillewaet
+ skuppah: "Stave Lake" #Skuppah
+ nlaka_pamux: "Lytton" #Nlaka'pamux
+ scw_exmx: "Lillooet" #Scw'exmx
+ st_at_imcets: "Churn Creek" #St'at'imcets
+ tsala_ihmec: "Whistler" #Tsala'ihmec
+ leel_watr_ool: "Pemberton" #Leel-watr-ool
+ tsi_del_del: "Anahim Lake" #Tsi'del'del
+ tl_etinqox_t_in: "Puntzi Lake" #Tls'etinqox
+ tl_esqox: "Chilko Lake" #Tls'esqox
+ yunesit_in: "Nazko Lake" #Yunesit'in
+ elhdaqox_t_in: "Alexis Creek" #elhdaqox't'in
+ sk_atsin: "Barriere" #Sk'atsin
+ skitsetsen: "Kamloops" #Skitsetsen
+ st_uxwtews: "100 Mile House" #St'uxwtews
+ splatsin: "Seymour Arm" #Splatsin
+ tk_emlups: "Clearwater" #Tk'emlups
+ qw_ewt: "Blue River" #Qw'ewt
+ stil_qw: "Mahood Lake" #Stil'qw
+ esk_el: "Alexandria" #Esk'el
+ stswecen_c: "Williams Lake" #Stswecen'c
+ llenllenet_ten: "Lac la Hache" #Llenllenet'ten
+ sexqeltqin: "Horsefly Lake" #Sexqeltqin
+ simpcw: "Wells Gray Park" #Simpcw
+ xat_sull: "Quesnel Lake" #Xat'sull
+ mica_creek: "Mica Creek" #Mica Creek
+ kinbasket: "Kinbasket" #Kinbasket
+ karluk_peak: "Karluk Peak" #Karluk Peak
+ moose_river: "Moose River" #Moose River
+ monashee: "Valemount" #Monashee
+ cariboo: "McBride" #Cariboo
+ marapanim: "Maraparim" #Marapanim
+ tupinamba: "Bragança" #Tupinamba
+ samauma: "Samaúma" #Samauma
+ mairi: "Belém do Pará" #Mairi
+ mazagao: "Mazagão" #Mazagao
+ mariocai: "Gurupá" #Mariocai
+ paru: "Almeirim" #Paru
+ prainha: "Prainha" #Prainha
+ gurupatuba: "Monte Alegre" #Gurupatuba
+ surubiu: "Alenquer" #Surubiu
+ obidos: "Óbidos" #Obidos
+ anambe: "Camutá" #Anambe
+ manaos: "Manaus" #Manaos
+ tupulicus: "Santarém" #Tupulicus
+ kuben_kran_ken: "Altamira" #Kuben Kran Ken
+ evuevi: "Coxim" #Evuevi
+ ytykyra: "Itiquira" #Ytykyra
+ ikuiapa: "Cuiabá" #Ikuiapa
+ otuques: "Jaciara" #Otuques
+ paranaiba: "Paranaíba" #Paranaiba
+ maracaju: "Maracaju" #Maracaju
+ paranoa: "Brasilia" #Paranoa
+ corumba: "Corumbá" #Corumba
+ morrinhos: "Caldas Novas" #Paranã-aíb-a
+ bororos: "Uberlandia" #Bororos
+ uberaba: "Uberaba" #Uberaba
+ bagagem: "Romaria" #Bagagem
+ aratu: "Patos de Minas" #Aratu
+ pium_i: "Piumhi" #Pium I
+ uracu: "Uruaçu" #Uracu
+ itapirapua: "Itapirapuá" #Itapirapua
+ tapuitapera: "Alcântara" #Tapuitapera
+ miritiba: "Humberto de Campos" #Miritiba
+ uruaitis: "Itapecuru-Mirim" #Uruaitis
+ timbira: "Caxias" #Timbira
+ tapuios: "Barreirinhas" #Tapuios
+ upaon_acu: "São Luís" #Upaon Acu
+ igaracu: "Parnaíba" #Igaracu
+ kalabaca: "Ibiapaba" #Kalabaca
+ tubiba: "Tamboril" #Tubiba
+ quixara: "Quixeramobim" #Quixara
+ utuva: "Icó" #Utuva
+ monxoro: "Mossoró" #Monxoro
+ jucas: "Aiuaba" #Jucas
+ telha: "Crato" #Telha
+ paiaco: "Caraúbas" #Paiaco
+ jenipaboacu: "Coreaú" #Jenipaboacu
+ acarau: "Ibiapaba" #Acarau
+ tapuia: "Ibiapina" #Tapuia
+ arerius: "Sobral" #Arerius
+ reriu: "Guaraciaba" #Reriu
+ payaku: "Aquiraz" #Payaku
+ pitaguari: "Fortaleza" #Pitaguari
+ kaninde: "Canindé" #Kaninde
+ tapeba: "Caucaia" #Tapeba
+ anace: "Itapipoca" #Anace
+ pegas: "Patos" #Pegas
+ quincu: "Sousa" #Quincu
+ xukuru: "Monteiro" #Xukuru
+ caxanga: "João Pessoa" #Caxanga
+ kaaysara: "Touros" #Kaaysara
+ potiguara: "Natal" #Potiguara
+ caico: "Caicó" #Caico
+ yapuata: "Recife" #Yapuata
+ kariri: "Arapiraca" #Kariri
+ caete: "Santana do Ipanema" #Caete
+ karapoto: "Maceió" #Karapoto
+ acoroazes: "Remanso" #Acoroazes
+ ipueira: "Xique-Xique" #Ipueira
+ itaboca: "São João das Barreiras" #Itaboca
+ ibotirama: "Ibotirama" #Ibotirama
+ kayapo: "Cariranha" #Kayapo
+ pataxo: "Vera Cruz" #Pataxo
+ nac_nanuk: "Porto Seguro" #Nac Nanuk
+ tapuy: "Caraiva" #Tapuy-ú
+ jucuru: "Prado" #Jucuru
+ caravelas: "Caravelas" #Caravelas
+ vicosa: "Viçosa" #Viçosa
+ hahahae: "Ilhéus" #Hahahae
+ tanhacu: "Tanhaçu" #Tanhacu
+ tupiniquim: "Itacaré" #Tupiniquim
+ itapicuru: "Queimadas" #Itapicuru
+ jiribatuba: "Salvador" #Jiribatuba
+ sauipe: "Conde" #Sauipe
+ uaua: "Uauá" #Uaua
+ kiriri: "Tucano" #Kiriri
+ itabaiana: "Itabaiana" #Itabaiana
+ guanambi: "Guanambi" #Guanambi
+ irece: "Irecê" #Irece
+ arakaiu: "Aracaju" #Arakaiu
+ aimore: "São Mateus" #Aimore
+ coutins: "Coutins" #Coutins
+ guaitaca: "Aracruz" #Guaitaca
+ jose_calcado: "Sâo José do Calçado" #Sâo José do Calçado
+ itapemirim: "Itapemirim" #Itapemirim
+ guarapiri: "Guarapari" #Guará-parim
+ itaparica: "Vitória" #Itaparica
+ nandu: "Colatina" #Nandú
+ itaperuna: "Itaperuna" #Itaperuna
+ guaitaka: "Campos dos Goitacazes" #Guaîtaká
+ sao_fidelis: "São Fidélis" #São Fidélis
+ cantagalo: "Cantagalo" #Cantagalo
+ mokaie: "Macaé" #Mokaîé
+ nova_friburgo: "Nova Friburgo" #Nova Friburgo
+ feia_lake: "Lagoa Feia" #Feia Lake
+ kapiwary: "Rio das Ostras" #Kapi'war'y
+ ararayu_aba: "Cabo Frio" #Arara'y'u-aba
+ nheteroia: "Niterói" #Nheterõia
+ mage: "Magé" #Magé
+ y_uasu: "Nova Iguaçu" #Y-ûasu
+ goana_para: "Rio de Janeiro" #Goaná-Pará
+ ita_kua_y: "Mangaratiba" #Itá-kûa-y
+ cunhambebe: "Angra dos Reis" #Cunhambebe
+ piray: "Piraí" #Piraí
+ ita_atiaia: "Resende" #Itá-atîaîa
+ conceicao: "Conceição" #Conceição
+ itabira: "Itabira" #Itá-byra
+ serro: "Serro" #Serro
+ santa_barbara: "Santa Bárbara" #Santa Barbara
+ caete_brasil: "Caeté" #Ka'a-eté
+ itacolomi: "Itacolomi" #Itacolomi
+ mariana: "Mariana" #Mariana
+ ponte_nova: "Ponte Nova" #Ponte Nova
+ piranga: "Piranga" #Gûará-pirang-a
+ santo_antonio_monte: "Santo Antônio do Monte" #Santo Antônio do Monte
+ formiga: "Formiga" #Formiga
+ piumhi: "Piumhi" #Piawa'y
+ tres_pontas: "Três Pontas" #Três Pontas
+ passos: "Passos" #Passos
+ sao_sebastiao_paraiso: "São Sebastião do Paraiso" #São Sebastião do Paraiso
+ cabo_verde: "Cabo Verde" #Cabo Verde
+ cataguas: "Cataguás" #Cataguas
+ alfenas: "Alfenas" #Alfenas
+ camanducaia: "Camanducaia" #Komandá-kaî-a
+ parapopeba: "Paráopeba" #Pará-popeba
+ sao_joao_rei: "São João del Rei" #São João del Rei
+ oliveira: "Oliveira" #Oliveira
+ lavras: "Lavras" #Lavras
+ baependi: "São Lourenço" #Mba'epina'y
+ campanha: "Campanha" #Campanha
+ itajuba: "Itajubá" #Itá-îybá
+ rio_preto: "Rio Preto" #Rio preto
+ juiz_fora: "Juiz de Fora" #Juiz de Fora
+ barbacena: "Barbacena" #Barbacena
+ leopoldina: "Leopoldina" #Leopoldina
+ rio_pomba: "Rio Pomba" #Rio Pomba
+ muriae: "Muriaé" #Meruim-hu
+ almenara: "Almenara" #Almenara
+ salinas: "Salinas" #Salinas
+ rio_pardo: "Rio Pardo" #Rio Pardo
+ itaratim: "Itaratim" #Itaratim
+ bocaiuva: "Bocaiuva" #Bocaiuva
+ itamarandiba: "Itamarandiba" #Itamarandiba
+ pecanha: "Peçanha" #Peçanha
+ fanado: "Diamantina" #Fanado
+ nanuque: "Nanuque" #Nanuque
+ caratinga: "Caratinga" #Aka'ratin'ga
+ mutum: "Mutum" #Mutũ
+ manhuacu: "Manhuaçu" #Aman'y-ûasu
+ paracatu: "Paracatu" #Pará-katu
+ buriti: "Buritis" #Buriti
+ anais: "São Francisco" #Anais
+ jaiba: "Jaiba" #Ya'yba
+ janauba: "Janauba" #Janauba
+ montes_claros: "Montes Claros" #Montes Claros
+ cataguases: "Pitangui" #Cataguases
+ pinheiro: "João Pinheiro" #Pinheiro
+ curvelo: "Curvelo" #Curvelo
+ sabarabucu: "Sabará" #Sabarabucu
+ santa_luzia: "Santa Luzia" #Santa Luzia
+ sete_lagoas: "Sete Lagoas" #Sete Lagoas
+ goianas: "Belo Horizonte" #Goianas
+ pirapora: "Pirapora" #Pirapora
+ tamoio: "Itanhaém" #Tamoio
+ iguape: "Iguape" #Iguape
+ cananeia: "Registro" #Mara-tayama
+ marataiama: "Cananéia" #Marataiama
+ gohayo: "Santos" #Gu-ai-óg
+ sao_sebastiao: "Caraguatatuba" #Mboîa-su-kanga
+ mogi_forest: "Serra do Mar" #Mogi Forest
+ tamoio_forest: "Serra do Mar Sul" #Tamoio Forest
+ itu: "Itu" #Itu
+ sorocaba: "Sorocaba" #Sorok-aba
+ araritaguaba: "Porto Feliz" #Araritaguaba
+ mogi_mirim: "Mogi Mirim" #Moî'ymirim
+ campinas: "Campinas" #Campinas
+ jundiai: "Jundiai" #Jundiai
+ atibaia: "Bragança Paulista" #Atyb-aia
+ sao_roque: "São Roque" #Sao Roque
+ jerubatuba: "Itapecerica da Serra" #Jerubatuba
+ parnaiba: "Osasco" #Pan-n-eeí-bo
+ piratininga: "São Paulo" #Pirá-tininga
+ aruja: "Guarulhos" #Aru-îá
+ mogi_das_cruzes: "Mogi das Cruzes" #Mboîa
+ sao_luis_do_paraitinga: "São Luis do Paraitinga" #Sao Luis do Paraitinga
+ lorena: "Lorena" #Guâ-upa-caré
+ guaratingueta: "Aparecida do Norte" #Guaratingueta
+ taubate: "Taubaté" #Taba-ybaté
+ paraibuna: "Paraibuna" #Pará-y-b'una
+ jacarei: "Jacarei" #Îakare'y
+ cunhambebe_forest: "Serra da Bocaina" #Cunhambebe Forest
+ ponta_grossa: "Ponta Grossa" #Pitangui
+ curitiba: "Curitiba" #Kurí tyba
+ bocaiuva_do_sul: "Bocaiuva do Sul" #Mokaîe'yba
+ sao_jose_pinhais: "São José dos Pinhais" #São José dos Pinhais
+ santo_antonio: "Santo Antonio" #Santo Antonio
+ chopim: "Chopim" #Chopim
+ chapeco: "Chapecó" #Chapeco
+ palmas: "Palmas" #Palmas
+ mbai_yuru: "Bauru" #Mbai Yuru
+ bauru: "Assis" #Mbai-yurú
+ botucatu: "Botucatu" #Ybytyra-katu
+ kaingang: "Marilia" #Kaingang
+ porto_tibirica: "Presidente Prudente" #Porto Tibiriça
+ valparaiso: "Andradina" #Valparaiso
+ tiete: "Araçatuba" #Tietê
+ sapukaia: "Franca" #Sapukaia
+ mantiqueira: "São João da Boa Vista" #Mantiqueira
+ caiapo: "Ribeirão Preto" #Caiapo
+ itapeva: "Itapeva" #Itapeva
+ itapetininga: "Itapetininga" #Itapetininga
+ abare_i: "Avaré" #Abare I
+ itaporanga: "Itaporanga" #Itá-porang-a
+ apiai: "Apiaí" #Apya'y
+ capao_bonito: "Capão Bonito" #Capão
+ barretos: "Barretos" #Barretos
+ jaboticabal: "Jaboticabal" #Jaboticabal
+ tanabi: "Tanambi" #Tanambi
+ sao_jose_preto: "São José do Rio Preto" #São José do Rio Preto
+ brotas: "Brotas" #Brotas
+ piracicaba: "Piracicaba" #Piracicaba
+ sao_carlos: "São Carlos" #Sao Carlos
+ araquara: "Araraquara" #Araquara
+ guaiana: "Itararé" #Guaiana
+ imbau: "Imbau" #Imbau
+ jataizinho: "Jataizinho" #Jataizinho
+ apucarana: "Apucarana" #Apócaaranã
+ itarare: "Itararé" #Itararé
+ itajai: "Itajaí" #Itajaí
+ lages: "Lages" #Lages
+ sao_joaquim: "São Joaquim" #Sao Joaquim
+ tubarao: "Tubarão" #Tubá-Nharô
+ lagoa_vermelha: "Lagoa Vermelha" #Lagoa Vermelha
+ passo_fundo: "Passo Fundo" #Passo Fundo
+ vacaria: "Vacaria" #Vacaria
+ mirim_lake: "Lagoa Mirim" #Mirim Lake
+ cacapava: "Caçapava do Sul" #Caçapava
+ vacacai: "Santa Maria" #Vacacai
+ tapes: "Gravataí" #Tapes
+ patos: "Patos" #Patos
+ jacui: "Jacui" #Jacui
+ sao_leopoldo: "São Leopoldo" #Sao Leopoldo
+ san_antonio_patrulha: "Santo Antonio da Patrulha" #San Antonio da Patrulha
+ xllang: "Lambayeque" #Ñampaxllæc, Xllang' is the Mochica word for sun, not a place
+ huancapampa: "Huancabamba" #Huancapampa
+ pakatnamu: "Zaña" #Saña
+ sana: "Pacasmayo" #Pakatnamu
+ caupolican: "Apolobamba" #Apulupampa
+ pashas: "Conchucos" #Conchuco
+ hatun_xauxa: "Jauja" #Hatun Xauxa
+ antabamba: "Antabamba" #Antapampa
+ hatunqulla: "Atuncolla" #Hatunqulla
+ titiqaqa_lake: "Titicaca" #Titiqaqa Lake
+ machaqa: "Jesús de Machaca" #Machaqa
+ chuqiyapu: "La Paz" #Chuqiyapu
+ kaxa_marca: "Cajamarca" #Kaxa Marca
+ aconca_hue: "Anconcagua" #Aconca Hue
+ qillu_uta: "Quillota" #Qillu Uta
+ meli_pillan: "Melipilla" #Meli Pillan
+ rangkawe: "Rancagua" #Rangkawe
+ kolchawwe: "Colchagua" #Kolchawwe
+ kuruko: "Curicó" #Kuruko
+ mawlen: "Maule" #Mawlen
+ cauquen: "Cauquenes" #Cauquen
+ chillan: "Chillan" #Chillan
+ perquilauquen: "Parral" #Perquilauquen
+ biobio: "Biobío" #Biobio
+ aconcagua_volcano: "Aconcagua" #Aconcagua Volcano
