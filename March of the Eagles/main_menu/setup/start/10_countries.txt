@@ -1438,7 +1438,7 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 
 
 
-#Ruzzian Empire
+	#Ruzzian Empire
 	RUS = {
 		own_control_core = {
 			moscow zvenigorod ruza pushkino vokhna bronnitsy rogozh
@@ -33023,8 +33023,8 @@ ZAZ = { #Zaporozhia
 		}
 
 		starting_technology_level = 3
-		#include = "expl_western_europe"
-		#include = "catholic_monarchy"
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
 
 		government = { 
 			type = republic
@@ -33067,7 +33067,7 @@ ZAZ = { #Zaporozhia
 			}
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = jaragua
 	}
 
@@ -41918,6 +41918,259 @@ ZAZ = { #Zaporozhia
 
 	}
 
+	UIN = {  # United Indian Nations/Northwestern confederacy/Tecumseh's Confederacy 
+		own_control_core = {
+			cuyahoga ashtabula mahoning_oh tuscarawas
+			muskingum captina conotton
+			olentangy chianouske scioto ethapetha hocking kokosing
+			sandusky maumee qusquasrundee shapoquate
+			assereniet mameiwasipi mineami pickawillany
+			oheyandewa aankwaahsakwa wapinippi
+			agouasaque patoka gichthanne
+			wapahani quiaghtena mississinewa
+			kankakee pakamik wabash
+			kociihsasiipi tippecanoe micewehudehik kineepikwameekwa
+			waawiiyaataanong giwitatigweiasibi osaakiiwaki shiawasee
+			saginaw shebeon tittabawassee saganing
+			cheboygan wequetong asiniike manistee
+			muskegon onekama mastigon
+			wabenasibi owashtanong kalamazoo sakiwasipi wapikisko
+			mackinac tahquamenon manistique
+			ishpeming menominee keweenaw chicagon ontonagon
+			checagou tiatiki pisticoui
+			kishwaukee ahsenisiipi pecatonica peewareewa
+			peoria theakeiki waupecan sangamon matsigame
+			cahokia kaskaskia kaskankaham amonokoa macoupin
+			ochechiton pawwikamsipi mitchigamea
+			ambraw osanamon okaw
+			millioke kenosha sheboygan koshkonong
+			boojwiikwedong manitowoc oconto peshtigo muhwaosipi
+			meskousing aupuhkirakanewe whaypaw kakaling
+			mendota pecatonica_wi kiwigapawa
+			gaamiskwaabikaang chequamegon kayeskikan mishkwagokag kinnickinnic
+			enookwasaneenah waumandee hahatououadeba pokegama odaawaa sappah
+			mathoskabde ginebig misi_zaaga_igan minnewawa mille_lacs_lake 
+			nemadji wissakode makoua kitchigumi 
+			koochiching miskwaagamiiwi mesabi neemannee kawishiwi 
+		}
+		starting_technology_level = 3
+
+		government = {
+			ruler = random
+
+			type = tribe
+			heir_selection = tribal_oldest_male
+
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = -70
+			spiritualist_vs_humanist = -60
+			aristocracy_vs_plutocracy = -80
+			serfdom_vs_free_subjects = 50
+			mercantilism_vs_free_trade = 50
+			belligerent_vs_conciliatory = 100
+			quality_vs_quantity = -75
+			offensive_vs_defensive = 50
+			land_vs_naval = -90
+			capital_economy_vs_traditional_economy = 100
+			individualism_vs_communalism = 60
+			outward_vs_inward = 50	
+
+			parliament = {
+				parliament_type = assembly
+			}	
+
+			laws = {
+				marriage_law = polygyny
+				heir_religion_law = heir_same_religion
+			}
+
+			reforms = {
+				agricultural_cultivation
+			}
+			privilege = {
+				#nobles
+				nobility_council
+				nobles_land_rights
+				tribal_autonomy
+
+				#clergy
+				embellish_great_works_of_faith
+
+				#burghers
+				urban_development_grants
+				market_fairs
+
+				#Commoners
+				peasants_autonomous_villages
+				communal_lands
+				allow_hunting
+				partial_yield
+				peasants_free_peasantry
+		
+				tribes_tribal_levies
+				tribes_allow_gatherings
+			}
+		}
+
+		discovered_areas = {
+			#east_coast_region
+			illinois_area
+			wisconsin_area
+			indiana_area
+			kentucky_area
+			tennessee_area
+			#louisiana_region
+			missouri_area
+			iowa_area
+			arkansas_area
+			central_plains_area
+		}		
+
+		tolerated_cultures = {
+			tsawi_culture
+			ponca_culture
+			kaskankaham_culture
+			kahokiaki_culture
+		}
+
+		currency_data = {
+			gold = 180
+			stability = 20
+			prestige = 5
+			tribal_cohesion = 80
+		}
+
+		court_language = dhegiha_language
+		capital = cahokia
+	}
+
+	LOU = { # Louisiana 
+
+		own_control_core = {
+
+			bulbancha
+			bogue_chitto tangipahoa itihumma
+			chawasha atchafalaya opelousa
+			ciwat otse tsikip
+			ya_ttaish calcasieu doustioni ouachita kisatchie
+			catahoula tensas tunica 
+			anilco guachoyo ayays tutilpinco 
+			pacaha quigate casqui 
+			coligua calpista palisema 
+			nanatsoho naguatex catalte aguacay amaye chaguate  
+			tanico quipana tula_ark 
+			utiangue tutilcoya anoixi 
+			cayas satsukhdin wahzhazhe unica 
+			tamaroa wyaconda oahaha emasulia chariton 
+			meramec pahatsi tanwakanwakaghe utsehta nikhdhintanwan intapushe ni_okaska 
+			towosaghy chepoussa cholohollay  
+			nodaway nudarcha wimihsoorita 
+			st_francois_mts
+			marapa cerwecerna shichah 
+			kaya_paha sicangu waziblo 
+			wetarhoo hinyankaga  
+			shanha mistaiyohe he_sapa awaxaawi_ishiibisha 
+			histahayo neesihushaanu skahuukaawiat iyawakagapi matootonha 
+			chakadee_wakpa wahasah badlands_mt waahukaahaanu wit_anowi_yohe moehe_yoe 
+			ihkowom_iyo_he ksai_yohe mitsiadazi skaapirox buaxaxxaashe aahkawirahkata aashbiliihkupe iichiilikaaashaashe  
+			itkanaahtuusu e_ometaeso heviksnipahis mo_ohta_vo_honaaeva notameohmeshehse 
+			north_shoshonne iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache  
+			awatixa adixoodagoorahareesh koostaaka amahami 
+			suktogeja_o_ipa patgasa_wakpa baliisshe_aashe minisose 
+			ski_iyo_he hoskitaga kinuhsisuht wase_wakpa caba_wakpa badlands_mt_2 
+			e_omita_i xuahceesh_annappiio huupalikooche aluutashe baashalapache 
+			aashise binmatshua cuthuhogwa great_belt_mountains 
+			kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah rockies_mt 
+			poyiitahtai wakpa_juk_ana etzikom 
+			kwaskwuti cahe canhewincasta 
+			shuntaneshnanga kansas monecato kirarutah nepahalla 
+			neosho manhukdhintanwan nanzewaspe wasetihoge 
+			etzanoa quivira harahey ninescah ayadaldapa ne_shuta 
+			ne_miskua kaw aahkawiraahkata panenetah kaiurskuta 
+			headdhetanwan wakhakukdhin pasukhdin 
+			tulsa tawehash chikaskia 
+			wotapio
+			guichita wewoka washita ouachita_ok kiamichi 
+			hawaastatkiicu nigitai kicpahat gulvau oktahutchee nixgu 
+			niobrara aowa waha_tunga kits_ixta 
+			kickatari mnitanka minatare 
+			omaha nemaha nebraska ni_haunchi_to 
+			kanpeska kus_lecha kickatus ickari_kitsu nutanke pitahauerat 
+			hehvaitaneo laramie_range meneeohe medicine_bow 
+			otapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he 
+			east_colorado niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l 
+			phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he 
+			south_colorado mutsisooni_yohe heeyoteyoo ponoeohe 
+			wishkahuunu mahohevahoe beesowuunenno minii_yohe 
+			wiskapella chitolah nanwacinahaana 
+			kwahada hupenuu mah_hom oohkoi_yohe kuhtsutuuka 
+			hoyu_ao_he atarque tinde 
+			kiowa hotoanaohe wahin_wakpa apispaha 
+			chinali honih_hiyo_he iriirakiicuhat 
+			nasoni lacane nisohone nadakuh aays 
+			hokah wapkawazioju owatonna hahawakpa lahontan 
+			minnetonka wabezi kagiwigwan shingwako winnibigoshish bemidji lake_winnibigoshish 
+			mahkato watonwan shetek chanshayapi tipsinah kandiyohi 
+			tchan_sansan kiyuska pabaska 
+			chagu oyate_shisha wakmua_oin 
+			igmu kampeska mnihaha 
+			okobojo pocasse unkpatina 
+			manatara maanaagi_iixodagish ruhptare 
+			moingwena coiracoentanon wapsipinicon 
+			ocheyedan penaca moskwawakwa 
+			iowa kiosaquay inyanshashawatpa pahotcha 
+			nishnabotna monona tchankasndata 
+
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur général Marie-Charles du Chilleau
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				formal_guilds
+				clergy_literacy_rights
+				auxilium_et_consilium
+				nobles_land_rights
+				noble_leaders_only
+				primacy_of_nobility
+				noble_armies
+				chancellor_nobles
+				villes_franches
+			}
+		}
+
+		country_rank = rank_kingdom
+		capital = bulbancha
+	}
 
 	#Doeg
 	DOE = {
@@ -46146,7 +46399,7 @@ ZAZ = { #Zaporozhia
 	#Cahokia Mississippian Site
 	#https://en.wikipedia.org/wiki/Cahokia
 	CHK = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			cahokia peewareewa sangamon amonokoa macoupin tamaroa wyaconda oahaha emasulia
 			chariton meramec pahatsi tanwakanwakaghe moingwena
 			kaskaskia kaskankaham chepoussa ochechiton st_francois_mts

@@ -6079,7 +6079,7 @@ america = {
 				}					
 				west_lake_superior_province = {
 					schreiber_channel black_bay
-					 chequamegon_bay thunder_bay
+					chequamegon_bay thunder_bay
 					keweenaw_coast copper_harbor
 				}
 			}

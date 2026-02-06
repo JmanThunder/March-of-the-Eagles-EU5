@@ -3,6 +3,14 @@
  AYT_ADJ: "Haitian"
  AYT_LONG: "Republic of Haiti"
 
+ LOU: "Louisiane"
+ LOU_ADJ: "louisianais"
+ LOU_LONG: "Republic of louisiane"
+
+ UIN: "Indiana"
+ UIN_ADJ: "Indianan"
+ UIN_LONG: "United Indian Nations"
+
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
  PIR: "Pirates"

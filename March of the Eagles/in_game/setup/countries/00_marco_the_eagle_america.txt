@@ -47,3 +47,21 @@ IRO = { # Haudenosaunee / Iroquois Confederacy
 
 	difficulty = 3
 }
+
+LOU = { # louisiana
+	color = rgb { 35 27 120 }
+
+	culture_definition = french
+	religion_definition = catholic
+
+	difficulty = 3
+}
+
+UIN = { # United Indian Nations/Northwestern confederacy/Tecumseh's Confederacy 
+	color = rgb { 89 60 183 }
+
+	culture_definition = peewareewa_culture
+	religion_definition = midewiwin_religion
+
+	difficulty = 3
+}
