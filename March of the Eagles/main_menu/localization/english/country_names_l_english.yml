@@ -11,6 +11,10 @@
  UIN_ADJ: "Indianan"
  UIN_LONG: "United Indian Nations"
 
+ MNTG: "Montenegro"
+ MNTG_ADJ: "Montenegrin"
+ MNTG_LONG: "Prince-Bishopric of Montenegro"
+
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
  PIR: "Pirates"

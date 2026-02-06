@@ -139,3 +139,10 @@ RUS = { #Ruzzia
 	
 }
 
+MNTG = { 
+	color = rgb { 39 108 140 }
+
+	culture_definition = serbian
+	religion_definition = orthodox
+}
+

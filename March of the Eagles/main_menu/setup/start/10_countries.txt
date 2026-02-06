@@ -8032,7 +8032,7 @@ MZK = {
 		dynasty = muzakajt_dynasty
 	}
 
-SER = {
+	SER = {
 
 		our_cores_conquered_by_others = {
 			slano mostar konjic belgrad debrc sabac
@@ -8097,7 +8097,49 @@ SER = {
 		capital = prizren
 		dynasty = nemanjic_dynasty
 	}
+	MNTG = { # Prince-Bishopric of Montenegro
+		own_control_core = {
+			gradina
+		}
 
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_bishopric_no_coast"
+		include = "expl_northern_europe"
+		country_rank = rank_county
+		capital = gradina
+		government = {
+			
+			type = theocracy
+			ruler = random
+
+			reforms = {
+				prince_bishopric_reform
+			}
+			privilege = {
+				#Nobles
+				bashtinas_and_pronijas_grants
+				zupa_districts
+				vlastele_krayishnik
+				feudal_mercenary_contracts
+
+				#Peasants
+				gradozadanje_and_gradobljudenlje_rights
+			}
+			laws = {
+				feudal_de_jure_law = by_tradition
+				medieval_levy_law = noble_levies
+				royal_court_customs_law = aristocratic_court_policy
+				administrative_system = feudal_administration
+				distribution_of_power_law = dop_traditional_distribution_of_power
+			}
+			
+		}
+
+		tolerated_cultures = {
+		}
+
+	}
 	BOS = {
 
 		our_cores_conquered_by_others = {
@@ -24206,7 +24248,7 @@ TRO = { #Travunija
 
 			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
 
-			peja prizren bitola prilep kicevo tetovo shkoder debar onogost gradina
+			peja prizren bitola prilep kicevo tetovo shkoder debar onogost 
 			budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
 			kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
 			glubocica nis prokuplje stalac ravno jagodina gacko trebinje ohrid kocani strumica
@@ -41740,6 +41782,11 @@ ZAZ = { #Zaporozhia
 		include = "expl_western_europe"
 		government = {
 			ruler = random
+			reforms = { 
+				haudenosaunee_clan_mothers
+				iro_reforged_law_of_peace
+				iro_council_of_the_fifty
+			}
 		}
 		
 		accepted_cultures = {
@@ -42017,21 +42064,7 @@ ZAZ = { #Zaporozhia
 				tribes_tribal_levies
 				tribes_allow_gatherings
 			}
-		}
-
-		discovered_areas = {
-			#east_coast_region
-			illinois_area
-			wisconsin_area
-			indiana_area
-			kentucky_area
-			tennessee_area
-			#louisiana_region
-			missouri_area
-			iowa_area
-			arkansas_area
-			central_plains_area
-		}		
+		}	
 
 		tolerated_cultures = {
 			tsawi_culture
@@ -42047,8 +42080,9 @@ ZAZ = { #Zaporozhia
 			tribal_cohesion = 80
 		}
 
-		court_language = dhegiha_language
+		country_rank = rank_kingdom
 		capital = cahokia
+		include = "expl_western_europe"
 	}
 
 	LOU = { # Louisiana 

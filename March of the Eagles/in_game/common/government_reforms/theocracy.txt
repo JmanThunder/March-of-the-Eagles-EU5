@@ -84,6 +84,7 @@ prince_bishopric_reform = {
 		OR = {
 			religion = religion:catholic
 			religion = religion:lutheran
+			religion = religion:orthodox
 		}
 	}
 

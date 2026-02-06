@@ -4157,7 +4157,7 @@ intendancy_system = {
 iro_reforged_law_of_peace = {
 	unique = yes
 	potential = {
-		has_unlocked_government_reform_trigger = { type = iro_reforged_law_of_peace }
+		has_or_had_tag = IRO
 	}
 
 	country_modifier = {
@@ -4174,7 +4174,7 @@ iro_reforged_law_of_peace = {
 iro_council_of_the_fifty = {
 	unique = yes
 	potential = {
-		has_unlocked_government_reform_trigger = { type = iro_council_of_the_fifty }
+		has_or_had_tag = IRO
 	}
 
 	country_modifier = {
