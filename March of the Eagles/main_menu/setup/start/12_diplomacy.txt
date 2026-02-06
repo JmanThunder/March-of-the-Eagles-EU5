@@ -156,8 +156,8 @@ diplomacy_manager = {
     #-------Habsburgs-------
     dependency = { first = HAB second = BOH subject_type = fiefdom start_date = 1526.8.29 } #Bohemia
     dependency = { first = HAB second = HUN subject_type = fiefdom start_date = 1526.8.29 } #Hungary 
-    dependency = { first = HUN second = CRO subject_type = fiefdom start_date = 1526.8.29 }
-    dependency = { first = HUN second = TRA subject_type = fiefdom start_date = 1526.8.29 }
+    dependency = { first = HUN second = CRO subject_type = fiefdom start_date = 1526.8.29 } #Croatia
+    dependency = { first = HUN second = TRA subject_type = fiefdom start_date = 1526.8.29 } #Transilvania
     dependency = { first = HAB second = FLA subject_type = fiefdom  }
     dependency = { first = HAB second = NAM subject_type = fiefdom }
     dependency = { first = HAB second = HAI subject_type = fiefdom }

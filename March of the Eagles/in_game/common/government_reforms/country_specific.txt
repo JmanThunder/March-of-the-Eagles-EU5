@@ -4248,3 +4248,29 @@ shahbandariyya_reform = {
 	}
 	years = 2
 }
+# NEW 
+grand_duchy_reform = {
+	unique = yes
+	major = yes
+
+	potential = {
+		country_rank_level = 2
+		government_type = government_type:monarchy
+		OR = {
+			has_or_had_tag = TUS
+			has_or_had_tag = HES
+			has_or_had_tag = LUX 
+	 		has_or_had_tag = FIN
+			has_or_had_tag = BRG
+			has_or_had_tag = WBG
+			has_or_had_tag = BDE
+			has_or_had_tag = FRN
+		}
+	}
+	
+
+	country_modifier = {
+		monthly_prestige = 0.2
+	}
+	years = 2
+ }
