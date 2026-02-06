@@ -30,8 +30,8 @@ diplomacy_manager = {
     dependency = { first = HSA second = LUB subject_type = hanseatic_member }
     dependency = { first = HSA second = HAM subject_type = hanseatic_member }
     dependency = { first = HSA second = BRM subject_type = hanseatic_member }
-
-
+# Germany
+    dependency = { first = WUR second = MTB subject_type = vassal }
     #India
     dependency = { first = ALU second = STR subject_type = samanta }
     dependency = { first = JSL second = PRT subject_type = samanta }

@@ -4265,6 +4265,8 @@ grand_duchy_reform = {
 			has_or_had_tag = WBG
 			has_or_had_tag = BDE
 			has_or_had_tag = FRN
+			has_or_had_tag = MKL
+			has_or_had_tag = WRN
 		}
 	}
 	
