@@ -101,6 +101,7 @@ diplomacy_manager = {
     dependency = { first = SPA second = NGRA subject_type = vassal }
     dependency = { first = SPA second = PERU subject_type = vassal }
     dependency = { first = SPA second = ARGE subject_type = vassal }
+    dependency = { first = MEX second = CENT subject_type = vassal }
     dependency = { first = POR second = BRAZ subject_type = vassal }
     
 

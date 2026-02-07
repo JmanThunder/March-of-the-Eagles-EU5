@@ -45,6 +45,10 @@
  ARGE: "Argentina"
  ARGE_ADJ: "Argentinian"
 
+ CENT: "Central America"
+ CENT_ADJ: "Central American"
+
+
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
  PIR: "Pirates"

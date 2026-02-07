@@ -1754,7 +1754,7 @@ SGA = {	#Sachsen-Gotha-Altenburg
 
 		capital = moscow
 		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
+		include = "expl_western_europe"
 	}
 
 OBD = {
@@ -7133,23 +7133,6 @@ SAL = {
 		capital = cagliari
 	}
 
-#Saint-Claude Abbey - SCL
-	SCL = {
-		own_control_core = {
-			saint_claude
-		}
-
-		government = {
-			ruler = scl_jean_ii_rousillon
-		}
-
-		include = "catholic_abbey"
-		include = "expl_mediterranean"
-
-		court_language = latin_language
-		country_rank = rank_county
-		capital = saint_claude
-	}
 
 	#Geneve - GNV
 	GNV = {
@@ -25676,13 +25659,13 @@ MBZ = { #Bregenz
 				
 				lugano bellinzona locarno ilanz bern burgdorf_emmental saanen thun frutigen interlaken bienne
 
-				brig sion martigny monthey bernese_alps stein_glacier 
+				brig sion martigny monthey 
 
-				aarau baden_im_aargau lucerne wolhusen lake_lucerne
+				aarau baden_im_aargau lucerne wolhusen l
 
 				schwyz glarus altdorf sarnen solothurn
 
-				zurich werdenberg frauenfeld toggenburg kyburg lake_zurich schaffhausen fribourg lausanne nyon yverdon_les_bains  montreux disentis gruyere
+				zurich werdenberg frauenfeld toggenburg kyburg schaffhausen fribourg lausanne nyon yverdon_les_bains  montreux disentis gruyere
 
 
 		}
@@ -28460,9 +28443,9 @@ GLD = {	#Galicia-Lodmeria #This is gonna be Pain
 			kosiv kolomyia sniatyn bohorodchany dolyna
 			halych rohatyn buchach zalishchyky khorostkiv ternopil brody
 			terebovlia bereschany stryi turka bolekhiv zhydachiv zvenyhorod
-			busk sokal belz zhovkva lubaczow yavoriv  przemysl 
+			belz zhovkva lubaczow yavoriv  przemysl 
 			sambir drohobych lesko sanok krosno rzeszow piskorowice
-			belz busk  sokal brody yaroslav_poland tysmenytsia
+			busk  sokal brody yaroslav_poland tysmenytsia
 			vatra_dornei campulung_moldovenesc putna siret storozhynets cernauti cetatea_tetina
 
 			
@@ -29082,6 +29065,87 @@ ZAZ = { #Zaporozhia
 	}
 
 	#-------------------------- Central America ----------------------------
+	CENT = {
+		own_control_core = {
+			
+					noh_peten namaan yax_mutal pachan wak_kabnal
+					ceibal ixtutz pusilha campin tzoite paliac
+					tzunuun altun_ha lamanai xunantunich uxwitza
+					acasaguastlan chiquimula cuauhtemallan guazacapan itzalku
+					xelahuh kakol_kiej itzcuintlan atitlan_guatemala
+					jolom_konob zapaluta tzunun_kaab otzoya chinabajul pismachi
+					chama seacal kajyub nito toquegua
+					talanga tecohtzincalpan comayagua maniani
+					tencoa ocotepec opoa cururu shalatenan
+					chinda naco yoro ticamaya
+					choluteca nacaome texiguat xoxonal
+					pech sico olanchito ollalko papayeca
+					usulutan chalchuapa metapan kuskatan cojutepeque nonualco
+					gotera queiquin
+					kukra tawahka prinzus boas bawika silam yuskus ku panamahkas
+					matagalpa rama ulwas xiotenko ukutal xalapan danli
+					nagarando nequecheri diria cuauhcapolca tezoatega guaxenicos sutiapan
+					karawala awastara ahuya_yari
+					orosi bocto nekokiaw garabito uxarraci
+					coctu boruca quepos pacaca
+					burica chiriqui huista	
+			
+
+		}
+
+
+		starting_technology_level = 3
+	
+		
+		include = "expl_western_europe"
+
+		government = {
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random #Capitan unknown
+
+			regnal_numbers = {
+		
+			
+			}
+
+			reforms = {
+			
+			}
+
+			privilege = {
+				#Noblity
+				
+				#Clergy
+				
+				#Commoners
+			
+			}
+
+			laws = {
+				
+			}
+
+			aristocracy_vs_plutocracy = -40
+			serfdom_vs_free_subjects = -15
+			mercantilism_vs_free_trade = -40
+			belligerent_vs_conciliatory = -15
+			outward_vs_inward = -30
+		}
+
+		country_rank = rank_duchy
+		capital = matagalpa
+
+		
+		accepted_cultures = { 
+			
+			
+		}
+		tolerated_cultures = { 
+			
+		}
+		
+	}
 
 	#Lenca - LNC
 	LNC = {
@@ -29835,7 +29899,7 @@ ZAZ = { #Zaporozhia
 					simiti macaregua tora camacota hacaritamas duitama boiaca
 					tauramena upia humadea yopo tame guadual arauca cubara			
 					atanari cumaribo maracoa orocue metica
-					chayrama teyuna yaharo upar sicarate ariguani curumanaa		
+					chayrama teyuna yaharo upar sicarate ariguani		
 					mompoj norosi tamalameque mahates calamari mocana kamach zarate	
 					necocli upper_sinu zenues sinu sincel one				
 					ichitki suchiimma marakaaya perija catatumbo jauregui
@@ -39191,7 +39255,7 @@ ZAZ = { #Zaporozhia
 			omaha nemaha nebraska ni_haunchi_to 
 			kanpeska kus_lecha kickatus ickari_kitsu nutanke pitahauerat 
 			hehvaitaneo meneeohe medicine_bow 
-			otapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he 
+			so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he 
 			niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l 
 			phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he 
 			mutsisooni_yohe heeyoteyoo ponoeohe 
@@ -39203,7 +39267,7 @@ ZAZ = { #Zaporozhia
 			chinali honih_hiyo_he iriirakiicuhat 
 			nasoni lacane nisohone nadakuh aays 
 			hokah wapkawazioju owatonna hahawakpa lahontan 
-			minnetonka wabezi kagiwigwan shingwako winnibigoshish bemidji lake_winnibigoshish 
+			minnetonka wabezi kagiwigwan shingwako winnibigoshish bemidji
 			mahkato watonwan shetek chanshayapi tipsinah kandiyohi 
 			tchan_sansan kiyuska pabaska 
 			chagu oyate_shisha wakmua_oin 
