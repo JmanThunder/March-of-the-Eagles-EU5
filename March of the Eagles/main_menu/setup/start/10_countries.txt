@@ -42382,7 +42382,7 @@ ZAZ = { #Zaporozhia
 		}
 
 		country_rank = rank_kingdom
-		capital = cahokia
+		capital = kociihsasiipi
 		include = "expl_western_europe"
 	}
 

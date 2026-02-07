@@ -5,7 +5,7 @@ development = {
 # location_rank, climate, topography or vegetation keys can be used
 # coastal, river
 
-	base = -2
+	base = 10
 
 	#Waterways
 	coastal = 5 # multiplies by natural harbor suitability
@@ -15,8 +15,8 @@ development = {
 	road = 2
 	
 	#location rank
-	city = 5
-	town = 2
+	city = 10
+	town = 4
 
 	# vegetation
 	grasslands = 1

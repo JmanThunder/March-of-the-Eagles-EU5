@@ -204,7 +204,30 @@ locations={
 	toulouse = { rank = city 	town_setup = french_city }
 	tours = { rank = city 		town_setup = french_city }
 	troyes = { rank = city 		town_setup = french_city }
-	
+
+	#Louisiana
+	bulbancha = { rank = city 		town_setup = french_city }
+	itihumma = { rank = town 	town_setup = french_town }
+	tamaroa = { rank = town 	town_setup = french_town }
+
+	#Haiti
+	marien = { rank = city 		town_setup = french_city }
+	jaragua = { rank = town 	town_setup = french_town }
+
+	#USA
+	manhattan = { rank = town		town_setup = british_town_port }
+	shackamaxon = { rank = town 		town_setup = british_town }
+	shawmut = { rank = town		town_setup = british_town_port }
+	powhatan = { rank = town 		town_setup = british_town }
+	tybee = { rank = town		town_setup = british_town_port }
+
+	# Northwestern Confederacy
+	sandusky = { rank = town town_setup = south_east_woodlands_town }
+	waawiiyaataanong = { rank = town town_setup = south_east_woodlands_town }
+	ociihsasiip	= { rank = town town_setup = south_east_woodlands_town }
+	checagou = { rank = town town_setup = south_east_woodlands_town }
+	millioke = { rank = town town_setup = south_east_woodlands_town }
+
 	agen = { rank = town 			town_setup = french_town }
 	aix_en_provence = { rank = town town_setup = french_town }
 	albi = { rank = town town_setup = french_town }
