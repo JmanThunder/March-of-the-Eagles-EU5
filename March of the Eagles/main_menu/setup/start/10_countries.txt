@@ -848,7 +848,7 @@ HSA = {	#Hansa
 			polabian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 	}
 
 	PRU = {	#Brandenburg
@@ -8171,7 +8171,7 @@ MZK = {
 		include = "expl_western_europe"
 		include = "catholic_bishopric_no_coast"
 		include = "expl_northern_europe"
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = gradina
 		government = {
 			
@@ -25425,7 +25425,7 @@ WBG = {	#Würzburg
 			rhine_franconian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = wurzburg
 	}
 
@@ -25473,7 +25473,7 @@ WBG = {	#Würzburg
 			high_alemannic
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = dillingen
 	}
 
@@ -25639,7 +25639,7 @@ MBZ = { #Bregenz
 			southern_bavarian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 	}
 
 	BCH = {	#Bishopric of Chur
@@ -28067,7 +28067,7 @@ OSN = {	#Osnabrück
 			angrian
 		}
 
-		country_rank = rank_county
+		country_rank = rank_duchy
 		capital = munster
 	}
 
