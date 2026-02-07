@@ -80,3 +80,10 @@ BRAZ = { #Brazil
 	religion_definition = catholic
 
 }
+NGRA = { #Gran Columbia
+	color = rgb { 198 163 59 }
+
+	culture_definition = castilian
+	religion_definition = catholic
+
+}

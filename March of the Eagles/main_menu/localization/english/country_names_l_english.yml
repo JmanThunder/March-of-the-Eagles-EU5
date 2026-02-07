@@ -33,6 +33,9 @@
  BRAZ: "Brazil"
  BRAZ_ADJ: "Brazilian"
 
+ NGRA: "New Granada"
+ NGRA_ADJ: "New Granadan"
+
 
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"

@@ -29083,43 +29083,6 @@ ZAZ = { #Zaporozhia
 
 	#-------------------------- Central America ----------------------------
 
-
-	#Kuskatan - KUS https://en.wikipedia.org/wiki/Cuzcatlan
-	KUS = {
-		own_control_core = {
-			chalchuapa kuskatan cojutepeque nonualco
-		}
-		discovered_regions = {
-			central_america_region
-		}
-		include = "amerindian_monarchy"
-		include = "expl_mesoamerica"
-		starting_technology_level = 1
-		government = {
-			ruler = random
-		}
-		court_language = maya_language
-		capital = kuskatan
-	}
-
-	#Cuauhtemallan - QUA
-	QUA = {
-		own_control_core = {
-			cuauhtemallan itzcuintlan
-		}
-		discovered_regions = {
-			central_america_region
-		}
-		include = "amerindian_monarchy"
-		include = "expl_mesoamerica"
-		starting_technology_level = 1
-		government = {
-			ruler = random
-		}
-		court_language = maya_language
-		capital = cuauhtemallan
-	}
-
 	#Lenca - LNC
 	LNC = {
 		type = pop
@@ -29866,48 +29829,106 @@ ZAZ = { #Zaporozhia
 	}
 
 	#-------------------------- Colombia ----------------------------
-
-	#Tairona - TAI
-	TAI = {
+	NGRA = { #Gran Columbia
 		own_control_core = {
-			teyuna chayrama yaharo
+					curumanao
+					simiti macaregua tora camacota hacaritamas duitama boiaca
+					tauramena upia humadea yopo tame guadual arauca cubara			
+					atanari cumaribo maracoa orocue metica
+					chayrama teyuna yaharo upar sicarate ariguani curumanaa		
+					mompoj norosi tamalameque mahates calamari mocana kamach zarate	
+					necocli upper_sinu zenues sinu sincel one				
+					ichitki suchiimma marakaaya perija catatumbo jauregui
+					chitagaes kukuta babichas yukpa			
+					coro paraguana tucanca chama_venezuela arapuey mukas cabimas capatarida
+					aragua tirgua cura caracas batey onoto			
+					carora barquisimeto yaracuy gayon nirgua				
+					guarico guamontey ipire guaquire			
+					cumanagoto cumana paraguachoa turuepano araya karu_pana cumanacoa
+					orinucu uyapari guanipa tucupita kalina maturin anaco
+					caroni parepona aro kai_kara cachamay tumeremo
+					kumarakapay macuxi ingariko takutu mucajai
+					apure guajobos arechuna sarare suripa caparo tachira cania
+					guanare guaritico barinas tampacal hacarigua tapo
+					andaki chaira caguan papamane guayupes ariari guaviare mocoa
+					pasca timana purace otas coyaima yaporox quicuima
+					suamox leyva chicaquicha choconta chunsua caqueza funza bosa_colombia
+					chipata yacupipizote ondaimas paribari guarinoes colombayma guaduas tocaima
+					mayaba noris sotachiro yolombo nechi pantagoras cocorna guarzo aburra
+					iscuande narino tumaco tapaje hatunllacta inga patia
+					caly buga caloto micay timbiqui yauto munchique
+					vijes sonso gorrones tahamies cauroma umbra otun tulua
+					baudo choco quibdo gioro tatama noanama tado_colombia novita
+					acanti curiche kuna murri catios bojaya amaga xundabe ebejico
+					guancavilca manta guayaquil daule yaguachi puna chacayacu machala yazne		
+		 			caran baba jama atacames pailon babahuyu
+					quito waranka panzaleo imbaguarbak tsachila mindu otavalo kayambi tacunga hambatus
+					liribamba				 
+					alausi hatun_kanar shabalula cangochamba malacatos calvas pukamuru
+					kofan quijos siona napo kichwa puyu sangay macas yaguarzongo
+					isabela_island santiago_islands santa_cruz_islands
+					veragua caribaro terbi dererri tariaca kabeka
+					tauraba parita nata escoria chiru esquegua
+					panama careta pocorosa comogre chochama
+					cubiga chepo chuchures
+				
+			
+
 		}
-		starting_technology_level = 0
-		include = "amerindian_tribe_colombia"
+
+
+		starting_technology_level = 3
+	
+		
+		include = "expl_western_europe"
+
 		government = {
-			ruler = random
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Viceroy Antonio Caballero y Góngora
+
+			regnal_numbers = {
+					
+			}
+
+			reforms = {
+			
+			}
+
+			privilege = {
+				#Noblity
+				
+				#Clergy
+				
+				#Commoners
+			
+			}
+
+			laws = {
+				
+			}
+
+			aristocracy_vs_plutocracy = -40
+			serfdom_vs_free_subjects = -15
+			mercantilism_vs_free_trade = -40
+			belligerent_vs_conciliatory = -15
+			outward_vs_inward = -30
 		}
-		court_language = tayrona_language
-		capital = teyuna
+
+		country_rank = rank_kingdom
+		capital = boiaca
+
+		
+		accepted_cultures = { 
+			
+			
+		}
+		tolerated_cultures = { 
+			
+		}
+		
 	}
 
-	#Muyquyta - ZIP
-	ZIP = {
-		own_control_core = {
-			funza chicaquicha choconta caqueza bosa_colombia
-		}
-		starting_technology_level = 0
-		include = "amerindian_tribe_colombia"
-		government = {
-			ruler = random
-		}
-		court_language = chibchan_language
-		capital = funza
-	}
-
-	#Chunsua - ZAQ
-	ZAQ = {
-		own_control_core = {
-			chunsua suamox boiaca duitama
-		}
-		starting_technology_level = 0
-		include = "amerindian_tribe_colombia"
-		government = {
-			ruler = random
-		}
-		court_language = chibchan_language
-		capital = chunsua
-	}
 
 	#Zenú - ZEN https://en.wikipedia.org/wiki/Zen%C3%BA
 	ZEN = {
@@ -30549,54 +30570,6 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Chimu - CHM
-	CHM = { #https://es.wikipedia.org/wiki/Reino_Chim%C3%BA
-		own_control_core = {
-			chan_chan chimu chao paramonga
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quingnam_language
-		capital = chan_chan
-		government = {
-			ruler = random
-		}
-	}
-
-	#Xllang - XLL
-	XLL = { #https://es.wikipedia.org/wiki/Reino_Sic%C3%A1n
-		own_control_core = {
-			xllang apurlec pakatnamu farfan sana
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = muchik_language
-		capital = xllang
-		government = {
-			ruler = random
-		}
-	}
-
-	#Sacha-p-qulla - CYA
-	CYA = { #https://es.wikipedia.org/wiki/Cultura_chachapoyas
-		own_control_core = {
-			kuelap huancachaca karajia olan congona utkhupampa moyobamba
-			huamanpata lamas chatuza
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = cariban_language
-		capital = kuelap
-		government = {
-			ruler = random
-		}
-	}
 
 	#Tallan - TLN
 	#Settled Pop based, but divided in multiple chieftains
@@ -30614,22 +30587,7 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Ichma - ICM
-	ICM = { #https://es.wikipedia.org/wiki/Cultura_ychsma
-		own_control_core = {
-			ishma rimaq huarochiri
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = ishma
-		government = {
-			ruler = random
-		}
-	}
-
+	
 	#Wanka - WAN
 	#Settled Pop based, but divided in multiple chieftains
 	WAN = { #https://es.wikipedia.org/wiki/Huanca
@@ -30646,242 +30604,7 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Hanan Chanka - HNK
-	HNK = { #https://es.wikipedia.org/wiki/Chanca
-		own_control_core = {
-			allpas tampu_machay churkampa llacsapallanca tayaccasa
-		}
 
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = allpas
-		government = {
-			ruler = random
-		}
-	}
-
-	#Urin Chanka - URC
-	URC = { #https://es.wikipedia.org/wiki/Chanca
-		own_control_core = {
-			huaman_karpa sondor challwanqa
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = huaman_karpa
-		government = {
-			ruler = random
-		}
-	}
-
-	#Chincha - CIC
-	CIC = { #https://es.wikipedia.org/wiki/Cultura_chincha
-		own_control_core = {
-			chinchay puka_tampu ica
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = chinchay
-		government = {
-			ruler = random
-		}
-	}
-
-	#Qusqu - CSU
-	#Should ally Ayarmaca against the Charka
-	CSU = { #https://es.wikipedia.org/wiki/Curacazgo_incaico
-		own_control_core = {
-			qusqu quillarumiyoc
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-		government = {
-			ruler = csu_qhapaq_yupanki
-			ruler_term = {	 character = csu_manco_qhapaq start_date = 1197.1.1 end_date = 1230.1.1 regnal_number = 1	}
-			ruler_term = {	 character = csu_sinchi_ruqa start_date = 1230.1.1 end_date = 1260.1.1 regnal_number = 1	}
-			ruler_term = {	 character = csu_lluqi_yupanki start_date = 1260.1.1 end_date = 1290.1.1 regnal_number = 1	}
-			ruler_term = {	 character = csu_mayta_qhapaq start_date = 1290.1.1 end_date = 1320.1.1 regnal_number = 1	}
-			ruler_term = {	 character = csu_tarco_huaman start_date = 1320.1.1 end_date = 1320.6.1 regnal_number = 1	}
-			ruler_term = {	 character = csu_qhapaq_yupanki start_date = 1320.6.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_manco = 1
-				name_sinchi = 1
-				name_lluqi = 1
-				name_mayta = 1
-				name_tarco = 1
-			}
-
-			laws = {
-				cultural_traditions_law = martial_society
-			}
-		}
-		court_language = quechuan_language
-		tolerated_cultures = {
-			killke_culture
-		}
-
-		capital = qusqu
-	}
-
-	#Ayarmaca - AYA
-	AYA = { #https://es.wikipedia.org/wiki/Ayarmaca
-		own_control_core = {
-			yanatile ullantaytampu urupampa pisaq
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-		government = {
-			ruler = aya_tocay_capac
-			ruler_term = {	 character = aya_tocay_capac start_date = 1305.1.1 regnal_number = 1	}
-
-		}
-		court_language = quechuan_language
-		capital = pisaq
-	}
-
-	#Pinagua - PIG
-	PIG = { #https://es.wikipedia.org/wiki/Ayarmaca
-		own_control_core = {
-			pikillaqta
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = pikillaqta
-		government = {
-			ruler = random
-		}
-	}
-
-	#Paka Jaqis - PCJ
-	PCJ = { #https://es.wikipedia.org/wiki/Se%C3%B1or%C3%ADo_pacajes
-		own_control_core = {
-			axawiri machaqa tiwanaku viacha calamarca chuqiyapu sicasica
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = axawiri
-		government = {
-			ruler = random
-		}
-	}
-
-	#Lupijaki - LUP
-	LUP = { #https://es.wikipedia.org/wiki/Lupaca
-		own_control_core = {
-			chucuito pomata contornasa
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = chucuito
-		government = {
-			ruler = random
-		}
-	}
-
-	#Charka - CRA
-	CRA = { #https://es.wikipedia.org/wiki/Pueblo_charca
-		own_control_core = {
-			charka colquechaca arque sachchaa_mukku sarkajpa
-		}
-
-		include = "amerindian_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = charka
-		government = {
-			ruler = random
-		}
-	}
-
-	#Kana - KNA
-	KNA = { #https://es.wikipedia.org/wiki/Aimaras
-		own_control_core = {
-			oruro ayaviri sausaya
-		}
-
-		discovered_areas = {
-			puna_area acamama_area chala_area
-			qullaw_area yunga_area atacama_area
-			andes_sea_zones_area
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = ayaviri
-		government = {
-			ruler = random
-		}
-	}
-
-	#Karanka - KRK
-	KRK = { #https://es.wikipedia.org/wiki/Aimaras
-		own_control_core = {
-			karanka kori_bara_karaa_ancas matarjawira
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = karanka
-		government = {
-			ruler = random
-		}
-	}
-
-	#Qulla - QUL
-	QUL = { #https://es.wikipedia.org/wiki/Reino_colla
-		own_control_core = {
-			hatunqulla macaya wankani
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = hatunqulla
-		government = {
-			ruler = random
-		}
-	}
-
-	#Sura - SUR
-	SUR = { #https://es.wikipedia.org/wiki/Reinos_aimaras
-		own_control_core = {
-			sura paititi ayopaya incarraqay
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = aymara_language
-		capital = sura
-		government = {
-			ruler = random
-		}
-	}
 
 	#Omaguaca - OMG
 	#knows agriculture, irrigation and terrace building
@@ -30903,63 +30626,6 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Calva - CAV
-	CAV = { #https://es.wikipedia.org/wiki/Paltas
-		own_control_core = {
-			calvas
-		}
-
-		discovered_areas = {
-			quitu_area
-			puna_area suni_area rupa_rupa_area chala_area
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = chicham_language
-		capital = calvas
-		government = {
-			ruler = random
-		}
-	}
-
-	#Malacato - MLT
-	MLT = { #https://es.wikipedia.org/wiki/Paltas
-		own_control_core = {
-			malacatos
-		}
-
-		discovered_areas = {
-			quitu_area
-			puna_area suni_area rupa_rupa_area chala_area
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = chicham_language
-		capital = malacatos
-		government = {
-			ruler = random
-		}
-	}
-
-	#Garrochamba - GRR
-	GRR = { #https://es.wikipedia.org/wiki/Paltas
-		own_control_core = {
-			cangochamba
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = chicham_language
-		capital = cangochamba
-		government = {
-			ruler = random
-		}
-	}
 
 	#Manta - MNT
 	#Settled Pop based, but divided in multiple chieftains
@@ -31116,38 +30782,9 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Huamachuco - HCH
-	HCH = { #https://www.deperu.com/cultural/sitios-arqueologicos/complejo-arqueologico-markahuamachuco-2619 https://revistas.unife.edu.pe/index.php/consensus/article/download/404/361/1319
-		own_control_core = {
-			markahuamachuco
-		}
 
-		include = "andean_monarchy"
-		include = "expl_andean"
 
-		court_language = quechuan_language
-		capital = markahuamachuco
-		government = {
-			ruler = random
-		}
-	}
 
-	#Cuismancu - CUI
-	CUI = { #https://revistas.pucp.edu.pe/index.php/boletindearqueologia/article/view/1847/1783
-		own_control_core = {
-			tantaricuy kaxa_marca illapa llucho
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = tantaricuy
-		government = {
-			ruler = random
-		}
-		tolerated_cultures = { xllang_culture }
-	}
 
 	#Huaylas - HUA
 	#Settled Pop based, but divided in multiple chieftains
@@ -31197,51 +30834,6 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Collique - CLQ
-	CLQ = { #https://es.wikipedia.org/wiki/Cultura_Collique
-		own_control_core = {
-			collique
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-		court_language = muchik_language
-		capital = collique
-		government = {
-			ruler = random
-		}
-	}
-
-	#Canta - NTA
-	NTA = { #https://www.arqueologiadelperu.com.ar/canta.htm
-		own_control_core = {
-			cantamarca
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-		court_language = muchik_language
-		capital = cantamarca
-		government = {
-			ruler = random
-		}
-	}
-
-	#Huarco - HRC
-	HRC = {
-		own_control_core = {
-			huarco incahuasi chilca
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = huarco
-		government = {
-			ruler = random
-		}
-	}
 
 	#Atavillos - ATV
 	#Settled Pop based, but divided in multiple chieftains
@@ -31291,100 +30883,7 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Sora - SRA
-	SRA = {
-		own_control_core = {
-			soras
-		}
 
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = soras
-		government = {
-			ruler = random
-		}
-	}
-
-	#Mayonmarka - MYM
-	#Settled Pop based, made into normal tag for balance
-	MYM = {
-		own_control_core = {
-			choccalpata paqwayranra
-		}
-
-		include = "andean_tribe"
-		include = "expl_andean"
-		government = {
-			ruler = random
-		}
-		capital = paqwayranra
-	}
-
-	#Pocra - PCR
-	#Allied with the Hannan Charka
-	PCR = {
-		own_control_core = {
-			wari_peru pariahuanca
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = wari_peru
-		government = {
-			ruler = random
-		}
-	}
-
-	#Parinacocha - PCO
-	PCO = {
-		own_control_core = {
-			tucssa
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = tucssa
-		government = {
-			ruler = random
-		}
-	}
-
-	#Aruni - ANI
-	ANI = {
-		own_control_core = {
-			aruni
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = aruni
-		government = {
-			ruler = random
-		}
-	}
-
-	#Churajon - CHJ
-	CHJ = {
-		own_control_core = {
-			caraveli atico
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-		court_language = aymara_language
-		capital = atico
-		government = {
-			ruler = random
-		}
-	}
 
 	#Chiribaya - CBY
 	#Settled Pop based
@@ -31402,21 +30901,6 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Canchi - CNC
-	CNC = {
-		own_control_core = {
-			waqrapukara
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-
-		court_language = quechuan_language
-		capital = waqrapukara
-		government = {
-			ruler = random
-		}
-	}
 
 	#Collagua - LLG
 	LLG = { #https://pueblosoriginarios.com/sur/andina/collagua/collagua.html
@@ -31444,21 +30928,6 @@ ZAZ = { #Zaporozhia
 
 		include = "andean_tribe"
 		include = "expl_andean"
-		government = {
-			ruler = random
-		}
-	}
-
-	#Umasuyus - UMA
-	UMA = { #https://es.wikipedia.org/wiki/Achacachi
-		own_control_core = {
-			achacachi
-		}
-
-		include = "andean_monarchy"
-		include = "expl_andean"
-		court_language = aymara_language
-		capital = achacachi
 		government = {
 			ruler = random
 		}
@@ -31576,23 +31045,6 @@ ZAZ = { #Zaporozhia
 		}
 	}
 
-	#Killke - KKE
-	#Settled, NOTE transformed into normal tag for the sake of balance
-	KKE = {
-		own_control_core = {
-			willka_pampa auccapana yanahuara
-		}
-		discovered_areas = {
-			puna_area suni_area rupa_rupa_area acamama_area chala_area
-			qullaw_area
-		}
-
-		include = "andean_tribe"
-		capital = yanahuara
-		government = {
-			ruler = random
-		}
-	}
 
 	#Chono
 	CNO = {
@@ -39600,16 +39052,16 @@ ZAZ = { #Zaporozhia
 			wetarhoo hinyankaga  
 			shanha mistaiyohe he_sapa awaxaawi_ishiibisha 
 			histahayo neesihushaanu skahuukaawiat iyawakagapi matootonha 
-			chakadee_wakpa wahasah badlands_mt waahukaahaanu wit_anowi_yohe moehe_yoe 
+			chakadee_wakpa wahasah waahukaahaanu wit_anowi_yohe moehe_yoe 
 			ihkowom_iyo_he ksai_yohe mitsiadazi skaapirox buaxaxxaashe aahkawirahkata aashbiliihkupe iichiilikaaashaashe  
 			itkanaahtuusu e_ometaeso heviksnipahis mo_ohta_vo_honaaeva notameohmeshehse 
-			north_shoshonne iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache  
+			iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache  
 			awatixa adixoodagoorahareesh koostaaka amahami 
 			suktogeja_o_ipa patgasa_wakpa baliisshe_aashe minisose 
-			ski_iyo_he hoskitaga kinuhsisuht wase_wakpa caba_wakpa badlands_mt_2 
+			ski_iyo_he hoskitaga kinuhsisuht wase_wakpa caba_wakpa 
 			e_omita_i xuahceesh_annappiio huupalikooche aluutashe baashalapache 
-			aashise binmatshua cuthuhogwa great_belt_mountains 
-			kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah rockies_mt 
+			aashise binmatshua cuthuhogwa 
+			kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah  
 			poyiitahtai wakpa_juk_ana etzikom 
 			kwaskwuti cahe canhewincasta 
 			shuntaneshnanga kansas monecato kirarutah nepahalla 
@@ -39625,11 +39077,11 @@ ZAZ = { #Zaporozhia
 			kickatari mnitanka minatare 
 			omaha nemaha nebraska ni_haunchi_to 
 			kanpeska kus_lecha kickatus ickari_kitsu nutanke pitahauerat 
-			hehvaitaneo laramie_range meneeohe medicine_bow 
+			hehvaitaneo meneeohe medicine_bow 
 			otapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he 
-			east_colorado niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l 
+			niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l 
 			phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he 
-			south_colorado mutsisooni_yohe heeyoteyoo ponoeohe 
+			mutsisooni_yohe heeyoteyoo ponoeohe 
 			wishkahuunu mahohevahoe beesowuunenno minii_yohe 
 			wiskapella chitolah nanwacinahaana 
 			kwahada hupenuu mah_hom oohkoi_yohe kuhtsutuuka 
