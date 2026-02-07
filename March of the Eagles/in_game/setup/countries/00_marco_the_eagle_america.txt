@@ -65,3 +65,12 @@ UIN = { # United Indian Nations/Northwestern confederacy/Tecumseh's Confederacy
 
 	difficulty = 3
 }
+
+CHRK = { 
+	color = map_haudenosaunee
+
+	culture_definition = otali_culture
+	religion_definition = mississippian_ceremonial
+}
+
+

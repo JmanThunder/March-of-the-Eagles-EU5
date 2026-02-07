@@ -40879,18 +40879,83 @@ ZAZ = { #Zaporozhia
 	}
 
 	#Otali - OTL
-	OTL = {
-		type = pop
-
-		add_pops_from_locations = {
+	CHRK = {
+		own_control_core = {
 			hiwasee tellico chestowee chalahume satapo coste chiaha
+			amoyeli_gunahita canasoga chiaha coste hogohega pelisipi maniatique
+			kituwa nikwasi guaxule
+			tahkeeosteh italwa wattogee watauga 
+			tombigby kaskinampo cussate chuwalee tullahoma choate tsoyaha
+			sequatchie
+			bledsoe chatanugi
+			coosa ulibahali talimachusi itaba utsutigway 
+			quanasee apica
+			tuckabutche
+			abihka callamaco ohatchee tuasi ishtaboli hytop
+			koasati cootcla
 		}
+		include = "expl_western_europe"
 		include = "american_east_coast_tribe"
 		government = {
 			ruler = random
-		}
+
+			type = tribe
+			heir_selection = tribal_oldest_male
+
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = -70
+			spiritualist_vs_humanist = -60
+			aristocracy_vs_plutocracy = -80
+			serfdom_vs_free_subjects = 50
+			mercantilism_vs_free_trade = 50
+			belligerent_vs_conciliatory = 100
+			quality_vs_quantity = -75
+			offensive_vs_defensive = 50
+			land_vs_naval = -90
+			capital_economy_vs_traditional_economy = 100
+			individualism_vs_communalism = 60
+			outward_vs_inward = 50	
+
+			parliament = {
+				parliament_type = assembly
+			}	
+
+			laws = {
+				marriage_law = polygyny
+				heir_religion_law = heir_same_religion
+			}
+
+			reforms = {
+				agricultural_cultivation
+			}
+			privilege = {
+				#nobles
+				nobility_council
+				nobles_land_rights
+				tribal_autonomy
+
+				#clergy
+				embellish_great_works_of_faith
+
+				#burghers
+				urban_development_grants
+				market_fairs
+
+				#Commoners
+				peasants_autonomous_villages
+				communal_lands
+				allow_hunting
+				partial_yield
+				peasants_free_peasantry
+		
+				tribes_tribal_levies
+				tribes_allow_gatherings
+			}
+		}	
 		court_language = cherokee_language
 	}
+
+
 
 	#Coweta
 	COW = {
@@ -41020,46 +41085,217 @@ ZAZ = { #Zaporozhia
 	}
 	#Choctaw-Chatha
 	CHC = {
-		type = pop
+		#type = pop
 
-		add_pops_from_locations = {
+		own_control_core = {
 			taliepacana consha tombigbee escatawppa tohome okeloussa eiowane
 			eianamogola
+			natchez chittaloosa houma mosco chicksawhe capino caftacha
+			quigualtam tiou yazoo koroa
+			
 		}
 		include = "american_east_coast_tribe"
+		include = "expl_western_europe"
 		government = {
 			ruler = random
-		}
+
+			type = tribe
+			heir_selection = tribal_oldest_male
+
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = -70
+			spiritualist_vs_humanist = -60
+			aristocracy_vs_plutocracy = -80
+			serfdom_vs_free_subjects = 50
+			mercantilism_vs_free_trade = 50
+			belligerent_vs_conciliatory = 100
+			quality_vs_quantity = -75
+			offensive_vs_defensive = 50
+			land_vs_naval = -90
+			capital_economy_vs_traditional_economy = 100
+			individualism_vs_communalism = 60
+			outward_vs_inward = 50	
+
+			parliament = {
+				parliament_type = assembly
+			}	
+
+			laws = {
+				marriage_law = polygyny
+				heir_religion_law = heir_same_religion
+			}
+
+			reforms = {
+				agricultural_cultivation
+			}
+			privilege = {
+				#nobles
+				nobility_council
+				nobles_land_rights
+				tribal_autonomy
+
+				#clergy
+				embellish_great_works_of_faith
+
+				#burghers
+				urban_development_grants
+				market_fairs
+
+				#Commoners
+				peasants_autonomous_villages
+				communal_lands
+				allow_hunting
+				partial_yield
+				peasants_free_peasantry
+		
+				tribes_tribal_levies
+				tribes_allow_gatherings
+			}
+		}	
+
 		court_language = chickasaw_choctaw_language
 		capital = taliepacana
 	}
 	#Chickasaw-Chickasha
 	CHS = {
-		type = pop
+		#type = pop
 
-		add_pops_from_locations = {
+		own_control_core = {
 			hogehege napochi buddahatchie yaneka tchoukafala sacchuma
+			quizquiz taposa chucalissa chatata ongoulastoga
+			hatchie obion chewalla
+			charquis
 		}
 		include = "american_east_coast_tribe"
+		include = "expl_western_europe"
 		government = {
 			ruler = random
-		}
+
+			type = tribe
+			heir_selection = tribal_oldest_male
+
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = -70
+			spiritualist_vs_humanist = -60
+			aristocracy_vs_plutocracy = -80
+			serfdom_vs_free_subjects = 50
+			mercantilism_vs_free_trade = 50
+			belligerent_vs_conciliatory = 100
+			quality_vs_quantity = -75
+			offensive_vs_defensive = 50
+			land_vs_naval = -90
+			capital_economy_vs_traditional_economy = 100
+			individualism_vs_communalism = 60
+			outward_vs_inward = 50	
+
+			parliament = {
+				parliament_type = assembly
+			}	
+
+			laws = {
+				marriage_law = polygyny
+				heir_religion_law = heir_same_religion
+			}
+
+			reforms = {
+				agricultural_cultivation
+			}
+			privilege = {
+				#nobles
+				nobility_council
+				nobles_land_rights
+				tribal_autonomy
+
+				#clergy
+				embellish_great_works_of_faith
+
+				#burghers
+				urban_development_grants
+				market_fairs
+
+				#Commoners
+				peasants_autonomous_villages
+				communal_lands
+				allow_hunting
+				partial_yield
+				peasants_free_peasantry
+		
+				tribes_tribal_levies
+				tribes_allow_gatherings
+			}
+		}	
 		court_language = chickasaw_choctaw_language
 		capital = tchoukafala
 	}
 	#Muscogee/Tuscaloosa Paramount Chiefdom (De Soto)
 	#https://en.wikipedia.org/wiki/Muscogee
 	MCG = {
-		type = pop
 
-		add_pops_from_locations = {
+		own_control_core = {
 			atahachi piachi humati caxa mabila zabusta casiste talisi
-			abihka pakana wakokai uchee
+			abihka pakana wakokai uchee pakana
+			apafalaya apotaka_hacha tescuntee chatahoochee
+			conecuh patsaliga chootawatchee omusee
+			mikasuki alapahoochee capachequi kasihta hitchauta pallachacola eufaula
 		}
 		include = "american_east_coast_tribe"
+		include = "expl_western_europe"
 		government = {
 			ruler = random
-		}
+
+			type = tribe
+			heir_selection = tribal_oldest_male
+
+			centralization_vs_decentralization = 80
+			traditionalist_vs_innovative = -70
+			spiritualist_vs_humanist = -60
+			aristocracy_vs_plutocracy = -80
+			serfdom_vs_free_subjects = 50
+			mercantilism_vs_free_trade = 50
+			belligerent_vs_conciliatory = 100
+			quality_vs_quantity = -75
+			offensive_vs_defensive = 50
+			land_vs_naval = -90
+			capital_economy_vs_traditional_economy = 100
+			individualism_vs_communalism = 60
+			outward_vs_inward = 50	
+
+			parliament = {
+				parliament_type = assembly
+			}	
+
+			laws = {
+				marriage_law = polygyny
+				heir_religion_law = heir_same_religion
+			}
+
+			reforms = {
+				agricultural_cultivation
+			}
+			privilege = {
+				#nobles
+				nobility_council
+				nobles_land_rights
+				tribal_autonomy
+
+				#clergy
+				embellish_great_works_of_faith
+
+				#burghers
+				urban_development_grants
+				market_fairs
+
+				#Commoners
+				peasants_autonomous_villages
+				communal_lands
+				allow_hunting
+				partial_yield
+				peasants_free_peasantry
+		
+				tribes_tribal_levies
+				tribes_allow_gatherings
+			}
+		}	
 		court_language = muskogee_language
 	}
 
@@ -41873,8 +42109,8 @@ ZAZ = { #Zaporozhia
 			wappacoma ashby chinquetana
 			kituwa nikwasi guaxule
 			tahkeeosteh italwa wattogee watauga 
-			amoyeli_gunahita canasoga chiaha coste  hogohega
-			pelisipi maniatique
+			
+			
 			patna_us calicuas weotowe
 			
 			eskalapia chattarawa nepepimmesipi yuchi 
