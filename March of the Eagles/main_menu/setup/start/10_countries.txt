@@ -42462,7 +42462,7 @@ ZAZ = { #Zaporozhia
 			ocheyedan penaca moskwawakwa 
 			iowa kiosaquay inyanshashawatpa pahotcha 
 			nishnabotna monona tchankasndata 
-
+			pushroot split_rock washakie hinono_ei moneta grass_creek hot_springs
 		}
 
 		starting_technology_level = 3
