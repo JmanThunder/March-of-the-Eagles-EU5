@@ -215,9 +215,9 @@ locations={
 	jaragua = { rank = town 	town_setup = french_town }
 
 	#USA
-	manhattan = { rank = town		town_setup = british_town_port }
-	shackamaxon = { rank = town 		town_setup = british_town }
-	shawmut = { rank = town		town_setup = british_town_port }
+	manhattan = { rank = city		town_setup = british_town_port }
+	shackamaxon = { rank = city 		town_setup = british_town }
+	shawmut = { rank = city		town_setup = british_town_port }
 	powhatan = { rank = town 		town_setup = british_town }
 	tybee = { rank = town		town_setup = british_town_port }
 
