@@ -74,7 +74,7 @@ diplomacy_manager = {
     dependency = { first = FRA second = MUL subject_type = vassal }
     dependency = { first = FRA second = BLL subject_type = vassal }
     dependency = { first = FRA second = AYT subject_type = vassal }
-	dependency = { first = FRA second = LOU subject_type = vassal }
+	
     
     #Appanages
   
@@ -96,6 +96,9 @@ diplomacy_manager = {
 
     scripted_oneway = { first = SPA second = ANR type = guarantee }
     scripted_oneway = { first = FRA second = ANR type = guarantee }
+    dependency = { first = SPA second = LOU subject_type = vassal }
+    dependency = { first = SPA second = MEX subject_type = vassal }
+    dependency = { first = POR second = BRAZ subject_type = vassal }
     
 
     #scripted_oneway = { first = CAS second = CTV type = military_sponsorship }
