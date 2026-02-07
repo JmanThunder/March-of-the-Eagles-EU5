@@ -98,14 +98,12 @@ diplomacy_manager = {
     scripted_oneway = { first = FRA second = ANR type = guarantee }
     dependency = { first = SPA second = LOU subject_type = vassal }
     dependency = { first = SPA second = MEX subject_type = vassal }
+    dependency = { first = SPA second = NGRA subject_type = vassal }
+    dependency = { first = SPA second = PERU subject_type = vassal }
+    dependency = { first = SPA second = ARGE subject_type = vassal }
     dependency = { first = POR second = BRAZ subject_type = vassal }
     
 
-    #scripted_oneway = { first = CAS second = CTV type = military_sponsorship }
-    #scripted_oneway = { first = CAS second = STO type = military_sponsorship }
-    #scripted_oneway = { first = CAS second = ACT type = military_sponsorship }
-    #scripted_oneway = { first = ARA second = MTS type = military_sponsorship }
-    #scripted_oneway = { first = POR second = OPX type = military_sponsorship }
 
 
 

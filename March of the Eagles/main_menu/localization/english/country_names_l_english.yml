@@ -36,6 +36,14 @@
  NGRA: "New Granada"
  NGRA_ADJ: "New Granadan"
 
+ PERU: "Peru"
+ PERU_ADJ: "Peruvian"
+ 
+ CHIL: "Chile"
+ CHIL_ADJ: "Chilean"
+ 
+ ARGE: "Argentina"
+ ARGE_ADJ: "Argentinian"
 
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"

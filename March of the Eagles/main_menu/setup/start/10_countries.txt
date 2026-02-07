@@ -30532,7 +30532,120 @@ ZAZ = { #Zaporozhia
 	}
 
 	#-------------------------- Andes ----------------------------
+	PERU = { #Peru
+		own_control_core = {
+					
+					tumbes chira nariguala nunura xllang
+					ayahuacas guayacundo apurlec huancapampa
+					pakatnamu sana farfan chan_chan chao huacatambo manchan huarmey
+					ocro paramonga guamanmayo
+					chancay chiprac collique cantamarca rimaq huarochiri
+					ishma chilca huarco naupahuasi incahuasi
+					chuqlluqucha chinchay puka_tampu ica cahuachi acari
+					incawasi chullac pukiupukio
+					yauca atico caraveli ucuna camana quilca yanque aruni
+					arequipa churajon tampo puquina chaucalana tacna kileqollo
+					arica tarapaca huantajaya iki_iki tocopilla ckara_ama
+					tulor antofagasta paposo tatal chanaral cobija
+					oma_sacopo angastaco tastil salta jujuy tilcara paya
+					watungasta pipanaco aconquija shincal yukkuman kilmes tolombon lule
+					guandacol talampaya polco cuyo tamberias fiambalao pissis ischigualasto jachal
+					pivn_man_antu angualasto
+					chepes ulapes michilingue saleta nogolma
+					uco uspallata huanacache guentota jaurua millcayac
+					ullum sankancete zonda quines
+					qupayapu kellollampu huasco elki limari
+					millapel liwen
+					inka_llaqta ayopaya paititi yungas guanay kallawaya caupolican sarkajpa
+					yurakar
+					pomabamba huacareta tomina takopaya yamparaez samaipata chuwi mizque
+					sachchaa_mukku arque incarraqay
+					aqush yaino huari rapayan chavin japallan huacrachuco manchac
+					garu wanuco_marka chiquia kotosh atash ichugan pumpu gochacalla
+					andaymarca pashas tumshukaiko waricoto choquerecuay kasha_tampu quillahuaca willcahuain
+					ingapirca llampqui tarmatambo tunanmarca hatun_xauxa pumaruri
+					wari_willka willka_ulo tampu_machay churkampa tayaccasa llacsapallanca
+					allpas wari_peru pariahuanca pampahuaylla choccalpata paqwayranra
+					sondor auccapana challwanqa millcca tukri_apu_apu willkawaman soras huaman_karpa
+					caniche seqse_qaqa
+					yanahuara cotapampa antabamba tucssa sara_sara
+					raqchi sausaya kanamarca
+					achachiwa uyo_uyo pampa
+					oruro ayaviri pukara macaya pumanota puncune wankani titimani iskanwaya
+					hatunqulla ichuna chucuito contornasa pomata
+					machaqa axawiri achacachi viacha tiwanaku calamarca chuqiyapu
+					kori_bara_karaa_ancas callapa ayo_ayo sicasica curahuara matarjawira sura
+					aullagas karanka uru carangas isluga llica uyuni loa lipi hatun_killaka
+					charka colquechaca ccantumarcani thumilki oronckota chake tupiza payacullo
+					camataqui
+					toara cochinoca omaguacas puma susques lickanantay antofalla kolla
+					chumbivilcas maukallaqta waqrapukara pikillaqta qusqu pisaq paucartambo
+					urupampa quillarumiyoc
+					yanatile yunca ullantaytampu picchu willka_pampa
+					ilucan chetilla huambos chumuch congona kuelap huamanpata olan
+					illapa kaxa_marca tantaricuy chimu llucho markahuamachuco pirca_pirca
+					huallumarca
+					awajun bagua utkhupampa namballe ingatambo karajia huancachaca
+					moyobamba lamas yurimagua chatuza cocamas kachi rupharupha
+					may_ushin kakataibo ashaninka panatahuas yanesha chanchacc nomatsigenga
+					aconca_hue qillu_uta waykuche meli_pillan rangkawe kolchawwe kuruko mawlen
+					cauquen pikumche uthan_uthatun chillan perquilauquen puchacay biobio
+					lafkenmapu lelbunmapu wenteche inapiremapu pebuenmapu
+					pikunwijimapu caurakawin ancud quiquilhue quellon piren
+		}
 
+
+		starting_technology_level = 3
+	
+		
+		include = "expl_western_europe"
+
+		government = {
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Viceroy Teodoro de Croix
+
+			regnal_numbers = {
+					
+			}
+
+			reforms = {
+			
+			}
+
+			privilege = {
+				#Noblity
+				
+				#Clergy
+				
+				#Commoners
+			
+			}
+
+			laws = {
+				
+			}
+
+			aristocracy_vs_plutocracy = -40
+			serfdom_vs_free_subjects = -15
+			mercantilism_vs_free_trade = -40
+			belligerent_vs_conciliatory = -15
+			outward_vs_inward = -30
+		}
+
+		country_rank = rank_kingdom
+		capital = ishma
+
+		
+		accepted_cultures = { 
+			
+			
+		}
+		tolerated_cultures = { 
+			
+		}
+		
+	}
 
 	#Quito - QTO
 	#Very advanced Pop based, intertwined with the Caras to the point of being almost confederated
@@ -44663,7 +44776,74 @@ ZAZ = { #Zaporozhia
 	#############################
 	# La Plata
 	#############################
+	ARGE = { #Argentina
+		own_control_core = {
+				
+					charrua araicuahita yi hum arachan guenoa ita_cuara ybiti yacegua
+					chana mbegua timbu ituzaingo tuvicha_mini yaros bohan
+					carapachay ombu yaguari_guazu gualeguay nogoya
+					tandil tapalquen chivilco calfuleufu tubicha_mini pillahuinco kla_rome_ko
+					trenquelauquen wangulen rangkull_mapu
+					cholle_cholle choele_choel chadileuvu fisque_menuco anelo ucaln
+					popopis atuel viluco mamull_mapu rankulche vuta_chadihue quemu_quemu chapaleufu chical_co lewfuko
+					kububu gaiman tulshun gan_gan kashtruk balcheta shupaw_kulu makunchawu
+					newenken curu_leufvu elcui naupa_huen somuncura yaminue cushamen
+					kalfucura colipilli antinir_pilquinan buta_ranquil malal_hue catan_lil currumil
+					vuriloche curruhuinca norquinco			
+		}
 
+
+		starting_technology_level = 3
+	
+		
+		include = "expl_western_europe"
+
+		government = {
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Viceroy Nicolás del Campo
+
+			regnal_numbers = {
+					
+			}
+
+			reforms = {
+			
+			}
+
+			privilege = {
+				#Noblity
+				
+				#Clergy
+				
+				#Commoners
+			
+			}
+
+			laws = {
+				
+			}
+
+			aristocracy_vs_plutocracy = -40
+			serfdom_vs_free_subjects = -15
+			mercantilism_vs_free_trade = -40
+			belligerent_vs_conciliatory = -15
+			outward_vs_inward = -30
+		}
+
+		country_rank = rank_kingdom
+		capital = ituzaingo
+
+		
+		accepted_cultures = { 
+			
+			
+		}
+		tolerated_cultures = { 
+			
+		}
+		
+	}
 	#Mapuche - MPC
 	MPC = {
 		type = pop

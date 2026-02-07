@@ -81,9 +81,33 @@ BRAZ = { #Brazil
 
 }
 NGRA = { #Gran Columbia
-	color = rgb { 198 163 59 }
+	color = rgb { 199 190 88}
 
 	culture_definition = castilian
 	religion_definition = catholic
 
 }
+
+PERU = { #Peru
+	color = rgb { 204 0 102 }
+
+	culture_definition = castilian
+	religion_definition = catholic
+
+}
+
+CHIL = { #Chile
+	color = rgb {0 79 42}
+
+	culture_definition = castilian
+	religion_definition = catholic
+
+}
+ARGE = { #Argentina
+	color = rgb { 116 172 223 }
+
+	culture_definition = castilian
+	religion_definition = catholic
+
+}
+
