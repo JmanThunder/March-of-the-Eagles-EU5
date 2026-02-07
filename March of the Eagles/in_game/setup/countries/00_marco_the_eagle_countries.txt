@@ -176,3 +176,5 @@ SAMI = { #Sachsen-Meiningen
 	religion_definition = lutheran
 
 }
+
+

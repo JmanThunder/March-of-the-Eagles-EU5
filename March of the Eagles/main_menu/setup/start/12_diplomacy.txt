@@ -74,7 +74,8 @@ diplomacy_manager = {
     dependency = { first = FRA second = MUL subject_type = vassal }
     dependency = { first = FRA second = BLL subject_type = vassal }
     dependency = { first = FRA second = AYT subject_type = vassal }
-	
+	dependency = { first = FRA second = LOU subject_type = vassal }
+    
     #Appanages
   
 

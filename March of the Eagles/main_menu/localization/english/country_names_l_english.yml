@@ -4,8 +4,8 @@
  AYT_LONG: "Republic of Haiti"
 
  LOU: "Louisiane"
- LOU_ADJ: "louisianais"
- LOU_LONG: "Republic of louisiane"
+ LOU_ADJ: "Louisianais"
+ LOU_LONG: "Republic of Louisiane"
 
  UIN: "Indiana"
  UIN_ADJ: "Indianan"
@@ -29,6 +29,9 @@
 
  SAMI: "Saxony-Meiningen"
  SAMI_ADJ: "Saxony-Meinignan"
+
+ BRAZ: "Brazil"
+ BRAZ_ADJ: "Brazilian"
 
 
  DUMMY: "(placeholder)"

@@ -31,7 +31,7 @@ CAN = { #Colonial Canada
 	difficulty = 3
 }
 
-MEX = { 
+MEX = { #Mexico
     color = map_MEX
 
     culture_definition = castilian
@@ -73,4 +73,10 @@ CHRK = {
 	religion_definition = mississippian_ceremonial
 }
 
+BRAZ = { #Brazil
+	color = rgb { 67 124 136 }
 
+	culture_definition = portuguese
+	religion_definition = catholic
+
+}
