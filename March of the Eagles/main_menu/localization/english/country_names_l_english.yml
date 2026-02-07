@@ -15,6 +15,19 @@
  MNTG_ADJ: "Montenegrin"
  MNTG_LONG: "Prince-Bishopric of Montenegro"
 
+ SGA: "Saxony-Gotha-Altenburg"
+ SGA_ADJ: "Saxon-Gothian"
+
+ SWEI: "Saxony-Weimar-Eisenach"
+ SWEI_ADJ: "Saxon-Weimarian"
+
+ SCS: "Saxony-Coburg-Saalfeld"
+ SCS_ADJ: "Saxon-Coburgian"
+
+ SAMI: "Saxony-Meiningen"
+ SAMI_ADJ: "Saxony-Meinignan"
+
+
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
  PIR: "Pirates"

@@ -1055,12 +1055,11 @@ HSA = {	#Hansa
 		capital = ravensburg
 	}
 
-THU = {	#Thuringia - Replacement Tag till we split Thüringen
+SGA = {	#Sachsen-Gotha-Altenburg
 		own_control_core = {
-			eisenach gotha eisenberg apolda
-			meiningen schmalkalden
-			coburg hildburghausen #Lordship of Coburg
-			ohrdruf weimar
+			gotha eisenberg schmalkalden
+			ohrdruf
+			
 		}
 
 		starting_technology_level = 3
@@ -1069,13 +1068,79 @@ THU = {	#Thuringia - Replacement Tag till we split Thüringen
 		include = "expl_northern_europe"
 		include = "german_principality"
 
-		country_rank = rank_county
-		capital = eisenach
+		country_rank = rank_duchy
+		capital = gotha
 		government = {
-			ruler = mei_friedrich_ii_meissen
+			ruler = random
 
 			reforms = {
-				landgraviate
+				
+			}
+		}
+	}
+	SWEI = {#Sachsen-Weimar-Eisenach
+		own_control_core = {
+		 weimar eisenach apolda
+			
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		include = "german_principality"
+
+		country_rank = rank_duchy
+		capital = weimar
+		government = {
+			ruler = random
+
+			reforms = {
+				
+			}
+		}
+	}
+	SCS = {#Sachsen-Coburg-Saalfeld
+		own_control_core = {
+			coburg hildburghausen #Lordship of Coburg
+			
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		include = "german_principality"
+
+		country_rank = rank_duchy
+		capital = coburg
+		government = {
+			ruler = random
+
+			reforms = {
+				
+			}
+		}
+	}
+	SAMI = {#Sachsen-Meiningen
+		own_control_core = {
+			meiningen
+			
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+		include = "german_principality"
+
+		country_rank = rank_duchy
+		capital = meiningen
+		government = {
+			ruler = random
+
+			reforms = {
+				
 			}
 		}
 	}
@@ -27221,7 +27286,7 @@ QUB = {	#Gera / sold by Quedlinburg
 		include = "catholic_german_republic_no_coast"
 		include = "expl_northern_europe"
 		government = {
-
+			type = monarchy
 			ruler = random
 		}
 
