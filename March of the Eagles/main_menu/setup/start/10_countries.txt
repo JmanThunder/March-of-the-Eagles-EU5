@@ -34903,6 +34903,115 @@ ZAZ = { #Zaporozhia
 
 
 	#-------------------Canada-------------
+ QUEB = { #Quebec
+		own_control_core = {
+			gaspe chicchoc marsoui pewjeg cascapedia paspebiac matapedia  matane
+			rimouski mitis amqui causapscal kakouna molsemtekw temiscouata kamouraska  
+			mittaywanquam kikonteku kamitsisit etchemin wachilmezi onkobagag sartigan wolastoq 
+			stadacona andawaohie ontaretse ahwendoe ondaonnentakwi aunona taoondewake kouate 
+			mingan pigou aguanish natashquan manapakuaniskau uanaman upuahpukau 
+			mecatina kegaska coacoachou napetipi 
+			uashat nipisso nipissis caopacho opocopa mistecapiu 
+			ouiauirabugu toulnustouc capotigamau manicouagan mouchalagane kapuameut piletisipuk
+			pessamit betsiamites pipmuacan itomamo kitchesatsiou manouanis tetepisca essipit manouane 
+			notiskuan anticosti natigostec tadoussac outapimiskou shipshaw chicoutimi onatchiway metabetchouane
+			
+			wigwomadensis masolian yamaska wdpesek 
+			hochelaga kemoimenahan ahkwesasne otennienontant makigotekw loigan_sibo
+			kiwetin_sipi mikiwam outaragasipi  
+			alsigontekw wolinak wabanaki arthabaska nebesek 
+			nikitotegwak megantic maskikogamak coaticook memphremagog wigwomadenek wagowategok 
+			ekwentondie yamachiche shawinigan mekinac matawin 
+			nagatinong weskarini okaisipi quyon nichabau 
+			cataraqui kahwenoke toniato gananoque opinicon 
+			kitchissippi pasapkedjinawong onontchataronon maizinaazibi matoueska kinozhesipi pikwakanagan petawawa 
+			napanee ganneious ganaraska quinte
+			otonabee kawartha mazinaw skootamatta kamaniskeg catchacoma kashagawigamog
+			macassa niagara nissouri kandoucho kenhionatatie
+			tekahionhake kanagio ganatchio bkwejanong
+			menesetung saugeen dehskan_ziibi nochemoweniing
+			etharita ehwae garafraxa eramosa	
+			ouentarionk cahiague kaotia scanonaenrat ossossane 
+			tkaronto oshawa scugog haskaont missinihe tetioneshohon 
+			shawanaga cognashene kahshe magnetawan
+			nosbonsing nipissing powassan memesagamesing nemag
+			wanapitei onaping pogamasing temagami
+			manitoulin wemitigoj eskimanetigon mississagi
+			matabichuan matachewan sessekinika mattawa opimika
+			baawitigong batchawana michipicoten agawa_superior manitowik pekatek aguasabon 
+			nipigon namewaminikan ombabika wabinosh kaitotikwia
+			kaministiquia kakabeka neebing minong
+				
+
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur Guy Carleton
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				formal_guilds
+				clergy_literacy_rights
+				auxilium_et_consilium
+				nobles_land_rights
+				noble_leaders_only
+				primacy_of_nobility
+				noble_armies
+				chancellor_nobles
+				villes_franches
+			}
+		}
+
+		country_rank = rank_duchy
+		capital = stadacona
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	#Taontaenrat - TRT
 	TRT = { #??
 		type = pop

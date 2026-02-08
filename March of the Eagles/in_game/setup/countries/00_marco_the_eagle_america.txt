@@ -119,3 +119,11 @@ CENT = { #Centroamerica
 
 }
 
+QUEB = { #Quebec
+	color = rgb { 64 159 255 }
+
+	culture_definition = french
+	religion_definition = catholic
+
+}
+

@@ -48,6 +48,9 @@
  CENT: "Central America"
  CENT_ADJ: "Central American"
 
+ QUEB: "Quebec"
+ QUEB_ADJ: "Québécois"
+
 
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
