@@ -165,3 +165,19 @@ PEDI = { #Prince Edward Island
 	religion_definition = anglican
 
 }
+
+PRL = { #Prince Rupert's Land
+	color = rgb { 237 39 74 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+NFL = { #Newfoundland (Hey i found some land)
+	color = rgb { 209 226 49 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}

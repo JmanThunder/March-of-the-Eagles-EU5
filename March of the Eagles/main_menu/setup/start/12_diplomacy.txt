@@ -8,6 +8,8 @@ diplomacy_manager = {
    dependency = { first = GBR second = NBRU subject_type = vassal }
    dependency = { first = GBR second = NOVA subject_type = vassal }
    dependency = { first = GBR second = PEDI subject_type = vassal }
+   dependency = { first = GBR second = PRL subject_type = vassal }
+   dependency = { first = GBR second = NFL subject_type = vassal }
 
     # Scandinavia
 

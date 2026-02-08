@@ -55,7 +55,7 @@
  CUBA_ADJ: "Cuban"
 
  DOMR: "Santo Domingo"
- DOMR_ADJ: "Santo Domingan"
+ DOMR_ADJ: "Dominican"
 
  NBRU: "New Brunswick"
  NBRU_ADJ: "New Brunswickian"
@@ -65,6 +65,12 @@
 
  PEDI: "Prince Edward Island"
  PEDI_ADJ: "Prince Edward Islander"
+
+ PRL: "Prince Rupert's Land"
+ PRL_ADJ: "Hudson's Bay"
+
+ NFL: "Newfoundland"
+ NFL_ADJ: "Newfoundlander"
 
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"

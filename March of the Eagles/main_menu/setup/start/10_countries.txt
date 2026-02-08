@@ -35041,6 +35041,17 @@ ZAZ = { #Zaporozhia
 			baawitigong batchawana michipicoten agawa_superior manitowik pekatek aguasabon 
 			nipigon namewaminikan ombabika wabinosh kaitotikwia
 			kaministiquia kakabeka neebing minong
+			opiticiwan oskelaneo minkaniciciw wemotaci maskotci metabeskega kokokachi cikakw_sipi kiskissink wayagamac 
+			kitigan_zibi baskatong poigan picanoc gatineau_hills tapani kiamika kanegaok 
+			temiscamingue maganasipi kippawa winneway kinojevis osisko kitcisakik kakibonga cawassiemica capimitchigama 
+			mistassibi samaqua ouasimesca nestaocano tchitogama peribonka onistagane machisque 
+			ashuapmushuan kanishushteu chigoubiche nicabau ouiatchouaniche	
+
+			nunainguk navchak kingmirtok napaktok okak aulatsivik ukasikalik agvituk kaipokok aillik tessuialluk
+			misha_shipu tikigaksuagusik aivitok kenamu sheshatshiu kauipushkakamat kamassekutinat
+			shabogamo ashuanipi kepimits muhaukamau atikonak kamassekuakamat nipissu winokapau 
+			mishikamau menutinau ushkau_nipi attikamagen petitsikapau 
+			catucto red_bay ikkatuluk uivvatok natsitok inutsualak 
 				
 
 		}
@@ -35093,6 +35104,159 @@ ZAZ = { #Zaporozhia
 		country_rank = rank_duchy
 		capital = stadacona
 	}
+
+ PRL = { #Prince Ruperts Land
+		own_control_core = {
+			atikwa saganaga quetico namakan gojijin kakagi wabaseemong
+			winnange wabigoon obishikokaang waaninaawangang
+			ogoki miniss atikokiwam matapesatakun petawanga pichinamei makokibatan kagianagami
+			winisk kinusheo wabuk asheweig tabasokwia shibogama wapikopa wunnumin wapitotem  
+			washeo niskibi shagamu ministik 
+			kinosao_sipi manigotagan atikaki mukutawa 
+			oceko_sipiy mantago chitek kawinaw mechiso 
+			pikwitonei anipitapiskow poskatinak 
+			nunatonowago kanaskipenaski kaministikowak echimamish eyapaysis 
+			numaykoos mistutikumak opuskowin kapuskaywak
+			shethanei tadoule kapuskaypachik thlewiaza mistahi
+			kamisak machichi kichekokotic sowunusiske 
+			wapusk des_nedhe nunalla 
+			nueltin tatinnai thaolintoa tha_anne 
+			attawapiskat ekwan otadaonanis patchepawapoka lakitusaki 
+			kashechewan wabimeig mammamattawa wapiskau kinosheo pagashi tchakashapug 
+			moosonee abimatinu takwata wawiyastan kwetabohigan kagawask mesagami olimisk 
+			mahnahwoonan sivukutaitiarruvik akimiski
+			malartic wasakin chicobi harricana obaska megiscane 
+			opawica opemisca waswanipi maicasagi soscumica nottaway missicabi 
+			waskaganish kaipeshimushich nemasca kapitukamach kauakiekamatsh natastan nistam kamashikamach ouagama 
+			mistissini cawachagamite shipastouk mistassiniish chibougamau temiscamie 
+			pitchibourenik caisaboscai chistamikap nasacauso neoskweskau cauouatstacau  
+			mistimakan chisasibi maquatua atikuan 
+			nichicun misask wahemen naococane 
+			kapuskasing missinaibi nemegosenda otapingshewee tionaga wakusimi mattawishkwia 
+			kenogamissi mattagami buskegau mistango nahma piscoutagami mattawasaga
+			nagagami watistiguam achikamii kabinakagami pagwachuan ginoogaming 
+
+			#Nunavik 
+			kuujjuarapik qingaaluk tupialuviniq wiyashakimi nastapoka
+			kuujjuaq kuuvik natuak kasuswapaskau koskoak
+			sanikiluaq
+			pangnirtung iglunga iqaluit kimmirut
+			amadjuak kinngait 
+			caniapiscau kasakaupuyau wayustikw mistanipi chipisipi katataskatikw misinichikw otelnuk kawachisakau kawachikamasu enchukamao
+			qikirtajuaq kamusawawasich kawawasukutisich kaypikupau mistinatwayasu kamiskayachuuch qurlutuq
+			kangiqsualujjuaq imaapik siimitalik uashekanau mistinatuakamau mushuau kausseskait tupirvialuit koroc  
+			
+
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur Samuel Wegg
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				formal_guilds
+				clergy_literacy_rights
+				auxilium_et_consilium
+				nobles_land_rights
+				noble_leaders_only
+				primacy_of_nobility
+				noble_armies
+				chancellor_nobles
+				villes_franches
+			}
+		}
+
+		country_rank = rank_duchy
+		capital = machichi
+	}
+
+ NFL = { #New Foundland
+		own_control_core = {
+			belle_isle wipetikil naskwotchu mekapisk
+			eimastukwek epwikek kutapuskuj pgotapesg upsukdaskooch wli_qospem 
+			gosaoie nogamsig meelpaeg amasipukwek sibook
+			baie_verte walnaypek akilasiewakik 
+			cape_spear bacalhieu mekwiskajk mollyhuajeck 
+			placentia cape_race maqtewey nukamkiajijk miquelon 
+			}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		include = "catholic_monarchy"
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur Mark Milbanke
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				formal_guilds
+				clergy_literacy_rights
+				auxilium_et_consilium
+				nobles_land_rights
+				noble_leaders_only
+				primacy_of_nobility
+				noble_armies
+				chancellor_nobles
+				villes_franches
+			}
+		}
+
+		country_rank = rank_duchy
+		capital = cape_spear
+	}
+
  NBRU = { #New Brunswik
 		own_control_core = {
 			chipoudy petitcodiac memramcook richibucto kouchibouguac miramichi neguac anagance seeboosis 
@@ -35209,7 +35373,7 @@ PEDI = { #Prince Edward Island
 		government = { 
 			type = republic
 			heir_selection = military_dictatorship
-			ruler = random # Gouverneur John Parr
+			ruler = random # Gouverneur Edmund Fanning
 
 			parliament = {
 				parliament_type = assembly
@@ -35240,7 +35404,7 @@ PEDI = { #Prince Edward Island
 		}
 
 		country_rank = rank_duchy
-		capital = kjipuktuk
+		capital = tapu_tuitn
 	}
 
 
