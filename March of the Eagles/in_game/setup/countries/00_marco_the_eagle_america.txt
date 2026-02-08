@@ -142,3 +142,26 @@ DOMR = { #Dominican Republic
 	religion_definition = catholic
 
 }
+
+NBRU = { #New Brunswick
+	color = rgb { 42 198 91 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+NOVA = { #Nova Scotia
+	color = rgb { 149 165 175 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+PEDI = { #Prince Edward Island
+	color = rgb { 148 216 185 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}

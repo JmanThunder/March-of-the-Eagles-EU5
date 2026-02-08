@@ -35093,9 +35093,155 @@ ZAZ = { #Zaporozhia
 		country_rank = rank_duchy
 		capital = stadacona
 	}
+ NBRU = { #New Brunswik
+		own_control_core = {
+			chipoudy petitcodiac memramcook richibucto kouchibouguac miramichi neguac anagance seeboosis 
+			nepisiguit tracadie caraquet restigouche maleagit pogomeg asoqasqoq 
+			negoot becaguimec siegas 
+			menahkwesk mispec kennebecasis washademoak otnabog kcheeminpink 
+			nashwaak oromocto meductic welamooktook pokiok 
+			grand_manan pocologan chamcook magaguadavic 
 
+		}
 
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		
 
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur Thomas Carleton
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				
+			}
+		}
+
+		country_rank = rank_duchy
+		capital = oromocto
+	}
+ NOVA = { #Nova Scotia
+		own_control_core = {
+			askataliank cheticamp ingonish qospemk apaqtukowatek sipuk kluskapewiktuk 
+			pictou chignecto maccan tatamagouche antigonish 
+			canso kekwapskuk wikipoq weljuik 
+			jijkwtuk cobequid shubenacadie kennetook 
+			kjipuktuk wetewatoqsik musquedoboit aspotogan esekatik 
+			nmejuaqnek nictaux wekwayik chebogue muinawamek nisiamk oqumkikiak 
+
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur John Parr
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				
+			}
+		}
+
+		country_rank = rank_duchy
+		capital = kjipuktuk
+	}
+PEDI = { #Prince Edward Island
+		own_control_core = {
+			elsiktuk tignish malpeque tapu_tuitn pukusamkek
+			menageesenog
+
+		}
+
+		starting_technology_level = 3
+		include = "expl_western_europe"
+		
+
+		government = { 
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Gouverneur John Parr
+
+			parliament = {
+				parliament_type = assembly
+			}
+
+			centralization_vs_decentralization = -95
+			traditionalist_vs_innovative = 10
+			spiritualist_vs_humanist = 25
+			aristocracy_vs_plutocracy = 10
+			serfdom_vs_free_subjects = -100
+			mercantilism_vs_free_trade = 0
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = 0
+			land_vs_naval = 0
+			capital_economy_vs_traditional_economy = -50
+			individualism_vs_communalism = 75
+			outward_vs_inward = -50
+
+			laws = {
+				cultural_traditions_law = civil_society	#Taxing the peasants
+				mining_law = nobles_mining_law	#Noble Controlled
+			}
+
+			privilege = {
+				
+			}
+		}
+
+		country_rank = rank_duchy
+		capital = kjipuktuk
+	}
 
 
 

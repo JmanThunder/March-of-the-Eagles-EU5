@@ -57,6 +57,15 @@
  DOMR: "Santo Domingo"
  DOMR_ADJ: "Santo Domingan"
 
+ NBRU: "New Brunswick"
+ NBRU_ADJ: "New Brunswickian"
+
+ NOVA: "Nova Scotia"
+ NOVA_ADJ: "Nova Scotian"
+
+ PEDI: "Prince Edward Island"
+ PEDI_ADJ: "Prince Edward Islander"
+
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
  PIR: "Pirates"
