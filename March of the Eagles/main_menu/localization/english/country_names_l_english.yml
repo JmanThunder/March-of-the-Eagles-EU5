@@ -51,6 +51,11 @@
  QUEB: "Quebec"
  QUEB_ADJ: "Québécois"
 
+ CUBA: "Cuba"
+ CUBA_ADJ: "Cuban"
+
+ DOMR: "Santo Domingo"
+ DOMR_ADJ: "Santo Domingan"
 
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"

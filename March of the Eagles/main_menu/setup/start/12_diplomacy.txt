@@ -4,7 +4,7 @@ diplomacy_manager = {
 	#scripted_oneway = { first = ENG second = SBL type = guarantee }
 	
    dependency = { first = GBR second = PLE subject_type = dominion }
-    
+   dependency = { first = GBR second = QUEB subject_type = vassal }
 
     # Scandinavia
 
@@ -96,13 +96,15 @@ diplomacy_manager = {
 
     scripted_oneway = { first = SPA second = ANR type = guarantee }
     scripted_oneway = { first = FRA second = ANR type = guarantee }
-    dependency = { first = SPA second = LOU subject_type = vassal }
+    dependency = { first = CUBA second = LOU subject_type = vassal }
     dependency = { first = SPA second = MEX subject_type = vassal }
     dependency = { first = SPA second = NGRA subject_type = vassal }
     dependency = { first = SPA second = PERU subject_type = vassal }
     dependency = { first = SPA second = ARGE subject_type = vassal }
     dependency = { first = MEX second = CENT subject_type = vassal }
     dependency = { first = PERU second = CHIL subject_type = vassal }
+    dependency = { first = SPA second = CUBA subject_type = vassal }
+    dependency = { first = SPA second = DOMR subject_type = vassal }
     dependency = { first = POR second = BRAZ subject_type = vassal }
     
 
