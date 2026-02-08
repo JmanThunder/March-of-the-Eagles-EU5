@@ -30605,16 +30605,6 @@ ZAZ = { #Zaporozhia
 					yauca atico caraveli ucuna camana quilca yanque aruni
 					arequipa churajon tampo puquina chaucalana tacna kileqollo
 					arica tarapaca huantajaya iki_iki tocopilla ckara_ama
-					tulor antofagasta paposo tatal chanaral cobija
-					oma_sacopo angastaco tastil salta jujuy tilcara paya
-					watungasta pipanaco aconquija shincal yukkuman kilmes tolombon lule
-					guandacol talampaya polco cuyo tamberias fiambalao pissis ischigualasto jachal
-					pivn_man_antu angualasto
-					chepes ulapes michilingue saleta nogolma
-					uco uspallata huanacache guentota jaurua millcayac
-					ullum sankancete zonda quines
-					qupayapu kellollampu huasco elki limari
-					millapel liwen
 					inka_llaqta ayopaya paititi yungas guanay kallawaya caupolican sarkajpa
 					yurakar
 					pomabamba huacareta tomina takopaya yamparaez samaipata chuwi mizque
@@ -30630,6 +30620,7 @@ ZAZ = { #Zaporozhia
 					yanahuara cotapampa antabamba tucssa sara_sara
 					raqchi sausaya kanamarca
 					achachiwa uyo_uyo pampa
+					chumbivilcas maukallaqta waqrapukara pikillaqta qusqu pisaq paucartambo
 					oruro ayaviri pukara macaya pumanota puncune wankani titimani iskanwaya
 					hatunqulla ichuna chucuito contornasa pomata
 					machaqa axawiri achacachi viacha tiwanaku calamarca chuqiyapu
@@ -30637,9 +30628,6 @@ ZAZ = { #Zaporozhia
 					aullagas karanka uru carangas isluga llica uyuni loa lipi hatun_killaka
 					charka colquechaca ccantumarcani thumilki oronckota chake tupiza payacullo
 					camataqui
-					toara cochinoca omaguacas puma susques lickanantay antofalla kolla
-					chumbivilcas maukallaqta waqrapukara pikillaqta qusqu pisaq paucartambo
-					urupampa quillarumiyoc
 					yanatile yunca ullantaytampu picchu willka_pampa
 					ilucan chetilla huambos chumuch congona kuelap huamanpata olan
 					illapa kaxa_marca tantaricuy chimu llucho markahuamachuco pirca_pirca
@@ -30647,10 +30635,11 @@ ZAZ = { #Zaporozhia
 					awajun bagua utkhupampa namballe ingatambo karajia huancachaca
 					moyobamba lamas yurimagua chatuza cocamas kachi rupharupha
 					may_ushin kakataibo ashaninka panatahuas yanesha chanchacc nomatsigenga
-					aconca_hue qillu_uta waykuche meli_pillan rangkawe kolchawwe kuruko mawlen
-					cauquen pikumche uthan_uthatun chillan perquilauquen puchacay biobio
-					lafkenmapu lelbunmapu wenteche inapiremapu pebuenmapu
-					pikunwijimapu caurakawin ancud quiquilhue quellon piren
+					urupampa quillarumiyoc
+					
+					
+					
+					
 		}
 
 
@@ -30694,6 +30683,71 @@ ZAZ = { #Zaporozhia
 
 		country_rank = rank_kingdom
 		capital = rimaq
+
+		
+		accepted_cultures = { 
+			
+			
+		}
+		tolerated_cultures = { 
+			
+		}
+		
+	}
+	CHIL = { #Chilie
+		own_control_core = {
+					
+					aconca_hue qillu_uta waykuche meli_pillan rangkawe kolchawwe kuruko mawlen
+					cauquen pikumche uthan_uthatun chillan perquilauquen puchacay biobio
+					lafkenmapu lelbunmapu wenteche inapiremapu pebuenmapu
+					pikunwijimapu caurakawin ancud quiquilhue quellon piren
+					qupayapu kellollampu huasco elki limari
+					millapel liwen
+					
+					tulor antofagasta paposo tatal chanaral cobija
+		}
+
+
+		starting_technology_level = 3
+	
+		
+		include = "expl_western_europe"
+
+		government = {
+			type = republic
+			heir_selection = military_dictatorship
+			ruler = random # Viceroy idk
+
+			regnal_numbers = {
+					
+			}
+
+			reforms = {
+			
+			}
+
+			privilege = {
+				#Noblity
+				
+				#Clergy
+				
+				#Commoners
+			
+			}
+
+			laws = {
+				
+			}
+
+			aristocracy_vs_plutocracy = -40
+			serfdom_vs_free_subjects = -15
+			mercantilism_vs_free_trade = -40
+			belligerent_vs_conciliatory = -15
+			outward_vs_inward = -30
+		}
+
+		country_rank = rank_kingdom
+		capital = antofagasta
 
 		
 		accepted_cultures = { 
@@ -44848,7 +44902,21 @@ ZAZ = { #Zaporozhia
 					kububu gaiman tulshun gan_gan kashtruk balcheta shupaw_kulu makunchawu
 					newenken curu_leufvu elcui naupa_huen somuncura yaminue cushamen
 					kalfucura colipilli antinir_pilquinan buta_ranquil malal_hue catan_lil currumil
-					vuriloche curruhuinca norquinco			
+					vuriloche curruhuinca norquinco	 
+					chepes ulapes michilingue saleta nogolma
+					uco uspallata huanacache guentota jaurua millcayac
+					ullum sankancete zonda quines
+					guandacol talampaya polco cuyo tamberias fiambalao pissis ischigualasto jachal
+					pivn_man_antu angualasto
+					watungasta pipanaco aconquija shincal yukkuman kilmes tolombon lule
+					oma_sacopo angastaco tastil salta jujuy tilcara paya
+					toara cochinoca omaguacas puma susques lickanantay antofalla kolla		
+					qom_caia nonot_daxinic aim_mocoylek lalek_cotaa qar_ka_la
+					quisquisacate kata_kuna chipion karendo
+					macaclita noguinet auleta siton naure sumampa asingasta gualas chine
+					caminigas mogas chupilta
+					mepenes taragui agaes avaes payubre yapeyu itapua uruguay
+					cuareim pairindi mandisobi
 		}
 
 
