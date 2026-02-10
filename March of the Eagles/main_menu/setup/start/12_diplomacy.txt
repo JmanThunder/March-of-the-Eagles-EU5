@@ -20,8 +20,20 @@ diplomacy_manager = {
     dependency = { first = DAN second = SHL subject_type = fiefdom }
     dependency = { first = DAN second = NOR subject_type = fiefdom }
 
-
-
+   #-------------America----------
+    dependency = { first = USA second = NEWH subject_type = vassal }
+    dependency = { first = USA second = CUNT subject_type = vassal }
+    dependency = { first = USA second = MASS subject_type = vassal }
+    dependency = { first = USA second = RODE subject_type = vassal }
+    dependency = { first = USA second = NEWY subject_type = vassal }
+    dependency = { first = USA second = NEJ subject_type = vassal }
+    dependency = { first = USA second = PENS subject_type = vassal }
+    dependency = { first = USA second = DELA subject_type = vassal }
+    dependency = { first = USA second = VIRG subject_type = vassal }
+    dependency = { first = USA second = NCAR subject_type = vassal }
+    dependency = { first = USA second = SCAR subject_type = vassal }
+    dependency = { first = USA second = GEOR subject_type = vassal }
+    dependency = { first = USA second = MARY subject_type = vassal }
     # Russia
  
 

@@ -72,6 +72,48 @@
  NFL: "Newfoundland"
  NFL_ADJ: "Newfoundlander"
 
+ VERM: "Vermont"
+ VERM_ADJ: "Vermontian"
+
+ NEWH: "New Hampshire"
+ NEWH_ADJ: "Hampshirete"
+
+ MASS: "Massachusetts"
+ MASS_ADJ: "Massachusettsan"
+
+ RODE: "Rhode Island and Providence Plantations"
+ RODE_ADJ: "Rhode Islander"
+
+ CUNT: "Connecticut"
+ CUNT_ADJ: "Connecticutian"
+
+ NEWY: "New York"
+ NEWY_ADJ: "New Yorker"
+
+ NEJ: "New Jersey"
+ NEJ_ADJ: "New Jersey"
+
+ PENS: "Pensylvania"
+ PENS_ADJ: "Pensylvanian"
+
+ DELA: "Delaware"
+ DELA_ADJ: "Delawarian"
+
+ MARY: "Maryland"
+ MARY_ADJ: "Marylander"
+
+ VIRG: "Virginia"
+ VIRG_ADJ: "Virginian"
+
+ NCAR: "North Carolina"
+ NCAR_ADJ: "North Carolinian"
+
+ SCAR: "South Carolina"
+ SCAR_ADJ: "South Carolinian"
+
+ GEOR: "Georgia"
+ GEOR_ADJ: "Georgian"
+
  DUMMY: "(placeholder)"
  DUMMY_ADJ: "(placeholder)"
  PIR: "Pirates"

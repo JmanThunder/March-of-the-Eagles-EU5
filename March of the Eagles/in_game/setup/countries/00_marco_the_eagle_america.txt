@@ -122,8 +122,8 @@ CENT = { #Centroamerica
 QUEB = { #Quebec
 	color = rgb { 64 159 255 }
 
-	culture_definition = french
-	religion_definition = catholic
+	culture_definition = english
+	religion_definition = anglican
 
 }
 
@@ -176,6 +176,115 @@ PRL = { #Prince Rupert's Land
 
 NFL = { #Newfoundland (Hey i found some land)
 	color = rgb { 209 226 49 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+VERM = { #Vermont (YIPPE)
+	color = rgb { 79 121 66 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+NEWH = { #New Hamshire
+	color = rgb { 192 175 80 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+MASS = { #Massatuchets (who thought of that name)
+	color = rgb { 146 155 94 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+RODE = { #Rhode Island and Providence Plantations
+	color = rgb { 225 190 72 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+CUNT = { #Connecticut
+	color = rgb { 104 152 134 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+NEWY = { #New York
+	color = rgb { 182 117 69 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+NEJ = { #New Josey
+	color = rgb { 34 139 34 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+PENS = { #Pensylvania
+	color = rgb { 177 180 177 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+DELA = { #Delaware
+	color = rgb { 72 60 50 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+MARY = { #Maryland
+	color = rgb { 142 69 133 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+VIRG = { #Virgina
+	color = rgb { 67 123 126 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+
+NCAR = { #North Carolina
+	color = rgb { 121 68 59 }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+SCAR = { #South Carolina
+	color = rgb { 0 69 145  }
+
+	culture_definition = english
+	religion_definition = anglican
+
+}
+GEOR = { #US Georgia
+	color = rgb { 162 198 199 }
 
 	culture_definition = english
 	religion_definition = anglican
