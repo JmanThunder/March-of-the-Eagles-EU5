@@ -219,80 +219,7 @@
 		}
 
 		north_german_region = {
-			brabant_area = {
-				limburg_province = {
-					maastricht venlo weert roermond
-				}
-				antwerp_province = {
-					antwerp bergen_zoom breda turnhout mechelen
-				}
-				kempenland_province = {
-					helmond cuijk hertogenbosch eindhoven
-				}
-				brabant_province = {
-					brussels leuven nivelles
-				}
-				loon_province = {
-					borgloon hasselt bree
-				}
-			}
-			flanders_area = {
-				east_flanders_province = {
-					ghent aalst hulst kortriik oudenaarde sint_niklaas
-				}
-				roman_flanders_province = {
-					lille douai tournai
-				}
-				west_flanders_province = {
-					bruges cassel dunkirk ostend veurne ypres
-				}
-			}
-			friesland_area = {
-				east_friesland_province = {
-					emden jever aurich leer
-				}
-				ommelanden_province = {
-					appingedam groningen wedde
-				}
-				friesland_province = {
-					sloten harlingen leeuwarden stavoren wolvega
-				}
-				drenthe_province = {
-					assen meppel coevorden
-				}
-				overijssel_province = {
-					zwolle kampen deventer oldenzaal
-				}
-			}
-			holland_area = {
-				north_holland_province = {
-					amsterdam amersfoort alkmaar hoorn utrecht haarlemmermeer
-				}
-				south_holland_province = {
-					the_hague dordrecht geertruidenberg rotterdam leiden middelburg
-				}
-				gelderland_province = {
-					arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen
-				}
-			}
-			wallonia_area = {
-				east_luxembourg_province = {
-					luxembourg arlon thionville vianden
-				}
-				hainaut_province = {
-					mons ath chimay enghien maubeuge valenciennes
-				}
-				liege_province = {
-					liege limbourg st_vith stavelot
-				}
-				namur_province = {
-					namur dinant orchimont walcourt
-				}
-				west_luxembourg_province = {
-					bastogne bouillon la_roche montmedy neufchateau_luxembourg
-				}
-			}
-
+			
 			holstein_area = {
 				lubeck_province = {
 					lubeck heiligenhafen ratzeburg eutin lauenburg
@@ -473,7 +400,82 @@
 				}
 			}
 		}
+		benelux_region = {
+			brabant_area = {
+				limburg_province = {
+					maastricht venlo weert roermond
+				}
+				antwerp_province = {
+					antwerp bergen_zoom breda turnhout mechelen
+				}
+				kempenland_province = {
+					helmond cuijk hertogenbosch eindhoven
+				}
+				brabant_province = {
+					brussels leuven nivelles
+				}
+				loon_province = {
+					borgloon hasselt bree
+				}
+			}
+			flanders_area = {
+				east_flanders_province = {
+					ghent aalst hulst kortriik oudenaarde sint_niklaas
+				}
+				roman_flanders_province = {
+					lille douai tournai
+				}
+				west_flanders_province = {
+					bruges cassel dunkirk ostend veurne ypres
+				}
+			}
+			friesland_area = {
+				east_friesland_province = {
+					emden jever aurich leer
+				}
+				ommelanden_province = {
+					appingedam groningen wedde
+				}
+				friesland_province = {
+					sloten harlingen leeuwarden stavoren wolvega
+				}
+				drenthe_province = {
+					assen meppel coevorden
+				}
+				overijssel_province = {
+					zwolle kampen deventer oldenzaal
+				}
+			}
+			holland_area = {
+				north_holland_province = {
+					amsterdam amersfoort alkmaar hoorn utrecht haarlemmermeer
+				}
+				south_holland_province = {
+					the_hague dordrecht geertruidenberg rotterdam leiden middelburg
+				}
+				gelderland_province = {
+					arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen
+				}
+			}
+			wallonia_area = {
+				east_luxembourg_province = {
+					luxembourg arlon thionville vianden
+				}
+				hainaut_province = {
+					mons ath chimay enghien maubeuge valenciennes
+				}
+				liege_province = {
+					liege limbourg st_vith stavelot
+				}
+				namur_province = {
+					namur dinant orchimont walcourt
+				}
+				west_luxembourg_province = {
+					bastogne bouillon la_roche montmedy neufchateau_luxembourg
+				}
+			}
 
+		}
 		south_german_region = {
 			austria_area = {
 				unter_dem_wienerwald_province = {
