@@ -1,0 +1,26 @@
+haitian = { 
+	language = french_language
+	
+	color = rgb { 30 30 80 }
+	
+	tags = { haitian_gfx }
+
+	opinions = {
+		#angevin = kindred
+		#berrichon = kindred
+		#burgundian = kindred
+		#champenais = kindred
+		#franc_comtois = kindred
+		#gallo = kindred
+		#lorrain = kindred
+		#norman = kindred
+		#picard = kindred
+		#poitevin = kindred
+		#saintongeais = kindred
+		#walloon = kindred
+	}
+	
+	culture_groups = {
+		french_group
+	}
+}
