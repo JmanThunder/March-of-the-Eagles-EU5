@@ -1,5 +1,96 @@
 ﻿on_game_start = {
 	effect = {
+		#Colonies
+		c:MEX = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:NGRA = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:LOU = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:PERU = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:ARGE = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:CUBA = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:DOMR = {
+			make_subject_of = {
+				target = c:SPA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:BRAZ = {
+			make_subject_of = {
+				target = c:POR
+				type = subject_type:colonial_nation
+			}
+		}
+		c:AYT = {
+			make_subject_of = {
+				target = c:FRA
+				type = subject_type:colonial_nation
+			}
+		}
+		c:QUEB = {
+			make_subject_of = {
+				target = c:GBR
+				type = subject_type:colonial_nation
+			}
+		}
+		c:NBRU = {
+			make_subject_of = {
+				target = c:GBR
+				type = subject_type:colonial_nation
+			}
+		}
+		c:NOVA = {
+			make_subject_of = {
+				target = c:GBR
+				type = subject_type:colonial_nation
+			}
+		}
+		c:PEDI = {
+			make_subject_of = {
+				target = c:GBR
+				type = subject_type:colonial_nation
+			}
+		}
+		c:PRL = {
+			make_subject_of = {
+				target = c:GBR
+				type = subject_type:colonial_nation
+			}
+		}
+		c:NFL = {
+			make_subject_of = {
+				target = c:GBR
+				type = subject_type:colonial_nation
+			}
+		}
 		#catholics
 		if = {
 			limit = { NOT = { has_global_variable_list = pope_countries } }
