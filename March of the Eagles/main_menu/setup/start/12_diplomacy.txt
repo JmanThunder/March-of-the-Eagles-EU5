@@ -131,17 +131,7 @@ diplomacy_manager = {
     #-------Maghreb-------
     dependency = { first = KBO second = FZA subject_type = vassal }
     dependency = { first = MOR second = TFL subject_type = vassal }
-    dependency = { first = TFL second = TAT subject_type = vassal }
-    dependency = { first = TUN second = GBS subject_type = vassal }
-    dependency = { first = TUN second = GFS subject_type = vassal }
-    dependency = { first = TUN second = TGT subject_type = vassal }
-    dependency = { first = TUN second = TRP subject_type = vassal }
-    dependency = { first = TUN second = BTL subject_type = tributary }
-    dependency = { first = TUN second = DJE subject_type = tributary }
-    dependency = { first = TUN second = MZB subject_type = tributary }
-    dependency = { first = TUN second = ZAB subject_type = tributary }
-    dependency = { first = ZAB second = OGL subject_type = tributary }
-    scripted_mutual = { first = MOR second = TUN type = alliance }
+    #scripted_mutual = { first = MOR second = TUN type = alliance }
 
     #-------Germany-------
     dependency = { first = PAL second = MSB subject_type = vassal }
@@ -207,11 +197,36 @@ diplomacy_manager = {
     
  
 
-    #Anatolia
+    #Ottomans
     dependency = { first = TUR second = WAL subject_type = vassal  }
     dependency = { first = TUR second = MOL subject_type = vassal  }
     dependency = { first = TUR second = RAG subject_type = vassal  }
- 
+    dependency = { first = TUR second = MAM subject_type = vassal  }
+    dependency = { first = TUR second = EGY subject_type = vassal  }
+    dependency = { first = TUR second = TRP subject_type = vassal  }
+    dependency = { first = TUR second = TUN subject_type = vassal  }
+    dependency = { first = TUR second = ALG subject_type = vassal  } 
+    #Kurds(and Zaza)
+    dependency = { first = TUR second = KIL subject_type = vassal }
+    dependency = { first = TUR second = CEM subject_type = vassal }
+    dependency = { first = TUR second = EGL subject_type = vassal }
+    dependency = { first = TUR second = HZR subject_type = vassal }
+    dependency = { first = TUR second = ZRQ subject_type = vassal }
+    dependency = { first = TUR second = MUS subject_type = vassal }
+    dependency = { first = TUR second = BIT subject_type = vassal }
+    dependency = { first = TUR second = DIL subject_type = vassal }
+    dependency = { first = TUR second = JLM subject_type = vassal }
+    dependency = { first = TUR second = HZN subject_type = vassal }
+    dependency = { first = TUR second = HKK subject_type = vassal }
+    dependency = { first = TUR second = DSN subject_type = vassal }
+    dependency = { first = TUR second = DMB subject_type = vassal }
+    dependency = { first = TUR second = MZJ subject_type = vassal }
+    dependency = { first = TUR second = SYY subject_type = vassal }
+    dependency = { first = TUR second = HSN subject_type = vassal }
+    dependency = { first = TUR second = BHT subject_type = vassal }
+    dependency = { first = TUR second = ZRR subject_type = vassal }
+    dependency = { first = TUR second = ZBR subject_type = vassal }
+
 
     #-------------Persia------------
     dependency = { first = HLG second = HLL subject_type = vassal }
@@ -552,17 +567,17 @@ diplomacy_manager = {
     dependency = { first = MYI second = TYY subject_type = tributary }
 
     #------------Levant-------------
-    dependency = { first = MAM second = AAL subject_type = vassal }
-    dependency = { first = MAM second = AMR subject_type = vassal }
-    dependency = { first = MAM second = BKZ subject_type = vassal }
-    dependency = { first = MAM second = BQA subject_type = vassal }
-    dependency = { first = MAM second = DGE subject_type = vassal }
-    dependency = { first = MAM second = FDL subject_type = vassal }
-    dependency = { first = MAM second = SKN subject_type = vassal }
+    #dependency = { first = MAM second = AAL subject_type = vassal }
+    #dependency = { first = MAM second = AMR subject_type = vassal }
+    #dependency = { first = MAM second = BKZ subject_type = vassal }
+    #dependency = { first = MAM second = BQA subject_type = vassal }
+    #dependency = { first = MAM second = DGE subject_type = vassal }
+    #dependency = { first = MAM second = FDL subject_type = vassal }
+    #dependency = { first = MAM second = SKN subject_type = vassal }
 
     #------------Arabia-------------
-    dependency = { first = MAM second = MDA subject_type = vassal }
-    dependency = { first = MAM second = MEC subject_type = vassal }
+    dependency = { first = TUR second = MDA subject_type = vassal }
+    dependency = { first = TUR second = MEC subject_type = vassal }
     dependency = { first = ORM second = JRW subject_type = tributary }
     
     scripted_mutual = { first = QHT second = DWS type = alliance }

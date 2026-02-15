@@ -177,4 +177,9 @@ SAMI = { #Sachsen-Meiningen
 
 }
 
+EGY = { # Egypt
+	color = rgb { 55 86 79 }	
 
+	culture_definition = lower_egyptian_culture
+	religion_definition = sunni
+}

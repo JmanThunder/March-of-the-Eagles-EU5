@@ -10225,97 +10225,22 @@ TRO = { #Travunija
 		dynasty = marinid_dynasty
 	}
 
-	TLE = { #Tlemcen
-		own_control_core = {
-			tessala mascara tlemcen
-			mostaganem brashk cherchell tenes
-			tamazaghrane oran arzew ksar_ibn_senane
-			tamentfoust medea algiers tablat
-			tahert djelfa zenina asir_ALG tissemsilt
-			el_bayadh ain_sefra naama messaad ksar_el_boukhari el_abiodh_sidi_cheikh brezina
-			mazouna miliana qal_at_ibn_salama yellel chlef al_khadra_ALG
-			laghouat ksar_el_kaoua medrissa
-			azeffoun tedelles kuku charef qutb ain_madhi
-		}
-
-		own_core = {
-			arshgul madinat_alawiyyin ras_al_ain saida
-		}
-
-		starting_technology_level = 3
-		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_no_abrahamic_dhimmi"
-		country_rank = rank_kingdom
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = tle_abu_tashufin
-
-			ruler_term = { character = tle_abu_hammu start_date = 1308.4.14 end_date = 1318.7.2 regnal_number = 1 }
-			ruler_term = { character = tle_abu_tashufin start_date = 1318.7.2 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_abu.name_john = 1
-				name_osman = 1
-				Abu_Zayyan = 1
-				Abu_Hammu = 1
-				Abu_Tashufin = 1
-			}
-
-			#https://en.wikipedia.org/wiki/Barbary_Coast
-			land_vs_naval = 30
-			laws = {
-				piracy_law = state_piracy_policy
-			}
-			privilege = {
-				#Nobles
-				noble_sponsored_navy
-				#Ulama
-				waqf_payments
-				#Burghers
-				land_of_commerce
-				allow_trade_center_sponsorship
-				#Dhimmi
-				dhimmi_pact_of_umar
-				#Tribes
-				tribes_tribal_levies
-				tribes_allow_gatherings
-			}
-			laws = {
-				amazigh_familial_connections = reliance_on_local_tribes
-				sharia_law = maliki_policy
-			}
-		}
-		religious_school = maliki_school
-		government = { mysticism_vs_jurisprudence = -5 }
-
-
-		tolerated_cultures = {
-			kabyle
-			mozabite
-			algerian
-			mustaarabi
-		}
-
-		capital = tlemcen
-		dynasty = zayyanid_dynasty
-	}
-
 	TUN = { #Tunis
 		own_control_core = {
-			bir_el_alter
+			
 			madjul mahres sidi_fredj bou_hajla sfaqes chebba
 			kairouan sbiba kasserine subaytila thala
 			mahdia sousse el_jem monastir
-			bejaia el_kseur mansouria bouira kalaa_of_ait_abbas setif
-			annaba cheffia jijel el_milia skikda el_kala guelma collo tekouch
-			bizerte tabarka sejnane mateur beja_TUN souk_el_arba el_kef thagaste
+			gafsa douz kebili madas nefta tozeur
+			bizerte tabarka sejnane mateur beja_TUN souk_el_arba el_kef 
 			tunis tebourba el_fahs zaghouan nabeul kelibia hammamet kesra
-			constantine_ALG mila ngaous baghai dufanat bazer_sakhra tiffech tebessa meskiana tijis ikjan
+			baghai dufanat  tiffech tebessa meskiana  
 			feriana
-			bordj_bou_arreridj jama_TUN
+			jama_TUN
 			el_ksour medjez_el_bab sbikha
+			gabes ajim medenine 
+			tataouine zarzis 
+			 henini matmata
 
 		}
 
@@ -10529,11 +10454,30 @@ TRO = { #Travunija
 		capital = taroudant
 	}
 
-	ALG = {
-		our_cores_conquered_by_others = {
+	ALG = { # Algiers
+		own_control_core = {
 			mostaganem brashk cherchell tenes
-			tamentfoust medea algiers tablat
+			tamentfoust medea tablat
 			mazouna miliana qal_at_ibn_salama yellel chlef
+			biskra   amdoukal bades el_kantara madila sidi_okba tolga
+			bou_saada maqqara msila
+			ouled_djellal
+			 baghai dufanat  tiffech tebessa meskiana
+			tessala mascara tlemcen
+			mostaganem brashk cherchell tenes
+			tamazaghrane oran arzew ksar_ibn_senane
+			tamentfoust medea algiers tablat
+			tahert djelfa zenina asir_ALG tissemsilt
+			el_bayadh ain_sefra naama messaad ksar_el_boukhari el_abiodh_sidi_cheikh brezina
+			mazouna miliana qal_at_ibn_salama yellel chlef al_khadra_ALG
+			laghouat ksar_el_kaoua medrissa
+			azeffoun tedelles kuku charef qutb ain_madhi
+			arshgul madinat_alawiyyin ras_al_ain saida
+
+			annaba cheffia collo el_kala el_milia guelma jijel skikda 
+			constantine_ALG bazer_sakhra ikjan mila ngaous tijis 
+			thagaste bir_el_alter debila tekouch
+			bejaia  bordj_bou_arreridj bouira el_kseur kalaa_of_ait_abbas kuku mansouria setif 
 		}
 
 		starting_technology_level = 3
@@ -10658,137 +10602,6 @@ TRO = { #Travunija
 		capital = ghardaia
 	}
 
-	#Zab - ZAB
-	ZAB = {
-		own_control_core = {
-			biskra   amdoukal bades el_kantara madila sidi_okba tolga
-			bou_saada maqqara msila
-			ouled_djellal
-		}
-
-		starting_technology_level = 3
-		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = zab_ahmad_bin_yusuf
-			ruler_term = { character = zab_al_fadl_bin_ali_bin_ahmed_bin_al_hassan_bin_ali_bin_muzni start_date = 1279.1.1 end_date = 1284.1.1 regnal_number = 1 }
-			ruler_term = { character = zab_mansur_bin_fadl start_date = 1284.1.1 end_date = 1296.1.1 regnal_number = 1 }
-			ruler_term = { character = zab_yusuf_bin_mansur start_date = 1296.1.1 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = { character = zab_ahmad_bin_yusuf start_date = 1333.1.1  regnal_number = 1 }
-
-			laws = {
-				sharia_law = maliki_policy
-			}
-		}
-		religious_school = maliki_school
-		government = { mysticism_vs_jurisprudence = -5 }
-
-		tolerated_cultures = {
-			mozabite
-			chaoui
-			mustaarabi
-		}
-
-		capital = biskra
-	}
-
-	#Djerids - DJE
-	DJE = {
-		own_control_core = {
-			ghadames sinawin
-		}
-
-		starting_technology_level = 3
-		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-
-			laws = {
-				sharia_law = ibadi_policy
-			}
-		}
-		religious_school = ibadi_school
-
-		tolerated_cultures = {
-			mustaarabi
-		}
-
-		capital = ghadames
-	}
-
-	#Gafsa - GFS
-	GFS = {
-		own_control_core = {
-			gafsa debila douz kebili madas nefta tozeur
-		}
-
-		starting_technology_level = 3
-		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = tun_abu_l_abbas_ahmad
-			ruler_term = { character = tun_abu_l_abbas_ahmad start_date = 1335.1.1 regnal_number = 1 }
-
-			laws = {
-				sharia_law = maliki_policy
-			}
-		}
-		religious_school = maliki_school
-		government = { mysticism_vs_jurisprudence = -5 }
-
-		tolerated_cultures = {
-			chaoui
-			mozabite
-			mustaarabi
-		}
-
-		capital = gafsa
-	}
-
-	#Gabès - GBS
-	GBS = {
-		own_control_core = {
-			jadu nalut yafran zintan
-			chenini matmata
-		}
-
-		own_control_integrated = {
-			gabes ajim medenine 
-			zuwarah tataouine zarzis 
-		}
-
-		our_cores_conquered_by_others = {
-		}
-
-		starting_technology_level = 3
-		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = gbs_makki
-			ruler_term = { character = gbs_makki start_date = 1300.1.1 regnal_number = 1 }
-
-			laws = {
-				sharia_law = maliki_policy
-			}
-		}
-		religious_school = maliki_school
-		government = { mysticism_vs_jurisprudence = -5 }
-
-		tolerated_cultures = {
-			mustaarabi
-		}
-
-		capital = gabes
-	}
 
 	#Ouargla - OGL
 	OGL = {
@@ -10851,6 +10664,15 @@ TRO = { #Travunija
 	TRP = {
 		own_control_core = {
 			tripoli al_kadwa ghariyan zawiya
+			bani_walid al_khums misratah mizda ras_lanuf sirte tarhuna tawurgha zliten
+			benghazi ajdabiya al_bayda al_khuimat barca derna mechili msus qaminis suluntah tmimi
+			el_agheila ghadames sinawin
+			jadu nalut yafran zintan zuwarah
+			sabha  brak  murzuk zella #fezzan_province
+			in_amenas 
+			# qatrun al_jawf awjila maradah
+			ghat sokna ubari tobruk sallum
+			# djanet zawila
 		}
 
 		starting_technology_level = 3
@@ -10878,50 +10700,15 @@ TRO = { #Travunija
 		capital = tripoli
 	}
 
-	#Banu Tellis - BTL
-	BTL = {
-		own_control_core = {
-			bani_walid al_khums misratah mizda ras_lanuf sirte tarhuna tawurgha zliten
-		}
-
-		starting_technology_level = 3
-		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_no_abrahamic_dhimmi"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = btl_ali_bin_galib
-			ruler_term = { character = btl_ahmad_bin_tellis start_date = 1228.1.1 end_date = 1267.1.1 regnal_number = 1 }
-			ruler_term = { character = btl_ali_bin_ahmad start_date = 1267.1.1 end_date = 1285.1.1 regnal_number = 1 }
-			ruler_term = { character = btl_galib_bin_ali start_date = 1285.1.1 end_date = 1315.1.1 regnal_number = 1 }
-			ruler_term = { character = btl_ali_bin_galib start_date = 1315.1.1 regnal_number = 2 }
-
-			laws = {
-				sharia_law = maliki_policy
-			}
-		}
-		religious_school = maliki_school
-		government = { mysticism_vs_jurisprudence = -5 }
-
-		tolerated_cultures = {
-			libyan_arabic_culture
-			mustaarabi
-		}
-
-		capital = bani_walid
-	}
-
 	#Fezzan - FZA
 	FZA = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			sabha  al_jawf brak maradah murzuk tazirbu zella #fezzan_province
 			qatrun
-		}
-
-		own_control_integrated = {
 			ghat sokna zawila ubari
 			djanet
 		}
+
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
@@ -13593,35 +13380,21 @@ TRO = { #Travunija
 	#-------------------------- Egypt ----------------------------
 
 	#Mamluk Sultanate - MAM
-	MAM = {
+	EGY = {
 		own_control_core = {
 			alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
 			cairo atfih beni_suef faiyum giza dakahla
 			damietta al_mima el_burullus el_mahalla fuwa menouf samanoud tidah
 			mansoura bilbeis faqus ushmum_tannah qalyub tarrana tinnis
 			suez saint_anthony saint_paul_anchorite
-			el_tor
+			el_tor el_jundi faran nuweiba saint_katrine
 			edfu esna qena hiw qus
 			asyut el_balyana el_buwit akhmim manfalut
 			minya ashmunayn el_bahnasa sharuna tahna
-			kharga bahariyya baris el_qasr qasr_farafra siwa
+			kharga bahariyya baris el_qasr qasr_farafra # siwa
+			el_arish nekhel qatya warrada matruh ras_gharib safaga el_qoseir
 		}
 
-		own_control_integrated = {
-			el_arish nekhel qatya warrada
-			matruh sallum tobruk
-			el_qoseir ras_gharib safaga
-			el_jundi faran nuweiba saint_katrine
-			ayntab dluk
-			jerusalem acre amman aqaba beersheba gaza hebron karak maan majdal nablus safed sughar jaffa al_quwayrah
-			beirut baalbek deir_qamar sidon tripoli_syria shoubak madaba
-			damascus al_bab aleppo antioch arsuz artah baniyas dabiq hama homs idlib jabbul jableh kafartab latakia manbij maskanah masyaf nabek qusayr tartus zardana
-			umluj al_hawra al_manjur al_maramiyah
-			al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
-			duba ad_disah al_azlam al_wajh bada_yaqub bir_al_qurr
-			tabuk_arabia al_khanbarah al_muazzam al_ukhaydir bajdah bir_ibn_hermas dhat_al_hajj
-			aynuna al_bad al_muwaylih haql makna
-		}
 
 		own_control_conquered = {
 			iskenderun
@@ -13744,7 +13517,7 @@ TRO = { #Travunija
 
 	#Barqa - BQA
 	BQA = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			benghazi ajdabiya al_bayda al_khuimat barca derna mechili msus qaminis suluntah tmimi
 			awjila el_agheila
 		}
@@ -23031,46 +22804,6 @@ TRO = { #Travunija
 
 	#Anatolia
 
-#Artuqids - ATQ https://en.wikipedia.org/wiki/Artuqids
-	ATQ = {
-		own_control_core = {
-			midyat
-			dunaysir
-			araban hasakah makisin mardin tunanir
-		}
-		own_control_integrated = {
-			barqaid sinjar bara_iraq nusaybin ras_ayn
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = atq_ghazi_ii start_date = 1294.1.1 end_date = 1312.1.1 regnal_number = 2 }
-			ruler_term = {	 character = atq_ali_alpi_ii start_date = 1312.10.1 end_date = 1312.10.1 regnal_number = 2 }
-			ruler_term = {	 character = atq_mahmud start_date = 1312.10.1 regnal_number = 1}
-			ruler = atq_mahmud
-
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-
-			laws = {
-				sharia_law = shafii_policy
-			}
-		}
-
-		tolerated_cultures = {
-			kurdish_culture
-			iraqi_culture
-		}
-
-		capital = mardin
-		religious_school = shafii_school
-		government = { mysticism_vs_jurisprudence = 20 }
-		
-	}
 
 	#Aydinids - AYD https://en.wikipedia.org/wiki/Aydinids
 	AYD = {
@@ -23109,40 +22842,10 @@ TRO = { #Travunija
 		religious_school = bektashi_school
 	}
 
-	#Bafra - BFR #https://en.wikipedia.org/wiki/Beylik_of_Bafra
-	BFR = {
-		own_control_core = {
-			bafra gerze
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining_no_education"
-		government = {
-			ruler = random
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		capital = bafra
-
-		dynasty = candarids_dynasty
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-
-		tolerated_cultures = {
-			pontic_greek_culture
-		}
-	}
-
-
 
 #Cyprus - CYP
 	CYP = {
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos 
 		}
 
@@ -23278,42 +22981,6 @@ TRO = { #Travunija
 		court_language = persian_language
 	}
 
-	#Dulkadirids - DUL https://en.wikipedia.org/wiki/Dulkadirids
-	DUL = {
-		own_control_core = {
-			gerger kahta samsat
-			besni elbistan enguzud goksun afsin
-			kaysun
-			ulnia
-		}
-		own_control_integrated = {
-			marash
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast_no_greek"
-
-		government = {
-			ruler_term = {	 character = dul_karaca start_date = 1337.1.1 }
-			ruler = dul_karaca
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-
-			laws = {
-				sharia_law = ismaili_policy
-			}
-		}
-
-		capital = elbistan
-		religious_school = ismaili_school
-		tolerated_cultures = {
-			armenian_culture
-			kurdish_culture
-		}
-	}
-
 	#Eretnids - ERE https://en.wikipedia.org/wiki/Eretnids
 	ERE = {
 		our_cores_conquered_by_others = {
@@ -23412,33 +23079,6 @@ TRO = { #Travunija
 		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 	}
 
-	#Haciemirids - HCI https://en.wikipedia.org/wiki/Beyliks_of_Canik
-	HCI = {
-		own_control_core = {
-			mesudiye
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = hci_bayram start_date = 1313.1.1 }
-			ruler = hci_bayram
-
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-		tolerated_cultures = {
-			pontic_greek_culture
-			laz_culture
-		}
-
-		capital = mesudiye
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
-
 	#Ayyubids - HSN https://en.wikipedia.org/wiki/Ayyubid_dynasty
 	HSN = {
 		own_control_core = {
@@ -23532,35 +23172,6 @@ TRO = { #Travunija
 		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 	}
 
-	#Kubadids - KBD https://tr.wikipedia.org/wiki/Kubado%C4%9Fullar%C4%B1_Emirli%C4%9Fi
-	KBD = {
-		own_control_core = {
-			gadegara ladik_pontus merzifon
-			gumus
-			samsun
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik"
-		government = {
-			ruler_term = {	 character = kbd_taceddin_altunbas start_date = 1318.1.1 }
-			ruler = kbd_taceddin_altunbas
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		capital = ladik_pontus
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-
-		tolerated_cultures = {
-			pontic_greek_culture
-		}
-	}
 
 	#Karasids - KRD https://en.wikipedia.org/wiki/Karasids
 	KRD = {
@@ -23687,41 +23298,6 @@ TRO = { #Travunija
 		religious_school = mevlevi_school
 	}
 
-	#Sutayids - SUT https://en.wikipedia.org/wiki/Sutayids
-	SUT = {
-		own_control_core = {
-			harput adakli keban palu
-			malazgirt hinis karakilise tekman tutak varto
-			ahlat bargiri ercis
-			diyarbekir ergani
-			erzurum tercan
-			cermik
-		}
-		own_control_integrated = {
-			mosul qayyarah tal_afar
-		}
-
-		include = "expl_middle_east"
-		include = "expl_mongols"
-		include = "muslim_monarchy_no_coast"
-
-
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler_term = {	 character = sut_sutay start_date = 1312.1.1 end_date = 1332.1.1}
-			ruler_term = {	 character = sut_hajji_taghay start_date = 1332.1.1	}
-			ruler = sut_hajji_taghay
-		}
-
-		tolerated_cultures = {
-			kurdish_culture
-			armenian_culture
-		}
-
-		capital = diyarbekir
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
 
 	#Bohtan - BHT
 	BHT = {
@@ -24139,35 +23715,6 @@ TRO = { #Travunija
 		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 	}
 
-	#Tacettinids - TDJ https://en.wikipedia.org/wiki/Beyliks_of_Canik https://en.wikipedia.org/wiki/Beylik_of_Tacettin
-	TDJ = {
-		own_control_core = {
-			amasya niksar sonisa
-			akkus terme
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = tdj_tajeddin start_date = 1334.1.1	}
-			ruler = tdj_tajeddin
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		capital = niksar
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-
-		tolerated_cultures = {
-			pontic_greek_culture
-			laz_culture
-		}
-	}
 
 	#Teke - TEK https://en.wikipedia.org/wiki/Beylik_of_Teke
 	TEK = {
@@ -24289,11 +23836,14 @@ TRO = { #Travunija
 			iskilip sabanozu ulus yenicepazari
 			safranbolu
 			amasra #Black Sea
-			alaiye selinti ankara cubuk haymana kalecik polatli karakecili midyat
-			dunaysir
-			araban hasakah makisin mardin tunanir
+			alaiye selinti ankara cubuk haymana kalecik polatli karakecili 
 			bukelon devol ustra
-
+			ithriya sukhnah taybah
+			khanaser qastal salamiyya
+			marrat
+			arak huwwarin qaryatayn tadmur
+			anah abu_kemal haditha burraq jayrud qutayfah
+			deir_ez_zor tabqah rahba bosra dara irbid nawa suwayda
 			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
 
 			peja prizren bitola prilep kicevo tetovo shkoder debar onogost 
@@ -24386,8 +23936,46 @@ TRO = { #Travunija
 			#Crete
 			chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
 
+			bafra gerze
+			gadegara ladik_pontus merzifon
+			gumus
+			samsun
+			amasya niksar sonisa
+			akkus terme
+			gerger kahta samsat
+			besni elbistan enguzud goksun afsin
+			kaysun
+			ulnia
+			trebizond giresun gorele gumushane surmene
+			bayramlu unye marash mesudiye
+			midyat barqaid sinjar bara_iraq nusaybin ras_ayn
+			dunaysir
+			araban hasakah makisin mardin tunanir
+			harput adakli keban palu
+			malazgirt hinis karakilise tekman tutak varto
+			ahlat bargiri ercis
+			diyarbekir ergani
+			erzurum tercan
+			cermik  tal_afar
+			raqqa  busayrah jabar madinat_far
+			urfa  birecik harran suruc viransehir  siverek
 
+			iskenderun
+			nicosia_cyp famagusta kyrenia larnaca limassol morphou paphos 
+			ayntab dluk
+			jerusalem acre amman aqaba beersheba gaza hebron karak maan majdal nablus safed sughar jaffa al_quwayrah
+			beirut baalbek deir_qamar sidon tripoli_syria shoubak madaba
+			damascus al_bab aleppo antioch arsuz artah baniyas dabiq hama homs idlib jabbul jableh kafartab latakia manbij maskanah masyaf nabek qusayr tartus zardana
+			umluj al_hawra al_manjur al_maramiyah
+			al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
+			duba ad_disah al_azlam al_wajh bada_yaqub bir_al_qurr
+			tabuk_arabia al_khanbarah al_muazzam al_ukhaydir bajdah bir_ibn_hermas dhat_al_hajj
+			aynuna al_bad al_muwaylih haql makna
 
+			ardahan tortum panaskerti
+			hasankale ispir khupati rize
+			artanuji khikhani oltu parkhali savsat
+			ani kars kagizman tmogvi
 
 		}
 
@@ -24486,11 +24074,6 @@ TRO = { #Travunija
 	JAL = {
 		type = army
 		own_control_core = {
-			baghdad
-			balad_ruz baqubah khalis khanaqin mandali
-			samarra ar_rabb tikrit ukbara
-			al_sinn
-			eyvan
 			tabriz heris maragheh sarab tufarqan
 			ganja barda beylagan lemberan gardman shamkir
 			mughan baciravan bilasuvar germi salyan varsan
@@ -24507,7 +24090,7 @@ TRO = { #Travunija
 
 		our_cores_conquered_by_others = {
 			rahba anah abu_kemal haditha
-			al_anbar hit ayn_tamr karbala
+			al_anbar hit karbala
 			kufa al_udayb qadisiyyah
 			dayr_aqul badra ilam
 			wasit abdanan al_tib arkvaz bakusaya dehloran meymeh
@@ -24516,7 +24099,7 @@ TRO = { #Travunija
 			khalafabad machul quban
 			ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
 			kazimah
-			hillah samawa suq_al_shuyukh
+			samawa suq_al_shuyukh
 		}
 
 		starting_technology_level = 3
@@ -24734,7 +24317,7 @@ TRO = { #Travunija
 	#Hadhur - HDR
 	HDR = {
 		own_control_core = {
-			sulaymaniyah
+			sulaymaniyah mawet
 		}
 
 		include = "expl_middle_east"
@@ -25006,7 +24589,7 @@ TRO = { #Travunija
 	#Zebari - ZBR
 	ZBR = {
 		own_control_core = {
-			mawet qaladiza
+			 qaladiza
 		}
 
 		include = "expl_middle_east"
@@ -25032,7 +24615,6 @@ TRO = { #Travunija
 	#Al 'Alī - AAL
 	AAL = {
 		own_control_core = {
-			burraq jayrud qutayfah
 			sakaka dumat_al_jandal aba_al_qur al_hamad arar
 		}
 
@@ -25061,8 +24643,7 @@ TRO = { #Travunija
 	#Al Mira - AMR
 	AMR = {
 		own_control_core = {
-			bosra dara irbid nawa salkhad suwayda
-			azraq
+			azraq salkhad
 			kaf al_harrah an_nasifah qurayyat_al_milh
 		}
 
@@ -25091,17 +24672,11 @@ TRO = { #Travunija
 	#Al Fadl - FDL
 	FDL = {
 		own_control_core = {
-			ithriya sukhnah taybah
-			khanaser qastal salamiyya
-			marrat
-			arak huwwarin qaryatayn tadmur
+
 		}
 
-		own_control_integrated = {
+		own_control_core = {
 			zubala al_labbah al_thulayma al_waqbi linah lowqah
-			al_anbar hit ayn_tamr karbala
-			anah abu_kemal haditha
-			deir_ez_zor tabqah rahba
 		}
 
 		starting_technology_level = 3
@@ -25136,33 +24711,6 @@ TRO = { #Travunija
 		
 	}
 
-	#Döger - DGE
-	DGE = {
-		own_control_core = {
-			raqqa  busayrah jabar madinat_far
-			urfa  birecik harran suruc viransehir  siverek
-		}
-
-		starting_technology_level = 3
-		include = "expl_middle_east"
-		include = "muslim_monarchy_no_coast"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
-		}
-
-		capital = urfa
-		dynasty = doger_dynasty
-
-		tolerated_cultures = {
-			syriac_culture
-			iraqi_culture
-		}
-		religious_school = hanafi_school
-		government = { mysticism_vs_jurisprudence = -15 }
-		
-	}
 	#-------------------------- Holy Roman Empire ----------------------------
 
 	OGK = {	#old german Kingdom for Ruler History
@@ -42794,7 +42342,7 @@ NCAR = { #North Carolina
 		capital = salameh
 	}
 
-	HLG = { #Huleguids
+	MAM = { #Mamluke Iraq
 		type = army
 		own_control_core = {
 			dayr_aqul badra ilam
@@ -42804,37 +42352,73 @@ NCAR = { #North Carolina
 			khalafabad quban
 			ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
 			samawa suq_al_shuyukh kazimah
+			baghdad
+			balad_ruz baqubah khalis khanaqin mandali
+			samarra ar_rabb tikrit ukbara
+			al_sinn hillah karbala al_anbar
+			eyvan mosul qayyarah ayn_tamr hit
 		}
 
-		include = "expl_middle_east"
-		include = "expl_mongols"
-		include = "eurasian_horde"
+		include = "expl_muslim_mediterranean"
+		include = "expl_horn_of_africa"
+		include = "muslim_monarchy"
 		starting_technology_level = 3
 		government = {
-			type = steppe_horde
-			heir_selection = tribal_oldest_male
-			ruler = hlg_musa_khan
-
-			laws = {
-				sharia_law = shafii_policy
+			type = monarchy
+			heir_selection = mamluk_succesion
+			ruler_term = { character = mam_an_nasir_bahri start_date = 1293.1.1 end_date = 1294.1.1 regnal_number = 1 }
+			ruler_term = { character = mam_al_adil_kitbugha start_date = 1294.1.1 end_date = 1296.12.7 regnal_number = 1 }
+			ruler_term = { character = mam_lajin_al_mansuri start_date = 1296.12.7 end_date = 1299.1.16 regnal_number = 1 }
+			ruler_term = { character = mam_an_nasir_bahri start_date = 1299.1.16 end_date = 1309.4.1 regnal_number = 1 }
+			ruler_term = { character = mam_baybars_ii start_date = 1309.4.1 end_date = 1310.3.5 regnal_number = 2 }
+			ruler_term = { character = mam_an_nasir_bahri start_date = 1310.3.5 regnal_number = 1 }
+			ruler = mam_an_nasir_bahri # Sulayman the Great
+			regnal_numbers = {
+				lajin = 1
+				name_baybars = 2
 			}
 
 			reforms = {
-				legacy_of_genghis
+				mamluk_government
+			}
+
+			privilege = {
+				#Nobles
+				elaborate_court_ceremonies
+				banal_lordship
+
+				#Ulama
+				waqf_payments
+
+				#Burghers
+				trade_monopolies
+			}
+
+			spiritualist_vs_humanist = -10
+			belligerent_vs_conciliatory = -30
+			quality_vs_quantity = -10
+			land_vs_naval = -40
+			laws = {
+				mamluk_rank_system_laws = mam_rigid_system
+				mamluk_army_law = al_mamalik_al_sultaniyya
+				mamluk_promotion_law = merit_basis
+				sharia_law = shafii_policy
+				administrative_system = local_courts_administration
+				iqta_law = lenient_taxation
 			}
 		}
 
 		court_language = persian_language
 		tolerated_cultures = {
-			iraqi_culture
 			lur_culture
+			georgian_culture #Sulayman the Great and the Jalili Dynasty were Georgian Mamlukes
 		}
 
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
 		
 		country_rank = rank_kingdom
-		capital = basra
+		capital = baghdad
 	}
 
 	NGD = { #Neguderi
@@ -43217,7 +42801,7 @@ NCAR = { #North Carolina
 			telavi alaverdi dusheti gremi omalo rustavi shatili
 			gagi kayen khunani jariekhi
 			hereti balakan bodbe khornabuji qakh
-			panaskerti tortum
+			akhaltsikhe
 		}
 
 		own_control_integrated = {
@@ -43335,7 +42919,7 @@ NCAR = { #North Carolina
 	}
 
 	SME = { #Samtskhe
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			akhaltsikhe ardahan
 			hasankale ispir khupati rize
 			artanuji khikhani oltu parkhali savsat
@@ -43372,7 +42956,7 @@ NCAR = { #North Carolina
 			kutaisi lentekhi skande shorapani tsageri tsesi ushguli vartsikhe
 			bedia anaklia batumi ozurgeti poti_caucasus tsalenjikha
 			sukhumi anacopia lata_georgia pitsunda
-			artanuji khikhani oltu panaskerti parkhali tortum
+			artanuji khikhani oltu parkhali
 		}
 
 		include = "expl_christian_caucasus"

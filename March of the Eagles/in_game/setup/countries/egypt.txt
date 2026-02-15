@@ -24,7 +24,7 @@ FZA = {
 MAM = {
 	color = map_mamluks
 	color2 = yellow
-	culture_definition = lower_egyptian_culture
+	culture_definition = iraqi_culture
 	religion_definition = sunni
 
 	description_category = administrative
