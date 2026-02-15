@@ -201,16 +201,7 @@
 		c:JAP = {
 			japan_set_up = yes
 		}
-		c:TEU = {
-			every_current_war = {
-				limit = {
-					c:LIT = {
-						is_war_leader_of = prev
-					}
-				}
-				set_variable = teu_lit_first_war
-			}
-		}
+		
 
 	}
 }
