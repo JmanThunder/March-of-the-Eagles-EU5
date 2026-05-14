@@ -1,0 +1,30 @@
+﻿l_english:
+ # Rename promote_culture -> Assimilate Province
+promote_culture:1 "Assimilate Province"
+promote_culture_desc:1 "Assign a cabinet minister to promote your primary culture within a chosen province. All pops of other cultures will gradually assimilate over time. Causes local unrest while active."
+
+ # Rename promote_religion -> Convert Province
+promote_religion:1 "Convert Province"
+promote_religion_desc:1 "Assign a cabinet minister to promote your state religion within a chosen province. All pops of other faiths will gradually convert over time. Causes local unrest while active."
+
+ # Rename assimilate_area -> Assimilate Area
+assimilate_area:1 "Assimilate Area"
+assimilate_area_desc:1 "Assign a cabinet minister to promote your primary culture across an entire area. All pops of other cultures will gradually assimilate over time. Causes local unrest while active."
+
+ # Selector stage name overrides
+promote_culture_select_culture:1 "Select the culture to promote:"
+promote_culture_select_province:1 "Select the province to assimilate pops in:"
+promote_religion_select_religion:1 "Select the religion to promote in this province:"
+promote_religion_select_province:1 "Select the province to convert pops in:"
+assimilate_area_select_area:1 "Select the area to assimilate pops in:"
+
+ # Cabinet card display keys
+promote_culture_action:1 "Assimilating [SCOPE.sCulture('target').GetNameWithNoTooltip] in [SCOPE.sProvince('target_1').GetNameWithNoTooltip]"
+promote_culture_active:1 "Assimilating [SCOPE.sCulture('target').GetName] in [SCOPE.sProvince('target_1').GetName]"
+
+ # promote_religion now uses vanilla's religion selector (scope:target_religion exists again)
+promote_religion_action:1 "Converting [SCOPE.sProvince('target_province').GetNameWithNoTooltip] to [SCOPE.sReligion('target_religion').GetNameWithNoTooltip]"
+promote_religion_active:1 "Converting [SCOPE.sProvince('target_province').GetName] to [SCOPE.sReligion('target_religion').GetName]"
+
+assimilate_area_action:1 "Assimilating [SCOPE.sCulture('target_culture').GetNameWithNoTooltip] in [SCOPE.sArea('target').GetNameWithNoTooltip]"
+assimilate_area_active:1 "Assimilating [SCOPE.sCulture('target_culture').GetName] in [SCOPE.sArea('target').GetName]"

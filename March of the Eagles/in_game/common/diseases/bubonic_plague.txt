@@ -3,8 +3,13 @@
 		#Has the Black Death spawned already?
 		if = {
 			#It has happened already
-			current_year <= 1400
-			value = 0.000 #Should happen around once per 0 years
+			limit = {
+				situation:black_death = {
+					situation_is_active = no
+					situation_has_ended = yes
+				}
+			}
+			value = 0.005 #Should happen around once per 20 years
 		}
 		else_if = {
 			#It is ongoing
@@ -63,8 +68,111 @@
 		}
 	}
 
-	monthly_resistance_reduction = 0.0001
+	monthly_resistance_reduction = 0.0002  # Slow decay; old value (0.0001) took 833 years, doubled here
 
+	spawn = {
+		#Has the Black Death spawned already?
+		if = {
+			#It has happened already
+			limit = {
+				situation:black_death = {
+					situation_is_active = no
+					situation_has_ended = yes
+				}
+			}
+			random_ownable_location = {
+				limit = {
+					#Not empty location
+					population > 1
+					is_endemic_bubonic_plague_location = yes
+					#If the Columbian Exchange has not happened yet, exclude America
+					trigger_if = {
+						limit = {
+							situation:black_death = {
+								situation_is_active = no
+								situation_has_ended = no
+							}
+						}
+						#Endemic regions
+						OR = {
+							continent = continent:asia
+							continent = continent:europe
+							continent = continent:africa
+							continent = continent:oceania
+						}
+					}
+	
+					"disease_resistance(scope:disease)" < 0.5
+	
+					#If we can't find an appropiate location we don't spawn
+				}
+				spawn_disease = {
+					disease = scope:disease
+					value = 1
+					#save the outbreak created for later
+					save_scope_as = outbreak
+				}
+			}			
+		}
+		else_if = {
+			#It is ongoing
+			limit = {
+				situation:black_death = {
+					situation_is_active = yes
+					situation_has_ended = no
+				}
+			}
+			#We wait untill it ends
+		}
+		else = {
+			random_ownable_location = {
+				limit = {
+					population > 1
+					OR = {
+						AND = {
+							has_game_rule = black_death_origin_historical
+							OR = {
+								area = area:desht_kipchak_area
+								area = area:astrakhan_area
+								area = area:lower_yik_area
+							}
+						}
+						AND = {
+							has_game_rule = black_death_origin_random
+							OR = {
+								continent = continent:asia
+								continent = continent:europe
+								sub_continent = sub_continent:north_africa
+							}
+						}
+					}
+					"disease_resistance(scope:disease)" < 0.5
+				}
+				spawn_disease = {
+					disease = scope:disease
+					value = 1
+
+					#save the outbreak created for later
+					save_scope_as = outbreak
+				}
+				if = {
+					limit = {
+						situation:black_death = {
+							situation_is_active = no
+							situation_has_ended = no
+						}
+					}
+					activate_situation = situation:black_death
+					situation:black_death = {
+						set_variable = {
+							name = original_outbreak
+							value = scope:outbreak
+						}
+					}
+				}
+			}
+		}
+	}
 
 	#range between 1.5599 to 1.9332 
 	r0 = { 
@@ -235,6 +343,8 @@
 	# If untreated, the mortality rate is between 40% and 70%
 	mortality_rate = { 0.3 0.6 }
 
+	character_trait = bubonic_plague_trait
+
 	character_mortality_chance = {
 		value = 0.08
 		if = {
@@ -276,7 +386,7 @@
 	#(root is the location, scope:disease is the disease, 
 	# scope:disease_outbreak is the specific outbreak, 
 	# scope:current_presence is the current disease presence in the location)
-	location_infection_spread_threshold = {
+	location_spread_threshold = {
 		value = 0.30 #30% of the people need to be infected to spread to neighbors
 		if = {#Reduce the spread in difficult terrain locations or rural
 			limit = {

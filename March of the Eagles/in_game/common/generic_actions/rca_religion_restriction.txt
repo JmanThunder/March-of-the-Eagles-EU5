@@ -1,0 +1,22 @@
+# Realistic Conversion and Assimilation
+# Restricts state religion conversion for Abrahamic faiths to within their own group
+# Christian countries cannot convert to Islam, Judaism, or pagan faiths and vice versa
+# Enforced via allow block so it applies regardless of game rules
+
+INJECT:convert_religion = {
+	allow = {
+		# If actor follows an Abrahamic religion, target must be within the same group
+		trigger_if = {
+			limit = {
+				OR = {
+					scope:actor.religion.group = religion_group:christian
+					scope:actor.religion.group = religion_group:muslim
+					scope:actor.religion.group = religion_group:israelite_group
+				}
+			}
+			scope:target = {
+				group = scope:actor.religion.group
+			}
+		}
+	}
+}

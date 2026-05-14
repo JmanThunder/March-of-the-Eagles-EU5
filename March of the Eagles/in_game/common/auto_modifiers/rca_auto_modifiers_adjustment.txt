@@ -1,0 +1,76 @@
+﻿INJECT:country_base_values = {
+	global_pop_assimilation_speed = -0.002 # No passive assimilation (1.1 raised base from 1 to 2, offset doubled accordingly)
+	global_pop_conversion_speed = -0.002 # No passive conversion
+	global_soldiers_migration_allowed = yes # Allow soldier migration
+	global_laborers_migration_allowed = yes # Allow laborer migration
+	global_tribesmen_migration_allowed = yes # Allow tribesmen migration
+	cultures_capacity = 1 # Raise base cultural capacity from 0 to 1
+}
+
+# Primary culture assimilation penalties
+# Applied when primary culture makes up a small portion of the country's total population
+# Since passive assimilation is zeroed out by RCA, these penalties only
+# meaningfully affect active cabinet action assimilation rates
+# Conditions are mutually exclusive - only the highest penalty applies
+
+rca_assimilation_penalty_severe = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.075
+		"culture_percentage_in_country(root.culture)" >= 0.05
+	}
+	global_pop_assimilation_speed = -0.001
+}
+
+rca_assimilation_penalty_moderate = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.10
+		"culture_percentage_in_country(root.culture)" >= 0.075
+	}
+	global_pop_assimilation_speed = -0.0008
+}
+
+rca_assimilation_penalty_minor = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.125
+		"culture_percentage_in_country(root.culture)" >= 0.10
+	}
+	global_pop_assimilation_speed = -0.0005
+}
+
+# Primary culture conversion penalties
+# Religious conversion is also limited by primary culture demographic strength
+# Same thresholds as assimilation penalties - cultural penetration drives religious spread
+# Conditions are mutually exclusive - only the highest penalty applies
+
+rca_conversion_penalty_severe = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.075
+	}
+	global_pop_conversion_speed = -0.003
+}
+
+rca_conversion_penalty_moderate = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.10
+		"culture_percentage_in_country(root.culture)" >= 0.075
+	}
+	global_pop_conversion_speed = -0.002
+}
+
+rca_conversion_penalty_minor = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.125
+		"culture_percentage_in_country(root.culture)" >= 0.10
+	}
+	global_pop_conversion_speed = -0.001
+}
+
+# Severe primary culture deficiency - blanket nationalist rebel growth
+# Applied when primary culture falls below the assimilation allow threshold
+
+rca_cultural_deficiency_rebel_growth = {
+	limit = {
+		"culture_percentage_in_country(root.culture)" < 0.05
+	}
+	monthly_nationalist_rebel_growth = 0.01
+}

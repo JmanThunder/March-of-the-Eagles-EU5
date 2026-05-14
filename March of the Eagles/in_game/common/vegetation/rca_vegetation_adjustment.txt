@@ -1,0 +1,41 @@
+INJECT:farmland = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = 0.075 # x1.075 conversion in farmland
+		local_pop_assimilation_speed_modifier = 0.075 # x1.075 assimilation in farmland
+	}
+}
+
+INJECT:grasslands = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = 0.05 # x1.05 conversion in grasslands
+		local_pop_assimilation_speed_modifier = 0.05 # x1.05 assimilation in grasslands
+	}
+}
+
+INJECT:sparse = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = 0.025 # x1.025 conversion in sparse
+		local_pop_assimilation_speed_modifier = 0.025 # x1.025 assimilation in sparse
+	}
+}
+
+INJECT:forest = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.025 # x0.975 conversion in forest
+		local_pop_assimilation_speed_modifier = -0.025 # x0.975 assimilation in forest
+	}
+}
+
+INJECT:jungle = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.05 # x0.95 conversion in jungle
+		local_pop_assimilation_speed_modifier = -0.05 # x0.95 assimilation in jungle
+	}
+}
+
+INJECT:desert = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.125 # x0.875 conversion in desert
+		local_pop_assimilation_speed_modifier = -0.125 # x0.875 assimilation in desert
+	}
+}

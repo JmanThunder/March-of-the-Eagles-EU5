@@ -1,0 +1,64 @@
+﻿# dhimmi_conversion: applied by the engine when Dhimmi estate conversion is active
+# Vanilla: local_pop_conversion_speed = 0.01 (passive rate RCA removes globally)
+# RCA: cancel flat passive rate, replace with 25% boost to Convert Province cabinet action
+# Effect: active conversion is 25% more effective in locations undergoing Dhimmi conversion
+INJECT:dhimmi_conversion = {
+	local_pop_conversion_speed = -0.01                # Cancel vanilla passive rate
+	local_pop_conversion_speed_modifier = 0.25        # +25% to cabinet Convert Province rate only
+}
+
+INJECT:blame_the_minorities= {
+	global_pop_conversion_speed = -0.02 # Undo passive conversion modifier
+	global_pop_conversion_speed_modifier = 0.20 # Replace base conversion with +20% conversion speed
+}
+
+INJECT:fra_ordonnance_of_slavery= {
+	global_pop_conversion_speed = -0.02 # Undo passive conversion modifier
+	global_pop_conversion_speed_modifier = 0.20 # Replace base conversion with +20% conversion speed
+}
+
+INJECT:fra_ordonnance_of_slavery_limited= {
+	global_pop_conversion_speed = -0.01 # Undo passive conversion modifier
+	global_pop_conversion_speed_modifier = 0.10 # Replace base conversion with +10% conversion speed
+}
+
+INJECT:ira_shia_conversion_policy= {
+	global_pop_conversion_speed = -0.02 # Undo passive conversion modifier
+	global_pop_conversion_speed_modifier = 0.20 # Replace base conversion with +20% conversion speed
+}
+
+INJECT:ws_show_unity_of_faith= {
+	local_pop_conversion_speed = -0.02 # Undo passive conversion modifier
+	local_pop_conversion_speed_modifier = 0.20 # Replace base conversion with +20% conversion speed
+}
+
+
+REPLACE:integration_conquered = {
+	game_data = {
+		category = location
+	}
+	local_max_control = -0.10
+	local_separatism = 0.5
+	local_garrison_growth = -0.005
+	local_pop_assimilation_speed = -0.0005 # RCA: reduced from -0.02 to balance with mod rates
+	local_pop_conversion_speed = -0.002   # RCA: reduced from -0.02 to balance with mod rates
+}
+
+REPLACE:integration_integrated = {
+	game_data = {
+		category = location
+	}
+	local_separatism = 0.1
+	local_pop_assimilation_speed = -0.0003 # RCA: reduced from -0.01 to balance with mod rates
+	local_max_control = 0.05
+}
+
+REPLACE:integration_core= {
+	game_data = {
+		category = location
+	}
+	local_monthly_control = 0.001
+	local_max_control = 0.20
+	#growth_is_primary_culture = yes  # Allow non primary cultures to grow in cores
+	owner_gets_vision_when_occupied = yes
+}

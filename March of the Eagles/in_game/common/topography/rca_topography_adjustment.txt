@@ -1,0 +1,27 @@
+INJECT:flatland = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = 0.10 # x1.10 conversion in flatland
+		local_pop_assimilation_speed_modifier = 0.10 # x1.10 assimilation in flatland
+	}
+}
+
+INJECT:hills = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.05 # x0.95 conversion in hills
+		local_pop_assimilation_speed_modifier = -0.05 # x0.95 assimilation in hills
+	}
+}
+
+INJECT:wetlands = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.10 # x0.90 conversion in wetlands
+		local_pop_assimilation_speed_modifier = -0.10 # x0.90 assimilation in wetlands
+	}
+}
+
+INJECT:mountains = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.20 # x0.80 conversion in mountains
+		local_pop_assimilation_speed_modifier = -0.20 # x0.80 assimilation in mountains
+	}
+}

@@ -1,0 +1,23 @@
+﻿# confessionalism_advance: 0.01/0.04*0.01 = 0.0025
+INJECT:confessionalism_advance = {
+	global_pop_conversion_speed = -0.01
+	global_pop_conversion_speed = 0.0025
+}
+
+# missionary_schools: 0.01/0.04*0.01 = 0.0025
+INJECT:missionary_schools = {
+	global_pop_conversion_speed = -0.01
+	global_pop_conversion_speed = 0.0025
+}
+
+# UTR advance (utr_city_churches): 0.01/0.04*0.01 = 0.0025
+INJECT:utr_city_churches = {
+	global_pop_conversion_speed = -0.01
+	global_pop_conversion_speed = 0.0025
+}
+
+# OTM advance (otm_christian_conversion): 0.01/0.04*0.01 = 0.0025
+INJECT:otm_christian_conversion = {
+	global_pop_conversion_speed = -0.01
+	global_pop_conversion_speed = 0.0025
+}

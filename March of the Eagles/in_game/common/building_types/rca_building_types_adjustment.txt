@@ -1,0 +1,110 @@
+﻿INJECT:madrasa = {
+	modifier = {
+		local_tribal_promotion = 0.15 # Increase from 0.1 to 0.25
+	}
+}
+
+# lutheran_preachers and calvinist_preachers (situation_buildings)
+# These buildings drive passive Reformation spread via conversion_religion = lutheran/calvinist
+# and building_missionary_effort_scaled = 0.01/level/month — entirely bypassing the
+# global_pop_conversion_speed system RCA zeroes out. Without adjustment, Lutheran/Calvinist
+# spread at full vanilla rate while Catholic counter-conversion is at 17.5% of vanilla,
+# creating a ~5x asymmetry that makes the Reformation unstoppable.
+#
+# Fix: local_pop_conversion_speed_modifier = -0.5 cuts building spread by 50%.
+# This preserves the historical regional gradient based on distance from Rome
+# (which determines building max level: 1 in Iberia, up to 4 in Scandinavia):
+#
+#   Iberia/Italy    (level 1): 0.005/mo spread — one cabinet (0.007) wins     [OTL: Catholic holds]
+#   France/C.Europe (level 2): 0.010/mo spread — requires two cabinets         [OTL: slow recovery]
+#   N.Germany       (level 3): 0.015/mo spread — two cabinets barely match     [OTL: stays Protestant]
+#   Scandinavia     (level 4): 0.020/mo spread — effectively unreclaimable     [OTL: fully Lutheran]
+#
+# Both buildings get the same modifier so Lutheran and Calvinist behave symmetrically.
+INJECT:lutheran_preachers = {
+	modifier = {
+		local_pop_conversion_speed_modifier = -0.5 # Halve spread rate; see balance note above
+	}
+}
+
+INJECT:calvinist_preachers = {
+	modifier = {
+		local_pop_conversion_speed_modifier = -0.5 # Halve spread rate; matches lutheran_preachers
+	}
+}
+
+# great_madrasa: vanilla local_pop_conversion_speed = 0.02 -> 0.02/0.04*0.01 = 0.005
+INJECT:great_madrasa = {
+	modifier = {
+		local_tribal_promotion = 0.4 # Increase from 0.1 to 0.5 (target: 0.5)
+		local_pop_conversion_speed = -0.02 # Cancel vanilla flat speed
+		local_pop_conversion_speed = 0.005 # Scaled replacement: 0.02/0.04*0.01
+		local_pop_conversion_speed_modifier = 0.5 # +50% to cabinet rate only
+	}
+}
+
+# tibetan_great_monastery: 0.02/0.04*0.01 = 0.005
+INJECT:tibetan_great_monastery = {
+	modifier = {
+		local_pop_conversion_speed = -0.02
+		local_pop_conversion_speed = 0.005
+	}
+}
+
+# great_temple_of_tenochtitlan: 0.01/0.04*0.01 = 0.0025
+INJECT:great_temple_of_tenochtitlan = {
+	modifier = {
+		local_pop_conversion_speed = -0.01
+		local_pop_conversion_speed = 0.0025
+	}
+}
+
+# ranganathaswamy_temple_building: 0.01/0.04*0.01 = 0.0025
+INJECT:ranganathaswamy_temple_building = {
+	modifier = {
+		local_pop_conversion_speed = -0.01
+		local_pop_conversion_speed = 0.0025
+	}
+}
+
+# venkateswara_temple: 0.01/0.04*0.01 = 0.0025
+INJECT:venkateswara_temple = {
+	modifier = {
+		local_pop_conversion_speed = -0.01
+		local_pop_conversion_speed = 0.0025
+	}
+}
+
+# wat_chaiwatthanaram_temple_building: 0.025/0.04*0.01 = 0.00625
+INJECT:wat_chaiwatthanaram_temple_building = {
+	modifier = {
+		local_pop_conversion_speed = -0.025
+		local_pop_conversion_speed = 0.00625
+	}
+}
+
+# jesuit_college (culture_buildings): 0.02/0.04*0.01 = 0.005
+INJECT:jesuit_college = {
+	modifier = {
+		local_pop_conversion_speed = -0.02
+		local_pop_conversion_speed = 0.005
+	}
+}
+
+# incamisana (unique_buildings): 0.01/0.04*0.01 = 0.0025
+INJECT:incamisana = {
+	modifier = {
+		local_pop_conversion_speed = -0.01
+		local_pop_conversion_speed = 0.0025
+	}
+}
+
+# jewish_district: local_pop_conversion_speed_modifier = -0.1
+# Formula: vanilla effect = 0.04 * 0.1 = 0.004 -> 0.004/0.04*0.01 = 0.001
+# Zero the percentage modifier, replace with scaled flat speed
+INJECT:jewish_district = {
+	modifier = {
+		local_pop_conversion_speed_modifier = 0.1
+		local_pop_conversion_speed = -0.001
+	}
+}

@@ -1,0 +1,48 @@
+INJECT:mediterranean = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = 0.05 # x1.05 conversion in mediterranean
+		local_pop_assimilation_speed_modifier = 0.05 # x1.05 assimilation in mediterranean
+	}
+}
+
+INJECT:oceanic = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = 0.025 # x1.025 conversion in oceanic
+		local_pop_assimilation_speed_modifier = 0.025 # x1.025 assimilation in oceanic
+	}
+}
+
+INJECT:subtropical = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.0125 # x0.9875 conversion in subtropical
+		local_pop_assimilation_speed_modifier = -0.0125 # x0.9875 assimilation in subtropical
+	}
+}
+
+INJECT:cold_arid = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.025 # x0.975 conversion in cold arid
+		local_pop_assimilation_speed_modifier = -0.025 # x0.975 assimilation in cold arid
+	}
+}
+
+INJECT:arid = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.05 # x0.95 conversion in hot arid
+		local_pop_assimilation_speed_modifier = -0.05 # x0.95 assimilation in hot arid
+	}
+}
+
+INJECT:tropical = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.0625 # x0.9375 conversion in tropical
+		local_pop_assimilation_speed_modifier = -0.0625 # x0.9375 assimilation in tropical
+	}
+}
+
+INJECT:arctic = {
+	location_modifier = {
+		local_pop_conversion_speed_modifier = -0.075 # x0.925 conversion in arctic
+		local_pop_assimilation_speed_modifier = -0.075 # x0.925 assimilation in arctic
+	}
+}

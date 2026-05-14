@@ -1,0 +1,7 @@
+﻿# lit_measures_against_romuva: 0.025/0.04*0.01 = 0.00625
+INJECT:lit_measures_against_romuva = {
+	modifier_when_in_debate = {
+		global_pop_conversion_speed = -0.025
+		global_pop_conversion_speed = 0.00625
+	}
+}

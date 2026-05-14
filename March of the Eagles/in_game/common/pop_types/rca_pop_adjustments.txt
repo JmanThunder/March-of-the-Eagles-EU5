@@ -1,0 +1,10 @@
+﻿INJECT:tribesmen = {
+	literacy_impact = {
+		local_tribal_promotion = -0.5 # Cancel vanilla value
+		local_tribal_promotion = 0.1 # Net: 0.1 per 1% literacy (vanilla was 0.5)
+	}
+}
+
+INJECT:slaves = {
+	grow = yes # Allow slave pops to experience natural population growth
+}

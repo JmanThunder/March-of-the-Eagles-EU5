@@ -122,7 +122,7 @@
 					north_sea11 north_sea5 north_sea8
 				}
 			}
-			western_baltic_sea = {
+			inner_baltic_sea_area = {
 				north_baltic_sea = {
 					gavlebukten alands_hav north_baltic abo_skargard  tralhavet
 				}
@@ -130,12 +130,24 @@
 					stockholms_skargard braviken
 					western_gotland_basin gotlands_hav
 				}
-				skagerrak_province = { frier_fjord grenen_cape jammer_bay kristiansand_fjord oslo_fjord skagerrack vigso_bay }
-				danish_sea = { alborg_bugt kattegatt oresund stora_balt lilla_balt limfjorden}
+				bothnian_sea = {  kvarken gulf_of_bothnia west_botnia east_botnia }
+			}
+			south_baltic_sea_area = {
+				arkona_sea_province = {
+					bay_lubeck fischland_coast arkona_cape pommeranian_bay 
+					stettin_lagoon
+				}
+				southeast_baltic_sea = { 
+					coast_of_kurland pommeranian_coast east_pommerania_coast coast_of_memel gulf_of_danzig 
+					curonian_coast vistula_lagoon 
+				}
 				south_baltic_sea = {
 					kalmar_sund skanska_kusten blekinge_kust central_baltic oland_coast
 				}
-				bothnian_sea = {  kvarken gulf_of_bothnia west_botnia east_botnia }
+			}
+			western_baltic_sea = {
+				skagerrak_province = { frier_fjord grenen_cape jammer_bay kristiansand_fjord oslo_fjord skagerrack vigso_bay }
+				danish_sea = { alborg_bugt kattegatt oresund stora_balt lilla_balt limfjorden}
 			}
 			# sea areas
 			russian_coastline = {
@@ -219,7 +231,80 @@
 		}
 
 		north_german_region = {
-			
+			brabant_area = {
+				limburg_province = {
+					maastricht venlo weert roermond
+				}
+				antwerp_province = {
+					antwerp bergen_zoom breda turnhout mechelen
+				}
+				kempenland_province = {
+					helmond cuijk hertogenbosch eindhoven
+				}
+				brabant_province = {
+					brussels leuven nivelles
+				}
+				loon_province = {
+					borgloon hasselt bree
+				}
+			}
+			flanders_area = {
+				east_flanders_province = {
+					ghent aalst hulst kortriik oudenaarde sint_niklaas
+				}
+				roman_flanders_province = {
+					lille douai tournai
+				}
+				west_flanders_province = {
+					bruges cassel dunkirk ostend veurne ypres
+				}
+			}
+			friesland_area = {
+				east_friesland_province = {
+					emden jever aurich leer
+				}
+				ommelanden_province = {
+					appingedam groningen wedde
+				}
+				friesland_province = {
+					sloten harlingen leeuwarden stavoren wolvega
+				}
+				drenthe_province = {
+					assen meppel coevorden
+				}
+				overijssel_province = {
+					zwolle kampen deventer oldenzaal
+				}
+			}
+			holland_area = {
+				north_holland_province = {
+					amsterdam amersfoort alkmaar hoorn utrecht haarlemmermeer
+				}
+				south_holland_province = {
+					the_hague dordrecht geertruidenberg rotterdam leiden middelburg
+				}
+				gelderland_province = {
+					arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen
+				}
+			}
+			wallonia_area = {
+				east_luxembourg_province = {
+					luxembourg arlon thionville vianden
+				}
+				hainaut_province = {
+					mons ath chimay enghien maubeuge valenciennes
+				}
+				liege_province = {
+					liege limbourg st_vith stavelot
+				}
+				namur_province = {
+					namur dinant orchimont walcourt
+				}
+				west_luxembourg_province = {
+					bastogne bouillon la_roche montmedy neufchateau_luxembourg
+				}
+			}
+
 			holstein_area = {
 				lubeck_province = {
 					lubeck heiligenhafen ratzeburg eutin lauenburg
@@ -400,82 +485,7 @@
 				}
 			}
 		}
-		benelux_region = {
-			brabant_area = {
-				limburg_province = {
-					maastricht venlo weert roermond
-				}
-				antwerp_province = {
-					antwerp bergen_zoom breda turnhout mechelen
-				}
-				kempenland_province = {
-					helmond cuijk hertogenbosch eindhoven
-				}
-				brabant_province = {
-					brussels leuven nivelles
-				}
-				loon_province = {
-					borgloon hasselt bree
-				}
-			}
-			flanders_area = {
-				east_flanders_province = {
-					ghent aalst hulst kortriik oudenaarde sint_niklaas
-				}
-				roman_flanders_province = {
-					lille douai tournai
-				}
-				west_flanders_province = {
-					bruges cassel dunkirk ostend veurne ypres
-				}
-			}
-			friesland_area = {
-				east_friesland_province = {
-					emden jever aurich leer
-				}
-				ommelanden_province = {
-					appingedam groningen wedde
-				}
-				friesland_province = {
-					sloten harlingen leeuwarden stavoren wolvega
-				}
-				drenthe_province = {
-					assen meppel coevorden
-				}
-				overijssel_province = {
-					zwolle kampen deventer oldenzaal
-				}
-			}
-			holland_area = {
-				north_holland_province = {
-					amsterdam amersfoort alkmaar hoorn utrecht haarlemmermeer
-				}
-				south_holland_province = {
-					the_hague dordrecht geertruidenberg rotterdam leiden middelburg
-				}
-				gelderland_province = {
-					arnhem apeldoorn doetinchem harderwijk nijmegen tiel zutphen
-				}
-			}
-			wallonia_area = {
-				east_luxembourg_province = {
-					luxembourg arlon thionville vianden
-				}
-				hainaut_province = {
-					mons ath chimay enghien maubeuge valenciennes
-				}
-				liege_province = {
-					liege limbourg st_vith stavelot
-				}
-				namur_province = {
-					namur dinant orchimont walcourt
-				}
-				west_luxembourg_province = {
-					bastogne bouillon la_roche montmedy neufchateau_luxembourg
-				}
-			}
 
-		}
 		south_german_region = {
 			austria_area = {
 				unter_dem_wienerwald_province = {
@@ -1355,13 +1365,13 @@
 				vilnius_province = { vilnius giedraiciai kernave medininkai_vilna }
 			}
 			mazovia_area = {
-				ciechanow_province = { kamieniec ciechanow przasnysz rozan zakroczym }
+				ciechanow_province = { ciechanow przasnysz rozan zakroczym }
 				czersk_province = { czersk garwolin grojec liw }
-				lomza_province = { nur lomza kolno ostroleka wizna zambrow }
+				lomza_province = { lomza kolno ostroleka wizna zambrow }
 				plock_province = { plock plonsk sierpc szrensk }
 				podlasie_province = { drohiczyn bielsk_podlaski goniadz mielnik sokolow suraz tykocin }
 				rawa_province = { rawa biala_rawska gabin gostynin sochaczew }
-				warsaw_province = { warsaw tarczyn }
+				warsaw_province = { warsaw kamieniec nur tarczyn }
 			}
 			prussia_area = {
 				chelmno_province = { chelmno brodnica grudziadz lubawa torun }
@@ -1391,15 +1401,6 @@
 			}
 			eastern_baltic_sea = {
 				eastern_baltic_sea = { north_central_baltic gulf_of_riga coast_of_osel west_gulf_of_finland east_gulf_of_finland }
-				southeast_baltic_sea = { 
-					coast_of_kurland pommeranian_coast east_pommerania_coast coast_of_memel gulf_of_danzig 
-					curonian_coast vistula_lagoon 
-				}
-				arkona_sea_province = {
-					bay_lubeck fischland_coast arkona_cape pommeranian_bay 
-					stettin_lagoon 
-					 
-				}
 			}
 		}
 
@@ -1804,7 +1805,7 @@
 				upper_carniola_province = { ljubljana bled kranj skofja_loka }
 			}
 			slavonia_area = {
-				bjelovar_province = { dubica bjelovar koprivnica kutina pakrac vaska virovitica }
+				bjelovar_province = { bjelovar koprivnica kutina pakrac vaska virovitica }
 				vukovar_syrmia_province = { vukovar ilok osijek petrovaradin pozega sremska_mitrovica }
 				zagreb_province = { zagreb karlovac petrinja sisak slunj varazdin }
 			}
@@ -1819,7 +1820,7 @@
 				donji_kraji_province = { jajce glamoc kljuc livno }
 				hum_province = { trebinje drijeva gacko mostar nevesinje dinaric_alps4 }
 				podrinje_province = { ustikolina pljevlja soko_grad dinaric_alps5 dinaric_alps6 }
-				una_sana_province = { bihac gradiski_brod kozara srb }
+				una_sana_province = { bihac dubica gradiski_brod kozara srb }
 				usora_and_soli_province = { doboj glaz soli srebrenik teocak }
 			}
 			serbia_area = {
@@ -1856,7 +1857,7 @@
 				constantinople_province = { constantinople vize catalca silivri corlu }
 				dardanelles_province = { gallipoli enez hayrabolu malgara rodoscuk kesan }
 				edirne_province = { edirne ahtopol luleburgaz kiyikoy kirklareli }
-				evros_province = { demotica traianopolis komotini xanthia }
+				evros_province = { demotica komotini traianopolis xanthia }
 				rhodopes_province = { stanimaka beden haskovo ormenio perperek smolyan ustra rhodope_mountains5 rhodope_mountains6 }
 				sliven_province = { sliven boruy bukelon constantia_bul elhovo hiambouli }
 				zagore_province = { plovdiv kostenets kran stipon strelcha tsepina }
@@ -5884,7 +5885,7 @@ america = {
 					gaspe chicchoc marsoui pewjeg cascapedia paspebiac matapedia chic_choc_mountains matane
 				}
 				rimouski_province = { rimouski mitis amqui causapscal kakouna molsemtekw temiscouata kamouraska northern_notre_dame_mountains }
-				kikonteku_province = { mittaywanquam kikonteku kamitsisit etchemin wachilmezi onkobagag sartigan wolastoq }
+				kikonteku_province = { kikonteku kamitsisit etchemin wachilmezi onkobagag sartigan wolastoq }
 				stadacona_province = { stadacona andawaohie ontaretse ahwendoe ondaonnentakwi aunona taoondewake kouate laurentian_massif }
 				minganie_province = { mingan pigou aguanish natashquan manapakuaniskau uanaman upuahpukau magpie_massif notiskuan anticosti natigostec }
 				mecatina_province = { mecatina kegaska coacoachou napetipi mecatina_hills }
@@ -5975,7 +5976,7 @@ america = {
 			new_brunswick_area = {
 				siknikt_province = { chipoudy petitcodiac memramcook richibucto kouchibouguac miramichi neguac anagance seeboosis }
 				kespek_province = { nepisiguit tracadie caraquet restigouche maleagit pogomeg asoqasqoq matapedia_highlands }
-				madawaska_province = { negoot becaguimec siegas }
+				madawaska_province = { madawaska negoot becaguimec siegas }
 				menahkwesk_province = {
 					menahkwesk mispec kennebecasis washademoak otnabog kcheeminpink canaan_bog grand_lake_ca
 				}
@@ -6081,7 +6082,7 @@ america = {
 				}					
 				west_lake_superior_province = {
 					schreiber_channel black_bay
-					chequamegon_bay thunder_bay
+					 chequamegon_bay thunder_bay
 					keweenaw_coast copper_harbor
 				}
 			}
@@ -6186,10 +6187,10 @@ america = {
 			}
 			hispaniola_area = {
 				higuey_province = { bavaro yuma mona_island hicayagua cayacoa yamasa boya}
-				maguana_province = { cayguani baoruco maguana jarabacoa cibao azua bani neiba_mountains banique baoruco_mountains cordrilla_central}
+				maguana_province = { maguana jarabacoa cibao azua bani banique cordrilla_central}
 				magua_province = { yaqui magorix bohio moca samana cubao ciguayo cotui}
 				marien_province = { marien iguamuco guahaba tortuga baynoa}
-				jaragua_province = { jaragua guanabo cahay guacayakima haniguayagua yaquimo yaguana }
+				jaragua_province = { jaragua cayguani baoruco guanabo cahay guacayakima haniguayagua yaquimo yaguana baoruco_mountains neiba_mountains}
 				boriken_province = { guaynabo guaraca guaynia guama arasibo ayamaco}
 			}
 
@@ -6367,13 +6368,13 @@ america = {
 			}
 			vermont_area = {
 				winooski_province = {
-					cowasuck winooski gwenaska koes nitamibontegw
+					winooski gwenaska koes nitamibontegw
 				}
 				pocumtuc_province = {
 					walloomsac pecunktuk wantastiquet
 				}
 				cowasuk_province = {
-					ottauquechee ompompanusooc passumpsic 
+					ottauquechee ompompanusooc passumpsic cowasuck
 				}
 			}
 			new_hampshire_area = {
@@ -6395,13 +6396,13 @@ america = {
 					kennebec sagadahoc messalonskee norridgewock
 				}
 				norridgewock_province = {
-					kineo caratunk kennebango moosehead_lake nanrantsouak
+					kineo caratunk kennebango moosehead_lake nanrantsouak mittaywanquam
 				}
 				penobscot_province = {
 					penobscot majabigwaduce piscataquis passagassawkeag pemetic millinocket katahdin
 				}
 				aroostook_province = {
-					aroostook meduxnekeag allagash madawaska
+					aroostook meduxnekeag allagash
 				}
 				passamaquoddy_province = {
 					passamaquoddy machias nicatous maatawamkeag
@@ -6423,24 +6424,24 @@ america = {
 			}
 			haudenosaunee_area = {
 				kanienkehaka_province = {
-					onenioteke oneniote gahato otsiningo oneyotdehaga canajoharie saratoga schenectady teionontatatie oneonta
+					canajoharie saratoga schenectady teionontatatie oneonta
 				}
 				adirondacks_province = {
 					ticonderoga itekiatonhniarikon oskennonton oronia
-					kawenote tsiietsenhtha adirondacks
+					oneyotdehaga kawenote tsiietsenhtha adirondacks
 					kanyengehaga
 				}
 				oswegatchie_province = {
 					nikahionhwakowa oswegatchie ahkwesasne_ny kaniatarahontsi ahna_wate
 				}
 				onyotaaka_province = {
-					niiohehsane teiehonwahkhkwatha oneida_lake
+					onenioteke niiohehsane teiehonwahkhkwatha oneniote oneida_lake
 				}
 				onondagega_province = {
-					tsikahiotsisto oswego 
+					tsikahiotsisto oswego otsiningo
 				}
 				gayogohono_province = {
-					skaniatares assorodus  seneca_lake skaneateles_lake caguya_lake
+					skaniatares assorodus gahato seneca_lake skaneateles_lake caguya_lake
 				}
 				onondowaga_province = {
 					canadaigua irondequoit geneseo tsonentsiio canandaigua_lake
@@ -6491,10 +6492,10 @@ america = {
 					loyalsock lycoming tangasootack andastoerrhonon susquehannock
 				}
 				allegheny_province = {
-					loyalhanna quemahoning conemaugh punxsutawney
+					allegheny loyalhanna youghiogheny quemahoning conemaugh
 				}
 				erie_province = {
-					allegheny youghiogheny erie saucunk shenango tionesta kittaning 
+					erie saucunk shenango tionesta kittaning punxsutawney
 				}
 			}
 
@@ -6509,7 +6510,7 @@ america = {
 					anacostia monocacy potapoco catoctin
 				}
 				wapocomo_province = {
-					conococheague antietam opequon  
+					antietam cacapon opequon wapocomo 
 				}
 			}
 
@@ -6538,26 +6539,25 @@ america = {
 					cumberland_mountains_6
 				}
 				shenandoah_province = {
-					onandagoa massanutten schinhandowi cacapon wapocomo
+					onandagoa massanutten schinhandowi
 					shenandoah
 					shenandoah_mountains
 					cumberland_mountains_8
 					blue_ridge_mountains_2
 				}
 				mosopeleacipi_province = {
-					mosopeleacipi tazewell bland kallamuckee xualae anigiduwagi
+					mosopeleacipi tazewell bland  kallamuckee
 					cumberland_mountains_5
-					cumberland_mountains
 				}
 			}
 			west_virginia_area = {
 				wappacoma_province = {
-					wappacoma ashby chinquetana
-					patna_us calicuas weotowe
+					wappacoma ashby conococheague
+					patna_us calicuas
 					cumberland_mountains_7
 				}
 				kanawha_province = {
-					moneton mohetan kanawha ouasioto pocatalico tsalagi 
+					moneton mohetan kanawha ouasioto pocatalico chinquetana weotowe tsalagi anigiduwagi
 				}
 				monongahela_province = {
 					wihlink monongahela onimgohow calicua 
@@ -6616,13 +6616,13 @@ america = {
 			}
 			georgia_us_area = {
 				capachequi_province = {
-					mikasuki alapahoochee capachequi kasihta hitchauta pallachacola eufaula
+					capachequi toa kasihta hitchauta pallachacola eufaula
 				}
 				ocute_province = {
 					ocute	ichisi altamaha cofaqui
 				}
 				coosa_province = {
-					coosa ulibahali talimachusi itaba utsutigway 
+					coosa ulibahali apica talimachusi itaba utsutigway 
 					quanasee chattahoochee_forest
 				}
 				tugaloo_province = {
@@ -6632,24 +6632,24 @@ america = {
 					kiokee wahachee ogeechee ohoopee
 				}
 				hitchiti_province = {
-					sawokli alapaha ocmulgee oconee hitchiti toa
+					sawokli alapaha mikasuki alapahoochee ocmulgee oconee hitchiti
 				}
 				mocama_province = {
-					tacatacaru tamathli icafui
+					mocama tacatacaru tamathli icafui
 				}
 				ossabaw_province = {
 					tybee ossabaw sapelo canoochee
 				}
 				coweta_province = {
-					coweta kealedji pakanahuili tussahaw tuckabutche 
+					coweta kealedji pakanahuili tussahaw
 				}
 				tuckabutche_province = {
-					tescuntee chatahoochee apica
+					tuckabutche tescuntee chatahoochee
 				}
 			}
 			florida_area = {
 				timucua_province = {
-					mocama timucua malapaz uriutina napituca
+					timucua malapaz uriutina napituca
 				}
 				mayaca_province = {
 					mayaca utina itaraholata
@@ -6681,7 +6681,8 @@ america = {
 			}
 			tennessee_area = {
 				pelisipi_province = {
-					pelisipi maniatique
+					pelisipi shawnee xualae maniatique
+					cumberland_mountains
 					cumberland_mountains_4
 				}
 				hogohega_province = {
@@ -6706,10 +6707,10 @@ america = {
 			}
 			kentucky_area = {
 				chattarawa_province = {
-					eskalapia chattarawa nepepimmesipi yuchi 
+					eskalapia chattarawa nepepimmesipi yuchi
 				}
 				kentucky_province = {
-					kentucky eskippakaithiki chenoka adena shawnee
+					kentucky eskippakaithiki chenoka adena
 				}
 				lewekomi_province = {
 					lewekeomi cuttawba tywhapita
@@ -6949,7 +6950,7 @@ america = {
 				chakadee_wakpa_province = { chakadee_wakpa wahasah badlands_mt waahukaahaanu wit_anowi_yohe moehe_yoe }
 				ihkowom_iyo_he_province = { ihkowom_iyo_he ksai_yohe mitsiadazi skaapirox buaxaxxaashe aahkawirahkata aashbiliihkupe iichiilikaaashaashe little_belt_mountains }
 				itkanaahtuusu_province = { itkanaahtuusu e_ometaeso heviksnipahis mo_ohta_vo_honaaeva notameohmeshehse }
-				iisaxpuatahcheeaashe_province = { north_shoshonne iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache bighorn_mountains }
+				iisaxpuatahcheeaashe_province = { iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache bighorn_mountains }
 			}
 			upper_missouri_area = {
 				awatixa_province = { awatixa adixoodagoorahareesh koostaaka amahami }
@@ -6957,7 +6958,7 @@ america = {
 				ski_iyo_he_province = { ski_iyo_he hoskitaga kinuhsisuht wase_wakpa caba_wakpa badlands_mt_2 }
 				e_omita_i_province = {e_omita_i xuahceesh_annappiio huupalikooche aluutashe baashalapache }
 				aashise_province = { aashise binmatshua cuthuhogwa great_belt_mountains }
-				kinaksisahtai_province = { kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah rockies_mt }
+				kinaksisahtai_province = { kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah nataeosueti rockies_mt }
 				poyiitahtai_province = { poyiitahtai wakpa_juk_ana etzikom }
 				kwaskwuti_province = { kwaskwuti cahe canhewincasta }
 			}
@@ -6978,9 +6979,9 @@ america = {
 			high_plains_area = {
 				hehvaitaneo_province = { hehvaitaneo laramie_range meneeohe medicine_bow }
 				wotapio_province = { wotapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he }
-				niineniiniicie_province = { east_colorado niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l }
+				niineniiniicie_province = { niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l }
 				phankeska_wakpa_province = { phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he }
-				heeyoteeyo_province = { south_colorado mutsisooni_yohe heeyoteyoo ponoeohe }
+				heeyoteeyo_province = { mutsisooni_yohe heeyoteyoo ponoeohe }
 				wishkahuunu_province = { wishkahuunu mahohevahoe beesowuunenno minii_yohe }
 				wiskapella_province = { wiskapella chitolah nanwacinahaana }
 			}
@@ -7399,12 +7400,12 @@ america = {
 		}
 		aridoamerica_region = {
 			natahende_area = {
-				mah_hom_province = { kwahada hupenuu mah_hom oohkoi_yohe kuhtsutuuka }
+				mah_hom_province = { hupenuu mah_hom oohkoi_yohe kuhtsutuuka }
 				hoyu_ao_he_province = { hoyu_ao_he atarque tinde }
 				hotoanaohe_province = { kiowa hotoanaohe wahin_wakpa apispaha }
 				chinali_province = { chinali honih_hiyo_he iriirakiicuhat }
 				natahende_province = {
-					tsesh_ke_shende tcha_shka_ozhaye tucumcari natahende
+					tsesh_ke_shende tcha_shka_ozhaye kwahada tucumcari natahende
 					guhlkahende chlaande nitahende natages
 				}
 			}
@@ -7413,14 +7414,14 @@ america = {
 					yenecamu guaycura monqui cadegomo mti_pa
 				}
 				cochimi_province = {
-					guadalupe_island cochimi nakipa koleeu akwaala 
+					guadalupe_island cochimi nakipa koleeu akwaala kumeyaay
 					salton_lake salada_lagoon
 				}
 			}
 			tahejoc_area = {
 				hia_ced_oodham_province = {
 					kwapa north_hia_ced_oodham south_hia_ced_oodham
-					xiica_hai_iic_coii koklolodi
+					huhuhla xiica_hai_iic_coii koklolodi
 					tohono_oodham himuris
 				}
 				tahejoc_province = {
@@ -7482,11 +7483,11 @@ america = {
 					tilijais guazapayogliglas huajuco viga_mountains
 				}
 				chisos_province = {
-					chisos espopolames muruam
+					chisos espopolames gueiquesales muruam
 					chichitames cauitaome yeme
 				}
 				suma_province = {
-					east_hanos west_hanos hue_hue_ri_gi_ta tehua suma
+					east_hanos west_hanos manso hue_hue_ri_gi_ta tehua suma
 					namiquipa xicahua
 				}
 				xumani_province = {
@@ -7496,7 +7497,7 @@ america = {
 			}
 			texas_area = {
 				cacaxtles_province = {
-					tugumlepen estok_gna cachopostales cacaxtles gueiquesales
+					tugumlepen estok_gna cachopostales cacaxtles
 					koke_metchesko_laha cabias
 					 tsel_tatli_dsha tinapihuaya
 				}
@@ -7512,7 +7513,7 @@ america = {
 					melenudo waco nokoni
 				}
 				kitaish_province = {
-					tanimuu kitsai taovaya tawakoni yscani
+					tanimuu kitsai taovaya tawakoni aays yscani
 				}
 				tchokana_province = {
 					tses_tsembai tenawa tchokana penatuka kwaaru
@@ -7522,13 +7523,13 @@ america = {
 					atajal tchesha aranama saxop_wan_pupako chayopin yanaguana
 				}
 				tsoto_province = {
-					nasoni lacane nisohone nadakuh aays 
+					nasoni lacane nisohone nadakuh nabiti
 				}
 				nacogdoches_province = {
 					nacao nacogdoches naconiche ayish
 				}
 				nachawi_province = {
-					haynay nacachau nabaydacu nakono nabiti
+					haynay nacachau nabaydacu nakono
 				}
 				bidai_province = {
 					deadose bidai patiri ishak
@@ -7546,7 +7547,7 @@ america = {
 			}
 			shiewhibak_area = {
 				shiewhibak_province = {
-					tih_go_tel teypana shiewhibak aaku halona_idiwana manso
+					tih_go_tel teypana shiewhibak aaku halona_idiwana
 					tsiya tuf_shur_tia than_u_ge ohkweeo_owingeh ialophaybo
 					dinetah nde_nda_i
 				}
@@ -7559,7 +7560,7 @@ america = {
 					tu_dotlizh_ndee grand_canyon
 				}
 				akimel_oodham_province = {
-					piipaash akimel_oodham sobaipuri jocome tsoka_ne_nde huhuhla
+					piipaash akimel_oodham sobaipuri jocome tsoka_ne_nde
 					bidanku dzil_nchaa_sian tse_binestie totokwan kohatk
 					dzil_ligai_mountains
 				}
@@ -7832,7 +7833,7 @@ america = {
 		west_coast_region = {
 			california_area = {
 				chumash_province = {
-					kumeyaay payomkawichum kukamonga yaanga ventureno ineseno pimuu_nga channel_islands chumash_ranges
+					payomkawichum kukamonga yaanga ventureno ineseno pimuu_nga channel_islands chumash_ranges
 				}
 				aacistak_province = {
 					tepotahal mutsun awaswas chochenyo
@@ -7968,7 +7969,7 @@ america = {
 					tillamook atfalati chinook multnomah watlala
 				}
 				olympic_province = {
-					nisqually stlpulmsh chehalis chala_at sklallam twana makah
+					stlpulmsh chehalis chala_at sklallam twana makah
 				}
 				sahaptin_province = {
 					tayxlama takspaslama waluulapam umatilla liksiyu
@@ -7986,22 +7987,22 @@ america = {
 					bitterroot deer_lodge granite missoula turah selish_range_s
 				}
 				north_selish_province = {
-					akinkumasnuqit saleesh niarada bad_rock epixyu hungry_horse selish_range_n nataeosueti
+					saleesh niarada bad_rock epixyu hungry_horse selish_range_n
 				}
 				kalispel_province = {
-					aqanqmi kaniksu skitswish benewah kalispel qlispe sletewsi
+					kaniksu skitswish benewah kalispel qlispe sletewsi
 				}
 				south_ktunaxa_province = {
-					yaqan_nukiy aq_am akisq_nuk kananmituk sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges
+					aqanqmi yaqan_nukiy akinkumasnuqit aq_am akisq_nuk kananmituk sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges
 				}
 				north_ktunaxa_province = {
 					akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges #nw_ktunaxa_ranges
 				}
 				cascadia_province = {
-					nooksack lhaq_temish puyallup kittikas duwamish snohomish skagit
+					puyallup kittikas duwamish snohomish skagit nisqually
 				}
 				halkomelem_province = {
-					sto_lo whonnock katzie
+					nooksack lhaq_temish sto_lo sts_ailes whonnock katzie
 				}
 				strathcona_province = {
 					squamish sechelt sliammon klahoose homalco strathacona_range
@@ -8010,10 +8011,10 @@ america = {
 					alpo_wa pa_lus_sa nkee_us stata_ketux scqescilni snt_t_ulix
 				}
 				okanagan_province = {
-					sts_ailes n_pooh_le enselxcin wenatchi chelan osoyoos #okanagan_range
+					wenatchi chelan osoyoos similkameen okanagan spaxomin #okanagan_range
 				}
 				arrow_lakes_province = {
-					spaxomin okanagan similkameen swarakxen ntiltxitk stxtilusten snk_mip q_espiea illecillewaet sinixt_range
+					n_pooh_le enselxcin swarakxen ntiltxitk stxtilusten snk_mip q_espiea illecillewaet sinixt_range
 				}
 				columbia_basin_province = {
 					skuppah nlaka_pamux scw_exmx st_at_imcets tsala_ihmec leel_watr_ool thompson_mtns
@@ -8540,7 +8541,6 @@ america = {
 					bororos uberaba bagagem aratu pium_i
 				}
 			}
-
 			brazil_sea_zones_area = {
 				arua_coastal_sea_zones_province = {
 					buzare_point approuage_mouth cassipore_mouth maraca_island araguari_mouth santa_rosa_bay maguary_point
@@ -8901,8 +8901,8 @@ america = {
 					mamorecillo_forest conguagua_forest
 				}
 			}
-			paranena_area = {
-				paranena_province = {
+			paraguay_area = {
+				paraguay_province = {
 					nemby kyyindy akaray kaarendy canindeyu takuru_puku ycuamandiyu ayvu_pora
 					pai_tavytera kuarepoti curuguaty kaaguy_jehasapa yguazu tsiripa ygana
 				}
@@ -8957,26 +8957,6 @@ america = {
 
 					pilaya_jungle yungas_jungle
 					muyupampa_forest
-				}
-			}
-			paraguay_area = {
-				pantanal_province = {
-					evuevi sucuriu piquiri camapua ytykyra
-
-					pantanal_swamp pantanal_forest
-				}
-				miranda_province = {
-					mebengokre aquidauana
-					kadiweu piripucu terena nioac
-				}
-				cuiaba_province = {
- 					dawande balotipone parecis haliti ikuiapa guato otuques
-				}
-				paraguay_province = {
-					paranaiba porekry opaye ofaie taquarucu anhandui
-					kaiowa kaiwa chiripa maracaju
-
-					tacuru_jungle
 				}
 			}
 		}
@@ -9787,7 +9767,7 @@ oceania = {
 			}
 			marianas_area = {#https://en.wikipedia.org/wiki/Mariana_Islands
 				guahan_province = {
-					guahan guahan_atoll rota saipan
+					guahan rota saipan
 				}
 				northern_islands_province = {
 					noos anatahan alamagan pagan_island agrihan maug uracas
@@ -9796,7 +9776,7 @@ oceania = {
 			belau_sea_zones_area = {
 				belau_sea_zones_province = {
 					#guahan_province
-					pago_bay guahan_coast
+					pago_bay guahan_coast guahan_atoll
 					#northern_islands_province
 					noos_coast anatahan_coast guguan_coast pagan_coast asuncion_coast ahyi_coast
 					#Belau

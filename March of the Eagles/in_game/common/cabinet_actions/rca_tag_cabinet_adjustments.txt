@@ -1,0 +1,39 @@
+﻿# Realistic Conversion and Assimilation
+# Adjustments to tag-specific cabinet actions to align with RCA mechanics
+# All changes preserve the spirit of the original action while preventing
+# passive conversion/assimilation restoration
+
+# Kanem - Enforce Shari'ah Administration (kbo_sharia_courts)
+# Vanilla: global_pop_conversion_speed = 0.025 (restores passive conversion)
+# RCA: Zero flat speed, replace with 62.5% modifier on cabinet rate only
+# Effect: cabinet Convert Population effectively gains +0.00625 (0.01 x 1.625 = 0.01625)
+INJECT:kbo_sharia_courts = {
+	country_modifier = {
+		global_pop_conversion_speed = -0.025 # Cancel vanilla flat speed entirely
+		global_pop_conversion_speed_modifier = 0.625 # +62.5% to cabinet rate only
+	}
+}
+
+# kbo_pop_promote_action: 0.02/0.04*0.005 = 0.0025
+INJECT:kbo_pop_promote_action = {
+	location_modifier = {
+		local_pop_assimilation_speed = -0.02
+		local_pop_assimilation_speed = 0.0025 # (0.02/0.04)*0.005
+	}
+}
+
+# lit_promote_catholicism: target rate 0.04 (per design decision)
+INJECT:lit_promote_catholicism = {
+	location_modifier = {
+		local_pop_conversion_speed = -0.1
+		local_pop_conversion_speed = 0.04
+	}
+}
+
+# office_of_new_converts (Kazan): 0.01/0.04*0.01 = 0.0025
+INJECT:office_of_new_converts = {
+	country_modifier = {
+		global_pop_conversion_speed = -0.01
+		global_pop_conversion_speed = 0.0025
+	}
+}

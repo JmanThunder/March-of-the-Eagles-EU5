@@ -1,0 +1,70 @@
+# Realistic Conversion and Assimilation
+# DLC Compatibility Adjustments
+#
+# This file handles static modifiers introduced by Fate of the Phoenix (D008) and
+# related 1.2 content that grant flat pop_conversion_speed or pop_assimilation_speed.
+# RCA removes passive conversion and assimilation globally; these modifiers would
+# otherwise restore passive rates for players with certain DLC content.
+#
+# FILE LOADING NOTES:
+# - This file loads for ALL players regardless of DLC ownership.
+# - INJECTs targeting base-game modifiers (lat_, ath_) are always safe:
+#   those modifiers exist in location.txt but are only ever APPLIED by DLC-gated
+#   actions, so without the DLC they have zero gameplay effect.
+# - The INJECT targeting patronize_orthodox_monastery_modifier targets a modifier
+#   defined in D008_fate_of_the_phoenix_modifiers.txt, which only loads with the DLC.
+#   If the DLC is not present, this INJECT targets a non-existent key and is a no-op.
+# - Net result: zero gameplay effect for players without Fate of the Phoenix DLC.
+
+
+# ============================================================
+# FATE OF THE PHOENIX DLC — LATIN EMPIRE CONTENT
+# ============================================================
+
+# lat_restoration_of_the_constantinople_patriarchate
+# Applied when the Latin Empire restores the Constantinople Patriarchate.
+# Vanilla: global_pop_conversion_speed = 0.02 (flat passive rate) 
+#          + local_pop_conversion_speed_modifier = 0.25 (cabinet boost, already correct)
+# RCA: Cancel the flat passive rate. The existing +25% cabinet modifier is already a
+#      meaningful reward for this major achievement and is correctly structured.
+INJECT:lat_restoration_of_the_constantinople_patriarchate = {
+	global_pop_conversion_speed = -0.02              # Cancel vanilla flat passive rate
+	# local_pop_conversion_speed_modifier = 0.25 already present in vanilla — left intact
+}
+
+
+# ============================================================
+# FATE OF THE PHOENIX DLC — ATHENS CONTENT
+# ============================================================
+
+# ath_permitted_catalan_settlements
+# Applied to locations where Catalan settlements are permitted.
+# Vanilla: local_pop_assimilation_speed = 0.025 (flat passive rate)
+#          + local_pop_assimilation_speed_modifier = 1 (doubles cabinet rate, already correct)
+# RCA: Cancel the flat passive rate. The existing +100% cabinet modifier is already a
+#      very strong and thematically appropriate bonus for permitting the settlements.
+INJECT:ath_permitted_catalan_settlements = {
+	local_pop_assimilation_speed = -0.025             # Cancel vanilla flat passive rate
+	# local_pop_assimilation_speed_modifier = 1 already present in vanilla — left intact
+}
+
+
+# ============================================================
+# FATE OF THE PHOENIX DLC — BYZANTINE CONTENT
+# ============================================================
+
+# patronize_orthodox_monastery_modifier
+# Applied (decaying) when a country patronizes an Orthodox monastery during
+# the Fate of the Phoenix disaster. Country-scoped, category = country, decaying = yes.
+# Vanilla: local_pop_conversion_speed = 0.02 + local_pop_assimilation_speed = 0.01
+#          (both flat passive rates with no cabinet-rate component)
+# RCA: Cancel both flat rates. Replace with percentage modifiers that boost active
+#      cabinet action rates instead — patronage meaningfully accelerates active efforts.
+# Conversion: +50% to Convert Province cabinet rate (significant religious investment)
+# Assimilation: +25% to Assimilate Province cabinet rate (secondary cultural effect)
+INJECT:patronize_orthodox_monastery_modifier = {
+	local_pop_conversion_speed = -0.02               # Cancel vanilla flat conversion rate
+	local_pop_assimilation_speed = -0.01             # Cancel vanilla flat assimilation rate
+	local_pop_conversion_speed_modifier = 0.5        # +50% to cabinet Convert Province rate
+	local_pop_assimilation_speed_modifier = 0.25     # +25% to cabinet Assimilate Province rate
+}

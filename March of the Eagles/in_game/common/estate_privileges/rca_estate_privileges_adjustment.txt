@@ -1,0 +1,24 @@
+﻿﻿# Realistic Conversion and Assimilation
+# Estate privilege adjustments - scaling conversion speed penalties to RCA rates
+
+# vij_allowance_of_religious_practices (Vijayanagara burghers privilege)
+# Vanilla: global_pop_conversion_speed = -0.1 (intentional tolerance penalty)
+# -0.1 / 0.04 * 0.01 = -0.025
+INJECT:vij_allowance_of_religious_practices = {
+	country_modifier = {
+		global_pop_conversion_speed = 0.1 # Cancel vanilla -0.1
+		global_pop_conversion_speed = -0.001 # Net effect: -0.001 (balanced for RCA rates)
+	}
+}
+
+# tribes_tribal_registry: global_tribesmen_assimilation_blocked is the wrong modifier
+# Tribesmen have assimilation_conversion_factor = 0.0 so assimilation never applies
+# block_tribal_promotion is required to actually prevent tribesmen from promoting to peasants
+INJECT:tribes_tribal_registry = {
+	country_modifier = {
+		block_tribal_promotion = yes
+	}
+}
+
+# cossack_identity already correctly uses block_tribal_promotion
+# global_tribesmen_assimilation_blocked there is redundant but harmless - left as-is

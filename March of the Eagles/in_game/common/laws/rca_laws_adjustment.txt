@@ -1,0 +1,166 @@
+﻿INJECT:tribal_religious_values_law = {
+
+	religious_tribe_policy = {
+		country_modifier = {
+			#global_pop_conversion_speed = 0.01
+			global_pop_conversion_speed = -0.01
+			global_pop_conversion_speed = 0.0025 # 0.01/0.04*0.01
+		}
+		estate_preferences = {
+			clergy_estate
+		}
+		years = 2
+	}
+
+}
+
+INJECT:education_elites_law = {
+
+	education_of_the_missionaries = {
+		potential = { government_type = government_type:theocracy }
+		country_modifier = {
+			global_pop_conversion_speed = -0.05
+			global_pop_conversion_speed = 0.0125 # 0.05/0.04*0.01
+			clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+			monthly_towards_spiritualist = societal_value_tiny_monthly_move
+			global_clergy_max_literacy = 15
+		}
+		estate_preferences = {
+			clergy_estate
+		}
+		years = 2
+	}
+
+}
+
+INJECT:lordship_of_ireland_rule_law = {
+
+
+	lordship_of_ireland_rule_ascendancy_policy = {
+		on_activate = { custom_tooltip = lordship_of_ireland_rule_ascendancy_policy_tt }
+
+		allow = {
+			current_age_or_later = { age = age_4_reformation }
+		}
+		wants_this_policy_bias = {
+			if = {
+				limit = {
+					is_leader_of_international_organization = scope:recipient
+					scope:recipient = {
+						any_international_organization_member = {
+							religion = {
+								reverse_religious_view = {
+									target = scope:actor.religion
+									value <= negative
+								}
+							}
+						}
+					}
+				}
+				add = 10
+			}
+			if = {
+				limit = {
+					scope:recipient = {
+						leader_country = {
+							NOR = {
+								root = this
+								religion = root.religion
+							}
+						}
+					}
+				}
+				add = -100
+			}
+		}
+
+		country_modifier = {
+			tolerance_heretic = -2
+			tolerance_own = 2
+			country_bans_saffron_shirts = yes
+			global_pop_conversion_speed = -0.1
+			global_pop_conversion_speed = 0.025 # 0.1/0.04*0.01
+		}
+	}
+
+	lordship_of_ireland_rule_statutes_of_kilkenny_policy = {
+		allow = {
+			current_age_or_later = { age = age_2_renaissance }
+			NOT = {
+				scope:recipient ?= {
+					leader_country ?= {
+						culture = { has_culture_group = culture_group:celtic_group }
+					}
+				}
+			}
+		}
+		wants_this_policy_bias = {
+			if = {
+				limit = {
+					is_leader_of_international_organization = scope:recipient
+					exists = scope:actor.culture
+					scope:recipient = {
+						any_international_organization_member ?= {
+							culture ?= {
+								reverse_cultural_view = {
+									target = scope:actor.culture
+									value <= negative
+								}
+							}
+						}
+					}
+				}
+				add = 100
+			}
+			if = {
+				limit = {
+					culture = { has_culture_group = culture_group:celtic_group }
+				}
+				add = -50
+			}
+			else_if = {
+				limit = {
+					culture = { has_culture_group = culture_group:hibernian_group }
+				}
+				add = -10
+			}
+
+			if = {
+				limit = {
+					ruler ?= {
+						culture = { has_culture_group = culture_group:celtic_group }
+					}
+				}
+				add = -50
+			}
+
+			if = {
+				limit = {
+					consort ?= {
+						culture = { has_culture_group = culture_group:celtic_group }
+					}
+				}
+				add = -10
+			}
+		}
+
+		country_modifier = {
+			country_bans_saffron_shirts = yes
+			# global_pop_assimilation_speed_modifier = 0.5 retained as-is (vanilla % boost to cabinet rates)
+			country_celtic_marriage_banned = yes
+		}
+	}
+
+
+}
+# intellectual_movements law - westernizers option
+# Vanilla: global_pop_assimilation_speed = -0.05 (intentional penalty, keep directional)
+# capped at -0.002 for floor safety (formula: -0.05/0.04*0.005 = -0.00625)
+INJECT:intellectual_movements = {
+	westernizers = {
+		country_modifier = {
+			global_pop_assimilation_speed = 0.05 # Cancel vanilla -0.05
+			global_pop_assimilation_speed = -0.0005 # Net effect: -0.0005 (balanced for RCA rates)
+		}
+	}
+}
