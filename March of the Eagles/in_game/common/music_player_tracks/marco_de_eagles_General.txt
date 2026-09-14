@@ -1,0 +1,438 @@
+﻿# General
+# keys are Wwise event names in marco_de_eagles.bnk
+
+1812_Overture_Grand_Finale = {
+	composer = author
+	performer = author
+}
+
+Ah_ca_ira_Sans = {
+	composer = author
+	performer = author
+}
+
+Allons_Francais_au_champ_de_Mars = {
+	composer = author
+	performer = author
+}
+
+Aux_bons_citoyens = {
+	composer = author
+	performer = author
+}
+
+Bizet_Carmen_Toreador_Song = {
+	composer = author
+	performer = author
+}
+
+bois_caiman = {
+	composer = author
+	performer = author
+}
+
+Boukmans_Prayer = {
+	composer = author
+	performer = author
+}
+
+Ca_ira_Marc_Ogeret = {
+	composer = author
+	performer = author
+}
+
+ca_ira_piath = {
+	composer = author
+	performer = author
+}
+
+Cadet_Rousselle = {
+	composer = author
+	performer = author
+}
+
+Carmanolas_Americanas = {
+	composer = author
+	performer = author
+}
+
+Central_America = {
+	composer = author
+	performer = author
+}
+
+Chant_national = {
+	composer = author
+	performer = author
+}
+
+Cosas_de_Artiga = {
+	composer = author
+	performer = author
+}
+
+Das_Lied_Des_Volkes = {
+	composer = author
+	performer = author
+}
+
+Das_Proletariat = {
+	composer = author
+	performer = author
+}
+
+Do_You_Hear_The_People_Sing = {
+	composer = author
+	performer = author
+}
+
+Dodinin = {
+	composer = author
+	performer = author
+}
+
+Flight_of_the_Bumblebee = {
+	composer = author
+	performer = author
+}
+
+Freedom_Is_A_Constant_Struggle = {
+	composer = author
+	performer = author
+}
+
+Guerrero = {
+	composer = author
+	performer = author
+}
+
+Haiti_Cherie = {
+	composer = author
+	performer = author
+}
+
+Heckerlied = {
+	composer = author
+	performer = author
+}
+
+Histoire_DHaiti = {
+	composer = author
+	performer = author
+}
+
+Hungarian_Dance_N5 = {
+	composer = author
+	performer = author
+}
+
+Il_Pleut_Bergeres = {
+	composer = author
+	performer = author
+}
+
+Kisa_poun_fe = {
+	composer = author
+	performer = author
+}
+
+La_Carmagnole = {
+	composer = author
+	performer = author
+}
+
+La_Carmagnole_Marc_Ogeret = {
+	composer = author
+	performer = author
+}
+
+La_Dessalinienne = {
+	composer = author
+	performer = author
+}
+
+La_grev_bare_mwen = {
+	composer = author
+	performer = author
+}
+
+La_Guillotine_permanente = {
+	composer = author
+	performer = author
+}
+
+La_Libertadora = {
+	composer = author
+	performer = author
+}
+
+La_liberte_des_Noirs = {
+	composer = author
+	performer = author
+}
+
+La_Marseillaise = {
+	composer = author
+	performer = author
+}
+
+La_marseillaise_des_cotillons = {
+	composer = author
+	performer = author
+}
+
+La_Marseillaise_noire = {
+	composer = author
+	performer = author
+}
+
+La_mort_de_Marat_Marc = {
+	composer = author
+	performer = author
+}
+
+La_prise_de_la_Bastille = {
+	composer = author
+	performer = author
+}
+
+La_semaine_sanglante = {
+	composer = author
+	performer = author
+}
+
+La_Victoire_est_a_Nous = {
+	composer = author
+	performer = author
+}
+
+Laristocratie_en_deroute = {
+	composer = author
+	performer = author
+}
+
+Le_bonnet_de_la_liberte = {
+	composer = author
+	performer = author
+}
+
+LE_CANADIEN_ERRANT = {
+	composer = author
+	performer = author
+}
+
+Le_Chant_des_Canuts = {
+	composer = author
+	performer = author
+}
+
+Le_Chant_Du_Depart = {
+	composer = author
+	performer = author
+}
+
+Le_Chiffon_Rouge = {
+	composer = author
+	performer = author
+}
+
+Le_drapeau_rouge = {
+	composer = author
+	performer = author
+}
+
+Le_Maximum = {
+	composer = author
+	performer = author
+}
+
+Le_tombeau_des_aristocrates = {
+	composer = author
+	performer = author
+}
+
+Les_Sans_Culottes = {
+	composer = author
+	performer = author
+}
+
+Les_sans_culottes_Marc_Ogeret = {
+	composer = author
+	performer = author
+}
+
+Lorage_Marc_Ogeret = {
+	composer = author
+	performer = author
+}
+
+Merci_bon_Dieu = {
+	composer = author
+	performer = author
+}
+
+Mexicos_National_Anthem = {
+	composer = author
+	performer = author
+}
+
+minor_key_french_anthem = {
+	composer = author
+	performer = author
+}
+
+Mort_de_Louis_Capet = {
+	composer = author
+	performer = author
+}
+
+mwen_blese = {
+	composer = author
+	performer = author
+}
+
+Mwen_gen_fos = {
+	composer = author
+	performer = author
+}
+
+Nibo = {
+	composer = author
+	performer = author
+}
+
+Notre_bon_roi_se_plait_a_Paris = {
+	composer = author
+	performer = author
+}
+
+Ode_an_die_Freude = {
+	composer = author
+	performer = author
+}
+
+Paraguay = {
+	composer = author
+	performer = author
+}
+
+Peru_Bolivia_Conf = {
+	composer = author
+	performer = author
+}
+
+polish_anthem = {
+	composer = author
+	performer = author
+}
+
+Pomp_and_Circumstance = {
+	composer = author
+	performer = author
+}
+
+Prise_du_gouverneur = {
+	composer = author
+	performer = author
+}
+
+Pye_Aleman = {
+	composer = author
+	performer = author
+}
+
+Radetzky_March = {
+	composer = author
+	performer = author
+}
+
+Rejouissance_apres_la_victoire = {
+	composer = author
+	performer = author
+}
+
+Rezistans = {
+	composer = author
+	performer = author
+}
+
+Rumba_libete = {
+	composer = author
+	performer = author
+}
+
+Siege_dela_bastille = {
+	composer = author
+	performer = author
+}
+
+Simon_Bolivar = {
+	composer = author
+	performer = author
+}
+
+Song_of_the_Onion = {
+	composer = author
+	performer = author
+}
+
+Star_Spangled_Banner = {
+	composer = author
+	performer = author
+}
+
+Tempestad_Libertaria = {
+	composer = author
+	performer = author
+}
+
+The_Battle_of_New_Orleans = {
+	composer = author
+	performer = author
+}
+
+The_Chartist_Anthem = {
+	composer = author
+	performer = author
+}
+
+the_Diggers = {
+	composer = author
+	performer = author
+}
+
+The_Rising_of_the_Moon = {
+	composer = author
+	performer = author
+}
+
+Thurios = {
+	composer = author
+	performer = author
+}
+
+TOUSSAINT_LOUVERTURE = {
+	composer = author
+	performer = author
+}
+
+usage_des_faubourgs = {
+	composer = author
+	performer = author
+}
+
+volonte_du_peuple = {
+	composer = author
+	performer = author
+}
+
+Vous_savez_que_je_fus_roi = {
+	composer = author
+	performer = author
+}
+
+Warszawianka_1831 = {
+	composer = author
+	performer = author
+}
+

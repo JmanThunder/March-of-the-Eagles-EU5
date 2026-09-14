@@ -1,0 +1,78 @@
+﻿# March_of_the_Eagles
+# keys are Wwise event names in marco_de_eagles.bnk
+
+Calm_1 = {
+	composer = author
+	performer = author
+}
+
+Calm_2 = {
+	composer = author
+	performer = author
+}
+
+main_theme = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Battle_Five = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Battle_Four = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Battle_One = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Battle_Six = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Battle_Three = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Battle_Two = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Calm_Eight = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Calm_Five = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Calm_Four = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Calm_Seven = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Calm_Six = {
+	composer = author
+	performer = author
+}
+
+ParadoxNapoleon_Calm_Three = {
+	composer = author
+	performer = author
+}
+
