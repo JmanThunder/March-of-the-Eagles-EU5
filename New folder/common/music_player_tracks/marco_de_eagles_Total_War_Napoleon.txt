@@ -1,0 +1,203 @@
+﻿# Total_War_Napoleon
+# keys are Wwise event names in marco_de_eagles.bnk
+
+Alexandria_Invasion = {
+	composer = author
+	performer = author
+}
+
+An_Exile = {
+	composer = author
+	performer = author
+}
+
+Arcole_Charge = {
+	composer = author
+	performer = author
+}
+
+Choral_Music1 = {
+	composer = author
+	performer = author
+}
+
+Corsica_Humble_Beginnings = {
+	composer = author
+	performer = author
+}
+
+Desert_Preparations = {
+	composer = author
+	performer = author
+}
+
+Drum_Fife = {
+	composer = author
+	performer = author
+}
+
+From_Egypt_To_France = {
+	composer = author
+	performer = author
+}
+
+Napoleon_Ambition = {
+	composer = author
+	performer = author
+}
+
+Napoleon_Bonaparte = {
+	composer = author
+	performer = author
+}
+
+Napoleon_East = {
+	composer = author
+	performer = author
+}
+
+Napoleon_Promise = {
+	composer = author
+	performer = author
+}
+
+Napoleon_Return = {
+	composer = author
+	performer = author
+}
+
+Napoleon_Waterloo = {
+	composer = author
+	performer = author
+}
+
+Naval_Battle = {
+	composer = author
+	performer = author
+}
+
+Naval_Strike_At_Aix_Road = {
+	composer = author
+	performer = author
+}
+
+Saint_Helena = {
+	composer = author
+	performer = author
+}
+
+String_Orchestra1 = {
+	composer = author
+	performer = author
+}
+
+String_Orchestra2 = {
+	composer = author
+	performer = author
+}
+
+String_Quintet_Chamber1 = {
+	composer = author
+	performer = author
+}
+
+String_Quintet_Chamber2 = {
+	composer = author
+	performer = author
+}
+
+The_Art_Of_War = {
+	composer = author
+	performer = author
+}
+
+The_Battle_At_Abukir = {
+	composer = author
+	performer = author
+}
+
+The_Battle_At_Arcole = {
+	composer = author
+	performer = author
+}
+
+The_Battle_At_Austerlitz = {
+	composer = author
+	performer = author
+}
+
+The_Battle_Of_Lodi = {
+	composer = author
+	performer = author
+}
+
+The_Battle_Of_The_Pyramids = {
+	composer = author
+	performer = author
+}
+
+The_Cost_Of_War = {
+	composer = author
+	performer = author
+}
+
+The_Defeat_At_Waterloo = {
+	composer = author
+	performer = author
+}
+
+The_End = {
+	composer = author
+	performer = author
+}
+
+The_Fields_Of_War = {
+	composer = author
+	performer = author
+}
+
+The_Guerrillero_Part1 = {
+	composer = author
+	performer = author
+}
+
+The_Guerrillero_Part2 = {
+	composer = author
+	performer = author
+}
+
+The_Mamluks_Attack = {
+	composer = author
+	performer = author
+}
+
+The_Napoleonic_Code = {
+	composer = author
+	performer = author
+}
+
+The_Peninsular_Campaign = {
+	composer = author
+	performer = author
+}
+
+Threat_Of_Naval_Conflict = {
+	composer = author
+	performer = author
+}
+
+Treaty_Of_Amiens = {
+	composer = author
+	performer = author
+}
+
+Victory = {
+	composer = author
+	performer = author
+}
+
+Waterloo = {
+	composer = author
+	performer = author
+}
+
